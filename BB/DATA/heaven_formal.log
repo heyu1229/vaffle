@@ -1,0 +1,637 @@
+
+2017-10-26 09:40:36,773 - root - DEBUG - open "E:/python35/HG/heaven_formal/DATA/data_info.xlsx" file Succeed
+2017-10-26 09:40:36,778 - root - DEBUG - open "E:/python35/HG/heaven_formal/DATA/data_info.xlsx" file Succeed
+2017-10-26 09:40:36,778 - root - DEBUG - open "E:/python35/HG/heaven_formal/DATA/data_info.xlsx" file Succeed
+2017-10-26 09:40:36,779 - root - DEBUG - get Sheet 0: Rownums=2, Colnums=8
+2017-10-26 09:40:36,779 - root - DEBUG - get Sheet 0: Rownums=2, Colnums=8
+2017-10-26 09:40:36,779 - root - DEBUG - table in 2 row content: ['heyu1229', 'Heyu111111', '[Pre-order] GeekVape Medusa Reborn RDTA - 3.5ml', 2.0, 'EMS Express + US$ 15.00', 'Deposit', '≤‚ ‘¡Ù—‘', 2.0]
+2017-10-26 09:40:36,779 - root - DEBUG - table in 2 row content: ['heyu1229', 'Heyu111111', '[Pre-order] GeekVape Medusa Reborn RDTA - 3.5ml', 2.0, 'EMS Express + US$ 15.00', 'Deposit', '≤‚ ‘¡Ù—‘', 2.0]
+2017-10-26 09:40:36,779 - root - DEBUG - table in 2 row content: ['heyu1229', 'Heyu111111', '[Pre-order] GeekVape Medusa Reborn RDTA - 3.5ml', 2.0, 'EMS Express + US$ 15.00', 'Deposit', '≤‚ ‘¡Ù—‘', 2.0]
+2017-10-26 09:41:59,911 - root - DEBUG - open "E:/python35/HG/heaven_formal/DATA/data_info.xlsx" file Succeed
+2017-10-26 09:41:59,917 - root - DEBUG - open "E:/python35/HG/heaven_formal/DATA/data_info.xlsx" file Succeed
+2017-10-26 09:41:59,917 - root - DEBUG - open "E:/python35/HG/heaven_formal/DATA/data_info.xlsx" file Succeed
+2017-10-26 09:41:59,917 - root - DEBUG - get Sheet 0: Rownums=2, Colnums=8
+2017-10-26 09:41:59,917 - root - DEBUG - get Sheet 0: Rownums=2, Colnums=8
+2017-10-26 09:41:59,918 - root - DEBUG - table in 2 row content: ['heyu1229', 'Heyu111111', '[Pre-order] GeekVape Medusa Reborn RDTA - 3.5ml', 2.0, 'EMS Express + US$ 15.00', 'Deposit', '≤‚ ‘¡Ù—‘', 2.0]
+2017-10-26 09:41:59,918 - root - DEBUG - table in 2 row content: ['heyu1229', 'Heyu111111', '[Pre-order] GeekVape Medusa Reborn RDTA - 3.5ml', 2.0, 'EMS Express + US$ 15.00', 'Deposit', '≤‚ ‘¡Ù—‘', 2.0]
+2017-10-26 09:41:59,918 - root - DEBUG - table in 2 row content: ['heyu1229', 'Heyu111111', '[Pre-order] GeekVape Medusa Reborn RDTA - 3.5ml', 2.0, 'EMS Express + US$ 15.00', 'Deposit', '≤‚ ‘¡Ù—‘', 2.0]
+2017-10-26 09:41:59,920 - root - DEBUG - cell value type: string
+2017-10-26 09:41:59,920 - root - DEBUG - cell value type: string
+2017-10-26 09:41:59,920 - root - DEBUG - cell value type: string
+2017-10-26 09:41:59,920 - root - DEBUG - cell value type: string
+2017-10-26 09:42:21,644 - root - DEBUG - open "E:/python35/HG/heaven_formal/DATA/data_info.xlsx" file Succeed
+2017-10-26 09:42:21,647 - root - DEBUG - open "E:/python35/HG/heaven_formal/DATA/data_info.xlsx" file Succeed
+2017-10-26 09:42:21,647 - root - DEBUG - open "E:/python35/HG/heaven_formal/DATA/data_info.xlsx" file Succeed
+2017-10-26 09:42:21,647 - root - DEBUG - get Sheet 0: Rownums=2, Colnums=8
+2017-10-26 09:42:21,647 - root - DEBUG - get Sheet 0: Rownums=2, Colnums=8
+2017-10-26 09:42:21,648 - root - DEBUG - table in 2 row content: ['heyu1229', 'Heyu111111', '[Pre-order] GeekVape Medusa Reborn RDTA - 3.5ml', 2.0, 'EMS Express + US$ 15.00', 'Deposit', '≤‚ ‘¡Ù—‘', 2.0]
+2017-10-26 09:42:21,648 - root - DEBUG - table in 2 row content: ['heyu1229', 'Heyu111111', '[Pre-order] GeekVape Medusa Reborn RDTA - 3.5ml', 2.0, 'EMS Express + US$ 15.00', 'Deposit', '≤‚ ‘¡Ù—‘', 2.0]
+2017-10-26 09:42:21,648 - root - DEBUG - table in 2 row content: ['heyu1229', 'Heyu111111', '[Pre-order] GeekVape Medusa Reborn RDTA - 3.5ml', 2.0, 'EMS Express + US$ 15.00', 'Deposit', '≤‚ ‘¡Ù—‘', 2.0]
+2017-10-26 09:42:21,648 - root - DEBUG - cell value type: string
+2017-10-26 09:42:21,648 - root - DEBUG - cell value type: string
+2017-10-26 09:42:21,648 - root - DEBUG - cell value type: string
+2017-10-26 09:42:21,648 - root - DEBUG - cell value type: string
+2017-10-26 10:32:24,447 - root - DEBUG - open "E:/python35/HG/heaven_formal/DATA/data_info.xlsx" file Succeed
+2017-10-26 10:32:24,448 - root - DEBUG - open "E:/python35/HG/heaven_formal/DATA/data_info.xlsx" file Succeed
+2017-10-26 10:32:24,448 - root - DEBUG - open "E:/python35/HG/heaven_formal/DATA/data_info.xlsx" file Succeed
+2017-10-26 10:32:24,450 - root - DEBUG - get Sheet 0: Rownums=2, Colnums=8
+2017-10-26 10:32:24,450 - root - DEBUG - get Sheet 0: Rownums=2, Colnums=8
+2017-10-26 10:32:24,450 - root - DEBUG - table in 2 row content: ['heyu1229', 'Heyu111111', '[Pre-order] GeekVape Medusa Reborn RDTA - 3.5ml', 2.0, 'EMS Express + US$ 15.00', 'Deposit', '≤‚ ‘¡Ù—‘', 2.0]
+2017-10-26 10:32:24,450 - root - DEBUG - table in 2 row content: ['heyu1229', 'Heyu111111', '[Pre-order] GeekVape Medusa Reborn RDTA - 3.5ml', 2.0, 'EMS Express + US$ 15.00', 'Deposit', '≤‚ ‘¡Ù—‘', 2.0]
+2017-10-26 10:32:24,450 - root - DEBUG - table in 2 row content: ['heyu1229', 'Heyu111111', '[Pre-order] GeekVape Medusa Reborn RDTA - 3.5ml', 2.0, 'EMS Express + US$ 15.00', 'Deposit', '≤‚ ‘¡Ù—‘', 2.0]
+2017-10-26 10:32:24,450 - root - DEBUG - cell value type: number
+2017-10-26 10:32:24,450 - root - DEBUG - cell value type: number
+2017-10-26 10:32:24,450 - root - DEBUG - cell value type: number
+2017-10-26 10:32:24,450 - root - DEBUG - cell value type: number
+2017-10-26 10:33:57,447 - root - DEBUG - open "E:/python35/HG/heaven_formal/DATA/data_info.xlsx" file Succeed
+2017-10-26 10:33:57,450 - root - DEBUG - open "E:/python35/HG/heaven_formal/DATA/data_info.xlsx" file Succeed
+2017-10-26 10:33:57,450 - root - DEBUG - open "E:/python35/HG/heaven_formal/DATA/data_info.xlsx" file Succeed
+2017-10-26 10:33:57,450 - root - DEBUG - get Sheet 0: Rownums=2, Colnums=8
+2017-10-26 10:33:57,450 - root - DEBUG - get Sheet 0: Rownums=2, Colnums=8
+2017-10-26 10:33:57,450 - root - DEBUG - table in 2 row content: ['heyu1229', 'Heyu111111', '[Pre-order] GeekVape Medusa Reborn RDTA - 3.5ml', 2.0, 'EMS Express + US$ 15.00', 'Deposit', '≤‚ ‘¡Ù—‘', 2.0]
+2017-10-26 10:33:57,450 - root - DEBUG - table in 2 row content: ['heyu1229', 'Heyu111111', '[Pre-order] GeekVape Medusa Reborn RDTA - 3.5ml', 2.0, 'EMS Express + US$ 15.00', 'Deposit', '≤‚ ‘¡Ù—‘', 2.0]
+2017-10-26 10:33:57,450 - root - DEBUG - table in 2 row content: ['heyu1229', 'Heyu111111', '[Pre-order] GeekVape Medusa Reborn RDTA - 3.5ml', 2.0, 'EMS Express + US$ 15.00', 'Deposit', '≤‚ ‘¡Ù—‘', 2.0]
+2017-10-26 10:33:57,450 - root - DEBUG - cell value type: int
+2017-10-26 10:33:57,450 - root - DEBUG - cell value type: int
+2017-10-26 10:33:57,450 - root - DEBUG - cell value type: int
+2017-10-26 10:33:57,450 - root - DEBUG - cell value type: int
+2017-10-26 11:04:13,520 - root - DEBUG - open "E:/python35/HG/heaven_formal/DATA/data_info.xlsx" file Succeed
+2017-10-26 11:04:13,523 - root - DEBUG - open "E:/python35/HG/heaven_formal/DATA/data_info.xlsx" file Succeed
+2017-10-26 11:04:13,523 - root - DEBUG - open "E:/python35/HG/heaven_formal/DATA/data_info.xlsx" file Succeed
+2017-10-26 11:04:13,525 - root - DEBUG - get Sheet 0: Rownums=2, Colnums=8
+2017-10-26 11:04:13,525 - root - DEBUG - get Sheet 0: Rownums=2, Colnums=8
+2017-10-26 11:04:13,525 - root - DEBUG - table in 2 row content: ['heyu1229', 'Heyu111111', '[Pre-order] GeekVape Medusa Reborn RDTA - 3.5ml', 2.0, 'EMS Express + US$ 15.00', 'Deposit', '≤‚ ‘¡Ù—‘', 2.0]
+2017-10-26 11:04:13,525 - root - DEBUG - table in 2 row content: ['heyu1229', 'Heyu111111', '[Pre-order] GeekVape Medusa Reborn RDTA - 3.5ml', 2.0, 'EMS Express + US$ 15.00', 'Deposit', '≤‚ ‘¡Ù—‘', 2.0]
+2017-10-26 11:04:13,525 - root - DEBUG - table in 2 row content: ['heyu1229', 'Heyu111111', '[Pre-order] GeekVape Medusa Reborn RDTA - 3.5ml', 2.0, 'EMS Express + US$ 15.00', 'Deposit', '≤‚ ‘¡Ù—‘', 2.0]
+2017-10-26 11:04:13,525 - root - DEBUG - cell value type: string
+2017-10-26 11:04:13,525 - root - DEBUG - cell value type: string
+2017-10-26 11:04:13,525 - root - DEBUG - cell value type: string
+2017-10-26 11:04:13,525 - root - DEBUG - cell value type: string
+2017-10-26 11:04:13,526 - root - DEBUG - table(2, 4)value:2.0
+2017-10-26 11:04:13,526 - root - DEBUG - table(2, 4)value:2.0
+2017-10-26 11:04:13,526 - root - DEBUG - table(2, 4)value:2.0
+2017-10-26 11:04:13,526 - root - DEBUG - table(2, 4)value:2.0
+2017-10-26 11:04:13,526 - root - DEBUG - cell value type: string
+2017-10-26 11:04:13,526 - root - DEBUG - cell value type: string
+2017-10-26 11:04:13,526 - root - DEBUG - cell value type: string
+2017-10-26 11:04:13,526 - root - DEBUG - cell value type: string
+2017-10-26 11:04:13,526 - root - DEBUG - cell value type: string
+2017-10-26 11:04:13,526 - root - DEBUG - table(2, 4)value:2.0
+2017-10-26 11:04:13,526 - root - DEBUG - table(2, 4)value:2.0
+2017-10-26 11:04:13,526 - root - DEBUG - table(2, 4)value:2.0
+2017-10-26 11:04:13,526 - root - DEBUG - table(2, 4)value:2.0
+2017-10-26 11:04:13,526 - root - DEBUG - table(2, 4)value:2.0
+2017-10-26 11:11:37,790 - root - DEBUG - open "E:/python35/HG/heaven_formal/DATA/data_info.xlsx" file Succeed
+2017-10-26 11:11:37,792 - root - DEBUG - open "E:/python35/HG/heaven_formal/DATA/data_info.xlsx" file Succeed
+2017-10-26 11:11:37,792 - root - DEBUG - open "E:/python35/HG/heaven_formal/DATA/data_info.xlsx" file Succeed
+2017-10-26 11:11:37,792 - root - DEBUG - get Sheet 0: Rownums=2, Colnums=8
+2017-10-26 11:11:37,792 - root - DEBUG - get Sheet 0: Rownums=2, Colnums=8
+2017-10-26 11:11:37,793 - root - DEBUG - table in 2 row content: ['heyu1229', 'Heyu111111', '[Pre-order] GeekVape Medusa Reborn RDTA - 3.5ml', 2.0, 'EMS Express + US$ 15.00', 'Deposit', '≤‚ ‘¡Ù—‘', 2.0]
+2017-10-26 11:11:37,793 - root - DEBUG - table in 2 row content: ['heyu1229', 'Heyu111111', '[Pre-order] GeekVape Medusa Reborn RDTA - 3.5ml', 2.0, 'EMS Express + US$ 15.00', 'Deposit', '≤‚ ‘¡Ù—‘', 2.0]
+2017-10-26 11:11:37,793 - root - DEBUG - table in 2 row content: ['heyu1229', 'Heyu111111', '[Pre-order] GeekVape Medusa Reborn RDTA - 3.5ml', 2.0, 'EMS Express + US$ 15.00', 'Deposit', '≤‚ ‘¡Ù—‘', 2.0]
+2017-10-26 11:11:37,793 - root - DEBUG - cell value type: int
+2017-10-26 11:11:37,793 - root - DEBUG - cell value type: int
+2017-10-26 11:11:37,793 - root - DEBUG - cell value type: int
+2017-10-26 11:11:37,793 - root - DEBUG - cell value type: int
+2017-10-26 11:11:37,795 - root - DEBUG - cell value type: string
+2017-10-26 11:11:37,795 - root - DEBUG - cell value type: string
+2017-10-26 11:11:37,795 - root - DEBUG - cell value type: string
+2017-10-26 11:11:37,795 - root - DEBUG - cell value type: string
+2017-10-26 11:11:37,795 - root - DEBUG - cell value type: string
+2017-10-26 11:11:37,795 - root - DEBUG - table(2, 4)value:2.0
+2017-10-26 11:11:37,795 - root - DEBUG - table(2, 4)value:2.0
+2017-10-26 11:11:37,795 - root - DEBUG - table(2, 4)value:2.0
+2017-10-26 11:11:37,795 - root - DEBUG - table(2, 4)value:2.0
+2017-10-26 11:11:37,795 - root - DEBUG - table(2, 4)value:2.0
+2017-10-26 11:11:46,493 - root - DEBUG - open "E:/python35/HG/heaven_formal/DATA/data_info.xlsx" file Succeed
+2017-10-26 11:11:46,496 - root - DEBUG - open "E:/python35/HG/heaven_formal/DATA/data_info.xlsx" file Succeed
+2017-10-26 11:11:46,496 - root - DEBUG - open "E:/python35/HG/heaven_formal/DATA/data_info.xlsx" file Succeed
+2017-10-26 11:11:46,496 - root - DEBUG - get Sheet 0: Rownums=2, Colnums=8
+2017-10-26 11:11:46,496 - root - DEBUG - get Sheet 0: Rownums=2, Colnums=8
+2017-10-26 11:11:46,497 - root - DEBUG - table in 2 row content: ['heyu1229', 'Heyu111111', '[Pre-order] GeekVape Medusa Reborn RDTA - 3.5ml', 2.0, 'EMS Express + US$ 15.00', 'Deposit', '≤‚ ‘¡Ù—‘', 2.0]
+2017-10-26 11:11:46,497 - root - DEBUG - table in 2 row content: ['heyu1229', 'Heyu111111', '[Pre-order] GeekVape Medusa Reborn RDTA - 3.5ml', 2.0, 'EMS Express + US$ 15.00', 'Deposit', '≤‚ ‘¡Ù—‘', 2.0]
+2017-10-26 11:11:46,497 - root - DEBUG - table in 2 row content: ['heyu1229', 'Heyu111111', '[Pre-order] GeekVape Medusa Reborn RDTA - 3.5ml', 2.0, 'EMS Express + US$ 15.00', 'Deposit', '≤‚ ‘¡Ù—‘', 2.0]
+2017-10-26 11:11:46,499 - root - DEBUG - cell value type: string
+2017-10-26 11:11:46,499 - root - DEBUG - cell value type: string
+2017-10-26 11:11:46,499 - root - DEBUG - cell value type: string
+2017-10-26 11:11:46,499 - root - DEBUG - cell value type: string
+2017-10-26 11:11:46,500 - root - DEBUG - cell value type: string
+2017-10-26 11:11:46,500 - root - DEBUG - cell value type: string
+2017-10-26 11:11:46,500 - root - DEBUG - cell value type: string
+2017-10-26 11:11:46,500 - root - DEBUG - cell value type: string
+2017-10-26 11:11:46,500 - root - DEBUG - cell value type: string
+2017-10-26 11:11:46,500 - root - DEBUG - table(2, 1)value:heyu1229
+2017-10-26 11:11:46,500 - root - DEBUG - table(2, 1)value:heyu1229
+2017-10-26 11:11:46,500 - root - DEBUG - table(2, 1)value:heyu1229
+2017-10-26 11:11:46,500 - root - DEBUG - table(2, 1)value:heyu1229
+2017-10-26 11:11:46,500 - root - DEBUG - table(2, 1)value:heyu1229
+2017-10-26 11:14:02,351 - root - DEBUG - open "E:/python35/HG/heaven_formal/DATA/data_info.xlsx" file Succeed
+2017-10-26 11:14:02,355 - root - DEBUG - open "E:/python35/HG/heaven_formal/DATA/data_info.xlsx" file Succeed
+2017-10-26 11:14:02,355 - root - DEBUG - open "E:/python35/HG/heaven_formal/DATA/data_info.xlsx" file Succeed
+2017-10-26 11:14:02,355 - root - DEBUG - get Sheet 0: Rownums=2, Colnums=8
+2017-10-26 11:14:02,355 - root - DEBUG - get Sheet 0: Rownums=2, Colnums=8
+2017-10-26 11:14:02,357 - root - DEBUG - table in 2 row content: ['heyu1229', 'Heyu111111', '[Pre-order] GeekVape Medusa Reborn RDTA - 3.5ml', 2.0, 'EMS Express + US$ 15.00', 'Deposit', '≤‚ ‘¡Ù—‘', 2.0]
+2017-10-26 11:14:02,357 - root - DEBUG - table in 2 row content: ['heyu1229', 'Heyu111111', '[Pre-order] GeekVape Medusa Reborn RDTA - 3.5ml', 2.0, 'EMS Express + US$ 15.00', 'Deposit', '≤‚ ‘¡Ù—‘', 2.0]
+2017-10-26 11:14:02,357 - root - DEBUG - table in 2 row content: ['heyu1229', 'Heyu111111', '[Pre-order] GeekVape Medusa Reborn RDTA - 3.5ml', 2.0, 'EMS Express + US$ 15.00', 'Deposit', '≤‚ ‘¡Ù—‘', 2.0]
+2017-10-26 11:14:02,358 - root - DEBUG - cell value type: string
+2017-10-26 11:14:02,358 - root - DEBUG - cell value type: string
+2017-10-26 11:14:02,358 - root - DEBUG - cell value type: string
+2017-10-26 11:14:02,358 - root - DEBUG - cell value type: string
+2017-10-26 11:14:02,358 - root - DEBUG - cell value type: string
+2017-10-26 11:14:02,358 - root - DEBUG - cell value type: string
+2017-10-26 11:14:02,358 - root - DEBUG - cell value type: string
+2017-10-26 11:14:02,358 - root - DEBUG - cell value type: string
+2017-10-26 11:14:02,358 - root - DEBUG - cell value type: string
+2017-10-26 11:14:02,358 - root - DEBUG - table(2, 1)value:heyu1229
+2017-10-26 11:14:02,358 - root - DEBUG - table(2, 1)value:heyu1229
+2017-10-26 11:14:02,358 - root - DEBUG - table(2, 1)value:heyu1229
+2017-10-26 11:14:02,358 - root - DEBUG - table(2, 1)value:heyu1229
+2017-10-26 11:14:02,358 - root - DEBUG - table(2, 1)value:heyu1229
+2017-10-26 11:19:58,128 - root - DEBUG - open "E:/python35/HG/heaven_formal/DATA/data_info.xlsx" file Succeed
+2017-10-26 11:19:58,131 - root - DEBUG - open "E:/python35/HG/heaven_formal/DATA/data_info.xlsx" file Succeed
+2017-10-26 11:19:58,131 - root - DEBUG - open "E:/python35/HG/heaven_formal/DATA/data_info.xlsx" file Succeed
+2017-10-26 11:19:58,131 - root - DEBUG - get Sheet 0: Rownums=2, Colnums=8
+2017-10-26 11:19:58,131 - root - DEBUG - get Sheet 0: Rownums=2, Colnums=8
+2017-10-26 11:19:58,131 - root - DEBUG - table in 2 row content: ['heyu1229', 'Heyu111111', '[Pre-order] GeekVape Medusa Reborn RDTA - 3.5ml', 2.0, 'EMS Express + US$ 15.00', 'Deposit', '≤‚ ‘¡Ù—‘', 2.0]
+2017-10-26 11:19:58,131 - root - DEBUG - table in 2 row content: ['heyu1229', 'Heyu111111', '[Pre-order] GeekVape Medusa Reborn RDTA - 3.5ml', 2.0, 'EMS Express + US$ 15.00', 'Deposit', '≤‚ ‘¡Ù—‘', 2.0]
+2017-10-26 11:19:58,131 - root - DEBUG - table in 2 row content: ['heyu1229', 'Heyu111111', '[Pre-order] GeekVape Medusa Reborn RDTA - 3.5ml', 2.0, 'EMS Express + US$ 15.00', 'Deposit', '≤‚ ‘¡Ù—‘', 2.0]
+2017-10-26 11:20:33,736 - root - DEBUG - open "E:/python35/HG/heaven_formal/DATA/data_info.xlsx" file Succeed
+2017-10-26 11:20:33,740 - root - DEBUG - open "E:/python35/HG/heaven_formal/DATA/data_info.xlsx" file Succeed
+2017-10-26 11:20:33,740 - root - DEBUG - open "E:/python35/HG/heaven_formal/DATA/data_info.xlsx" file Succeed
+2017-10-26 11:20:33,740 - root - DEBUG - get Sheet 0: Rownums=2, Colnums=8
+2017-10-26 11:20:33,740 - root - DEBUG - get Sheet 0: Rownums=2, Colnums=8
+2017-10-26 11:20:33,742 - root - DEBUG - table in 2 row content: ['heyu1229', 'Heyu111111', '[Pre-order] GeekVape Medusa Reborn RDTA - 3.5ml', 2.0, 'EMS Express + US$ 15.00', 'Deposit', '≤‚ ‘¡Ù—‘', 2.0]
+2017-10-26 11:20:33,742 - root - DEBUG - table in 2 row content: ['heyu1229', 'Heyu111111', '[Pre-order] GeekVape Medusa Reborn RDTA - 3.5ml', 2.0, 'EMS Express + US$ 15.00', 'Deposit', '≤‚ ‘¡Ù—‘', 2.0]
+2017-10-26 11:20:33,742 - root - DEBUG - table in 2 row content: ['heyu1229', 'Heyu111111', '[Pre-order] GeekVape Medusa Reborn RDTA - 3.5ml', 2.0, 'EMS Express + US$ 15.00', 'Deposit', '≤‚ ‘¡Ù—‘', 2.0]
+2017-10-26 11:21:38,173 - root - DEBUG - open "E:/python35/HG/heaven_formal/DATA/data_info.xlsx" file Succeed
+2017-10-26 11:21:38,177 - root - DEBUG - open "E:/python35/HG/heaven_formal/DATA/data_info.xlsx" file Succeed
+2017-10-26 11:21:38,177 - root - DEBUG - open "E:/python35/HG/heaven_formal/DATA/data_info.xlsx" file Succeed
+2017-10-26 11:21:38,177 - root - DEBUG - get Sheet 0: Rownums=2, Colnums=8
+2017-10-26 11:21:38,177 - root - DEBUG - get Sheet 0: Rownums=2, Colnums=8
+2017-10-26 11:21:38,177 - root - DEBUG - table in 2 row content: ['heyu1229', 'Heyu111111', '[Pre-order] GeekVape Medusa Reborn RDTA - 3.5ml', 2.0, 'EMS Express + US$ 15.00', 'Deposit', '≤‚ ‘¡Ù—‘', 2.0]
+2017-10-26 11:21:38,177 - root - DEBUG - table in 2 row content: ['heyu1229', 'Heyu111111', '[Pre-order] GeekVape Medusa Reborn RDTA - 3.5ml', 2.0, 'EMS Express + US$ 15.00', 'Deposit', '≤‚ ‘¡Ù—‘', 2.0]
+2017-10-26 11:21:38,177 - root - DEBUG - table in 2 row content: ['heyu1229', 'Heyu111111', '[Pre-order] GeekVape Medusa Reborn RDTA - 3.5ml', 2.0, 'EMS Express + US$ 15.00', 'Deposit', '≤‚ ‘¡Ù—‘', 2.0]
+2017-10-26 11:21:38,178 - root - ERROR - get cell content fail: invalid literal for int() with base 10: 'heyu1229'
+2017-10-26 11:21:38,178 - root - ERROR - get cell content fail: invalid literal for int() with base 10: 'heyu1229'
+2017-10-26 11:21:38,178 - root - ERROR - get cell content fail: invalid literal for int() with base 10: 'heyu1229'
+2017-10-26 11:21:38,178 - root - ERROR - get cell content fail: invalid literal for int() with base 10: 'heyu1229'
+2017-10-26 11:21:56,872 - root - DEBUG - open "E:/python35/HG/heaven_formal/DATA/data_info.xlsx" file Succeed
+2017-10-26 11:21:56,875 - root - DEBUG - open "E:/python35/HG/heaven_formal/DATA/data_info.xlsx" file Succeed
+2017-10-26 11:21:56,875 - root - DEBUG - open "E:/python35/HG/heaven_formal/DATA/data_info.xlsx" file Succeed
+2017-10-26 11:21:56,875 - root - DEBUG - get Sheet 0: Rownums=2, Colnums=8
+2017-10-26 11:21:56,875 - root - DEBUG - get Sheet 0: Rownums=2, Colnums=8
+2017-10-26 11:21:56,875 - root - DEBUG - table in 2 row content: ['heyu1229', 'Heyu111111', '[Pre-order] GeekVape Medusa Reborn RDTA - 3.5ml', 2.0, 'EMS Express + US$ 15.00', 'Deposit', '≤‚ ‘¡Ù—‘', 2.0]
+2017-10-26 11:21:56,875 - root - DEBUG - table in 2 row content: ['heyu1229', 'Heyu111111', '[Pre-order] GeekVape Medusa Reborn RDTA - 3.5ml', 2.0, 'EMS Express + US$ 15.00', 'Deposit', '≤‚ ‘¡Ù—‘', 2.0]
+2017-10-26 11:21:56,875 - root - DEBUG - table in 2 row content: ['heyu1229', 'Heyu111111', '[Pre-order] GeekVape Medusa Reborn RDTA - 3.5ml', 2.0, 'EMS Express + US$ 15.00', 'Deposit', '≤‚ ‘¡Ù—‘', 2.0]
+2017-10-26 11:21:56,875 - root - ERROR - get cell content fail: invalid literal for int() with base 10: 'heyu1229'
+2017-10-26 11:21:56,875 - root - ERROR - get cell content fail: invalid literal for int() with base 10: 'heyu1229'
+2017-10-26 11:21:56,875 - root - ERROR - get cell content fail: invalid literal for int() with base 10: 'heyu1229'
+2017-10-26 11:21:56,875 - root - ERROR - get cell content fail: invalid literal for int() with base 10: 'heyu1229'
+2017-10-26 11:22:40,012 - root - DEBUG - open "E:/python35/HG/heaven_formal/DATA/data_info.xlsx" file Succeed
+2017-10-26 11:22:40,015 - root - DEBUG - open "E:/python35/HG/heaven_formal/DATA/data_info.xlsx" file Succeed
+2017-10-26 11:22:40,015 - root - DEBUG - open "E:/python35/HG/heaven_formal/DATA/data_info.xlsx" file Succeed
+2017-10-26 11:22:40,015 - root - DEBUG - get Sheet 0: Rownums=2, Colnums=8
+2017-10-26 11:22:40,015 - root - DEBUG - get Sheet 0: Rownums=2, Colnums=8
+2017-10-26 11:22:40,016 - root - DEBUG - table in 2 row content: ['heyu1229', 'Heyu111111', '[Pre-order] GeekVape Medusa Reborn RDTA - 3.5ml', 2.0, 'EMS Express + US$ 15.00', 'Deposit', '≤‚ ‘¡Ù—‘', 2.0]
+2017-10-26 11:22:40,016 - root - DEBUG - table in 2 row content: ['heyu1229', 'Heyu111111', '[Pre-order] GeekVape Medusa Reborn RDTA - 3.5ml', 2.0, 'EMS Express + US$ 15.00', 'Deposit', '≤‚ ‘¡Ù—‘', 2.0]
+2017-10-26 11:22:40,016 - root - DEBUG - table in 2 row content: ['heyu1229', 'Heyu111111', '[Pre-order] GeekVape Medusa Reborn RDTA - 3.5ml', 2.0, 'EMS Express + US$ 15.00', 'Deposit', '≤‚ ‘¡Ù—‘', 2.0]
+2017-10-26 11:22:40,016 - root - DEBUG - cell value type: string
+2017-10-26 11:22:40,016 - root - DEBUG - cell value type: string
+2017-10-26 11:22:40,016 - root - DEBUG - cell value type: string
+2017-10-26 11:22:40,016 - root - DEBUG - cell value type: string
+2017-10-26 11:22:40,016 - root - DEBUG - table(2, 2)value:Heyu111111
+2017-10-26 11:22:40,016 - root - DEBUG - table(2, 2)value:Heyu111111
+2017-10-26 11:22:40,016 - root - DEBUG - table(2, 2)value:Heyu111111
+2017-10-26 11:22:40,016 - root - DEBUG - table(2, 2)value:Heyu111111
+2017-10-26 11:22:40,017 - root - DEBUG - cell value type: string
+2017-10-26 11:22:40,017 - root - DEBUG - cell value type: string
+2017-10-26 11:22:40,017 - root - DEBUG - cell value type: string
+2017-10-26 11:22:40,017 - root - DEBUG - cell value type: string
+2017-10-26 11:22:40,017 - root - DEBUG - cell value type: string
+2017-10-26 11:22:40,017 - root - DEBUG - table(2, 2)value:Heyu111111
+2017-10-26 11:22:40,017 - root - DEBUG - table(2, 2)value:Heyu111111
+2017-10-26 11:22:40,017 - root - DEBUG - table(2, 2)value:Heyu111111
+2017-10-26 11:22:40,017 - root - DEBUG - table(2, 2)value:Heyu111111
+2017-10-26 11:22:40,017 - root - DEBUG - table(2, 2)value:Heyu111111
+2017-10-26 11:22:40,019 - root - DEBUG - cell value type: string
+2017-10-26 11:22:40,019 - root - DEBUG - cell value type: string
+2017-10-26 11:22:40,019 - root - DEBUG - cell value type: string
+2017-10-26 11:22:40,019 - root - DEBUG - cell value type: string
+2017-10-26 11:22:40,019 - root - DEBUG - cell value type: string
+2017-10-26 11:22:40,019 - root - DEBUG - cell value type: string
+2017-10-26 11:22:40,019 - root - DEBUG - table(2, 2)value:Heyu111111
+2017-10-26 11:22:40,019 - root - DEBUG - table(2, 2)value:Heyu111111
+2017-10-26 11:22:40,019 - root - DEBUG - table(2, 2)value:Heyu111111
+2017-10-26 11:22:40,019 - root - DEBUG - table(2, 2)value:Heyu111111
+2017-10-26 11:22:40,019 - root - DEBUG - table(2, 2)value:Heyu111111
+2017-10-26 11:22:40,019 - root - DEBUG - table(2, 2)value:Heyu111111
+2017-10-26 11:22:40,019 - root - DEBUG - cell value type: string
+2017-10-26 11:22:40,019 - root - DEBUG - cell value type: string
+2017-10-26 11:22:40,019 - root - DEBUG - cell value type: string
+2017-10-26 11:22:40,019 - root - DEBUG - cell value type: string
+2017-10-26 11:22:40,019 - root - DEBUG - cell value type: string
+2017-10-26 11:22:40,019 - root - DEBUG - cell value type: string
+2017-10-26 11:22:40,019 - root - DEBUG - cell value type: string
+2017-10-26 11:22:40,019 - root - DEBUG - table(2, 2)value:Heyu111111
+2017-10-26 11:22:40,019 - root - DEBUG - table(2, 2)value:Heyu111111
+2017-10-26 11:22:40,019 - root - DEBUG - table(2, 2)value:Heyu111111
+2017-10-26 11:22:40,019 - root - DEBUG - table(2, 2)value:Heyu111111
+2017-10-26 11:22:40,019 - root - DEBUG - table(2, 2)value:Heyu111111
+2017-10-26 11:22:40,019 - root - DEBUG - table(2, 2)value:Heyu111111
+2017-10-26 11:22:40,019 - root - DEBUG - table(2, 2)value:Heyu111111
+2017-10-26 11:22:40,020 - root - DEBUG - cell value type: string
+2017-10-26 11:22:40,020 - root - DEBUG - cell value type: string
+2017-10-26 11:22:40,020 - root - DEBUG - cell value type: string
+2017-10-26 11:22:40,020 - root - DEBUG - cell value type: string
+2017-10-26 11:22:40,020 - root - DEBUG - cell value type: string
+2017-10-26 11:22:40,020 - root - DEBUG - cell value type: string
+2017-10-26 11:22:40,020 - root - DEBUG - cell value type: string
+2017-10-26 11:22:40,020 - root - DEBUG - cell value type: string
+2017-10-26 11:22:40,020 - root - DEBUG - table(2, 2)value:Heyu111111
+2017-10-26 11:22:40,020 - root - DEBUG - table(2, 2)value:Heyu111111
+2017-10-26 11:22:40,020 - root - DEBUG - table(2, 2)value:Heyu111111
+2017-10-26 11:22:40,020 - root - DEBUG - table(2, 2)value:Heyu111111
+2017-10-26 11:22:40,020 - root - DEBUG - table(2, 2)value:Heyu111111
+2017-10-26 11:22:40,020 - root - DEBUG - table(2, 2)value:Heyu111111
+2017-10-26 11:22:40,020 - root - DEBUG - table(2, 2)value:Heyu111111
+2017-10-26 11:22:40,020 - root - DEBUG - table(2, 2)value:Heyu111111
+2017-10-26 11:22:40,022 - root - DEBUG - cell value type: string
+2017-10-26 11:22:40,022 - root - DEBUG - cell value type: string
+2017-10-26 11:22:40,022 - root - DEBUG - cell value type: string
+2017-10-26 11:22:40,022 - root - DEBUG - cell value type: string
+2017-10-26 11:22:40,022 - root - DEBUG - cell value type: string
+2017-10-26 11:22:40,022 - root - DEBUG - cell value type: string
+2017-10-26 11:22:40,022 - root - DEBUG - cell value type: string
+2017-10-26 11:22:40,022 - root - DEBUG - cell value type: string
+2017-10-26 11:22:40,022 - root - DEBUG - cell value type: string
+2017-10-26 11:22:40,022 - root - DEBUG - table(2, 2)value:Heyu111111
+2017-10-26 11:22:40,022 - root - DEBUG - table(2, 2)value:Heyu111111
+2017-10-26 11:22:40,022 - root - DEBUG - table(2, 2)value:Heyu111111
+2017-10-26 11:22:40,022 - root - DEBUG - table(2, 2)value:Heyu111111
+2017-10-26 11:22:40,022 - root - DEBUG - table(2, 2)value:Heyu111111
+2017-10-26 11:22:40,022 - root - DEBUG - table(2, 2)value:Heyu111111
+2017-10-26 11:22:40,022 - root - DEBUG - table(2, 2)value:Heyu111111
+2017-10-26 11:22:40,022 - root - DEBUG - table(2, 2)value:Heyu111111
+2017-10-26 11:22:40,022 - root - DEBUG - table(2, 2)value:Heyu111111
+2017-10-26 11:22:40,023 - root - DEBUG - cell value type: string
+2017-10-26 11:22:40,023 - root - DEBUG - cell value type: string
+2017-10-26 11:22:40,023 - root - DEBUG - cell value type: string
+2017-10-26 11:22:40,023 - root - DEBUG - cell value type: string
+2017-10-26 11:22:40,023 - root - DEBUG - cell value type: string
+2017-10-26 11:22:40,023 - root - DEBUG - cell value type: string
+2017-10-26 11:22:40,023 - root - DEBUG - cell value type: string
+2017-10-26 11:22:40,023 - root - DEBUG - cell value type: string
+2017-10-26 11:22:40,023 - root - DEBUG - cell value type: string
+2017-10-26 11:22:40,023 - root - DEBUG - cell value type: string
+2017-10-26 11:22:40,023 - root - DEBUG - table(2, 2)value:Heyu111111
+2017-10-26 11:22:40,023 - root - DEBUG - table(2, 2)value:Heyu111111
+2017-10-26 11:22:40,023 - root - DEBUG - table(2, 2)value:Heyu111111
+2017-10-26 11:22:40,023 - root - DEBUG - table(2, 2)value:Heyu111111
+2017-10-26 11:22:40,023 - root - DEBUG - table(2, 2)value:Heyu111111
+2017-10-26 11:22:40,023 - root - DEBUG - table(2, 2)value:Heyu111111
+2017-10-26 11:22:40,023 - root - DEBUG - table(2, 2)value:Heyu111111
+2017-10-26 11:22:40,023 - root - DEBUG - table(2, 2)value:Heyu111111
+2017-10-26 11:22:40,023 - root - DEBUG - table(2, 2)value:Heyu111111
+2017-10-26 11:22:40,023 - root - DEBUG - table(2, 2)value:Heyu111111
+2017-10-26 11:22:40,023 - root - DEBUG - cell value type: string
+2017-10-26 11:22:40,023 - root - DEBUG - cell value type: string
+2017-10-26 11:22:40,023 - root - DEBUG - cell value type: string
+2017-10-26 11:22:40,023 - root - DEBUG - cell value type: string
+2017-10-26 11:22:40,023 - root - DEBUG - cell value type: string
+2017-10-26 11:22:40,023 - root - DEBUG - cell value type: string
+2017-10-26 11:22:40,023 - root - DEBUG - cell value type: string
+2017-10-26 11:22:40,023 - root - DEBUG - cell value type: string
+2017-10-26 11:22:40,023 - root - DEBUG - cell value type: string
+2017-10-26 11:22:40,023 - root - DEBUG - cell value type: string
+2017-10-26 11:22:40,023 - root - DEBUG - cell value type: string
+2017-10-26 11:22:40,025 - root - DEBUG - table(2, 2)value:Heyu111111
+2017-10-26 11:22:40,025 - root - DEBUG - table(2, 2)value:Heyu111111
+2017-10-26 11:22:40,025 - root - DEBUG - table(2, 2)value:Heyu111111
+2017-10-26 11:22:40,025 - root - DEBUG - table(2, 2)value:Heyu111111
+2017-10-26 11:22:40,025 - root - DEBUG - table(2, 2)value:Heyu111111
+2017-10-26 11:22:40,025 - root - DEBUG - table(2, 2)value:Heyu111111
+2017-10-26 11:22:40,025 - root - DEBUG - table(2, 2)value:Heyu111111
+2017-10-26 11:22:40,025 - root - DEBUG - table(2, 2)value:Heyu111111
+2017-10-26 11:22:40,025 - root - DEBUG - table(2, 2)value:Heyu111111
+2017-10-26 11:22:40,025 - root - DEBUG - table(2, 2)value:Heyu111111
+2017-10-26 11:22:40,025 - root - DEBUG - table(2, 2)value:Heyu111111
+2017-10-26 11:23:35,703 - root - DEBUG - open "E:/python35/HG/heaven_formal/DATA/data_info.xlsx" file Succeed
+2017-10-26 11:23:35,706 - root - DEBUG - open "E:/python35/HG/heaven_formal/DATA/data_info.xlsx" file Succeed
+2017-10-26 11:23:35,706 - root - DEBUG - open "E:/python35/HG/heaven_formal/DATA/data_info.xlsx" file Succeed
+2017-10-26 11:23:35,707 - root - DEBUG - get Sheet 0: Rownums=2, Colnums=8
+2017-10-26 11:23:35,707 - root - DEBUG - get Sheet 0: Rownums=2, Colnums=8
+2017-10-26 11:23:35,707 - root - DEBUG - table in 2 row content: ['heyu1229', 'Heyu111111', '[Pre-order] GeekVape Medusa Reborn RDTA - 3.5ml', 2.0, 'EMS Express + US$ 15.00', 'Deposit', '≤‚ ‘¡Ù—‘', 2.0]
+2017-10-26 11:23:35,707 - root - DEBUG - table in 2 row content: ['heyu1229', 'Heyu111111', '[Pre-order] GeekVape Medusa Reborn RDTA - 3.5ml', 2.0, 'EMS Express + US$ 15.00', 'Deposit', '≤‚ ‘¡Ù—‘', 2.0]
+2017-10-26 11:23:35,707 - root - DEBUG - table in 2 row content: ['heyu1229', 'Heyu111111', '[Pre-order] GeekVape Medusa Reborn RDTA - 3.5ml', 2.0, 'EMS Express + US$ 15.00', 'Deposit', '≤‚ ‘¡Ù—‘', 2.0]
+2017-10-26 11:23:35,707 - root - DEBUG - cell value type: string
+2017-10-26 11:23:35,707 - root - DEBUG - cell value type: string
+2017-10-26 11:23:35,707 - root - DEBUG - cell value type: string
+2017-10-26 11:23:35,707 - root - DEBUG - cell value type: string
+2017-10-26 11:23:35,707 - root - DEBUG - table(2, 2)value:Heyu111111
+2017-10-26 11:23:35,707 - root - DEBUG - table(2, 2)value:Heyu111111
+2017-10-26 11:23:35,707 - root - DEBUG - table(2, 2)value:Heyu111111
+2017-10-26 11:23:35,707 - root - DEBUG - table(2, 2)value:Heyu111111
+2017-10-26 11:23:35,707 - root - DEBUG - cell value type: string
+2017-10-26 11:23:35,707 - root - DEBUG - cell value type: string
+2017-10-26 11:23:35,707 - root - DEBUG - cell value type: string
+2017-10-26 11:23:35,707 - root - DEBUG - cell value type: string
+2017-10-26 11:23:35,707 - root - DEBUG - cell value type: string
+2017-10-26 11:23:35,709 - root - DEBUG - table(2, 2)value:Heyu111111
+2017-10-26 11:23:35,709 - root - DEBUG - table(2, 2)value:Heyu111111
+2017-10-26 11:23:35,709 - root - DEBUG - table(2, 2)value:Heyu111111
+2017-10-26 11:23:35,709 - root - DEBUG - table(2, 2)value:Heyu111111
+2017-10-26 11:23:35,709 - root - DEBUG - table(2, 2)value:Heyu111111
+2017-10-26 11:23:35,709 - root - DEBUG - cell value type: string
+2017-10-26 11:23:35,709 - root - DEBUG - cell value type: string
+2017-10-26 11:23:35,709 - root - DEBUG - cell value type: string
+2017-10-26 11:23:35,709 - root - DEBUG - cell value type: string
+2017-10-26 11:23:35,709 - root - DEBUG - cell value type: string
+2017-10-26 11:23:35,709 - root - DEBUG - cell value type: string
+2017-10-26 11:23:35,709 - root - DEBUG - table(2, 2)value:Heyu111111
+2017-10-26 11:23:35,709 - root - DEBUG - table(2, 2)value:Heyu111111
+2017-10-26 11:23:35,709 - root - DEBUG - table(2, 2)value:Heyu111111
+2017-10-26 11:23:35,709 - root - DEBUG - table(2, 2)value:Heyu111111
+2017-10-26 11:23:35,709 - root - DEBUG - table(2, 2)value:Heyu111111
+2017-10-26 11:23:35,709 - root - DEBUG - table(2, 2)value:Heyu111111
+2017-10-26 11:23:35,710 - root - DEBUG - cell value type: string
+2017-10-26 11:23:35,710 - root - DEBUG - cell value type: string
+2017-10-26 11:23:35,710 - root - DEBUG - cell value type: string
+2017-10-26 11:23:35,710 - root - DEBUG - cell value type: string
+2017-10-26 11:23:35,710 - root - DEBUG - cell value type: string
+2017-10-26 11:23:35,710 - root - DEBUG - cell value type: string
+2017-10-26 11:23:35,710 - root - DEBUG - cell value type: string
+2017-10-26 11:23:35,710 - root - DEBUG - table(2, 2)value:Heyu111111
+2017-10-26 11:23:35,710 - root - DEBUG - table(2, 2)value:Heyu111111
+2017-10-26 11:23:35,710 - root - DEBUG - table(2, 2)value:Heyu111111
+2017-10-26 11:23:35,710 - root - DEBUG - table(2, 2)value:Heyu111111
+2017-10-26 11:23:35,710 - root - DEBUG - table(2, 2)value:Heyu111111
+2017-10-26 11:23:35,710 - root - DEBUG - table(2, 2)value:Heyu111111
+2017-10-26 11:23:35,710 - root - DEBUG - table(2, 2)value:Heyu111111
+2017-10-26 11:23:35,710 - root - DEBUG - cell value type: string
+2017-10-26 11:23:35,710 - root - DEBUG - cell value type: string
+2017-10-26 11:23:35,710 - root - DEBUG - cell value type: string
+2017-10-26 11:23:35,710 - root - DEBUG - cell value type: string
+2017-10-26 11:23:35,710 - root - DEBUG - cell value type: string
+2017-10-26 11:23:35,710 - root - DEBUG - cell value type: string
+2017-10-26 11:23:35,710 - root - DEBUG - cell value type: string
+2017-10-26 11:23:35,710 - root - DEBUG - cell value type: string
+2017-10-26 11:23:35,710 - root - DEBUG - table(2, 2)value:Heyu111111
+2017-10-26 11:23:35,710 - root - DEBUG - table(2, 2)value:Heyu111111
+2017-10-26 11:23:35,710 - root - DEBUG - table(2, 2)value:Heyu111111
+2017-10-26 11:23:35,710 - root - DEBUG - table(2, 2)value:Heyu111111
+2017-10-26 11:23:35,710 - root - DEBUG - table(2, 2)value:Heyu111111
+2017-10-26 11:23:35,710 - root - DEBUG - table(2, 2)value:Heyu111111
+2017-10-26 11:23:35,710 - root - DEBUG - table(2, 2)value:Heyu111111
+2017-10-26 11:23:35,710 - root - DEBUG - table(2, 2)value:Heyu111111
+2017-10-26 11:23:35,710 - root - DEBUG - cell value type: string
+2017-10-26 11:23:35,710 - root - DEBUG - cell value type: string
+2017-10-26 11:23:35,710 - root - DEBUG - cell value type: string
+2017-10-26 11:23:35,710 - root - DEBUG - cell value type: string
+2017-10-26 11:23:35,710 - root - DEBUG - cell value type: string
+2017-10-26 11:23:35,710 - root - DEBUG - cell value type: string
+2017-10-26 11:23:35,710 - root - DEBUG - cell value type: string
+2017-10-26 11:23:35,710 - root - DEBUG - cell value type: string
+2017-10-26 11:23:35,710 - root - DEBUG - cell value type: string
+2017-10-26 11:23:35,710 - root - DEBUG - table(2, 2)value:Heyu111111
+2017-10-26 11:23:35,710 - root - DEBUG - table(2, 2)value:Heyu111111
+2017-10-26 11:23:35,710 - root - DEBUG - table(2, 2)value:Heyu111111
+2017-10-26 11:23:35,710 - root - DEBUG - table(2, 2)value:Heyu111111
+2017-10-26 11:23:35,710 - root - DEBUG - table(2, 2)value:Heyu111111
+2017-10-26 11:23:35,710 - root - DEBUG - table(2, 2)value:Heyu111111
+2017-10-26 11:23:35,710 - root - DEBUG - table(2, 2)value:Heyu111111
+2017-10-26 11:23:35,710 - root - DEBUG - table(2, 2)value:Heyu111111
+2017-10-26 11:23:35,710 - root - DEBUG - table(2, 2)value:Heyu111111
+2017-10-26 11:23:35,711 - root - DEBUG - cell value type: string
+2017-10-26 11:23:35,711 - root - DEBUG - cell value type: string
+2017-10-26 11:23:35,711 - root - DEBUG - cell value type: string
+2017-10-26 11:23:35,711 - root - DEBUG - cell value type: string
+2017-10-26 11:23:35,711 - root - DEBUG - cell value type: string
+2017-10-26 11:23:35,711 - root - DEBUG - cell value type: string
+2017-10-26 11:23:35,711 - root - DEBUG - cell value type: string
+2017-10-26 11:23:35,711 - root - DEBUG - cell value type: string
+2017-10-26 11:23:35,711 - root - DEBUG - cell value type: string
+2017-10-26 11:23:35,711 - root - DEBUG - cell value type: string
+2017-10-26 11:23:35,711 - root - DEBUG - table(2, 2)value:Heyu111111
+2017-10-26 11:23:35,711 - root - DEBUG - table(2, 2)value:Heyu111111
+2017-10-26 11:23:35,711 - root - DEBUG - table(2, 2)value:Heyu111111
+2017-10-26 11:23:35,711 - root - DEBUG - table(2, 2)value:Heyu111111
+2017-10-26 11:23:35,711 - root - DEBUG - table(2, 2)value:Heyu111111
+2017-10-26 11:23:35,711 - root - DEBUG - table(2, 2)value:Heyu111111
+2017-10-26 11:23:35,711 - root - DEBUG - table(2, 2)value:Heyu111111
+2017-10-26 11:23:35,711 - root - DEBUG - table(2, 2)value:Heyu111111
+2017-10-26 11:23:35,711 - root - DEBUG - table(2, 2)value:Heyu111111
+2017-10-26 11:23:35,711 - root - DEBUG - table(2, 2)value:Heyu111111
+2017-10-26 11:23:35,713 - root - DEBUG - cell value type: string
+2017-10-26 11:23:35,713 - root - DEBUG - cell value type: string
+2017-10-26 11:23:35,713 - root - DEBUG - cell value type: string
+2017-10-26 11:23:35,713 - root - DEBUG - cell value type: string
+2017-10-26 11:23:35,713 - root - DEBUG - cell value type: string
+2017-10-26 11:23:35,713 - root - DEBUG - cell value type: string
+2017-10-26 11:23:35,713 - root - DEBUG - cell value type: string
+2017-10-26 11:23:35,713 - root - DEBUG - cell value type: string
+2017-10-26 11:23:35,713 - root - DEBUG - cell value type: string
+2017-10-26 11:23:35,713 - root - DEBUG - cell value type: string
+2017-10-26 11:23:35,713 - root - DEBUG - cell value type: string
+2017-10-26 11:23:35,713 - root - DEBUG - table(2, 2)value:Heyu111111
+2017-10-26 11:23:35,713 - root - DEBUG - table(2, 2)value:Heyu111111
+2017-10-26 11:23:35,713 - root - DEBUG - table(2, 2)value:Heyu111111
+2017-10-26 11:23:35,713 - root - DEBUG - table(2, 2)value:Heyu111111
+2017-10-26 11:23:35,713 - root - DEBUG - table(2, 2)value:Heyu111111
+2017-10-26 11:23:35,713 - root - DEBUG - table(2, 2)value:Heyu111111
+2017-10-26 11:23:35,713 - root - DEBUG - table(2, 2)value:Heyu111111
+2017-10-26 11:23:35,713 - root - DEBUG - table(2, 2)value:Heyu111111
+2017-10-26 11:23:35,713 - root - DEBUG - table(2, 2)value:Heyu111111
+2017-10-26 11:23:35,713 - root - DEBUG - table(2, 2)value:Heyu111111
+2017-10-26 11:23:35,713 - root - DEBUG - table(2, 2)value:Heyu111111
+2017-10-26 11:24:50,232 - root - DEBUG - open "E:/python35/HG/heaven_formal/DATA/data_info.xlsx" file Succeed
+2017-10-26 11:24:50,234 - root - DEBUG - open "E:/python35/HG/heaven_formal/DATA/data_info.xlsx" file Succeed
+2017-10-26 11:24:50,234 - root - DEBUG - open "E:/python35/HG/heaven_formal/DATA/data_info.xlsx" file Succeed
+2017-10-26 11:24:50,234 - root - DEBUG - get Sheet 0: Rownums=2, Colnums=8
+2017-10-26 11:24:50,234 - root - DEBUG - get Sheet 0: Rownums=2, Colnums=8
+2017-10-26 11:24:50,236 - root - DEBUG - table in 2 row content: ['heyu1229', 'Heyu111111', '[Pre-order] GeekVape Medusa Reborn RDTA - 3.5ml', 2.0, 'EMS Express + US$ 15.00', 'Deposit', '≤‚ ‘¡Ù—‘', 2.0]
+2017-10-26 11:24:50,236 - root - DEBUG - table in 2 row content: ['heyu1229', 'Heyu111111', '[Pre-order] GeekVape Medusa Reborn RDTA - 3.5ml', 2.0, 'EMS Express + US$ 15.00', 'Deposit', '≤‚ ‘¡Ù—‘', 2.0]
+2017-10-26 11:24:50,236 - root - DEBUG - table in 2 row content: ['heyu1229', 'Heyu111111', '[Pre-order] GeekVape Medusa Reborn RDTA - 3.5ml', 2.0, 'EMS Express + US$ 15.00', 'Deposit', '≤‚ ‘¡Ù—‘', 2.0]
+2017-10-26 11:24:50,236 - root - DEBUG - cell value type: string
+2017-10-26 11:24:50,236 - root - DEBUG - cell value type: string
+2017-10-26 11:24:50,236 - root - DEBUG - cell value type: string
+2017-10-26 11:24:50,236 - root - DEBUG - cell value type: string
+2017-10-26 11:24:50,236 - root - DEBUG - table(2, 8)value:2.0
+2017-10-26 11:24:50,236 - root - DEBUG - table(2, 8)value:2.0
+2017-10-26 11:24:50,236 - root - DEBUG - table(2, 8)value:2.0
+2017-10-26 11:24:50,236 - root - DEBUG - table(2, 8)value:2.0
+2017-10-26 11:24:50,236 - root - DEBUG - cell value type: string
+2017-10-26 11:24:50,236 - root - DEBUG - cell value type: string
+2017-10-26 11:24:50,236 - root - DEBUG - cell value type: string
+2017-10-26 11:24:50,236 - root - DEBUG - cell value type: string
+2017-10-26 11:24:50,236 - root - DEBUG - cell value type: string
+2017-10-26 11:24:50,237 - root - DEBUG - table(2, 8)value:2.0
+2017-10-26 11:24:50,237 - root - DEBUG - table(2, 8)value:2.0
+2017-10-26 11:24:50,237 - root - DEBUG - table(2, 8)value:2.0
+2017-10-26 11:24:50,237 - root - DEBUG - table(2, 8)value:2.0
+2017-10-26 11:24:50,237 - root - DEBUG - table(2, 8)value:2.0
+2017-10-26 11:24:50,239 - root - DEBUG - cell value type: string
+2017-10-26 11:24:50,239 - root - DEBUG - cell value type: string
+2017-10-26 11:24:50,239 - root - DEBUG - cell value type: string
+2017-10-26 11:24:50,239 - root - DEBUG - cell value type: string
+2017-10-26 11:24:50,239 - root - DEBUG - cell value type: string
+2017-10-26 11:24:50,239 - root - DEBUG - cell value type: string
+2017-10-26 11:24:50,239 - root - DEBUG - table(2, 8)value:2.0
+2017-10-26 11:24:50,239 - root - DEBUG - table(2, 8)value:2.0
+2017-10-26 11:24:50,239 - root - DEBUG - table(2, 8)value:2.0
+2017-10-26 11:24:50,239 - root - DEBUG - table(2, 8)value:2.0
+2017-10-26 11:24:50,239 - root - DEBUG - table(2, 8)value:2.0
+2017-10-26 11:24:50,239 - root - DEBUG - table(2, 8)value:2.0
+2017-10-26 11:24:50,240 - root - DEBUG - cell value type: string
+2017-10-26 11:24:50,240 - root - DEBUG - cell value type: string
+2017-10-26 11:24:50,240 - root - DEBUG - cell value type: string
+2017-10-26 11:24:50,240 - root - DEBUG - cell value type: string
+2017-10-26 11:24:50,240 - root - DEBUG - cell value type: string
+2017-10-26 11:24:50,240 - root - DEBUG - cell value type: string
+2017-10-26 11:24:50,240 - root - DEBUG - cell value type: string
+2017-10-26 11:24:50,240 - root - DEBUG - table(2, 8)value:2.0
+2017-10-26 11:24:50,240 - root - DEBUG - table(2, 8)value:2.0
+2017-10-26 11:24:50,240 - root - DEBUG - table(2, 8)value:2.0
+2017-10-26 11:24:50,240 - root - DEBUG - table(2, 8)value:2.0
+2017-10-26 11:24:50,240 - root - DEBUG - table(2, 8)value:2.0
+2017-10-26 11:24:50,240 - root - DEBUG - table(2, 8)value:2.0
+2017-10-26 11:24:50,240 - root - DEBUG - table(2, 8)value:2.0
+2017-10-26 11:24:50,242 - root - DEBUG - cell value type: string
+2017-10-26 11:24:50,242 - root - DEBUG - cell value type: string
+2017-10-26 11:24:50,242 - root - DEBUG - cell value type: string
+2017-10-26 11:24:50,242 - root - DEBUG - cell value type: string
+2017-10-26 11:24:50,242 - root - DEBUG - cell value type: string
+2017-10-26 11:24:50,242 - root - DEBUG - cell value type: string
+2017-10-26 11:24:50,242 - root - DEBUG - cell value type: string
+2017-10-26 11:24:50,242 - root - DEBUG - cell value type: string
+2017-10-26 11:24:50,243 - root - DEBUG - table(2, 8)value:2.0
+2017-10-26 11:24:50,243 - root - DEBUG - table(2, 8)value:2.0
+2017-10-26 11:24:50,243 - root - DEBUG - table(2, 8)value:2.0
+2017-10-26 11:24:50,243 - root - DEBUG - table(2, 8)value:2.0
+2017-10-26 11:24:50,243 - root - DEBUG - table(2, 8)value:2.0
+2017-10-26 11:24:50,243 - root - DEBUG - table(2, 8)value:2.0
+2017-10-26 11:24:50,243 - root - DEBUG - table(2, 8)value:2.0
+2017-10-26 11:24:50,243 - root - DEBUG - table(2, 8)value:2.0
+2017-10-26 11:24:50,243 - root - DEBUG - cell value type: string
+2017-10-26 11:24:50,243 - root - DEBUG - cell value type: string
+2017-10-26 11:24:50,243 - root - DEBUG - cell value type: string
+2017-10-26 11:24:50,243 - root - DEBUG - cell value type: string
+2017-10-26 11:24:50,243 - root - DEBUG - cell value type: string
+2017-10-26 11:24:50,243 - root - DEBUG - cell value type: string
+2017-10-26 11:24:50,243 - root - DEBUG - cell value type: string
+2017-10-26 11:24:50,243 - root - DEBUG - cell value type: string
+2017-10-26 11:24:50,243 - root - DEBUG - cell value type: string
+2017-10-26 11:24:50,244 - root - DEBUG - table(2, 8)value:2.0
+2017-10-26 11:24:50,244 - root - DEBUG - table(2, 8)value:2.0
+2017-10-26 11:24:50,244 - root - DEBUG - table(2, 8)value:2.0
+2017-10-26 11:24:50,244 - root - DEBUG - table(2, 8)value:2.0
+2017-10-26 11:24:50,244 - root - DEBUG - table(2, 8)value:2.0
+2017-10-26 11:24:50,244 - root - DEBUG - table(2, 8)value:2.0
+2017-10-26 11:24:50,244 - root - DEBUG - table(2, 8)value:2.0
+2017-10-26 11:24:50,244 - root - DEBUG - table(2, 8)value:2.0
+2017-10-26 11:24:50,244 - root - DEBUG - table(2, 8)value:2.0
+2017-10-26 11:24:50,246 - root - DEBUG - cell value type: string
+2017-10-26 11:24:50,246 - root - DEBUG - cell value type: string
+2017-10-26 11:24:50,246 - root - DEBUG - cell value type: string
+2017-10-26 11:24:50,246 - root - DEBUG - cell value type: string
+2017-10-26 11:24:50,246 - root - DEBUG - cell value type: string
+2017-10-26 11:24:50,246 - root - DEBUG - cell value type: string
+2017-10-26 11:24:50,246 - root - DEBUG - cell value type: string
+2017-10-26 11:24:50,246 - root - DEBUG - cell value type: string
+2017-10-26 11:24:50,246 - root - DEBUG - cell value type: string
+2017-10-26 11:24:50,246 - root - DEBUG - cell value type: string
+2017-10-26 11:24:50,246 - root - DEBUG - table(2, 8)value:2.0
+2017-10-26 11:24:50,246 - root - DEBUG - table(2, 8)value:2.0
+2017-10-26 11:24:50,246 - root - DEBUG - table(2, 8)value:2.0
+2017-10-26 11:24:50,246 - root - DEBUG - table(2, 8)value:2.0
+2017-10-26 11:24:50,246 - root - DEBUG - table(2, 8)value:2.0
+2017-10-26 11:24:50,246 - root - DEBUG - table(2, 8)value:2.0
+2017-10-26 11:24:50,246 - root - DEBUG - table(2, 8)value:2.0
+2017-10-26 11:24:50,246 - root - DEBUG - table(2, 8)value:2.0
+2017-10-26 11:24:50,246 - root - DEBUG - table(2, 8)value:2.0
+2017-10-26 11:24:50,246 - root - DEBUG - table(2, 8)value:2.0
+2017-10-26 11:24:50,246 - root - DEBUG - cell value type: string
+2017-10-26 11:24:50,246 - root - DEBUG - cell value type: string
+2017-10-26 11:24:50,246 - root - DEBUG - cell value type: string
+2017-10-26 11:24:50,246 - root - DEBUG - cell value type: string
+2017-10-26 11:24:50,246 - root - DEBUG - cell value type: string
+2017-10-26 11:24:50,246 - root - DEBUG - cell value type: string
+2017-10-26 11:24:50,246 - root - DEBUG - cell value type: string
+2017-10-26 11:24:50,246 - root - DEBUG - cell value type: string
+2017-10-26 11:24:50,246 - root - DEBUG - cell value type: string
+2017-10-26 11:24:50,246 - root - DEBUG - cell value type: string
+2017-10-26 11:24:50,246 - root - DEBUG - cell value type: string
+2017-10-26 11:24:50,249 - root - DEBUG - table(2, 8)value:2.0
+2017-10-26 11:24:50,249 - root - DEBUG - table(2, 8)value:2.0
+2017-10-26 11:24:50,249 - root - DEBUG - table(2, 8)value:2.0
+2017-10-26 11:24:50,249 - root - DEBUG - table(2, 8)value:2.0
+2017-10-26 11:24:50,249 - root - DEBUG - table(2, 8)value:2.0
+2017-10-26 11:24:50,249 - root - DEBUG - table(2, 8)value:2.0
+2017-10-26 11:24:50,249 - root - DEBUG - table(2, 8)value:2.0
+2017-10-26 11:24:50,249 - root - DEBUG - table(2, 8)value:2.0
+2017-10-26 11:24:50,249 - root - DEBUG - table(2, 8)value:2.0
+2017-10-26 11:24:50,249 - root - DEBUG - table(2, 8)value:2.0
+2017-10-26 11:24:50,249 - root - DEBUG - table(2, 8)value:2.0
+2017-10-26 11:25:11,619 - root - DEBUG - open "E:/python35/HG/heaven_formal/DATA/data_info.xlsx" file Succeed
+2017-10-26 11:25:11,622 - root - DEBUG - open "E:/python35/HG/heaven_formal/DATA/data_info.xlsx" file Succeed
+2017-10-26 11:25:11,622 - root - DEBUG - open "E:/python35/HG/heaven_formal/DATA/data_info.xlsx" file Succeed
+2017-10-26 11:25:11,624 - root - DEBUG - get Sheet 0: Rownums=2, Colnums=8
+2017-10-26 11:25:11,624 - root - DEBUG - get Sheet 0: Rownums=2, Colnums=8
+2017-10-26 11:25:11,624 - root - DEBUG - table in 2 row content: ['heyu1229', 'Heyu111111', '[Pre-order] GeekVape Medusa Reborn RDTA - 3.5ml', 2.0, 'EMS Express + US$ 15.00', 'Deposit', '≤‚ ‘¡Ù—‘', 2.0]
+2017-10-26 11:25:11,624 - root - DEBUG - table in 2 row content: ['heyu1229', 'Heyu111111', '[Pre-order] GeekVape Medusa Reborn RDTA - 3.5ml', 2.0, 'EMS Express + US$ 15.00', 'Deposit', '≤‚ ‘¡Ù—‘', 2.0]
+2017-10-26 11:25:11,624 - root - DEBUG - table in 2 row content: ['heyu1229', 'Heyu111111', '[Pre-order] GeekVape Medusa Reborn RDTA - 3.5ml', 2.0, 'EMS Express + US$ 15.00', 'Deposit', '≤‚ ‘¡Ù—‘', 2.0]
+2017-10-26 11:27:17,671 - root - DEBUG - open "E:/python35/HG/heaven_formal/DATA/data_info.xlsx" file Succeed
+2017-10-26 11:27:17,674 - root - DEBUG - open "E:/python35/HG/heaven_formal/DATA/data_info.xlsx" file Succeed
+2017-10-26 11:27:17,674 - root - DEBUG - open "E:/python35/HG/heaven_formal/DATA/data_info.xlsx" file Succeed
+2017-10-26 11:27:17,674 - root - DEBUG - get Sheet 0: Rownums=2, Colnums=8
+2017-10-26 11:27:17,674 - root - DEBUG - get Sheet 0: Rownums=2, Colnums=8
+2017-10-26 11:27:17,674 - root - DEBUG - table in 2 row content: ['heyu1229', 'Heyu111111', '[Pre-order] GeekVape Medusa Reborn RDTA - 3.5ml', 2.0, 'EMS Express + US$ 15.00', 'Deposit', '≤‚ ‘¡Ù—‘', 2.0]
+2017-10-26 11:27:17,674 - root - DEBUG - table in 2 row content: ['heyu1229', 'Heyu111111', '[Pre-order] GeekVape Medusa Reborn RDTA - 3.5ml', 2.0, 'EMS Express + US$ 15.00', 'Deposit', '≤‚ ‘¡Ù—‘', 2.0]
+2017-10-26 11:27:17,674 - root - DEBUG - table in 2 row content: ['heyu1229', 'Heyu111111', '[Pre-order] GeekVape Medusa Reborn RDTA - 3.5ml', 2.0, 'EMS Express + US$ 15.00', 'Deposit', '≤‚ ‘¡Ù—‘', 2.0]
+2017-10-26 11:29:39,857 - root - DEBUG - open "E:/python35/HG/heaven_formal/DATA/data_info.xlsx" file Succeed
+2017-10-26 11:29:39,859 - root - DEBUG - open "E:/python35/HG/heaven_formal/DATA/data_info.xlsx" file Succeed
+2017-10-26 11:29:39,859 - root - DEBUG - open "E:/python35/HG/heaven_formal/DATA/data_info.xlsx" file Succeed
+2017-10-26 11:29:39,859 - root - DEBUG - get Sheet 0: Rownums=2, Colnums=8
+2017-10-26 11:29:39,859 - root - DEBUG - get Sheet 0: Rownums=2, Colnums=8
+2017-10-26 11:29:39,861 - root - DEBUG - table in 2 row content: ['heyu1229', 'Heyu111111', '[Pre-order] GeekVape Medusa Reborn RDTA - 3.5ml', 2.0, 'EMS Express + US$ 15.00', 'Deposit', '≤‚ ‘¡Ù—‘', 2.0]
+2017-10-26 11:29:39,861 - root - DEBUG - table in 2 row content: ['heyu1229', 'Heyu111111', '[Pre-order] GeekVape Medusa Reborn RDTA - 3.5ml', 2.0, 'EMS Express + US$ 15.00', 'Deposit', '≤‚ ‘¡Ù—‘', 2.0]
+2017-10-26 11:29:39,861 - root - DEBUG - table in 2 row content: ['heyu1229', 'Heyu111111', '[Pre-order] GeekVape Medusa Reborn RDTA - 3.5ml', 2.0, 'EMS Express + US$ 15.00', 'Deposit', '≤‚ ‘¡Ù—‘', 2.0]
+2017-10-26 11:29:51,286 - root - DEBUG - open "E:/python35/HG/heaven_formal/DATA/data_info.xlsx" file Succeed
+2017-10-26 11:29:51,289 - root - DEBUG - open "E:/python35/HG/heaven_formal/DATA/data_info.xlsx" file Succeed
+2017-10-26 11:29:51,289 - root - DEBUG - open "E:/python35/HG/heaven_formal/DATA/data_info.xlsx" file Succeed
+2017-10-26 11:29:51,289 - root - DEBUG - get Sheet 0: Rownums=2, Colnums=8
+2017-10-26 11:29:51,289 - root - DEBUG - get Sheet 0: Rownums=2, Colnums=8
+2017-10-26 11:29:51,289 - root - DEBUG - table in 2 row content: ['heyu1229', 'Heyu111111', '[Pre-order] GeekVape Medusa Reborn RDTA - 3.5ml', 2.0, 'EMS Express + US$ 15.00', 'Deposit', '≤‚ ‘¡Ù—‘', 2.0]
+2017-10-26 11:29:51,289 - root - DEBUG - table in 2 row content: ['heyu1229', 'Heyu111111', '[Pre-order] GeekVape Medusa Reborn RDTA - 3.5ml', 2.0, 'EMS Express + US$ 15.00', 'Deposit', '≤‚ ‘¡Ù—‘', 2.0]
+2017-10-26 11:29:51,289 - root - DEBUG - table in 2 row content: ['heyu1229', 'Heyu111111', '[Pre-order] GeekVape Medusa Reborn RDTA - 3.5ml', 2.0, 'EMS Express + US$ 15.00', 'Deposit', '≤‚ ‘¡Ù—‘', 2.0]
+2017-10-26 11:30:00,471 - root - DEBUG - open "E:/python35/HG/heaven_formal/DATA/data_info.xlsx" file Succeed
+2017-10-26 11:30:00,476 - root - DEBUG - open "E:/python35/HG/heaven_formal/DATA/data_info.xlsx" file Succeed
+2017-10-26 11:30:00,476 - root - DEBUG - open "E:/python35/HG/heaven_formal/DATA/data_info.xlsx" file Succeed
+2017-10-26 11:30:00,476 - root - DEBUG - get Sheet 0: Rownums=2, Colnums=8
+2017-10-26 11:30:00,476 - root - DEBUG - get Sheet 0: Rownums=2, Colnums=8
+2017-10-26 11:30:00,479 - root - DEBUG - table in 2 row content: ['heyu1229', 'Heyu111111', '[Pre-order] GeekVape Medusa Reborn RDTA - 3.5ml', 2.0, 'EMS Express + US$ 15.00', 'Deposit', '≤‚ ‘¡Ù—‘', 2.0]
+2017-10-26 11:30:00,479 - root - DEBUG - table in 2 row content: ['heyu1229', 'Heyu111111', '[Pre-order] GeekVape Medusa Reborn RDTA - 3.5ml', 2.0, 'EMS Express + US$ 15.00', 'Deposit', '≤‚ ‘¡Ù—‘', 2.0]
+2017-10-26 11:30:00,479 - root - DEBUG - table in 2 row content: ['heyu1229', 'Heyu111111', '[Pre-order] GeekVape Medusa Reborn RDTA - 3.5ml', 2.0, 'EMS Express + US$ 15.00', 'Deposit', '≤‚ ‘¡Ù—‘', 2.0]
+2017-10-26 11:30:03,266 - root - DEBUG - open "E:/python35/HG/heaven_formal/DATA/data_info.xlsx" file Succeed
+2017-10-26 11:30:03,267 - root - DEBUG - open "E:/python35/HG/heaven_formal/DATA/data_info.xlsx" file Succeed
+2017-10-26 11:30:03,267 - root - DEBUG - open "E:/python35/HG/heaven_formal/DATA/data_info.xlsx" file Succeed
+2017-10-26 11:30:03,269 - root - DEBUG - get Sheet 0: Rownums=2, Colnums=8
+2017-10-26 11:30:03,269 - root - DEBUG - get Sheet 0: Rownums=2, Colnums=8
+2017-10-26 11:30:03,269 - root - DEBUG - table in 2 row content: ['heyu1229', 'Heyu111111', '[Pre-order] GeekVape Medusa Reborn RDTA - 3.5ml', 2.0, 'EMS Express + US$ 15.00', 'Deposit', '≤‚ ‘¡Ù—‘', 2.0]
+2017-10-26 11:30:03,269 - root - DEBUG - table in 2 row content: ['heyu1229', 'Heyu111111', '[Pre-order] GeekVape Medusa Reborn RDTA - 3.5ml', 2.0, 'EMS Express + US$ 15.00', 'Deposit', '≤‚ ‘¡Ù—‘', 2.0]
+2017-10-26 11:30:03,269 - root - DEBUG - table in 2 row content: ['heyu1229', 'Heyu111111', '[Pre-order] GeekVape Medusa Reborn RDTA - 3.5ml', 2.0, 'EMS Express + US$ 15.00', 'Deposit', '≤‚ ‘¡Ù—‘', 2.0]
+2017-10-26 11:47:54,558 - root - DEBUG - open "E:/python35/HG/heaven_formal/DATA/data_info.xlsx" file Succeed
+2017-10-26 11:47:54,559 - root - DEBUG - open "E:/python35/HG/heaven_formal/DATA/data_info.xlsx" file Succeed
+2017-10-26 11:47:54,559 - root - DEBUG - open "E:/python35/HG/heaven_formal/DATA/data_info.xlsx" file Succeed
+2017-10-26 11:47:54,561 - root - DEBUG - get Sheet 0: Rownums=2, Colnums=8
+2017-10-26 11:47:54,561 - root - DEBUG - get Sheet 0: Rownums=2, Colnums=8
+2017-10-26 11:47:54,561 - root - DEBUG - table in 2 row content: ['heyu1229', 'Heyu111111', '[Pre-order] GeekVape Medusa Reborn RDTA - 3.5ml', 2.0, 'EMS Express + US$ 15.00', 'Deposit', '≤‚ ‘¡Ù—‘', 2.0]
+2017-10-26 11:47:54,561 - root - DEBUG - table in 2 row content: ['heyu1229', 'Heyu111111', '[Pre-order] GeekVape Medusa Reborn RDTA - 3.5ml', 2.0, 'EMS Express + US$ 15.00', 'Deposit', '≤‚ ‘¡Ù—‘', 2.0]
+2017-10-26 11:47:54,561 - root - DEBUG - table in 2 row content: ['heyu1229', 'Heyu111111', '[Pre-order] GeekVape Medusa Reborn RDTA - 3.5ml', 2.0, 'EMS Express + US$ 15.00', 'Deposit', '≤‚ ‘¡Ù—‘', 2.0]
+2017-10-26 11:48:22,612 - root - DEBUG - open "E:/python35/HG/heaven_formal/DATA/data_info.xlsx" file Succeed
+2017-10-26 11:48:22,617 - root - DEBUG - open "E:/python35/HG/heaven_formal/DATA/data_info.xlsx" file Succeed
+2017-10-26 11:48:22,617 - root - DEBUG - open "E:/python35/HG/heaven_formal/DATA/data_info.xlsx" file Succeed
+2017-10-26 11:48:22,617 - root - DEBUG - get Sheet 0: Rownums=2, Colnums=8
+2017-10-26 11:48:22,617 - root - DEBUG - get Sheet 0: Rownums=2, Colnums=8
+2017-10-26 11:48:22,617 - root - DEBUG - table in 2 row content: ['heyu1229', 'Heyu111111', '[Pre-order] GeekVape Medusa Reborn RDTA - 3.5ml', 2.0, 'EMS Express + US$ 15.00', 'Deposit', '≤‚ ‘¡Ù—‘', 2.0]
+2017-10-26 11:48:22,617 - root - DEBUG - table in 2 row content: ['heyu1229', 'Heyu111111', '[Pre-order] GeekVape Medusa Reborn RDTA - 3.5ml', 2.0, 'EMS Express + US$ 15.00', 'Deposit', '≤‚ ‘¡Ù—‘', 2.0]
+2017-10-26 11:48:22,617 - root - DEBUG - table in 2 row content: ['heyu1229', 'Heyu111111', '[Pre-order] GeekVape Medusa Reborn RDTA - 3.5ml', 2.0, 'EMS Express + US$ 15.00', 'Deposit', '≤‚ ‘¡Ù—‘', 2.0]
