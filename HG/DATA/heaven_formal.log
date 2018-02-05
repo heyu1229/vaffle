@@ -1,0 +1,1119 @@
+
+2017-10-26 09:40:36,773 - root - DEBUG - open "E:/python35/HG/heaven_formal/DATA/data_info.xlsx" file Succeed
+2017-10-26 09:40:36,778 - root - DEBUG - open "E:/python35/HG/heaven_formal/DATA/data_info.xlsx" file Succeed
+2017-10-26 09:40:36,778 - root - DEBUG - open "E:/python35/HG/heaven_formal/DATA/data_info.xlsx" file Succeed
+2017-10-26 09:40:36,779 - root - DEBUG - get Sheet 0: Rownums=2, Colnums=8
+2017-10-26 09:40:36,779 - root - DEBUG - get Sheet 0: Rownums=2, Colnums=8
+2017-10-26 09:40:36,779 - root - DEBUG - table in 2 row content: ['heyu1229', 'Heyu111111', '[Pre-order] GeekVape Medusa Reborn RDTA - 3.5ml', 2.0, 'EMS Express + US$ 15.00', 'Deposit', '≤‚ ‘¡Ù—‘', 2.0]
+2017-10-26 09:40:36,779 - root - DEBUG - table in 2 row content: ['heyu1229', 'Heyu111111', '[Pre-order] GeekVape Medusa Reborn RDTA - 3.5ml', 2.0, 'EMS Express + US$ 15.00', 'Deposit', '≤‚ ‘¡Ù—‘', 2.0]
+2017-10-26 09:40:36,779 - root - DEBUG - table in 2 row content: ['heyu1229', 'Heyu111111', '[Pre-order] GeekVape Medusa Reborn RDTA - 3.5ml', 2.0, 'EMS Express + US$ 15.00', 'Deposit', '≤‚ ‘¡Ù—‘', 2.0]
+2017-10-26 09:41:59,911 - root - DEBUG - open "E:/python35/HG/heaven_formal/DATA/data_info.xlsx" file Succeed
+2017-10-26 09:41:59,917 - root - DEBUG - open "E:/python35/HG/heaven_formal/DATA/data_info.xlsx" file Succeed
+2017-10-26 09:41:59,917 - root - DEBUG - open "E:/python35/HG/heaven_formal/DATA/data_info.xlsx" file Succeed
+2017-10-26 09:41:59,917 - root - DEBUG - get Sheet 0: Rownums=2, Colnums=8
+2017-10-26 09:41:59,917 - root - DEBUG - get Sheet 0: Rownums=2, Colnums=8
+2017-10-26 09:41:59,918 - root - DEBUG - table in 2 row content: ['heyu1229', 'Heyu111111', '[Pre-order] GeekVape Medusa Reborn RDTA - 3.5ml', 2.0, 'EMS Express + US$ 15.00', 'Deposit', '≤‚ ‘¡Ù—‘', 2.0]
+2017-10-26 09:41:59,918 - root - DEBUG - table in 2 row content: ['heyu1229', 'Heyu111111', '[Pre-order] GeekVape Medusa Reborn RDTA - 3.5ml', 2.0, 'EMS Express + US$ 15.00', 'Deposit', '≤‚ ‘¡Ù—‘', 2.0]
+2017-10-26 09:41:59,918 - root - DEBUG - table in 2 row content: ['heyu1229', 'Heyu111111', '[Pre-order] GeekVape Medusa Reborn RDTA - 3.5ml', 2.0, 'EMS Express + US$ 15.00', 'Deposit', '≤‚ ‘¡Ù—‘', 2.0]
+2017-10-26 09:41:59,920 - root - DEBUG - cell value type: string
+2017-10-26 09:41:59,920 - root - DEBUG - cell value type: string
+2017-10-26 09:41:59,920 - root - DEBUG - cell value type: string
+2017-10-26 09:41:59,920 - root - DEBUG - cell value type: string
+2017-10-26 09:42:21,644 - root - DEBUG - open "E:/python35/HG/heaven_formal/DATA/data_info.xlsx" file Succeed
+2017-10-26 09:42:21,647 - root - DEBUG - open "E:/python35/HG/heaven_formal/DATA/data_info.xlsx" file Succeed
+2017-10-26 09:42:21,647 - root - DEBUG - open "E:/python35/HG/heaven_formal/DATA/data_info.xlsx" file Succeed
+2017-10-26 09:42:21,647 - root - DEBUG - get Sheet 0: Rownums=2, Colnums=8
+2017-10-26 09:42:21,647 - root - DEBUG - get Sheet 0: Rownums=2, Colnums=8
+2017-10-26 09:42:21,648 - root - DEBUG - table in 2 row content: ['heyu1229', 'Heyu111111', '[Pre-order] GeekVape Medusa Reborn RDTA - 3.5ml', 2.0, 'EMS Express + US$ 15.00', 'Deposit', '≤‚ ‘¡Ù—‘', 2.0]
+2017-10-26 09:42:21,648 - root - DEBUG - table in 2 row content: ['heyu1229', 'Heyu111111', '[Pre-order] GeekVape Medusa Reborn RDTA - 3.5ml', 2.0, 'EMS Express + US$ 15.00', 'Deposit', '≤‚ ‘¡Ù—‘', 2.0]
+2017-10-26 09:42:21,648 - root - DEBUG - table in 2 row content: ['heyu1229', 'Heyu111111', '[Pre-order] GeekVape Medusa Reborn RDTA - 3.5ml', 2.0, 'EMS Express + US$ 15.00', 'Deposit', '≤‚ ‘¡Ù—‘', 2.0]
+2017-10-26 09:42:21,648 - root - DEBUG - cell value type: string
+2017-10-26 09:42:21,648 - root - DEBUG - cell value type: string
+2017-10-26 09:42:21,648 - root - DEBUG - cell value type: string
+2017-10-26 09:42:21,648 - root - DEBUG - cell value type: string
+2017-10-26 10:32:24,447 - root - DEBUG - open "E:/python35/HG/heaven_formal/DATA/data_info.xlsx" file Succeed
+2017-10-26 10:32:24,448 - root - DEBUG - open "E:/python35/HG/heaven_formal/DATA/data_info.xlsx" file Succeed
+2017-10-26 10:32:24,448 - root - DEBUG - open "E:/python35/HG/heaven_formal/DATA/data_info.xlsx" file Succeed
+2017-10-26 10:32:24,450 - root - DEBUG - get Sheet 0: Rownums=2, Colnums=8
+2017-10-26 10:32:24,450 - root - DEBUG - get Sheet 0: Rownums=2, Colnums=8
+2017-10-26 10:32:24,450 - root - DEBUG - table in 2 row content: ['heyu1229', 'Heyu111111', '[Pre-order] GeekVape Medusa Reborn RDTA - 3.5ml', 2.0, 'EMS Express + US$ 15.00', 'Deposit', '≤‚ ‘¡Ù—‘', 2.0]
+2017-10-26 10:32:24,450 - root - DEBUG - table in 2 row content: ['heyu1229', 'Heyu111111', '[Pre-order] GeekVape Medusa Reborn RDTA - 3.5ml', 2.0, 'EMS Express + US$ 15.00', 'Deposit', '≤‚ ‘¡Ù—‘', 2.0]
+2017-10-26 10:32:24,450 - root - DEBUG - table in 2 row content: ['heyu1229', 'Heyu111111', '[Pre-order] GeekVape Medusa Reborn RDTA - 3.5ml', 2.0, 'EMS Express + US$ 15.00', 'Deposit', '≤‚ ‘¡Ù—‘', 2.0]
+2017-10-26 10:32:24,450 - root - DEBUG - cell value type: number
+2017-10-26 10:32:24,450 - root - DEBUG - cell value type: number
+2017-10-26 10:32:24,450 - root - DEBUG - cell value type: number
+2017-10-26 10:32:24,450 - root - DEBUG - cell value type: number
+2017-10-26 10:33:57,447 - root - DEBUG - open "E:/python35/HG/heaven_formal/DATA/data_info.xlsx" file Succeed
+2017-10-26 10:33:57,450 - root - DEBUG - open "E:/python35/HG/heaven_formal/DATA/data_info.xlsx" file Succeed
+2017-10-26 10:33:57,450 - root - DEBUG - open "E:/python35/HG/heaven_formal/DATA/data_info.xlsx" file Succeed
+2017-10-26 10:33:57,450 - root - DEBUG - get Sheet 0: Rownums=2, Colnums=8
+2017-10-26 10:33:57,450 - root - DEBUG - get Sheet 0: Rownums=2, Colnums=8
+2017-10-26 10:33:57,450 - root - DEBUG - table in 2 row content: ['heyu1229', 'Heyu111111', '[Pre-order] GeekVape Medusa Reborn RDTA - 3.5ml', 2.0, 'EMS Express + US$ 15.00', 'Deposit', '≤‚ ‘¡Ù—‘', 2.0]
+2017-10-26 10:33:57,450 - root - DEBUG - table in 2 row content: ['heyu1229', 'Heyu111111', '[Pre-order] GeekVape Medusa Reborn RDTA - 3.5ml', 2.0, 'EMS Express + US$ 15.00', 'Deposit', '≤‚ ‘¡Ù—‘', 2.0]
+2017-10-26 10:33:57,450 - root - DEBUG - table in 2 row content: ['heyu1229', 'Heyu111111', '[Pre-order] GeekVape Medusa Reborn RDTA - 3.5ml', 2.0, 'EMS Express + US$ 15.00', 'Deposit', '≤‚ ‘¡Ù—‘', 2.0]
+2017-10-26 10:33:57,450 - root - DEBUG - cell value type: int
+2017-10-26 10:33:57,450 - root - DEBUG - cell value type: int
+2017-10-26 10:33:57,450 - root - DEBUG - cell value type: int
+2017-10-26 10:33:57,450 - root - DEBUG - cell value type: int
+2017-10-26 11:04:13,520 - root - DEBUG - open "E:/python35/HG/heaven_formal/DATA/data_info.xlsx" file Succeed
+2017-10-26 11:04:13,523 - root - DEBUG - open "E:/python35/HG/heaven_formal/DATA/data_info.xlsx" file Succeed
+2017-10-26 11:04:13,523 - root - DEBUG - open "E:/python35/HG/heaven_formal/DATA/data_info.xlsx" file Succeed
+2017-10-26 11:04:13,525 - root - DEBUG - get Sheet 0: Rownums=2, Colnums=8
+2017-10-26 11:04:13,525 - root - DEBUG - get Sheet 0: Rownums=2, Colnums=8
+2017-10-26 11:04:13,525 - root - DEBUG - table in 2 row content: ['heyu1229', 'Heyu111111', '[Pre-order] GeekVape Medusa Reborn RDTA - 3.5ml', 2.0, 'EMS Express + US$ 15.00', 'Deposit', '≤‚ ‘¡Ù—‘', 2.0]
+2017-10-26 11:04:13,525 - root - DEBUG - table in 2 row content: ['heyu1229', 'Heyu111111', '[Pre-order] GeekVape Medusa Reborn RDTA - 3.5ml', 2.0, 'EMS Express + US$ 15.00', 'Deposit', '≤‚ ‘¡Ù—‘', 2.0]
+2017-10-26 11:04:13,525 - root - DEBUG - table in 2 row content: ['heyu1229', 'Heyu111111', '[Pre-order] GeekVape Medusa Reborn RDTA - 3.5ml', 2.0, 'EMS Express + US$ 15.00', 'Deposit', '≤‚ ‘¡Ù—‘', 2.0]
+2017-10-26 11:04:13,525 - root - DEBUG - cell value type: string
+2017-10-26 11:04:13,525 - root - DEBUG - cell value type: string
+2017-10-26 11:04:13,525 - root - DEBUG - cell value type: string
+2017-10-26 11:04:13,525 - root - DEBUG - cell value type: string
+2017-10-26 11:04:13,526 - root - DEBUG - table(2, 4)value:2.0
+2017-10-26 11:04:13,526 - root - DEBUG - table(2, 4)value:2.0
+2017-10-26 11:04:13,526 - root - DEBUG - table(2, 4)value:2.0
+2017-10-26 11:04:13,526 - root - DEBUG - table(2, 4)value:2.0
+2017-10-26 11:04:13,526 - root - DEBUG - cell value type: string
+2017-10-26 11:04:13,526 - root - DEBUG - cell value type: string
+2017-10-26 11:04:13,526 - root - DEBUG - cell value type: string
+2017-10-26 11:04:13,526 - root - DEBUG - cell value type: string
+2017-10-26 11:04:13,526 - root - DEBUG - cell value type: string
+2017-10-26 11:04:13,526 - root - DEBUG - table(2, 4)value:2.0
+2017-10-26 11:04:13,526 - root - DEBUG - table(2, 4)value:2.0
+2017-10-26 11:04:13,526 - root - DEBUG - table(2, 4)value:2.0
+2017-10-26 11:04:13,526 - root - DEBUG - table(2, 4)value:2.0
+2017-10-26 11:04:13,526 - root - DEBUG - table(2, 4)value:2.0
+2017-10-26 11:11:37,790 - root - DEBUG - open "E:/python35/HG/heaven_formal/DATA/data_info.xlsx" file Succeed
+2017-10-26 11:11:37,792 - root - DEBUG - open "E:/python35/HG/heaven_formal/DATA/data_info.xlsx" file Succeed
+2017-10-26 11:11:37,792 - root - DEBUG - open "E:/python35/HG/heaven_formal/DATA/data_info.xlsx" file Succeed
+2017-10-26 11:11:37,792 - root - DEBUG - get Sheet 0: Rownums=2, Colnums=8
+2017-10-26 11:11:37,792 - root - DEBUG - get Sheet 0: Rownums=2, Colnums=8
+2017-10-26 11:11:37,793 - root - DEBUG - table in 2 row content: ['heyu1229', 'Heyu111111', '[Pre-order] GeekVape Medusa Reborn RDTA - 3.5ml', 2.0, 'EMS Express + US$ 15.00', 'Deposit', '≤‚ ‘¡Ù—‘', 2.0]
+2017-10-26 11:11:37,793 - root - DEBUG - table in 2 row content: ['heyu1229', 'Heyu111111', '[Pre-order] GeekVape Medusa Reborn RDTA - 3.5ml', 2.0, 'EMS Express + US$ 15.00', 'Deposit', '≤‚ ‘¡Ù—‘', 2.0]
+2017-10-26 11:11:37,793 - root - DEBUG - table in 2 row content: ['heyu1229', 'Heyu111111', '[Pre-order] GeekVape Medusa Reborn RDTA - 3.5ml', 2.0, 'EMS Express + US$ 15.00', 'Deposit', '≤‚ ‘¡Ù—‘', 2.0]
+2017-10-26 11:11:37,793 - root - DEBUG - cell value type: int
+2017-10-26 11:11:37,793 - root - DEBUG - cell value type: int
+2017-10-26 11:11:37,793 - root - DEBUG - cell value type: int
+2017-10-26 11:11:37,793 - root - DEBUG - cell value type: int
+2017-10-26 11:11:37,795 - root - DEBUG - cell value type: string
+2017-10-26 11:11:37,795 - root - DEBUG - cell value type: string
+2017-10-26 11:11:37,795 - root - DEBUG - cell value type: string
+2017-10-26 11:11:37,795 - root - DEBUG - cell value type: string
+2017-10-26 11:11:37,795 - root - DEBUG - cell value type: string
+2017-10-26 11:11:37,795 - root - DEBUG - table(2, 4)value:2.0
+2017-10-26 11:11:37,795 - root - DEBUG - table(2, 4)value:2.0
+2017-10-26 11:11:37,795 - root - DEBUG - table(2, 4)value:2.0
+2017-10-26 11:11:37,795 - root - DEBUG - table(2, 4)value:2.0
+2017-10-26 11:11:37,795 - root - DEBUG - table(2, 4)value:2.0
+2017-10-26 11:11:46,493 - root - DEBUG - open "E:/python35/HG/heaven_formal/DATA/data_info.xlsx" file Succeed
+2017-10-26 11:11:46,496 - root - DEBUG - open "E:/python35/HG/heaven_formal/DATA/data_info.xlsx" file Succeed
+2017-10-26 11:11:46,496 - root - DEBUG - open "E:/python35/HG/heaven_formal/DATA/data_info.xlsx" file Succeed
+2017-10-26 11:11:46,496 - root - DEBUG - get Sheet 0: Rownums=2, Colnums=8
+2017-10-26 11:11:46,496 - root - DEBUG - get Sheet 0: Rownums=2, Colnums=8
+2017-10-26 11:11:46,497 - root - DEBUG - table in 2 row content: ['heyu1229', 'Heyu111111', '[Pre-order] GeekVape Medusa Reborn RDTA - 3.5ml', 2.0, 'EMS Express + US$ 15.00', 'Deposit', '≤‚ ‘¡Ù—‘', 2.0]
+2017-10-26 11:11:46,497 - root - DEBUG - table in 2 row content: ['heyu1229', 'Heyu111111', '[Pre-order] GeekVape Medusa Reborn RDTA - 3.5ml', 2.0, 'EMS Express + US$ 15.00', 'Deposit', '≤‚ ‘¡Ù—‘', 2.0]
+2017-10-26 11:11:46,497 - root - DEBUG - table in 2 row content: ['heyu1229', 'Heyu111111', '[Pre-order] GeekVape Medusa Reborn RDTA - 3.5ml', 2.0, 'EMS Express + US$ 15.00', 'Deposit', '≤‚ ‘¡Ù—‘', 2.0]
+2017-10-26 11:11:46,499 - root - DEBUG - cell value type: string
+2017-10-26 11:11:46,499 - root - DEBUG - cell value type: string
+2017-10-26 11:11:46,499 - root - DEBUG - cell value type: string
+2017-10-26 11:11:46,499 - root - DEBUG - cell value type: string
+2017-10-26 11:11:46,500 - root - DEBUG - cell value type: string
+2017-10-26 11:11:46,500 - root - DEBUG - cell value type: string
+2017-10-26 11:11:46,500 - root - DEBUG - cell value type: string
+2017-10-26 11:11:46,500 - root - DEBUG - cell value type: string
+2017-10-26 11:11:46,500 - root - DEBUG - cell value type: string
+2017-10-26 11:11:46,500 - root - DEBUG - table(2, 1)value:heyu1229
+2017-10-26 11:11:46,500 - root - DEBUG - table(2, 1)value:heyu1229
+2017-10-26 11:11:46,500 - root - DEBUG - table(2, 1)value:heyu1229
+2017-10-26 11:11:46,500 - root - DEBUG - table(2, 1)value:heyu1229
+2017-10-26 11:11:46,500 - root - DEBUG - table(2, 1)value:heyu1229
+2017-10-26 11:14:02,351 - root - DEBUG - open "E:/python35/HG/heaven_formal/DATA/data_info.xlsx" file Succeed
+2017-10-26 11:14:02,355 - root - DEBUG - open "E:/python35/HG/heaven_formal/DATA/data_info.xlsx" file Succeed
+2017-10-26 11:14:02,355 - root - DEBUG - open "E:/python35/HG/heaven_formal/DATA/data_info.xlsx" file Succeed
+2017-10-26 11:14:02,355 - root - DEBUG - get Sheet 0: Rownums=2, Colnums=8
+2017-10-26 11:14:02,355 - root - DEBUG - get Sheet 0: Rownums=2, Colnums=8
+2017-10-26 11:14:02,357 - root - DEBUG - table in 2 row content: ['heyu1229', 'Heyu111111', '[Pre-order] GeekVape Medusa Reborn RDTA - 3.5ml', 2.0, 'EMS Express + US$ 15.00', 'Deposit', '≤‚ ‘¡Ù—‘', 2.0]
+2017-10-26 11:14:02,357 - root - DEBUG - table in 2 row content: ['heyu1229', 'Heyu111111', '[Pre-order] GeekVape Medusa Reborn RDTA - 3.5ml', 2.0, 'EMS Express + US$ 15.00', 'Deposit', '≤‚ ‘¡Ù—‘', 2.0]
+2017-10-26 11:14:02,357 - root - DEBUG - table in 2 row content: ['heyu1229', 'Heyu111111', '[Pre-order] GeekVape Medusa Reborn RDTA - 3.5ml', 2.0, 'EMS Express + US$ 15.00', 'Deposit', '≤‚ ‘¡Ù—‘', 2.0]
+2017-10-26 11:14:02,358 - root - DEBUG - cell value type: string
+2017-10-26 11:14:02,358 - root - DEBUG - cell value type: string
+2017-10-26 11:14:02,358 - root - DEBUG - cell value type: string
+2017-10-26 11:14:02,358 - root - DEBUG - cell value type: string
+2017-10-26 11:14:02,358 - root - DEBUG - cell value type: string
+2017-10-26 11:14:02,358 - root - DEBUG - cell value type: string
+2017-10-26 11:14:02,358 - root - DEBUG - cell value type: string
+2017-10-26 11:14:02,358 - root - DEBUG - cell value type: string
+2017-10-26 11:14:02,358 - root - DEBUG - cell value type: string
+2017-10-26 11:14:02,358 - root - DEBUG - table(2, 1)value:heyu1229
+2017-10-26 11:14:02,358 - root - DEBUG - table(2, 1)value:heyu1229
+2017-10-26 11:14:02,358 - root - DEBUG - table(2, 1)value:heyu1229
+2017-10-26 11:14:02,358 - root - DEBUG - table(2, 1)value:heyu1229
+2017-10-26 11:14:02,358 - root - DEBUG - table(2, 1)value:heyu1229
+2017-10-26 11:19:58,128 - root - DEBUG - open "E:/python35/HG/heaven_formal/DATA/data_info.xlsx" file Succeed
+2017-10-26 11:19:58,131 - root - DEBUG - open "E:/python35/HG/heaven_formal/DATA/data_info.xlsx" file Succeed
+2017-10-26 11:19:58,131 - root - DEBUG - open "E:/python35/HG/heaven_formal/DATA/data_info.xlsx" file Succeed
+2017-10-26 11:19:58,131 - root - DEBUG - get Sheet 0: Rownums=2, Colnums=8
+2017-10-26 11:19:58,131 - root - DEBUG - get Sheet 0: Rownums=2, Colnums=8
+2017-10-26 11:19:58,131 - root - DEBUG - table in 2 row content: ['heyu1229', 'Heyu111111', '[Pre-order] GeekVape Medusa Reborn RDTA - 3.5ml', 2.0, 'EMS Express + US$ 15.00', 'Deposit', '≤‚ ‘¡Ù—‘', 2.0]
+2017-10-26 11:19:58,131 - root - DEBUG - table in 2 row content: ['heyu1229', 'Heyu111111', '[Pre-order] GeekVape Medusa Reborn RDTA - 3.5ml', 2.0, 'EMS Express + US$ 15.00', 'Deposit', '≤‚ ‘¡Ù—‘', 2.0]
+2017-10-26 11:19:58,131 - root - DEBUG - table in 2 row content: ['heyu1229', 'Heyu111111', '[Pre-order] GeekVape Medusa Reborn RDTA - 3.5ml', 2.0, 'EMS Express + US$ 15.00', 'Deposit', '≤‚ ‘¡Ù—‘', 2.0]
+2017-10-26 11:20:33,736 - root - DEBUG - open "E:/python35/HG/heaven_formal/DATA/data_info.xlsx" file Succeed
+2017-10-26 11:20:33,740 - root - DEBUG - open "E:/python35/HG/heaven_formal/DATA/data_info.xlsx" file Succeed
+2017-10-26 11:20:33,740 - root - DEBUG - open "E:/python35/HG/heaven_formal/DATA/data_info.xlsx" file Succeed
+2017-10-26 11:20:33,740 - root - DEBUG - get Sheet 0: Rownums=2, Colnums=8
+2017-10-26 11:20:33,740 - root - DEBUG - get Sheet 0: Rownums=2, Colnums=8
+2017-10-26 11:20:33,742 - root - DEBUG - table in 2 row content: ['heyu1229', 'Heyu111111', '[Pre-order] GeekVape Medusa Reborn RDTA - 3.5ml', 2.0, 'EMS Express + US$ 15.00', 'Deposit', '≤‚ ‘¡Ù—‘', 2.0]
+2017-10-26 11:20:33,742 - root - DEBUG - table in 2 row content: ['heyu1229', 'Heyu111111', '[Pre-order] GeekVape Medusa Reborn RDTA - 3.5ml', 2.0, 'EMS Express + US$ 15.00', 'Deposit', '≤‚ ‘¡Ù—‘', 2.0]
+2017-10-26 11:20:33,742 - root - DEBUG - table in 2 row content: ['heyu1229', 'Heyu111111', '[Pre-order] GeekVape Medusa Reborn RDTA - 3.5ml', 2.0, 'EMS Express + US$ 15.00', 'Deposit', '≤‚ ‘¡Ù—‘', 2.0]
+2017-10-26 11:21:38,173 - root - DEBUG - open "E:/python35/HG/heaven_formal/DATA/data_info.xlsx" file Succeed
+2017-10-26 11:21:38,177 - root - DEBUG - open "E:/python35/HG/heaven_formal/DATA/data_info.xlsx" file Succeed
+2017-10-26 11:21:38,177 - root - DEBUG - open "E:/python35/HG/heaven_formal/DATA/data_info.xlsx" file Succeed
+2017-10-26 11:21:38,177 - root - DEBUG - get Sheet 0: Rownums=2, Colnums=8
+2017-10-26 11:21:38,177 - root - DEBUG - get Sheet 0: Rownums=2, Colnums=8
+2017-10-26 11:21:38,177 - root - DEBUG - table in 2 row content: ['heyu1229', 'Heyu111111', '[Pre-order] GeekVape Medusa Reborn RDTA - 3.5ml', 2.0, 'EMS Express + US$ 15.00', 'Deposit', '≤‚ ‘¡Ù—‘', 2.0]
+2017-10-26 11:21:38,177 - root - DEBUG - table in 2 row content: ['heyu1229', 'Heyu111111', '[Pre-order] GeekVape Medusa Reborn RDTA - 3.5ml', 2.0, 'EMS Express + US$ 15.00', 'Deposit', '≤‚ ‘¡Ù—‘', 2.0]
+2017-10-26 11:21:38,177 - root - DEBUG - table in 2 row content: ['heyu1229', 'Heyu111111', '[Pre-order] GeekVape Medusa Reborn RDTA - 3.5ml', 2.0, 'EMS Express + US$ 15.00', 'Deposit', '≤‚ ‘¡Ù—‘', 2.0]
+2017-10-26 11:21:38,178 - root - ERROR - get cell content fail: invalid literal for int() with base 10: 'heyu1229'
+2017-10-26 11:21:38,178 - root - ERROR - get cell content fail: invalid literal for int() with base 10: 'heyu1229'
+2017-10-26 11:21:38,178 - root - ERROR - get cell content fail: invalid literal for int() with base 10: 'heyu1229'
+2017-10-26 11:21:38,178 - root - ERROR - get cell content fail: invalid literal for int() with base 10: 'heyu1229'
+2017-10-26 11:21:56,872 - root - DEBUG - open "E:/python35/HG/heaven_formal/DATA/data_info.xlsx" file Succeed
+2017-10-26 11:21:56,875 - root - DEBUG - open "E:/python35/HG/heaven_formal/DATA/data_info.xlsx" file Succeed
+2017-10-26 11:21:56,875 - root - DEBUG - open "E:/python35/HG/heaven_formal/DATA/data_info.xlsx" file Succeed
+2017-10-26 11:21:56,875 - root - DEBUG - get Sheet 0: Rownums=2, Colnums=8
+2017-10-26 11:21:56,875 - root - DEBUG - get Sheet 0: Rownums=2, Colnums=8
+2017-10-26 11:21:56,875 - root - DEBUG - table in 2 row content: ['heyu1229', 'Heyu111111', '[Pre-order] GeekVape Medusa Reborn RDTA - 3.5ml', 2.0, 'EMS Express + US$ 15.00', 'Deposit', '≤‚ ‘¡Ù—‘', 2.0]
+2017-10-26 11:21:56,875 - root - DEBUG - table in 2 row content: ['heyu1229', 'Heyu111111', '[Pre-order] GeekVape Medusa Reborn RDTA - 3.5ml', 2.0, 'EMS Express + US$ 15.00', 'Deposit', '≤‚ ‘¡Ù—‘', 2.0]
+2017-10-26 11:21:56,875 - root - DEBUG - table in 2 row content: ['heyu1229', 'Heyu111111', '[Pre-order] GeekVape Medusa Reborn RDTA - 3.5ml', 2.0, 'EMS Express + US$ 15.00', 'Deposit', '≤‚ ‘¡Ù—‘', 2.0]
+2017-10-26 11:21:56,875 - root - ERROR - get cell content fail: invalid literal for int() with base 10: 'heyu1229'
+2017-10-26 11:21:56,875 - root - ERROR - get cell content fail: invalid literal for int() with base 10: 'heyu1229'
+2017-10-26 11:21:56,875 - root - ERROR - get cell content fail: invalid literal for int() with base 10: 'heyu1229'
+2017-10-26 11:21:56,875 - root - ERROR - get cell content fail: invalid literal for int() with base 10: 'heyu1229'
+2017-10-26 11:22:40,012 - root - DEBUG - open "E:/python35/HG/heaven_formal/DATA/data_info.xlsx" file Succeed
+2017-10-26 11:22:40,015 - root - DEBUG - open "E:/python35/HG/heaven_formal/DATA/data_info.xlsx" file Succeed
+2017-10-26 11:22:40,015 - root - DEBUG - open "E:/python35/HG/heaven_formal/DATA/data_info.xlsx" file Succeed
+2017-10-26 11:22:40,015 - root - DEBUG - get Sheet 0: Rownums=2, Colnums=8
+2017-10-26 11:22:40,015 - root - DEBUG - get Sheet 0: Rownums=2, Colnums=8
+2017-10-26 11:22:40,016 - root - DEBUG - table in 2 row content: ['heyu1229', 'Heyu111111', '[Pre-order] GeekVape Medusa Reborn RDTA - 3.5ml', 2.0, 'EMS Express + US$ 15.00', 'Deposit', '≤‚ ‘¡Ù—‘', 2.0]
+2017-10-26 11:22:40,016 - root - DEBUG - table in 2 row content: ['heyu1229', 'Heyu111111', '[Pre-order] GeekVape Medusa Reborn RDTA - 3.5ml', 2.0, 'EMS Express + US$ 15.00', 'Deposit', '≤‚ ‘¡Ù—‘', 2.0]
+2017-10-26 11:22:40,016 - root - DEBUG - table in 2 row content: ['heyu1229', 'Heyu111111', '[Pre-order] GeekVape Medusa Reborn RDTA - 3.5ml', 2.0, 'EMS Express + US$ 15.00', 'Deposit', '≤‚ ‘¡Ù—‘', 2.0]
+2017-10-26 11:22:40,016 - root - DEBUG - cell value type: string
+2017-10-26 11:22:40,016 - root - DEBUG - cell value type: string
+2017-10-26 11:22:40,016 - root - DEBUG - cell value type: string
+2017-10-26 11:22:40,016 - root - DEBUG - cell value type: string
+2017-10-26 11:22:40,016 - root - DEBUG - table(2, 2)value:Heyu111111
+2017-10-26 11:22:40,016 - root - DEBUG - table(2, 2)value:Heyu111111
+2017-10-26 11:22:40,016 - root - DEBUG - table(2, 2)value:Heyu111111
+2017-10-26 11:22:40,016 - root - DEBUG - table(2, 2)value:Heyu111111
+2017-10-26 11:22:40,017 - root - DEBUG - cell value type: string
+2017-10-26 11:22:40,017 - root - DEBUG - cell value type: string
+2017-10-26 11:22:40,017 - root - DEBUG - cell value type: string
+2017-10-26 11:22:40,017 - root - DEBUG - cell value type: string
+2017-10-26 11:22:40,017 - root - DEBUG - cell value type: string
+2017-10-26 11:22:40,017 - root - DEBUG - table(2, 2)value:Heyu111111
+2017-10-26 11:22:40,017 - root - DEBUG - table(2, 2)value:Heyu111111
+2017-10-26 11:22:40,017 - root - DEBUG - table(2, 2)value:Heyu111111
+2017-10-26 11:22:40,017 - root - DEBUG - table(2, 2)value:Heyu111111
+2017-10-26 11:22:40,017 - root - DEBUG - table(2, 2)value:Heyu111111
+2017-10-26 11:22:40,019 - root - DEBUG - cell value type: string
+2017-10-26 11:22:40,019 - root - DEBUG - cell value type: string
+2017-10-26 11:22:40,019 - root - DEBUG - cell value type: string
+2017-10-26 11:22:40,019 - root - DEBUG - cell value type: string
+2017-10-26 11:22:40,019 - root - DEBUG - cell value type: string
+2017-10-26 11:22:40,019 - root - DEBUG - cell value type: string
+2017-10-26 11:22:40,019 - root - DEBUG - table(2, 2)value:Heyu111111
+2017-10-26 11:22:40,019 - root - DEBUG - table(2, 2)value:Heyu111111
+2017-10-26 11:22:40,019 - root - DEBUG - table(2, 2)value:Heyu111111
+2017-10-26 11:22:40,019 - root - DEBUG - table(2, 2)value:Heyu111111
+2017-10-26 11:22:40,019 - root - DEBUG - table(2, 2)value:Heyu111111
+2017-10-26 11:22:40,019 - root - DEBUG - table(2, 2)value:Heyu111111
+2017-10-26 11:22:40,019 - root - DEBUG - cell value type: string
+2017-10-26 11:22:40,019 - root - DEBUG - cell value type: string
+2017-10-26 11:22:40,019 - root - DEBUG - cell value type: string
+2017-10-26 11:22:40,019 - root - DEBUG - cell value type: string
+2017-10-26 11:22:40,019 - root - DEBUG - cell value type: string
+2017-10-26 11:22:40,019 - root - DEBUG - cell value type: string
+2017-10-26 11:22:40,019 - root - DEBUG - cell value type: string
+2017-10-26 11:22:40,019 - root - DEBUG - table(2, 2)value:Heyu111111
+2017-10-26 11:22:40,019 - root - DEBUG - table(2, 2)value:Heyu111111
+2017-10-26 11:22:40,019 - root - DEBUG - table(2, 2)value:Heyu111111
+2017-10-26 11:22:40,019 - root - DEBUG - table(2, 2)value:Heyu111111
+2017-10-26 11:22:40,019 - root - DEBUG - table(2, 2)value:Heyu111111
+2017-10-26 11:22:40,019 - root - DEBUG - table(2, 2)value:Heyu111111
+2017-10-26 11:22:40,019 - root - DEBUG - table(2, 2)value:Heyu111111
+2017-10-26 11:22:40,020 - root - DEBUG - cell value type: string
+2017-10-26 11:22:40,020 - root - DEBUG - cell value type: string
+2017-10-26 11:22:40,020 - root - DEBUG - cell value type: string
+2017-10-26 11:22:40,020 - root - DEBUG - cell value type: string
+2017-10-26 11:22:40,020 - root - DEBUG - cell value type: string
+2017-10-26 11:22:40,020 - root - DEBUG - cell value type: string
+2017-10-26 11:22:40,020 - root - DEBUG - cell value type: string
+2017-10-26 11:22:40,020 - root - DEBUG - cell value type: string
+2017-10-26 11:22:40,020 - root - DEBUG - table(2, 2)value:Heyu111111
+2017-10-26 11:22:40,020 - root - DEBUG - table(2, 2)value:Heyu111111
+2017-10-26 11:22:40,020 - root - DEBUG - table(2, 2)value:Heyu111111
+2017-10-26 11:22:40,020 - root - DEBUG - table(2, 2)value:Heyu111111
+2017-10-26 11:22:40,020 - root - DEBUG - table(2, 2)value:Heyu111111
+2017-10-26 11:22:40,020 - root - DEBUG - table(2, 2)value:Heyu111111
+2017-10-26 11:22:40,020 - root - DEBUG - table(2, 2)value:Heyu111111
+2017-10-26 11:22:40,020 - root - DEBUG - table(2, 2)value:Heyu111111
+2017-10-26 11:22:40,022 - root - DEBUG - cell value type: string
+2017-10-26 11:22:40,022 - root - DEBUG - cell value type: string
+2017-10-26 11:22:40,022 - root - DEBUG - cell value type: string
+2017-10-26 11:22:40,022 - root - DEBUG - cell value type: string
+2017-10-26 11:22:40,022 - root - DEBUG - cell value type: string
+2017-10-26 11:22:40,022 - root - DEBUG - cell value type: string
+2017-10-26 11:22:40,022 - root - DEBUG - cell value type: string
+2017-10-26 11:22:40,022 - root - DEBUG - cell value type: string
+2017-10-26 11:22:40,022 - root - DEBUG - cell value type: string
+2017-10-26 11:22:40,022 - root - DEBUG - table(2, 2)value:Heyu111111
+2017-10-26 11:22:40,022 - root - DEBUG - table(2, 2)value:Heyu111111
+2017-10-26 11:22:40,022 - root - DEBUG - table(2, 2)value:Heyu111111
+2017-10-26 11:22:40,022 - root - DEBUG - table(2, 2)value:Heyu111111
+2017-10-26 11:22:40,022 - root - DEBUG - table(2, 2)value:Heyu111111
+2017-10-26 11:22:40,022 - root - DEBUG - table(2, 2)value:Heyu111111
+2017-10-26 11:22:40,022 - root - DEBUG - table(2, 2)value:Heyu111111
+2017-10-26 11:22:40,022 - root - DEBUG - table(2, 2)value:Heyu111111
+2017-10-26 11:22:40,022 - root - DEBUG - table(2, 2)value:Heyu111111
+2017-10-26 11:22:40,023 - root - DEBUG - cell value type: string
+2017-10-26 11:22:40,023 - root - DEBUG - cell value type: string
+2017-10-26 11:22:40,023 - root - DEBUG - cell value type: string
+2017-10-26 11:22:40,023 - root - DEBUG - cell value type: string
+2017-10-26 11:22:40,023 - root - DEBUG - cell value type: string
+2017-10-26 11:22:40,023 - root - DEBUG - cell value type: string
+2017-10-26 11:22:40,023 - root - DEBUG - cell value type: string
+2017-10-26 11:22:40,023 - root - DEBUG - cell value type: string
+2017-10-26 11:22:40,023 - root - DEBUG - cell value type: string
+2017-10-26 11:22:40,023 - root - DEBUG - cell value type: string
+2017-10-26 11:22:40,023 - root - DEBUG - table(2, 2)value:Heyu111111
+2017-10-26 11:22:40,023 - root - DEBUG - table(2, 2)value:Heyu111111
+2017-10-26 11:22:40,023 - root - DEBUG - table(2, 2)value:Heyu111111
+2017-10-26 11:22:40,023 - root - DEBUG - table(2, 2)value:Heyu111111
+2017-10-26 11:22:40,023 - root - DEBUG - table(2, 2)value:Heyu111111
+2017-10-26 11:22:40,023 - root - DEBUG - table(2, 2)value:Heyu111111
+2017-10-26 11:22:40,023 - root - DEBUG - table(2, 2)value:Heyu111111
+2017-10-26 11:22:40,023 - root - DEBUG - table(2, 2)value:Heyu111111
+2017-10-26 11:22:40,023 - root - DEBUG - table(2, 2)value:Heyu111111
+2017-10-26 11:22:40,023 - root - DEBUG - table(2, 2)value:Heyu111111
+2017-10-26 11:22:40,023 - root - DEBUG - cell value type: string
+2017-10-26 11:22:40,023 - root - DEBUG - cell value type: string
+2017-10-26 11:22:40,023 - root - DEBUG - cell value type: string
+2017-10-26 11:22:40,023 - root - DEBUG - cell value type: string
+2017-10-26 11:22:40,023 - root - DEBUG - cell value type: string
+2017-10-26 11:22:40,023 - root - DEBUG - cell value type: string
+2017-10-26 11:22:40,023 - root - DEBUG - cell value type: string
+2017-10-26 11:22:40,023 - root - DEBUG - cell value type: string
+2017-10-26 11:22:40,023 - root - DEBUG - cell value type: string
+2017-10-26 11:22:40,023 - root - DEBUG - cell value type: string
+2017-10-26 11:22:40,023 - root - DEBUG - cell value type: string
+2017-10-26 11:22:40,025 - root - DEBUG - table(2, 2)value:Heyu111111
+2017-10-26 11:22:40,025 - root - DEBUG - table(2, 2)value:Heyu111111
+2017-10-26 11:22:40,025 - root - DEBUG - table(2, 2)value:Heyu111111
+2017-10-26 11:22:40,025 - root - DEBUG - table(2, 2)value:Heyu111111
+2017-10-26 11:22:40,025 - root - DEBUG - table(2, 2)value:Heyu111111
+2017-10-26 11:22:40,025 - root - DEBUG - table(2, 2)value:Heyu111111
+2017-10-26 11:22:40,025 - root - DEBUG - table(2, 2)value:Heyu111111
+2017-10-26 11:22:40,025 - root - DEBUG - table(2, 2)value:Heyu111111
+2017-10-26 11:22:40,025 - root - DEBUG - table(2, 2)value:Heyu111111
+2017-10-26 11:22:40,025 - root - DEBUG - table(2, 2)value:Heyu111111
+2017-10-26 11:22:40,025 - root - DEBUG - table(2, 2)value:Heyu111111
+2017-10-26 11:23:35,703 - root - DEBUG - open "E:/python35/HG/heaven_formal/DATA/data_info.xlsx" file Succeed
+2017-10-26 11:23:35,706 - root - DEBUG - open "E:/python35/HG/heaven_formal/DATA/data_info.xlsx" file Succeed
+2017-10-26 11:23:35,706 - root - DEBUG - open "E:/python35/HG/heaven_formal/DATA/data_info.xlsx" file Succeed
+2017-10-26 11:23:35,707 - root - DEBUG - get Sheet 0: Rownums=2, Colnums=8
+2017-10-26 11:23:35,707 - root - DEBUG - get Sheet 0: Rownums=2, Colnums=8
+2017-10-26 11:23:35,707 - root - DEBUG - table in 2 row content: ['heyu1229', 'Heyu111111', '[Pre-order] GeekVape Medusa Reborn RDTA - 3.5ml', 2.0, 'EMS Express + US$ 15.00', 'Deposit', '≤‚ ‘¡Ù—‘', 2.0]
+2017-10-26 11:23:35,707 - root - DEBUG - table in 2 row content: ['heyu1229', 'Heyu111111', '[Pre-order] GeekVape Medusa Reborn RDTA - 3.5ml', 2.0, 'EMS Express + US$ 15.00', 'Deposit', '≤‚ ‘¡Ù—‘', 2.0]
+2017-10-26 11:23:35,707 - root - DEBUG - table in 2 row content: ['heyu1229', 'Heyu111111', '[Pre-order] GeekVape Medusa Reborn RDTA - 3.5ml', 2.0, 'EMS Express + US$ 15.00', 'Deposit', '≤‚ ‘¡Ù—‘', 2.0]
+2017-10-26 11:23:35,707 - root - DEBUG - cell value type: string
+2017-10-26 11:23:35,707 - root - DEBUG - cell value type: string
+2017-10-26 11:23:35,707 - root - DEBUG - cell value type: string
+2017-10-26 11:23:35,707 - root - DEBUG - cell value type: string
+2017-10-26 11:23:35,707 - root - DEBUG - table(2, 2)value:Heyu111111
+2017-10-26 11:23:35,707 - root - DEBUG - table(2, 2)value:Heyu111111
+2017-10-26 11:23:35,707 - root - DEBUG - table(2, 2)value:Heyu111111
+2017-10-26 11:23:35,707 - root - DEBUG - table(2, 2)value:Heyu111111
+2017-10-26 11:23:35,707 - root - DEBUG - cell value type: string
+2017-10-26 11:23:35,707 - root - DEBUG - cell value type: string
+2017-10-26 11:23:35,707 - root - DEBUG - cell value type: string
+2017-10-26 11:23:35,707 - root - DEBUG - cell value type: string
+2017-10-26 11:23:35,707 - root - DEBUG - cell value type: string
+2017-10-26 11:23:35,709 - root - DEBUG - table(2, 2)value:Heyu111111
+2017-10-26 11:23:35,709 - root - DEBUG - table(2, 2)value:Heyu111111
+2017-10-26 11:23:35,709 - root - DEBUG - table(2, 2)value:Heyu111111
+2017-10-26 11:23:35,709 - root - DEBUG - table(2, 2)value:Heyu111111
+2017-10-26 11:23:35,709 - root - DEBUG - table(2, 2)value:Heyu111111
+2017-10-26 11:23:35,709 - root - DEBUG - cell value type: string
+2017-10-26 11:23:35,709 - root - DEBUG - cell value type: string
+2017-10-26 11:23:35,709 - root - DEBUG - cell value type: string
+2017-10-26 11:23:35,709 - root - DEBUG - cell value type: string
+2017-10-26 11:23:35,709 - root - DEBUG - cell value type: string
+2017-10-26 11:23:35,709 - root - DEBUG - cell value type: string
+2017-10-26 11:23:35,709 - root - DEBUG - table(2, 2)value:Heyu111111
+2017-10-26 11:23:35,709 - root - DEBUG - table(2, 2)value:Heyu111111
+2017-10-26 11:23:35,709 - root - DEBUG - table(2, 2)value:Heyu111111
+2017-10-26 11:23:35,709 - root - DEBUG - table(2, 2)value:Heyu111111
+2017-10-26 11:23:35,709 - root - DEBUG - table(2, 2)value:Heyu111111
+2017-10-26 11:23:35,709 - root - DEBUG - table(2, 2)value:Heyu111111
+2017-10-26 11:23:35,710 - root - DEBUG - cell value type: string
+2017-10-26 11:23:35,710 - root - DEBUG - cell value type: string
+2017-10-26 11:23:35,710 - root - DEBUG - cell value type: string
+2017-10-26 11:23:35,710 - root - DEBUG - cell value type: string
+2017-10-26 11:23:35,710 - root - DEBUG - cell value type: string
+2017-10-26 11:23:35,710 - root - DEBUG - cell value type: string
+2017-10-26 11:23:35,710 - root - DEBUG - cell value type: string
+2017-10-26 11:23:35,710 - root - DEBUG - table(2, 2)value:Heyu111111
+2017-10-26 11:23:35,710 - root - DEBUG - table(2, 2)value:Heyu111111
+2017-10-26 11:23:35,710 - root - DEBUG - table(2, 2)value:Heyu111111
+2017-10-26 11:23:35,710 - root - DEBUG - table(2, 2)value:Heyu111111
+2017-10-26 11:23:35,710 - root - DEBUG - table(2, 2)value:Heyu111111
+2017-10-26 11:23:35,710 - root - DEBUG - table(2, 2)value:Heyu111111
+2017-10-26 11:23:35,710 - root - DEBUG - table(2, 2)value:Heyu111111
+2017-10-26 11:23:35,710 - root - DEBUG - cell value type: string
+2017-10-26 11:23:35,710 - root - DEBUG - cell value type: string
+2017-10-26 11:23:35,710 - root - DEBUG - cell value type: string
+2017-10-26 11:23:35,710 - root - DEBUG - cell value type: string
+2017-10-26 11:23:35,710 - root - DEBUG - cell value type: string
+2017-10-26 11:23:35,710 - root - DEBUG - cell value type: string
+2017-10-26 11:23:35,710 - root - DEBUG - cell value type: string
+2017-10-26 11:23:35,710 - root - DEBUG - cell value type: string
+2017-10-26 11:23:35,710 - root - DEBUG - table(2, 2)value:Heyu111111
+2017-10-26 11:23:35,710 - root - DEBUG - table(2, 2)value:Heyu111111
+2017-10-26 11:23:35,710 - root - DEBUG - table(2, 2)value:Heyu111111
+2017-10-26 11:23:35,710 - root - DEBUG - table(2, 2)value:Heyu111111
+2017-10-26 11:23:35,710 - root - DEBUG - table(2, 2)value:Heyu111111
+2017-10-26 11:23:35,710 - root - DEBUG - table(2, 2)value:Heyu111111
+2017-10-26 11:23:35,710 - root - DEBUG - table(2, 2)value:Heyu111111
+2017-10-26 11:23:35,710 - root - DEBUG - table(2, 2)value:Heyu111111
+2017-10-26 11:23:35,710 - root - DEBUG - cell value type: string
+2017-10-26 11:23:35,710 - root - DEBUG - cell value type: string
+2017-10-26 11:23:35,710 - root - DEBUG - cell value type: string
+2017-10-26 11:23:35,710 - root - DEBUG - cell value type: string
+2017-10-26 11:23:35,710 - root - DEBUG - cell value type: string
+2017-10-26 11:23:35,710 - root - DEBUG - cell value type: string
+2017-10-26 11:23:35,710 - root - DEBUG - cell value type: string
+2017-10-26 11:23:35,710 - root - DEBUG - cell value type: string
+2017-10-26 11:23:35,710 - root - DEBUG - cell value type: string
+2017-10-26 11:23:35,710 - root - DEBUG - table(2, 2)value:Heyu111111
+2017-10-26 11:23:35,710 - root - DEBUG - table(2, 2)value:Heyu111111
+2017-10-26 11:23:35,710 - root - DEBUG - table(2, 2)value:Heyu111111
+2017-10-26 11:23:35,710 - root - DEBUG - table(2, 2)value:Heyu111111
+2017-10-26 11:23:35,710 - root - DEBUG - table(2, 2)value:Heyu111111
+2017-10-26 11:23:35,710 - root - DEBUG - table(2, 2)value:Heyu111111
+2017-10-26 11:23:35,710 - root - DEBUG - table(2, 2)value:Heyu111111
+2017-10-26 11:23:35,710 - root - DEBUG - table(2, 2)value:Heyu111111
+2017-10-26 11:23:35,710 - root - DEBUG - table(2, 2)value:Heyu111111
+2017-10-26 11:23:35,711 - root - DEBUG - cell value type: string
+2017-10-26 11:23:35,711 - root - DEBUG - cell value type: string
+2017-10-26 11:23:35,711 - root - DEBUG - cell value type: string
+2017-10-26 11:23:35,711 - root - DEBUG - cell value type: string
+2017-10-26 11:23:35,711 - root - DEBUG - cell value type: string
+2017-10-26 11:23:35,711 - root - DEBUG - cell value type: string
+2017-10-26 11:23:35,711 - root - DEBUG - cell value type: string
+2017-10-26 11:23:35,711 - root - DEBUG - cell value type: string
+2017-10-26 11:23:35,711 - root - DEBUG - cell value type: string
+2017-10-26 11:23:35,711 - root - DEBUG - cell value type: string
+2017-10-26 11:23:35,711 - root - DEBUG - table(2, 2)value:Heyu111111
+2017-10-26 11:23:35,711 - root - DEBUG - table(2, 2)value:Heyu111111
+2017-10-26 11:23:35,711 - root - DEBUG - table(2, 2)value:Heyu111111
+2017-10-26 11:23:35,711 - root - DEBUG - table(2, 2)value:Heyu111111
+2017-10-26 11:23:35,711 - root - DEBUG - table(2, 2)value:Heyu111111
+2017-10-26 11:23:35,711 - root - DEBUG - table(2, 2)value:Heyu111111
+2017-10-26 11:23:35,711 - root - DEBUG - table(2, 2)value:Heyu111111
+2017-10-26 11:23:35,711 - root - DEBUG - table(2, 2)value:Heyu111111
+2017-10-26 11:23:35,711 - root - DEBUG - table(2, 2)value:Heyu111111
+2017-10-26 11:23:35,711 - root - DEBUG - table(2, 2)value:Heyu111111
+2017-10-26 11:23:35,713 - root - DEBUG - cell value type: string
+2017-10-26 11:23:35,713 - root - DEBUG - cell value type: string
+2017-10-26 11:23:35,713 - root - DEBUG - cell value type: string
+2017-10-26 11:23:35,713 - root - DEBUG - cell value type: string
+2017-10-26 11:23:35,713 - root - DEBUG - cell value type: string
+2017-10-26 11:23:35,713 - root - DEBUG - cell value type: string
+2017-10-26 11:23:35,713 - root - DEBUG - cell value type: string
+2017-10-26 11:23:35,713 - root - DEBUG - cell value type: string
+2017-10-26 11:23:35,713 - root - DEBUG - cell value type: string
+2017-10-26 11:23:35,713 - root - DEBUG - cell value type: string
+2017-10-26 11:23:35,713 - root - DEBUG - cell value type: string
+2017-10-26 11:23:35,713 - root - DEBUG - table(2, 2)value:Heyu111111
+2017-10-26 11:23:35,713 - root - DEBUG - table(2, 2)value:Heyu111111
+2017-10-26 11:23:35,713 - root - DEBUG - table(2, 2)value:Heyu111111
+2017-10-26 11:23:35,713 - root - DEBUG - table(2, 2)value:Heyu111111
+2017-10-26 11:23:35,713 - root - DEBUG - table(2, 2)value:Heyu111111
+2017-10-26 11:23:35,713 - root - DEBUG - table(2, 2)value:Heyu111111
+2017-10-26 11:23:35,713 - root - DEBUG - table(2, 2)value:Heyu111111
+2017-10-26 11:23:35,713 - root - DEBUG - table(2, 2)value:Heyu111111
+2017-10-26 11:23:35,713 - root - DEBUG - table(2, 2)value:Heyu111111
+2017-10-26 11:23:35,713 - root - DEBUG - table(2, 2)value:Heyu111111
+2017-10-26 11:23:35,713 - root - DEBUG - table(2, 2)value:Heyu111111
+2017-10-26 11:24:50,232 - root - DEBUG - open "E:/python35/HG/heaven_formal/DATA/data_info.xlsx" file Succeed
+2017-10-26 11:24:50,234 - root - DEBUG - open "E:/python35/HG/heaven_formal/DATA/data_info.xlsx" file Succeed
+2017-10-26 11:24:50,234 - root - DEBUG - open "E:/python35/HG/heaven_formal/DATA/data_info.xlsx" file Succeed
+2017-10-26 11:24:50,234 - root - DEBUG - get Sheet 0: Rownums=2, Colnums=8
+2017-10-26 11:24:50,234 - root - DEBUG - get Sheet 0: Rownums=2, Colnums=8
+2017-10-26 11:24:50,236 - root - DEBUG - table in 2 row content: ['heyu1229', 'Heyu111111', '[Pre-order] GeekVape Medusa Reborn RDTA - 3.5ml', 2.0, 'EMS Express + US$ 15.00', 'Deposit', '≤‚ ‘¡Ù—‘', 2.0]
+2017-10-26 11:24:50,236 - root - DEBUG - table in 2 row content: ['heyu1229', 'Heyu111111', '[Pre-order] GeekVape Medusa Reborn RDTA - 3.5ml', 2.0, 'EMS Express + US$ 15.00', 'Deposit', '≤‚ ‘¡Ù—‘', 2.0]
+2017-10-26 11:24:50,236 - root - DEBUG - table in 2 row content: ['heyu1229', 'Heyu111111', '[Pre-order] GeekVape Medusa Reborn RDTA - 3.5ml', 2.0, 'EMS Express + US$ 15.00', 'Deposit', '≤‚ ‘¡Ù—‘', 2.0]
+2017-10-26 11:24:50,236 - root - DEBUG - cell value type: string
+2017-10-26 11:24:50,236 - root - DEBUG - cell value type: string
+2017-10-26 11:24:50,236 - root - DEBUG - cell value type: string
+2017-10-26 11:24:50,236 - root - DEBUG - cell value type: string
+2017-10-26 11:24:50,236 - root - DEBUG - table(2, 8)value:2.0
+2017-10-26 11:24:50,236 - root - DEBUG - table(2, 8)value:2.0
+2017-10-26 11:24:50,236 - root - DEBUG - table(2, 8)value:2.0
+2017-10-26 11:24:50,236 - root - DEBUG - table(2, 8)value:2.0
+2017-10-26 11:24:50,236 - root - DEBUG - cell value type: string
+2017-10-26 11:24:50,236 - root - DEBUG - cell value type: string
+2017-10-26 11:24:50,236 - root - DEBUG - cell value type: string
+2017-10-26 11:24:50,236 - root - DEBUG - cell value type: string
+2017-10-26 11:24:50,236 - root - DEBUG - cell value type: string
+2017-10-26 11:24:50,237 - root - DEBUG - table(2, 8)value:2.0
+2017-10-26 11:24:50,237 - root - DEBUG - table(2, 8)value:2.0
+2017-10-26 11:24:50,237 - root - DEBUG - table(2, 8)value:2.0
+2017-10-26 11:24:50,237 - root - DEBUG - table(2, 8)value:2.0
+2017-10-26 11:24:50,237 - root - DEBUG - table(2, 8)value:2.0
+2017-10-26 11:24:50,239 - root - DEBUG - cell value type: string
+2017-10-26 11:24:50,239 - root - DEBUG - cell value type: string
+2017-10-26 11:24:50,239 - root - DEBUG - cell value type: string
+2017-10-26 11:24:50,239 - root - DEBUG - cell value type: string
+2017-10-26 11:24:50,239 - root - DEBUG - cell value type: string
+2017-10-26 11:24:50,239 - root - DEBUG - cell value type: string
+2017-10-26 11:24:50,239 - root - DEBUG - table(2, 8)value:2.0
+2017-10-26 11:24:50,239 - root - DEBUG - table(2, 8)value:2.0
+2017-10-26 11:24:50,239 - root - DEBUG - table(2, 8)value:2.0
+2017-10-26 11:24:50,239 - root - DEBUG - table(2, 8)value:2.0
+2017-10-26 11:24:50,239 - root - DEBUG - table(2, 8)value:2.0
+2017-10-26 11:24:50,239 - root - DEBUG - table(2, 8)value:2.0
+2017-10-26 11:24:50,240 - root - DEBUG - cell value type: string
+2017-10-26 11:24:50,240 - root - DEBUG - cell value type: string
+2017-10-26 11:24:50,240 - root - DEBUG - cell value type: string
+2017-10-26 11:24:50,240 - root - DEBUG - cell value type: string
+2017-10-26 11:24:50,240 - root - DEBUG - cell value type: string
+2017-10-26 11:24:50,240 - root - DEBUG - cell value type: string
+2017-10-26 11:24:50,240 - root - DEBUG - cell value type: string
+2017-10-26 11:24:50,240 - root - DEBUG - table(2, 8)value:2.0
+2017-10-26 11:24:50,240 - root - DEBUG - table(2, 8)value:2.0
+2017-10-26 11:24:50,240 - root - DEBUG - table(2, 8)value:2.0
+2017-10-26 11:24:50,240 - root - DEBUG - table(2, 8)value:2.0
+2017-10-26 11:24:50,240 - root - DEBUG - table(2, 8)value:2.0
+2017-10-26 11:24:50,240 - root - DEBUG - table(2, 8)value:2.0
+2017-10-26 11:24:50,240 - root - DEBUG - table(2, 8)value:2.0
+2017-10-26 11:24:50,242 - root - DEBUG - cell value type: string
+2017-10-26 11:24:50,242 - root - DEBUG - cell value type: string
+2017-10-26 11:24:50,242 - root - DEBUG - cell value type: string
+2017-10-26 11:24:50,242 - root - DEBUG - cell value type: string
+2017-10-26 11:24:50,242 - root - DEBUG - cell value type: string
+2017-10-26 11:24:50,242 - root - DEBUG - cell value type: string
+2017-10-26 11:24:50,242 - root - DEBUG - cell value type: string
+2017-10-26 11:24:50,242 - root - DEBUG - cell value type: string
+2017-10-26 11:24:50,243 - root - DEBUG - table(2, 8)value:2.0
+2017-10-26 11:24:50,243 - root - DEBUG - table(2, 8)value:2.0
+2017-10-26 11:24:50,243 - root - DEBUG - table(2, 8)value:2.0
+2017-10-26 11:24:50,243 - root - DEBUG - table(2, 8)value:2.0
+2017-10-26 11:24:50,243 - root - DEBUG - table(2, 8)value:2.0
+2017-10-26 11:24:50,243 - root - DEBUG - table(2, 8)value:2.0
+2017-10-26 11:24:50,243 - root - DEBUG - table(2, 8)value:2.0
+2017-10-26 11:24:50,243 - root - DEBUG - table(2, 8)value:2.0
+2017-10-26 11:24:50,243 - root - DEBUG - cell value type: string
+2017-10-26 11:24:50,243 - root - DEBUG - cell value type: string
+2017-10-26 11:24:50,243 - root - DEBUG - cell value type: string
+2017-10-26 11:24:50,243 - root - DEBUG - cell value type: string
+2017-10-26 11:24:50,243 - root - DEBUG - cell value type: string
+2017-10-26 11:24:50,243 - root - DEBUG - cell value type: string
+2017-10-26 11:24:50,243 - root - DEBUG - cell value type: string
+2017-10-26 11:24:50,243 - root - DEBUG - cell value type: string
+2017-10-26 11:24:50,243 - root - DEBUG - cell value type: string
+2017-10-26 11:24:50,244 - root - DEBUG - table(2, 8)value:2.0
+2017-10-26 11:24:50,244 - root - DEBUG - table(2, 8)value:2.0
+2017-10-26 11:24:50,244 - root - DEBUG - table(2, 8)value:2.0
+2017-10-26 11:24:50,244 - root - DEBUG - table(2, 8)value:2.0
+2017-10-26 11:24:50,244 - root - DEBUG - table(2, 8)value:2.0
+2017-10-26 11:24:50,244 - root - DEBUG - table(2, 8)value:2.0
+2017-10-26 11:24:50,244 - root - DEBUG - table(2, 8)value:2.0
+2017-10-26 11:24:50,244 - root - DEBUG - table(2, 8)value:2.0
+2017-10-26 11:24:50,244 - root - DEBUG - table(2, 8)value:2.0
+2017-10-26 11:24:50,246 - root - DEBUG - cell value type: string
+2017-10-26 11:24:50,246 - root - DEBUG - cell value type: string
+2017-10-26 11:24:50,246 - root - DEBUG - cell value type: string
+2017-10-26 11:24:50,246 - root - DEBUG - cell value type: string
+2017-10-26 11:24:50,246 - root - DEBUG - cell value type: string
+2017-10-26 11:24:50,246 - root - DEBUG - cell value type: string
+2017-10-26 11:24:50,246 - root - DEBUG - cell value type: string
+2017-10-26 11:24:50,246 - root - DEBUG - cell value type: string
+2017-10-26 11:24:50,246 - root - DEBUG - cell value type: string
+2017-10-26 11:24:50,246 - root - DEBUG - cell value type: string
+2017-10-26 11:24:50,246 - root - DEBUG - table(2, 8)value:2.0
+2017-10-26 11:24:50,246 - root - DEBUG - table(2, 8)value:2.0
+2017-10-26 11:24:50,246 - root - DEBUG - table(2, 8)value:2.0
+2017-10-26 11:24:50,246 - root - DEBUG - table(2, 8)value:2.0
+2017-10-26 11:24:50,246 - root - DEBUG - table(2, 8)value:2.0
+2017-10-26 11:24:50,246 - root - DEBUG - table(2, 8)value:2.0
+2017-10-26 11:24:50,246 - root - DEBUG - table(2, 8)value:2.0
+2017-10-26 11:24:50,246 - root - DEBUG - table(2, 8)value:2.0
+2017-10-26 11:24:50,246 - root - DEBUG - table(2, 8)value:2.0
+2017-10-26 11:24:50,246 - root - DEBUG - table(2, 8)value:2.0
+2017-10-26 11:24:50,246 - root - DEBUG - cell value type: string
+2017-10-26 11:24:50,246 - root - DEBUG - cell value type: string
+2017-10-26 11:24:50,246 - root - DEBUG - cell value type: string
+2017-10-26 11:24:50,246 - root - DEBUG - cell value type: string
+2017-10-26 11:24:50,246 - root - DEBUG - cell value type: string
+2017-10-26 11:24:50,246 - root - DEBUG - cell value type: string
+2017-10-26 11:24:50,246 - root - DEBUG - cell value type: string
+2017-10-26 11:24:50,246 - root - DEBUG - cell value type: string
+2017-10-26 11:24:50,246 - root - DEBUG - cell value type: string
+2017-10-26 11:24:50,246 - root - DEBUG - cell value type: string
+2017-10-26 11:24:50,246 - root - DEBUG - cell value type: string
+2017-10-26 11:24:50,249 - root - DEBUG - table(2, 8)value:2.0
+2017-10-26 11:24:50,249 - root - DEBUG - table(2, 8)value:2.0
+2017-10-26 11:24:50,249 - root - DEBUG - table(2, 8)value:2.0
+2017-10-26 11:24:50,249 - root - DEBUG - table(2, 8)value:2.0
+2017-10-26 11:24:50,249 - root - DEBUG - table(2, 8)value:2.0
+2017-10-26 11:24:50,249 - root - DEBUG - table(2, 8)value:2.0
+2017-10-26 11:24:50,249 - root - DEBUG - table(2, 8)value:2.0
+2017-10-26 11:24:50,249 - root - DEBUG - table(2, 8)value:2.0
+2017-10-26 11:24:50,249 - root - DEBUG - table(2, 8)value:2.0
+2017-10-26 11:24:50,249 - root - DEBUG - table(2, 8)value:2.0
+2017-10-26 11:24:50,249 - root - DEBUG - table(2, 8)value:2.0
+2017-10-26 11:25:11,619 - root - DEBUG - open "E:/python35/HG/heaven_formal/DATA/data_info.xlsx" file Succeed
+2017-10-26 11:25:11,622 - root - DEBUG - open "E:/python35/HG/heaven_formal/DATA/data_info.xlsx" file Succeed
+2017-10-26 11:25:11,622 - root - DEBUG - open "E:/python35/HG/heaven_formal/DATA/data_info.xlsx" file Succeed
+2017-10-26 11:25:11,624 - root - DEBUG - get Sheet 0: Rownums=2, Colnums=8
+2017-10-26 11:25:11,624 - root - DEBUG - get Sheet 0: Rownums=2, Colnums=8
+2017-10-26 11:25:11,624 - root - DEBUG - table in 2 row content: ['heyu1229', 'Heyu111111', '[Pre-order] GeekVape Medusa Reborn RDTA - 3.5ml', 2.0, 'EMS Express + US$ 15.00', 'Deposit', '≤‚ ‘¡Ù—‘', 2.0]
+2017-10-26 11:25:11,624 - root - DEBUG - table in 2 row content: ['heyu1229', 'Heyu111111', '[Pre-order] GeekVape Medusa Reborn RDTA - 3.5ml', 2.0, 'EMS Express + US$ 15.00', 'Deposit', '≤‚ ‘¡Ù—‘', 2.0]
+2017-10-26 11:25:11,624 - root - DEBUG - table in 2 row content: ['heyu1229', 'Heyu111111', '[Pre-order] GeekVape Medusa Reborn RDTA - 3.5ml', 2.0, 'EMS Express + US$ 15.00', 'Deposit', '≤‚ ‘¡Ù—‘', 2.0]
+2017-10-26 11:27:17,671 - root - DEBUG - open "E:/python35/HG/heaven_formal/DATA/data_info.xlsx" file Succeed
+2017-10-26 11:27:17,674 - root - DEBUG - open "E:/python35/HG/heaven_formal/DATA/data_info.xlsx" file Succeed
+2017-10-26 11:27:17,674 - root - DEBUG - open "E:/python35/HG/heaven_formal/DATA/data_info.xlsx" file Succeed
+2017-10-26 11:27:17,674 - root - DEBUG - get Sheet 0: Rownums=2, Colnums=8
+2017-10-26 11:27:17,674 - root - DEBUG - get Sheet 0: Rownums=2, Colnums=8
+2017-10-26 11:27:17,674 - root - DEBUG - table in 2 row content: ['heyu1229', 'Heyu111111', '[Pre-order] GeekVape Medusa Reborn RDTA - 3.5ml', 2.0, 'EMS Express + US$ 15.00', 'Deposit', '≤‚ ‘¡Ù—‘', 2.0]
+2017-10-26 11:27:17,674 - root - DEBUG - table in 2 row content: ['heyu1229', 'Heyu111111', '[Pre-order] GeekVape Medusa Reborn RDTA - 3.5ml', 2.0, 'EMS Express + US$ 15.00', 'Deposit', '≤‚ ‘¡Ù—‘', 2.0]
+2017-10-26 11:27:17,674 - root - DEBUG - table in 2 row content: ['heyu1229', 'Heyu111111', '[Pre-order] GeekVape Medusa Reborn RDTA - 3.5ml', 2.0, 'EMS Express + US$ 15.00', 'Deposit', '≤‚ ‘¡Ù—‘', 2.0]
+2017-10-26 11:29:39,857 - root - DEBUG - open "E:/python35/HG/heaven_formal/DATA/data_info.xlsx" file Succeed
+2017-10-26 11:29:39,859 - root - DEBUG - open "E:/python35/HG/heaven_formal/DATA/data_info.xlsx" file Succeed
+2017-10-26 11:29:39,859 - root - DEBUG - open "E:/python35/HG/heaven_formal/DATA/data_info.xlsx" file Succeed
+2017-10-26 11:29:39,859 - root - DEBUG - get Sheet 0: Rownums=2, Colnums=8
+2017-10-26 11:29:39,859 - root - DEBUG - get Sheet 0: Rownums=2, Colnums=8
+2017-10-26 11:29:39,861 - root - DEBUG - table in 2 row content: ['heyu1229', 'Heyu111111', '[Pre-order] GeekVape Medusa Reborn RDTA - 3.5ml', 2.0, 'EMS Express + US$ 15.00', 'Deposit', '≤‚ ‘¡Ù—‘', 2.0]
+2017-10-26 11:29:39,861 - root - DEBUG - table in 2 row content: ['heyu1229', 'Heyu111111', '[Pre-order] GeekVape Medusa Reborn RDTA - 3.5ml', 2.0, 'EMS Express + US$ 15.00', 'Deposit', '≤‚ ‘¡Ù—‘', 2.0]
+2017-10-26 11:29:39,861 - root - DEBUG - table in 2 row content: ['heyu1229', 'Heyu111111', '[Pre-order] GeekVape Medusa Reborn RDTA - 3.5ml', 2.0, 'EMS Express + US$ 15.00', 'Deposit', '≤‚ ‘¡Ù—‘', 2.0]
+2017-10-26 11:29:51,286 - root - DEBUG - open "E:/python35/HG/heaven_formal/DATA/data_info.xlsx" file Succeed
+2017-10-26 11:29:51,289 - root - DEBUG - open "E:/python35/HG/heaven_formal/DATA/data_info.xlsx" file Succeed
+2017-10-26 11:29:51,289 - root - DEBUG - open "E:/python35/HG/heaven_formal/DATA/data_info.xlsx" file Succeed
+2017-10-26 11:29:51,289 - root - DEBUG - get Sheet 0: Rownums=2, Colnums=8
+2017-10-26 11:29:51,289 - root - DEBUG - get Sheet 0: Rownums=2, Colnums=8
+2017-10-26 11:29:51,289 - root - DEBUG - table in 2 row content: ['heyu1229', 'Heyu111111', '[Pre-order] GeekVape Medusa Reborn RDTA - 3.5ml', 2.0, 'EMS Express + US$ 15.00', 'Deposit', '≤‚ ‘¡Ù—‘', 2.0]
+2017-10-26 11:29:51,289 - root - DEBUG - table in 2 row content: ['heyu1229', 'Heyu111111', '[Pre-order] GeekVape Medusa Reborn RDTA - 3.5ml', 2.0, 'EMS Express + US$ 15.00', 'Deposit', '≤‚ ‘¡Ù—‘', 2.0]
+2017-10-26 11:29:51,289 - root - DEBUG - table in 2 row content: ['heyu1229', 'Heyu111111', '[Pre-order] GeekVape Medusa Reborn RDTA - 3.5ml', 2.0, 'EMS Express + US$ 15.00', 'Deposit', '≤‚ ‘¡Ù—‘', 2.0]
+2017-10-26 11:30:00,471 - root - DEBUG - open "E:/python35/HG/heaven_formal/DATA/data_info.xlsx" file Succeed
+2017-10-26 11:30:00,476 - root - DEBUG - open "E:/python35/HG/heaven_formal/DATA/data_info.xlsx" file Succeed
+2017-10-26 11:30:00,476 - root - DEBUG - open "E:/python35/HG/heaven_formal/DATA/data_info.xlsx" file Succeed
+2017-10-26 11:30:00,476 - root - DEBUG - get Sheet 0: Rownums=2, Colnums=8
+2017-10-26 11:30:00,476 - root - DEBUG - get Sheet 0: Rownums=2, Colnums=8
+2017-10-26 11:30:00,479 - root - DEBUG - table in 2 row content: ['heyu1229', 'Heyu111111', '[Pre-order] GeekVape Medusa Reborn RDTA - 3.5ml', 2.0, 'EMS Express + US$ 15.00', 'Deposit', '≤‚ ‘¡Ù—‘', 2.0]
+2017-10-26 11:30:00,479 - root - DEBUG - table in 2 row content: ['heyu1229', 'Heyu111111', '[Pre-order] GeekVape Medusa Reborn RDTA - 3.5ml', 2.0, 'EMS Express + US$ 15.00', 'Deposit', '≤‚ ‘¡Ù—‘', 2.0]
+2017-10-26 11:30:00,479 - root - DEBUG - table in 2 row content: ['heyu1229', 'Heyu111111', '[Pre-order] GeekVape Medusa Reborn RDTA - 3.5ml', 2.0, 'EMS Express + US$ 15.00', 'Deposit', '≤‚ ‘¡Ù—‘', 2.0]
+2017-10-26 11:30:03,266 - root - DEBUG - open "E:/python35/HG/heaven_formal/DATA/data_info.xlsx" file Succeed
+2017-10-26 11:30:03,267 - root - DEBUG - open "E:/python35/HG/heaven_formal/DATA/data_info.xlsx" file Succeed
+2017-10-26 11:30:03,267 - root - DEBUG - open "E:/python35/HG/heaven_formal/DATA/data_info.xlsx" file Succeed
+2017-10-26 11:30:03,269 - root - DEBUG - get Sheet 0: Rownums=2, Colnums=8
+2017-10-26 11:30:03,269 - root - DEBUG - get Sheet 0: Rownums=2, Colnums=8
+2017-10-26 11:30:03,269 - root - DEBUG - table in 2 row content: ['heyu1229', 'Heyu111111', '[Pre-order] GeekVape Medusa Reborn RDTA - 3.5ml', 2.0, 'EMS Express + US$ 15.00', 'Deposit', '≤‚ ‘¡Ù—‘', 2.0]
+2017-10-26 11:30:03,269 - root - DEBUG - table in 2 row content: ['heyu1229', 'Heyu111111', '[Pre-order] GeekVape Medusa Reborn RDTA - 3.5ml', 2.0, 'EMS Express + US$ 15.00', 'Deposit', '≤‚ ‘¡Ù—‘', 2.0]
+2017-10-26 11:30:03,269 - root - DEBUG - table in 2 row content: ['heyu1229', 'Heyu111111', '[Pre-order] GeekVape Medusa Reborn RDTA - 3.5ml', 2.0, 'EMS Express + US$ 15.00', 'Deposit', '≤‚ ‘¡Ù—‘', 2.0]
+2017-10-26 11:47:54,558 - root - DEBUG - open "E:/python35/HG/heaven_formal/DATA/data_info.xlsx" file Succeed
+2017-10-26 11:47:54,559 - root - DEBUG - open "E:/python35/HG/heaven_formal/DATA/data_info.xlsx" file Succeed
+2017-10-26 11:47:54,559 - root - DEBUG - open "E:/python35/HG/heaven_formal/DATA/data_info.xlsx" file Succeed
+2017-10-26 11:47:54,561 - root - DEBUG - get Sheet 0: Rownums=2, Colnums=8
+2017-10-26 11:47:54,561 - root - DEBUG - get Sheet 0: Rownums=2, Colnums=8
+2017-10-26 11:47:54,561 - root - DEBUG - table in 2 row content: ['heyu1229', 'Heyu111111', '[Pre-order] GeekVape Medusa Reborn RDTA - 3.5ml', 2.0, 'EMS Express + US$ 15.00', 'Deposit', '≤‚ ‘¡Ù—‘', 2.0]
+2017-10-26 11:47:54,561 - root - DEBUG - table in 2 row content: ['heyu1229', 'Heyu111111', '[Pre-order] GeekVape Medusa Reborn RDTA - 3.5ml', 2.0, 'EMS Express + US$ 15.00', 'Deposit', '≤‚ ‘¡Ù—‘', 2.0]
+2017-10-26 11:47:54,561 - root - DEBUG - table in 2 row content: ['heyu1229', 'Heyu111111', '[Pre-order] GeekVape Medusa Reborn RDTA - 3.5ml', 2.0, 'EMS Express + US$ 15.00', 'Deposit', '≤‚ ‘¡Ù—‘', 2.0]
+2017-10-26 11:48:22,612 - root - DEBUG - open "E:/python35/HG/heaven_formal/DATA/data_info.xlsx" file Succeed
+2017-10-26 11:48:22,617 - root - DEBUG - open "E:/python35/HG/heaven_formal/DATA/data_info.xlsx" file Succeed
+2017-10-26 11:48:22,617 - root - DEBUG - open "E:/python35/HG/heaven_formal/DATA/data_info.xlsx" file Succeed
+2017-10-26 11:48:22,617 - root - DEBUG - get Sheet 0: Rownums=2, Colnums=8
+2017-10-26 11:48:22,617 - root - DEBUG - get Sheet 0: Rownums=2, Colnums=8
+2017-10-26 11:48:22,617 - root - DEBUG - table in 2 row content: ['heyu1229', 'Heyu111111', '[Pre-order] GeekVape Medusa Reborn RDTA - 3.5ml', 2.0, 'EMS Express + US$ 15.00', 'Deposit', '≤‚ ‘¡Ù—‘', 2.0]
+2017-10-26 11:48:22,617 - root - DEBUG - table in 2 row content: ['heyu1229', 'Heyu111111', '[Pre-order] GeekVape Medusa Reborn RDTA - 3.5ml', 2.0, 'EMS Express + US$ 15.00', 'Deposit', '≤‚ ‘¡Ù—‘', 2.0]
+2017-10-26 11:48:22,617 - root - DEBUG - table in 2 row content: ['heyu1229', 'Heyu111111', '[Pre-order] GeekVape Medusa Reborn RDTA - 3.5ml', 2.0, 'EMS Express + US$ 15.00', 'Deposit', '≤‚ ‘¡Ù—‘', 2.0]
+2017-12-18 16:39:27,885 - root - DEBUG - open "E:/python35/HG/heaven_formal/DATA/data_info.xlsx" file Succeed
+2017-12-18 16:39:27,898 - root - DEBUG - open "E:/python35/HG/heaven_formal/DATA/data_info.xlsx" file Succeed
+2017-12-18 16:39:27,898 - root - DEBUG - open "E:/python35/HG/heaven_formal/DATA/data_info.xlsx" file Succeed
+2017-12-18 16:39:27,898 - root - DEBUG - get Sheet 0: Rownums=2, Colnums=8
+2017-12-18 16:39:27,898 - root - DEBUG - get Sheet 0: Rownums=2, Colnums=8
+2017-12-18 16:39:27,898 - root - DEBUG - table in 2 row content: ['heyu1229', 'Heyu111111', '[Pre-order] GeekVape Medusa Reborn RDTA - 3.5ml', 1.0, 'EMS Express + US$ 15.00', 'Deposit', '≤‚ ‘¡Ù—‘', 2.0]
+2017-12-18 16:39:27,898 - root - DEBUG - table in 2 row content: ['heyu1229', 'Heyu111111', '[Pre-order] GeekVape Medusa Reborn RDTA - 3.5ml', 1.0, 'EMS Express + US$ 15.00', 'Deposit', '≤‚ ‘¡Ù—‘', 2.0]
+2017-12-18 16:39:27,898 - root - DEBUG - table in 2 row content: ['heyu1229', 'Heyu111111', '[Pre-order] GeekVape Medusa Reborn RDTA - 3.5ml', 1.0, 'EMS Express + US$ 15.00', 'Deposit', '≤‚ ‘¡Ù—‘', 2.0]
+2017-12-18 16:58:46,164 - root - DEBUG - open "E:/python35/HG/heaven_formal/DATA/data_info.xlsx" file Succeed
+2017-12-18 16:58:46,180 - root - DEBUG - open "E:/python35/HG/heaven_formal/DATA/data_info.xlsx" file Succeed
+2017-12-18 16:58:46,180 - root - DEBUG - open "E:/python35/HG/heaven_formal/DATA/data_info.xlsx" file Succeed
+2017-12-18 16:58:46,180 - root - DEBUG - get Sheet 0: Rownums=2, Colnums=8
+2017-12-18 16:58:46,180 - root - DEBUG - get Sheet 0: Rownums=2, Colnums=8
+2017-12-18 16:58:46,181 - root - DEBUG - table in 2 row content: ['heyu1229', 'Heyu111111', '[Pre-order] GeekVape Medusa Reborn RDTA - 3.5ml', 1.0, 'EMS Express + US$ 15.00', 'Deposit', '≤‚ ‘¡Ù—‘', 2.0]
+2017-12-18 16:58:46,181 - root - DEBUG - table in 2 row content: ['heyu1229', 'Heyu111111', '[Pre-order] GeekVape Medusa Reborn RDTA - 3.5ml', 1.0, 'EMS Express + US$ 15.00', 'Deposit', '≤‚ ‘¡Ù—‘', 2.0]
+2017-12-18 16:58:46,181 - root - DEBUG - table in 2 row content: ['heyu1229', 'Heyu111111', '[Pre-order] GeekVape Medusa Reborn RDTA - 3.5ml', 1.0, 'EMS Express + US$ 15.00', 'Deposit', '≤‚ ‘¡Ù—‘', 2.0]
+2017-12-18 17:04:23,772 - root - DEBUG - open "E:/python35/HG/heaven_formal/DATA/data_info.xlsx" file Succeed
+2017-12-18 17:04:23,809 - root - DEBUG - open "E:/python35/HG/heaven_formal/DATA/data_info.xlsx" file Succeed
+2017-12-18 17:04:23,809 - root - DEBUG - open "E:/python35/HG/heaven_formal/DATA/data_info.xlsx" file Succeed
+2017-12-18 17:04:23,809 - root - DEBUG - get Sheet 0: Rownums=2, Colnums=8
+2017-12-18 17:04:23,809 - root - DEBUG - get Sheet 0: Rownums=2, Colnums=8
+2017-12-18 17:04:23,809 - root - DEBUG - table in 2 row content: ['heyu1229', 'Heyu111111', '[Pre-order] GeekVape Medusa Reborn RDTA - 3.5ml', 1.0, 'EMS Express + US$ 15.00', 'Deposit', '≤‚ ‘¡Ù—‘', 2.0]
+2017-12-18 17:04:23,809 - root - DEBUG - table in 2 row content: ['heyu1229', 'Heyu111111', '[Pre-order] GeekVape Medusa Reborn RDTA - 3.5ml', 1.0, 'EMS Express + US$ 15.00', 'Deposit', '≤‚ ‘¡Ù—‘', 2.0]
+2017-12-18 17:04:23,809 - root - DEBUG - table in 2 row content: ['heyu1229', 'Heyu111111', '[Pre-order] GeekVape Medusa Reborn RDTA - 3.5ml', 1.0, 'EMS Express + US$ 15.00', 'Deposit', '≤‚ ‘¡Ù—‘', 2.0]
+2017-12-18 17:04:59,142 - root - DEBUG - open "E:/python35/HG/heaven_formal/DATA/data_info.xlsx" file Succeed
+2017-12-18 17:04:59,145 - root - DEBUG - open "E:/python35/HG/heaven_formal/DATA/data_info.xlsx" file Succeed
+2017-12-18 17:04:59,145 - root - DEBUG - open "E:/python35/HG/heaven_formal/DATA/data_info.xlsx" file Succeed
+2017-12-18 17:04:59,147 - root - DEBUG - get Sheet 0: Rownums=2, Colnums=8
+2017-12-18 17:04:59,147 - root - DEBUG - get Sheet 0: Rownums=2, Colnums=8
+2017-12-18 17:04:59,147 - root - DEBUG - table in 2 row content: ['heyu1229', 'Heyu111111', '[Pre-order] GeekVape Medusa Reborn RDTA - 3.5ml', 1.0, 'EMS Express + US$ 15.00', 'Deposit', '≤‚ ‘¡Ù—‘', 2.0]
+2017-12-18 17:04:59,147 - root - DEBUG - table in 2 row content: ['heyu1229', 'Heyu111111', '[Pre-order] GeekVape Medusa Reborn RDTA - 3.5ml', 1.0, 'EMS Express + US$ 15.00', 'Deposit', '≤‚ ‘¡Ù—‘', 2.0]
+2017-12-18 17:04:59,147 - root - DEBUG - table in 2 row content: ['heyu1229', 'Heyu111111', '[Pre-order] GeekVape Medusa Reborn RDTA - 3.5ml', 1.0, 'EMS Express + US$ 15.00', 'Deposit', '≤‚ ‘¡Ù—‘', 2.0]
+2017-12-18 17:08:41,299 - root - DEBUG - open "E:/python35/HG/heaven_formal/DATA/data_info.xlsx" file Succeed
+2017-12-18 17:08:41,319 - root - DEBUG - open "E:/python35/HG/heaven_formal/DATA/data_info.xlsx" file Succeed
+2017-12-18 17:08:41,319 - root - DEBUG - open "E:/python35/HG/heaven_formal/DATA/data_info.xlsx" file Succeed
+2017-12-18 17:08:41,319 - root - DEBUG - get Sheet 0: Rownums=2, Colnums=8
+2017-12-18 17:08:41,319 - root - DEBUG - get Sheet 0: Rownums=2, Colnums=8
+2017-12-18 17:08:41,321 - root - DEBUG - table in 2 row content: ['heyu1229', 'Heyu111111', '[Pre-order] GeekVape Medusa Reborn RDTA - 3.5ml', 1.0, 'EMS Express + US$ 15.00', 'Deposit', '≤‚ ‘¡Ù—‘', 2.0]
+2017-12-18 17:08:41,321 - root - DEBUG - table in 2 row content: ['heyu1229', 'Heyu111111', '[Pre-order] GeekVape Medusa Reborn RDTA - 3.5ml', 1.0, 'EMS Express + US$ 15.00', 'Deposit', '≤‚ ‘¡Ù—‘', 2.0]
+2017-12-18 17:08:41,321 - root - DEBUG - table in 2 row content: ['heyu1229', 'Heyu111111', '[Pre-order] GeekVape Medusa Reborn RDTA - 3.5ml', 1.0, 'EMS Express + US$ 15.00', 'Deposit', '≤‚ ‘¡Ù—‘', 2.0]
+2017-12-18 17:09:25,086 - root - DEBUG - open "E:/python35/HG/heaven_formal/DATA/data_info.xlsx" file Succeed
+2017-12-18 17:09:25,089 - root - DEBUG - open "E:/python35/HG/heaven_formal/DATA/data_info.xlsx" file Succeed
+2017-12-18 17:09:25,089 - root - DEBUG - open "E:/python35/HG/heaven_formal/DATA/data_info.xlsx" file Succeed
+2017-12-18 17:09:25,091 - root - DEBUG - get Sheet 0: Rownums=2, Colnums=8
+2017-12-18 17:09:25,091 - root - DEBUG - get Sheet 0: Rownums=2, Colnums=8
+2017-12-18 17:09:25,091 - root - DEBUG - table in 2 row content: ['heyu1229', 'Heyu111111', '[Pre-order] GeekVape Medusa Reborn RDTA - 3.5ml', 1.0, 'EMS Express + US$ 15.00', 'Deposit', '≤‚ ‘¡Ù—‘', 2.0]
+2017-12-18 17:09:25,091 - root - DEBUG - table in 2 row content: ['heyu1229', 'Heyu111111', '[Pre-order] GeekVape Medusa Reborn RDTA - 3.5ml', 1.0, 'EMS Express + US$ 15.00', 'Deposit', '≤‚ ‘¡Ù—‘', 2.0]
+2017-12-18 17:09:25,091 - root - DEBUG - table in 2 row content: ['heyu1229', 'Heyu111111', '[Pre-order] GeekVape Medusa Reborn RDTA - 3.5ml', 1.0, 'EMS Express + US$ 15.00', 'Deposit', '≤‚ ‘¡Ù—‘', 2.0]
+2017-12-18 17:11:12,040 - root - DEBUG - open "E:/python35/HG/heaven_formal/DATA/data_info.xlsx" file Succeed
+2017-12-18 17:11:12,042 - root - DEBUG - open "E:/python35/HG/heaven_formal/DATA/data_info.xlsx" file Succeed
+2017-12-18 17:11:12,042 - root - DEBUG - open "E:/python35/HG/heaven_formal/DATA/data_info.xlsx" file Succeed
+2017-12-18 17:11:12,043 - root - DEBUG - get Sheet 0: Rownums=2, Colnums=8
+2017-12-18 17:11:12,043 - root - DEBUG - get Sheet 0: Rownums=2, Colnums=8
+2017-12-18 17:11:12,043 - root - DEBUG - table in 2 row content: ['heyu1229', 'Heyu111111', '[Pre-order] GeekVape Medusa Reborn RDTA - 3.5ml', 1.0, 'EMS Express + US$ 15.00', 'Deposit', '≤‚ ‘¡Ù—‘', 2.0]
+2017-12-18 17:11:12,043 - root - DEBUG - table in 2 row content: ['heyu1229', 'Heyu111111', '[Pre-order] GeekVape Medusa Reborn RDTA - 3.5ml', 1.0, 'EMS Express + US$ 15.00', 'Deposit', '≤‚ ‘¡Ù—‘', 2.0]
+2017-12-18 17:11:12,043 - root - DEBUG - table in 2 row content: ['heyu1229', 'Heyu111111', '[Pre-order] GeekVape Medusa Reborn RDTA - 3.5ml', 1.0, 'EMS Express + US$ 15.00', 'Deposit', '≤‚ ‘¡Ù—‘', 2.0]
+2017-12-18 17:13:52,930 - root - DEBUG - open "E:/python35/HG/heaven_formal/DATA/data_info.xlsx" file Succeed
+2017-12-18 17:13:52,933 - root - DEBUG - open "E:/python35/HG/heaven_formal/DATA/data_info.xlsx" file Succeed
+2017-12-18 17:13:52,933 - root - DEBUG - open "E:/python35/HG/heaven_formal/DATA/data_info.xlsx" file Succeed
+2017-12-18 17:13:52,934 - root - DEBUG - get Sheet 0: Rownums=2, Colnums=8
+2017-12-18 17:13:52,934 - root - DEBUG - get Sheet 0: Rownums=2, Colnums=8
+2017-12-18 17:13:52,934 - root - DEBUG - table in 2 row content: ['heyu1229', 'Heyu111111', '[Pre-order] GeekVape Medusa Reborn RDTA - 3.5ml', 1.0, 'EMS Express + US$ 15.00', 'Deposit', '≤‚ ‘¡Ù—‘', 2.0]
+2017-12-18 17:13:52,934 - root - DEBUG - table in 2 row content: ['heyu1229', 'Heyu111111', '[Pre-order] GeekVape Medusa Reborn RDTA - 3.5ml', 1.0, 'EMS Express + US$ 15.00', 'Deposit', '≤‚ ‘¡Ù—‘', 2.0]
+2017-12-18 17:13:52,934 - root - DEBUG - table in 2 row content: ['heyu1229', 'Heyu111111', '[Pre-order] GeekVape Medusa Reborn RDTA - 3.5ml', 1.0, 'EMS Express + US$ 15.00', 'Deposit', '≤‚ ‘¡Ù—‘', 2.0]
+2017-12-18 17:14:40,661 - root - DEBUG - open "E:/python35/HG/heaven_formal/DATA/data_info.xlsx" file Succeed
+2017-12-18 17:14:40,665 - root - DEBUG - open "E:/python35/HG/heaven_formal/DATA/data_info.xlsx" file Succeed
+2017-12-18 17:14:40,665 - root - DEBUG - open "E:/python35/HG/heaven_formal/DATA/data_info.xlsx" file Succeed
+2017-12-18 17:14:40,667 - root - DEBUG - get Sheet 0: Rownums=2, Colnums=8
+2017-12-18 17:14:40,667 - root - DEBUG - get Sheet 0: Rownums=2, Colnums=8
+2017-12-18 17:14:40,667 - root - DEBUG - table in 2 row content: ['heyu1229', 'Heyu111111', '[Pre-order] GeekVape Medusa Reborn RDTA - 3.5ml', 1.0, 'EMS Express + US$ 15.00', 'Deposit', '≤‚ ‘¡Ù—‘', 2.0]
+2017-12-18 17:14:40,667 - root - DEBUG - table in 2 row content: ['heyu1229', 'Heyu111111', '[Pre-order] GeekVape Medusa Reborn RDTA - 3.5ml', 1.0, 'EMS Express + US$ 15.00', 'Deposit', '≤‚ ‘¡Ù—‘', 2.0]
+2017-12-18 17:14:40,667 - root - DEBUG - table in 2 row content: ['heyu1229', 'Heyu111111', '[Pre-order] GeekVape Medusa Reborn RDTA - 3.5ml', 1.0, 'EMS Express + US$ 15.00', 'Deposit', '≤‚ ‘¡Ù—‘', 2.0]
+2017-12-18 17:15:49,020 - root - DEBUG - open "E:/python35/HG/heaven_formal/DATA/data_info.xlsx" file Succeed
+2017-12-18 17:15:49,023 - root - DEBUG - open "E:/python35/HG/heaven_formal/DATA/data_info.xlsx" file Succeed
+2017-12-18 17:15:49,023 - root - DEBUG - open "E:/python35/HG/heaven_formal/DATA/data_info.xlsx" file Succeed
+2017-12-18 17:15:49,023 - root - DEBUG - get Sheet 0: Rownums=2, Colnums=8
+2017-12-18 17:15:49,023 - root - DEBUG - get Sheet 0: Rownums=2, Colnums=8
+2017-12-18 17:15:49,023 - root - DEBUG - table in 2 row content: ['heyu1229', 'Heyu111111', '[Pre-order] GeekVape Medusa Reborn RDTA - 3.5ml', 1.0, 'EMS Express + US$ 15.00', 'Deposit', '≤‚ ‘¡Ù—‘', 2.0]
+2017-12-18 17:15:49,023 - root - DEBUG - table in 2 row content: ['heyu1229', 'Heyu111111', '[Pre-order] GeekVape Medusa Reborn RDTA - 3.5ml', 1.0, 'EMS Express + US$ 15.00', 'Deposit', '≤‚ ‘¡Ù—‘', 2.0]
+2017-12-18 17:15:49,023 - root - DEBUG - table in 2 row content: ['heyu1229', 'Heyu111111', '[Pre-order] GeekVape Medusa Reborn RDTA - 3.5ml', 1.0, 'EMS Express + US$ 15.00', 'Deposit', '≤‚ ‘¡Ù—‘', 2.0]
+2017-12-18 17:15:49,023 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:28612/session/fdc7ac4f50d7101fbbf7abf30a1a083a/element {"using": "xpath", "value": "html/body/div[9]/div/div/div/div/div/div[2]/button[2]", "sessionId": "fdc7ac4f50d7101fbbf7abf30a1a083a"}
+2017-12-18 17:15:49,023 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:28612/session/fdc7ac4f50d7101fbbf7abf30a1a083a/element {"using": "xpath", "value": "html/body/div[9]/div/div/div/div/div/div[2]/button[2]", "sessionId": "fdc7ac4f50d7101fbbf7abf30a1a083a"}
+2017-12-18 17:15:49,023 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:28612/session/fdc7ac4f50d7101fbbf7abf30a1a083a/element {"using": "xpath", "value": "html/body/div[9]/div/div/div/div/div/div[2]/button[2]", "sessionId": "fdc7ac4f50d7101fbbf7abf30a1a083a"}
+2017-12-18 17:15:49,168 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-12-18 17:15:49,168 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-12-18 17:15:49,168 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-12-18 17:15:49,170 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:28612/session/fdc7ac4f50d7101fbbf7abf30a1a083a/element/0.06923527539726315-1/click {"id": "0.06923527539726315-1", "sessionId": "fdc7ac4f50d7101fbbf7abf30a1a083a"}
+2017-12-18 17:15:49,170 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:28612/session/fdc7ac4f50d7101fbbf7abf30a1a083a/element/0.06923527539726315-1/click {"id": "0.06923527539726315-1", "sessionId": "fdc7ac4f50d7101fbbf7abf30a1a083a"}
+2017-12-18 17:15:49,170 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:28612/session/fdc7ac4f50d7101fbbf7abf30a1a083a/element/0.06923527539726315-1/click {"id": "0.06923527539726315-1", "sessionId": "fdc7ac4f50d7101fbbf7abf30a1a083a"}
+2017-12-18 17:15:49,990 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-12-18 17:15:49,990 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-12-18 17:15:49,990 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-12-18 17:15:51,990 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:28612/session/fdc7ac4f50d7101fbbf7abf30a1a083a/element {"using": "xpath", "value": "html/body/header/div/div[2]/div[3]/div[1]", "sessionId": "fdc7ac4f50d7101fbbf7abf30a1a083a"}
+2017-12-18 17:15:51,990 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:28612/session/fdc7ac4f50d7101fbbf7abf30a1a083a/element {"using": "xpath", "value": "html/body/header/div/div[2]/div[3]/div[1]", "sessionId": "fdc7ac4f50d7101fbbf7abf30a1a083a"}
+2017-12-18 17:15:51,990 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:28612/session/fdc7ac4f50d7101fbbf7abf30a1a083a/element {"using": "xpath", "value": "html/body/header/div/div[2]/div[3]/div[1]", "sessionId": "fdc7ac4f50d7101fbbf7abf30a1a083a"}
+2017-12-18 17:15:52,013 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-12-18 17:15:52,013 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-12-18 17:15:52,013 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-12-18 17:15:52,015 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:28612/session/fdc7ac4f50d7101fbbf7abf30a1a083a/element/0.06923527539726315-2/click {"id": "0.06923527539726315-2", "sessionId": "fdc7ac4f50d7101fbbf7abf30a1a083a"}
+2017-12-18 17:15:52,015 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:28612/session/fdc7ac4f50d7101fbbf7abf30a1a083a/element/0.06923527539726315-2/click {"id": "0.06923527539726315-2", "sessionId": "fdc7ac4f50d7101fbbf7abf30a1a083a"}
+2017-12-18 17:15:52,015 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:28612/session/fdc7ac4f50d7101fbbf7abf30a1a083a/element/0.06923527539726315-2/click {"id": "0.06923527539726315-2", "sessionId": "fdc7ac4f50d7101fbbf7abf30a1a083a"}
+2017-12-18 17:15:52,101 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-12-18 17:15:52,101 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-12-18 17:15:52,101 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-12-18 17:15:58,101 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:28612/session/fdc7ac4f50d7101fbbf7abf30a1a083a/element {"using": "id", "value": "login_name", "sessionId": "fdc7ac4f50d7101fbbf7abf30a1a083a"}
+2017-12-18 17:15:58,101 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:28612/session/fdc7ac4f50d7101fbbf7abf30a1a083a/element {"using": "id", "value": "login_name", "sessionId": "fdc7ac4f50d7101fbbf7abf30a1a083a"}
+2017-12-18 17:15:58,101 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:28612/session/fdc7ac4f50d7101fbbf7abf30a1a083a/element {"using": "id", "value": "login_name", "sessionId": "fdc7ac4f50d7101fbbf7abf30a1a083a"}
+2017-12-18 17:15:58,121 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-12-18 17:15:58,121 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-12-18 17:15:58,121 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-12-18 17:15:58,121 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:28612/session/fdc7ac4f50d7101fbbf7abf30a1a083a/element/0.654758287274976-1/value {"value": ["h", "e", "y", "u", "1", "2", "2", "9"], "text": "heyu1229", "sessionId": "fdc7ac4f50d7101fbbf7abf30a1a083a", "id": "0.654758287274976-1"}
+2017-12-18 17:15:58,121 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:28612/session/fdc7ac4f50d7101fbbf7abf30a1a083a/element/0.654758287274976-1/value {"value": ["h", "e", "y", "u", "1", "2", "2", "9"], "text": "heyu1229", "sessionId": "fdc7ac4f50d7101fbbf7abf30a1a083a", "id": "0.654758287274976-1"}
+2017-12-18 17:15:58,121 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:28612/session/fdc7ac4f50d7101fbbf7abf30a1a083a/element/0.654758287274976-1/value {"value": ["h", "e", "y", "u", "1", "2", "2", "9"], "text": "heyu1229", "sessionId": "fdc7ac4f50d7101fbbf7abf30a1a083a", "id": "0.654758287274976-1"}
+2017-12-18 17:15:58,188 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-12-18 17:15:58,188 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-12-18 17:15:58,188 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-12-18 17:15:58,188 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:28612/session/fdc7ac4f50d7101fbbf7abf30a1a083a/element {"using": "id", "value": "password_shadow", "sessionId": "fdc7ac4f50d7101fbbf7abf30a1a083a"}
+2017-12-18 17:15:58,188 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:28612/session/fdc7ac4f50d7101fbbf7abf30a1a083a/element {"using": "id", "value": "password_shadow", "sessionId": "fdc7ac4f50d7101fbbf7abf30a1a083a"}
+2017-12-18 17:15:58,188 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:28612/session/fdc7ac4f50d7101fbbf7abf30a1a083a/element {"using": "id", "value": "password_shadow", "sessionId": "fdc7ac4f50d7101fbbf7abf30a1a083a"}
+2017-12-18 17:15:58,213 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-12-18 17:15:58,213 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-12-18 17:15:58,213 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-12-18 17:15:58,213 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:28612/session/fdc7ac4f50d7101fbbf7abf30a1a083a/element/0.654758287274976-2/value {"value": ["H", "e", "y", "u", "1", "1", "1", "1", "1", "1"], "text": "Heyu111111", "sessionId": "fdc7ac4f50d7101fbbf7abf30a1a083a", "id": "0.654758287274976-2"}
+2017-12-18 17:15:58,213 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:28612/session/fdc7ac4f50d7101fbbf7abf30a1a083a/element/0.654758287274976-2/value {"value": ["H", "e", "y", "u", "1", "1", "1", "1", "1", "1"], "text": "Heyu111111", "sessionId": "fdc7ac4f50d7101fbbf7abf30a1a083a", "id": "0.654758287274976-2"}
+2017-12-18 17:15:58,213 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:28612/session/fdc7ac4f50d7101fbbf7abf30a1a083a/element/0.654758287274976-2/value {"value": ["H", "e", "y", "u", "1", "1", "1", "1", "1", "1"], "text": "Heyu111111", "sessionId": "fdc7ac4f50d7101fbbf7abf30a1a083a", "id": "0.654758287274976-2"}
+2017-12-18 17:15:58,257 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-12-18 17:15:58,257 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-12-18 17:15:58,257 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-12-18 17:15:59,259 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:28612/session/fdc7ac4f50d7101fbbf7abf30a1a083a/element {"using": "id", "value": "verifyCode", "sessionId": "fdc7ac4f50d7101fbbf7abf30a1a083a"}
+2017-12-18 17:15:59,259 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:28612/session/fdc7ac4f50d7101fbbf7abf30a1a083a/element {"using": "id", "value": "verifyCode", "sessionId": "fdc7ac4f50d7101fbbf7abf30a1a083a"}
+2017-12-18 17:15:59,259 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:28612/session/fdc7ac4f50d7101fbbf7abf30a1a083a/element {"using": "id", "value": "verifyCode", "sessionId": "fdc7ac4f50d7101fbbf7abf30a1a083a"}
+2017-12-18 17:15:59,279 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-12-18 17:15:59,279 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-12-18 17:15:59,279 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-12-18 17:15:59,279 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:28612/session/fdc7ac4f50d7101fbbf7abf30a1a083a/element/0.654758287274976-3/value {"value": ["w", "n", "y", "z"], "text": "wnyz", "sessionId": "fdc7ac4f50d7101fbbf7abf30a1a083a", "id": "0.654758287274976-3"}
+2017-12-18 17:15:59,279 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:28612/session/fdc7ac4f50d7101fbbf7abf30a1a083a/element/0.654758287274976-3/value {"value": ["w", "n", "y", "z"], "text": "wnyz", "sessionId": "fdc7ac4f50d7101fbbf7abf30a1a083a", "id": "0.654758287274976-3"}
+2017-12-18 17:15:59,279 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:28612/session/fdc7ac4f50d7101fbbf7abf30a1a083a/element/0.654758287274976-3/value {"value": ["w", "n", "y", "z"], "text": "wnyz", "sessionId": "fdc7ac4f50d7101fbbf7abf30a1a083a", "id": "0.654758287274976-3"}
+2017-12-18 17:15:59,339 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-12-18 17:15:59,339 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-12-18 17:15:59,339 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-12-18 17:16:00,339 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:28612/session/fdc7ac4f50d7101fbbf7abf30a1a083a/element {"using": "id", "value": "login_submit", "sessionId": "fdc7ac4f50d7101fbbf7abf30a1a083a"}
+2017-12-18 17:16:00,339 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:28612/session/fdc7ac4f50d7101fbbf7abf30a1a083a/element {"using": "id", "value": "login_submit", "sessionId": "fdc7ac4f50d7101fbbf7abf30a1a083a"}
+2017-12-18 17:16:00,339 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:28612/session/fdc7ac4f50d7101fbbf7abf30a1a083a/element {"using": "id", "value": "login_submit", "sessionId": "fdc7ac4f50d7101fbbf7abf30a1a083a"}
+2017-12-18 17:16:00,362 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-12-18 17:16:00,362 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-12-18 17:16:00,362 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-12-18 17:16:00,362 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:28612/session/fdc7ac4f50d7101fbbf7abf30a1a083a/element/0.654758287274976-4/click {"id": "0.654758287274976-4", "sessionId": "fdc7ac4f50d7101fbbf7abf30a1a083a"}
+2017-12-18 17:16:00,362 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:28612/session/fdc7ac4f50d7101fbbf7abf30a1a083a/element/0.654758287274976-4/click {"id": "0.654758287274976-4", "sessionId": "fdc7ac4f50d7101fbbf7abf30a1a083a"}
+2017-12-18 17:16:00,362 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:28612/session/fdc7ac4f50d7101fbbf7abf30a1a083a/element/0.654758287274976-4/click {"id": "0.654758287274976-4", "sessionId": "fdc7ac4f50d7101fbbf7abf30a1a083a"}
+2017-12-18 17:16:00,404 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-12-18 17:16:00,404 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-12-18 17:16:00,404 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-12-18 17:16:04,404 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:28612/session/fdc7ac4f50d7101fbbf7abf30a1a083a/element {"using": "id", "value": "kw", "sessionId": "fdc7ac4f50d7101fbbf7abf30a1a083a"}
+2017-12-18 17:16:04,404 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:28612/session/fdc7ac4f50d7101fbbf7abf30a1a083a/element {"using": "id", "value": "kw", "sessionId": "fdc7ac4f50d7101fbbf7abf30a1a083a"}
+2017-12-18 17:16:04,404 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:28612/session/fdc7ac4f50d7101fbbf7abf30a1a083a/element {"using": "id", "value": "kw", "sessionId": "fdc7ac4f50d7101fbbf7abf30a1a083a"}
+2017-12-18 17:16:04,588 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-12-18 17:16:04,588 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-12-18 17:16:04,588 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-12-18 17:16:04,588 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:28612/session/fdc7ac4f50d7101fbbf7abf30a1a083a/element/0.8716028805607567-1/value {"value": ["[", "P", "r", "e", "-", "o", "r", "d", "e", "r", "]", " ", "G", "e", "e", "k", "V", "a", "p", "e", " ", "M", "e", "d", "u", "s", "a", " ", "R", "e", "b", "o", "r", "n", " ", "R", "D", "T", "A", " ", "-", " ", "3", ".", "5", "m", "l"], "text": "[Pre-order] GeekVape Medusa Reborn RDTA - 3.5ml", "sessionId": "fdc7ac4f50d7101fbbf7abf30a1a083a", "id": "0.8716028805607567-1"}
+2017-12-18 17:16:04,588 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:28612/session/fdc7ac4f50d7101fbbf7abf30a1a083a/element/0.8716028805607567-1/value {"value": ["[", "P", "r", "e", "-", "o", "r", "d", "e", "r", "]", " ", "G", "e", "e", "k", "V", "a", "p", "e", " ", "M", "e", "d", "u", "s", "a", " ", "R", "e", "b", "o", "r", "n", " ", "R", "D", "T", "A", " ", "-", " ", "3", ".", "5", "m", "l"], "text": "[Pre-order] GeekVape Medusa Reborn RDTA - 3.5ml", "sessionId": "fdc7ac4f50d7101fbbf7abf30a1a083a", "id": "0.8716028805607567-1"}
+2017-12-18 17:16:04,588 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:28612/session/fdc7ac4f50d7101fbbf7abf30a1a083a/element/0.8716028805607567-1/value {"value": ["[", "P", "r", "e", "-", "o", "r", "d", "e", "r", "]", " ", "G", "e", "e", "k", "V", "a", "p", "e", " ", "M", "e", "d", "u", "s", "a", " ", "R", "e", "b", "o", "r", "n", " ", "R", "D", "T", "A", " ", "-", " ", "3", ".", "5", "m", "l"], "text": "[Pre-order] GeekVape Medusa Reborn RDTA - 3.5ml", "sessionId": "fdc7ac4f50d7101fbbf7abf30a1a083a", "id": "0.8716028805607567-1"}
+2017-12-18 17:16:04,704 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-12-18 17:16:04,704 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-12-18 17:16:04,704 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-12-18 17:16:07,706 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:28612/session/fdc7ac4f50d7101fbbf7abf30a1a083a/element {"using": "id", "value": "searchTextBtn", "sessionId": "fdc7ac4f50d7101fbbf7abf30a1a083a"}
+2017-12-18 17:16:07,706 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:28612/session/fdc7ac4f50d7101fbbf7abf30a1a083a/element {"using": "id", "value": "searchTextBtn", "sessionId": "fdc7ac4f50d7101fbbf7abf30a1a083a"}
+2017-12-18 17:16:07,706 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:28612/session/fdc7ac4f50d7101fbbf7abf30a1a083a/element {"using": "id", "value": "searchTextBtn", "sessionId": "fdc7ac4f50d7101fbbf7abf30a1a083a"}
+2017-12-18 17:16:07,726 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-12-18 17:16:07,726 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-12-18 17:16:07,726 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-12-18 17:16:07,726 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:28612/session/fdc7ac4f50d7101fbbf7abf30a1a083a/element/0.8716028805607567-2/click {"id": "0.8716028805607567-2", "sessionId": "fdc7ac4f50d7101fbbf7abf30a1a083a"}
+2017-12-18 17:16:07,726 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:28612/session/fdc7ac4f50d7101fbbf7abf30a1a083a/element/0.8716028805607567-2/click {"id": "0.8716028805607567-2", "sessionId": "fdc7ac4f50d7101fbbf7abf30a1a083a"}
+2017-12-18 17:16:07,726 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:28612/session/fdc7ac4f50d7101fbbf7abf30a1a083a/element/0.8716028805607567-2/click {"id": "0.8716028805607567-2", "sessionId": "fdc7ac4f50d7101fbbf7abf30a1a083a"}
+2017-12-18 17:16:07,763 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-12-18 17:16:07,763 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-12-18 17:16:07,763 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-12-18 17:16:13,763 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:28612/session/fdc7ac4f50d7101fbbf7abf30a1a083a/element {"using": "xpath", "value": "html/body/div[3]/div/main/section[1]/ul/li[1]/div", "sessionId": "fdc7ac4f50d7101fbbf7abf30a1a083a"}
+2017-12-18 17:16:13,763 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:28612/session/fdc7ac4f50d7101fbbf7abf30a1a083a/element {"using": "xpath", "value": "html/body/div[3]/div/main/section[1]/ul/li[1]/div", "sessionId": "fdc7ac4f50d7101fbbf7abf30a1a083a"}
+2017-12-18 17:16:13,763 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:28612/session/fdc7ac4f50d7101fbbf7abf30a1a083a/element {"using": "xpath", "value": "html/body/div[3]/div/main/section[1]/ul/li[1]/div", "sessionId": "fdc7ac4f50d7101fbbf7abf30a1a083a"}
+2017-12-18 17:16:13,782 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-12-18 17:16:13,782 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-12-18 17:16:13,782 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-12-18 17:16:13,782 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:28612/session/fdc7ac4f50d7101fbbf7abf30a1a083a/element/0.33194041109390193-1/click {"id": "0.33194041109390193-1", "sessionId": "fdc7ac4f50d7101fbbf7abf30a1a083a"}
+2017-12-18 17:16:13,782 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:28612/session/fdc7ac4f50d7101fbbf7abf30a1a083a/element/0.33194041109390193-1/click {"id": "0.33194041109390193-1", "sessionId": "fdc7ac4f50d7101fbbf7abf30a1a083a"}
+2017-12-18 17:16:13,782 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:28612/session/fdc7ac4f50d7101fbbf7abf30a1a083a/element/0.33194041109390193-1/click {"id": "0.33194041109390193-1", "sessionId": "fdc7ac4f50d7101fbbf7abf30a1a083a"}
+2017-12-18 17:16:13,813 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-12-18 17:16:13,813 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-12-18 17:16:13,813 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-12-18 17:16:18,813 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:28612/session/fdc7ac4f50d7101fbbf7abf30a1a083a/element {"using": "xpath", "value": "html/body/div[3]/div/main/section[1]/div[2]/form/div[1]/div[5]/dl/div[2]/dd/ul/li[1]", "sessionId": "fdc7ac4f50d7101fbbf7abf30a1a083a"}
+2017-12-18 17:16:18,813 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:28612/session/fdc7ac4f50d7101fbbf7abf30a1a083a/element {"using": "xpath", "value": "html/body/div[3]/div/main/section[1]/div[2]/form/div[1]/div[5]/dl/div[2]/dd/ul/li[1]", "sessionId": "fdc7ac4f50d7101fbbf7abf30a1a083a"}
+2017-12-18 17:16:18,813 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:28612/session/fdc7ac4f50d7101fbbf7abf30a1a083a/element {"using": "xpath", "value": "html/body/div[3]/div/main/section[1]/div[2]/form/div[1]/div[5]/dl/div[2]/dd/ul/li[1]", "sessionId": "fdc7ac4f50d7101fbbf7abf30a1a083a"}
+2017-12-18 17:16:18,834 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-12-18 17:16:18,834 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-12-18 17:16:18,834 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-12-18 17:16:18,834 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:28612/session/fdc7ac4f50d7101fbbf7abf30a1a083a/element/0.820239635945861-1/click {"id": "0.820239635945861-1", "sessionId": "fdc7ac4f50d7101fbbf7abf30a1a083a"}
+2017-12-18 17:16:18,834 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:28612/session/fdc7ac4f50d7101fbbf7abf30a1a083a/element/0.820239635945861-1/click {"id": "0.820239635945861-1", "sessionId": "fdc7ac4f50d7101fbbf7abf30a1a083a"}
+2017-12-18 17:16:18,834 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:28612/session/fdc7ac4f50d7101fbbf7abf30a1a083a/element/0.820239635945861-1/click {"id": "0.820239635945861-1", "sessionId": "fdc7ac4f50d7101fbbf7abf30a1a083a"}
+2017-12-18 17:16:18,891 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-12-18 17:16:18,891 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-12-18 17:16:18,891 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-12-18 17:16:19,891 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:28612/session/fdc7ac4f50d7101fbbf7abf30a1a083a/element {"using": "name", "value": "quantity", "sessionId": "fdc7ac4f50d7101fbbf7abf30a1a083a"}
+2017-12-18 17:16:19,891 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:28612/session/fdc7ac4f50d7101fbbf7abf30a1a083a/element {"using": "name", "value": "quantity", "sessionId": "fdc7ac4f50d7101fbbf7abf30a1a083a"}
+2017-12-18 17:16:19,891 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:28612/session/fdc7ac4f50d7101fbbf7abf30a1a083a/element {"using": "name", "value": "quantity", "sessionId": "fdc7ac4f50d7101fbbf7abf30a1a083a"}
+2017-12-18 17:16:19,914 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-12-18 17:16:19,914 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-12-18 17:16:19,914 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-12-18 17:16:19,915 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:28612/session/fdc7ac4f50d7101fbbf7abf30a1a083a/element/0.820239635945861-2/clear {"id": "0.820239635945861-2", "sessionId": "fdc7ac4f50d7101fbbf7abf30a1a083a"}
+2017-12-18 17:16:19,915 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:28612/session/fdc7ac4f50d7101fbbf7abf30a1a083a/element/0.820239635945861-2/clear {"id": "0.820239635945861-2", "sessionId": "fdc7ac4f50d7101fbbf7abf30a1a083a"}
+2017-12-18 17:16:19,915 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:28612/session/fdc7ac4f50d7101fbbf7abf30a1a083a/element/0.820239635945861-2/clear {"id": "0.820239635945861-2", "sessionId": "fdc7ac4f50d7101fbbf7abf30a1a083a"}
+2017-12-18 17:16:19,938 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-12-18 17:16:19,938 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-12-18 17:16:19,938 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-12-18 17:16:20,940 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:28612/session/fdc7ac4f50d7101fbbf7abf30a1a083a/element {"using": "name", "value": "quantity", "sessionId": "fdc7ac4f50d7101fbbf7abf30a1a083a"}
+2017-12-18 17:16:20,940 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:28612/session/fdc7ac4f50d7101fbbf7abf30a1a083a/element {"using": "name", "value": "quantity", "sessionId": "fdc7ac4f50d7101fbbf7abf30a1a083a"}
+2017-12-18 17:16:20,940 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:28612/session/fdc7ac4f50d7101fbbf7abf30a1a083a/element {"using": "name", "value": "quantity", "sessionId": "fdc7ac4f50d7101fbbf7abf30a1a083a"}
+2017-12-18 17:16:20,948 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-12-18 17:16:20,948 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-12-18 17:16:20,948 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-12-18 17:16:20,948 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:28612/session/fdc7ac4f50d7101fbbf7abf30a1a083a/element/0.820239635945861-2/value {"value": ["1"], "text": "1", "sessionId": "fdc7ac4f50d7101fbbf7abf30a1a083a", "id": "0.820239635945861-2"}
+2017-12-18 17:16:20,948 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:28612/session/fdc7ac4f50d7101fbbf7abf30a1a083a/element/0.820239635945861-2/value {"value": ["1"], "text": "1", "sessionId": "fdc7ac4f50d7101fbbf7abf30a1a083a", "id": "0.820239635945861-2"}
+2017-12-18 17:16:20,948 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:28612/session/fdc7ac4f50d7101fbbf7abf30a1a083a/element/0.820239635945861-2/value {"value": ["1"], "text": "1", "sessionId": "fdc7ac4f50d7101fbbf7abf30a1a083a", "id": "0.820239635945861-2"}
+2017-12-18 17:16:20,977 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-12-18 17:16:20,977 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-12-18 17:16:20,977 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-12-18 17:16:21,977 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:28612/session/fdc7ac4f50d7101fbbf7abf30a1a083a/element {"using": "xpath", "value": "html/body/div[3]/div/main/section[1]/div[2]/form/div[2]/button[1]", "sessionId": "fdc7ac4f50d7101fbbf7abf30a1a083a"}
+2017-12-18 17:16:21,977 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:28612/session/fdc7ac4f50d7101fbbf7abf30a1a083a/element {"using": "xpath", "value": "html/body/div[3]/div/main/section[1]/div[2]/form/div[2]/button[1]", "sessionId": "fdc7ac4f50d7101fbbf7abf30a1a083a"}
+2017-12-18 17:16:21,977 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:28612/session/fdc7ac4f50d7101fbbf7abf30a1a083a/element {"using": "xpath", "value": "html/body/div[3]/div/main/section[1]/div[2]/form/div[2]/button[1]", "sessionId": "fdc7ac4f50d7101fbbf7abf30a1a083a"}
+2017-12-18 17:16:22,002 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-12-18 17:16:22,002 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-12-18 17:16:22,002 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-12-18 17:16:22,002 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:28612/session/fdc7ac4f50d7101fbbf7abf30a1a083a/element/0.820239635945861-3/click {"id": "0.820239635945861-3", "sessionId": "fdc7ac4f50d7101fbbf7abf30a1a083a"}
+2017-12-18 17:16:22,002 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:28612/session/fdc7ac4f50d7101fbbf7abf30a1a083a/element/0.820239635945861-3/click {"id": "0.820239635945861-3", "sessionId": "fdc7ac4f50d7101fbbf7abf30a1a083a"}
+2017-12-18 17:16:22,002 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:28612/session/fdc7ac4f50d7101fbbf7abf30a1a083a/element/0.820239635945861-3/click {"id": "0.820239635945861-3", "sessionId": "fdc7ac4f50d7101fbbf7abf30a1a083a"}
+2017-12-18 17:16:22,051 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-12-18 17:16:22,051 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-12-18 17:16:22,051 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-12-18 17:16:26,052 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:28612/session/fdc7ac4f50d7101fbbf7abf30a1a083a/execute {"args": [], "script": "var q=document.body.scrollTop=0", "sessionId": "fdc7ac4f50d7101fbbf7abf30a1a083a"}
+2017-12-18 17:16:26,052 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:28612/session/fdc7ac4f50d7101fbbf7abf30a1a083a/execute {"args": [], "script": "var q=document.body.scrollTop=0", "sessionId": "fdc7ac4f50d7101fbbf7abf30a1a083a"}
+2017-12-18 17:16:26,052 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:28612/session/fdc7ac4f50d7101fbbf7abf30a1a083a/execute {"args": [], "script": "var q=document.body.scrollTop=0", "sessionId": "fdc7ac4f50d7101fbbf7abf30a1a083a"}
+2017-12-18 17:16:26,059 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-12-18 17:16:26,059 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-12-18 17:16:26,059 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-12-18 17:16:28,061 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:28612/session/fdc7ac4f50d7101fbbf7abf30a1a083a/element {"using": "xpath", "value": "html/body/header/div/div[2]/div[3]/div[2]", "sessionId": "fdc7ac4f50d7101fbbf7abf30a1a083a"}
+2017-12-18 17:16:28,061 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:28612/session/fdc7ac4f50d7101fbbf7abf30a1a083a/element {"using": "xpath", "value": "html/body/header/div/div[2]/div[3]/div[2]", "sessionId": "fdc7ac4f50d7101fbbf7abf30a1a083a"}
+2017-12-18 17:16:28,061 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:28612/session/fdc7ac4f50d7101fbbf7abf30a1a083a/element {"using": "xpath", "value": "html/body/header/div/div[2]/div[3]/div[2]", "sessionId": "fdc7ac4f50d7101fbbf7abf30a1a083a"}
+2017-12-18 17:16:28,078 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-12-18 17:16:28,078 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-12-18 17:16:28,078 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-12-18 17:16:28,078 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:28612/session/fdc7ac4f50d7101fbbf7abf30a1a083a/element/0.820239635945861-4/click {"id": "0.820239635945861-4", "sessionId": "fdc7ac4f50d7101fbbf7abf30a1a083a"}
+2017-12-18 17:16:28,078 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:28612/session/fdc7ac4f50d7101fbbf7abf30a1a083a/element/0.820239635945861-4/click {"id": "0.820239635945861-4", "sessionId": "fdc7ac4f50d7101fbbf7abf30a1a083a"}
+2017-12-18 17:16:28,078 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:28612/session/fdc7ac4f50d7101fbbf7abf30a1a083a/element/0.820239635945861-4/click {"id": "0.820239635945861-4", "sessionId": "fdc7ac4f50d7101fbbf7abf30a1a083a"}
+2017-12-18 17:16:28,124 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-12-18 17:16:28,124 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-12-18 17:16:28,124 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-12-18 17:16:32,124 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:28612/session/fdc7ac4f50d7101fbbf7abf30a1a083a/element {"using": "id", "value": "checkoutBT", "sessionId": "fdc7ac4f50d7101fbbf7abf30a1a083a"}
+2017-12-18 17:16:32,124 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:28612/session/fdc7ac4f50d7101fbbf7abf30a1a083a/element {"using": "id", "value": "checkoutBT", "sessionId": "fdc7ac4f50d7101fbbf7abf30a1a083a"}
+2017-12-18 17:16:32,124 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:28612/session/fdc7ac4f50d7101fbbf7abf30a1a083a/element {"using": "id", "value": "checkoutBT", "sessionId": "fdc7ac4f50d7101fbbf7abf30a1a083a"}
+2017-12-18 17:16:32,138 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-12-18 17:16:32,138 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-12-18 17:16:32,138 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-12-18 17:16:32,138 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:28612/session/fdc7ac4f50d7101fbbf7abf30a1a083a/element/0.10826321738930433-1/click {"id": "0.10826321738930433-1", "sessionId": "fdc7ac4f50d7101fbbf7abf30a1a083a"}
+2017-12-18 17:16:32,138 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:28612/session/fdc7ac4f50d7101fbbf7abf30a1a083a/element/0.10826321738930433-1/click {"id": "0.10826321738930433-1", "sessionId": "fdc7ac4f50d7101fbbf7abf30a1a083a"}
+2017-12-18 17:16:32,138 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:28612/session/fdc7ac4f50d7101fbbf7abf30a1a083a/element/0.10826321738930433-1/click {"id": "0.10826321738930433-1", "sessionId": "fdc7ac4f50d7101fbbf7abf30a1a083a"}
+2017-12-18 17:16:32,170 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-12-18 17:16:32,170 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-12-18 17:16:32,170 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-12-18 17:16:34,170 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:28612/session/fdc7ac4f50d7101fbbf7abf30a1a083a/element {"using": "xpath", "value": "html/body/div[3]/dl[1]/dd/div[2]/form/div[8]/div/button", "sessionId": "fdc7ac4f50d7101fbbf7abf30a1a083a"}
+2017-12-18 17:16:34,170 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:28612/session/fdc7ac4f50d7101fbbf7abf30a1a083a/element {"using": "xpath", "value": "html/body/div[3]/dl[1]/dd/div[2]/form/div[8]/div/button", "sessionId": "fdc7ac4f50d7101fbbf7abf30a1a083a"}
+2017-12-18 17:16:34,170 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:28612/session/fdc7ac4f50d7101fbbf7abf30a1a083a/element {"using": "xpath", "value": "html/body/div[3]/dl[1]/dd/div[2]/form/div[8]/div/button", "sessionId": "fdc7ac4f50d7101fbbf7abf30a1a083a"}
+2017-12-18 17:16:36,566 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-12-18 17:16:36,566 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-12-18 17:16:36,566 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-12-18 17:16:36,566 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:28612/session/fdc7ac4f50d7101fbbf7abf30a1a083a/element/0.9095600784572686-1/click {"id": "0.9095600784572686-1", "sessionId": "fdc7ac4f50d7101fbbf7abf30a1a083a"}
+2017-12-18 17:16:36,566 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:28612/session/fdc7ac4f50d7101fbbf7abf30a1a083a/element/0.9095600784572686-1/click {"id": "0.9095600784572686-1", "sessionId": "fdc7ac4f50d7101fbbf7abf30a1a083a"}
+2017-12-18 17:16:36,566 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:28612/session/fdc7ac4f50d7101fbbf7abf30a1a083a/element/0.9095600784572686-1/click {"id": "0.9095600784572686-1", "sessionId": "fdc7ac4f50d7101fbbf7abf30a1a083a"}
+2017-12-18 17:16:36,628 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-12-18 17:16:36,628 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-12-18 17:16:36,628 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-12-18 17:16:40,628 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:28612/session/fdc7ac4f50d7101fbbf7abf30a1a083a/element {"using": "id", "value": "shippingMethods", "sessionId": "fdc7ac4f50d7101fbbf7abf30a1a083a"}
+2017-12-18 17:16:40,628 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:28612/session/fdc7ac4f50d7101fbbf7abf30a1a083a/element {"using": "id", "value": "shippingMethods", "sessionId": "fdc7ac4f50d7101fbbf7abf30a1a083a"}
+2017-12-18 17:16:40,628 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:28612/session/fdc7ac4f50d7101fbbf7abf30a1a083a/element {"using": "id", "value": "shippingMethods", "sessionId": "fdc7ac4f50d7101fbbf7abf30a1a083a"}
+2017-12-18 17:16:40,642 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-12-18 17:16:40,642 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-12-18 17:16:40,642 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-12-18 17:16:40,642 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:28612/session/fdc7ac4f50d7101fbbf7abf30a1a083a/element/0.9095600784572686-2/elements {"using": "tag name", "value": "option", "id": "0.9095600784572686-2", "sessionId": "fdc7ac4f50d7101fbbf7abf30a1a083a"}
+2017-12-18 17:16:40,642 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:28612/session/fdc7ac4f50d7101fbbf7abf30a1a083a/element/0.9095600784572686-2/elements {"using": "tag name", "value": "option", "id": "0.9095600784572686-2", "sessionId": "fdc7ac4f50d7101fbbf7abf30a1a083a"}
+2017-12-18 17:16:40,642 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:28612/session/fdc7ac4f50d7101fbbf7abf30a1a083a/element/0.9095600784572686-2/elements {"using": "tag name", "value": "option", "id": "0.9095600784572686-2", "sessionId": "fdc7ac4f50d7101fbbf7abf30a1a083a"}
+2017-12-18 17:16:40,670 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-12-18 17:16:40,670 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-12-18 17:16:40,670 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-12-18 17:16:40,670 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:28612/session/fdc7ac4f50d7101fbbf7abf30a1a083a/element/0.9095600784572686-4/click {"id": "0.9095600784572686-4", "sessionId": "fdc7ac4f50d7101fbbf7abf30a1a083a"}
+2017-12-18 17:16:40,670 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:28612/session/fdc7ac4f50d7101fbbf7abf30a1a083a/element/0.9095600784572686-4/click {"id": "0.9095600784572686-4", "sessionId": "fdc7ac4f50d7101fbbf7abf30a1a083a"}
+2017-12-18 17:16:40,670 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:28612/session/fdc7ac4f50d7101fbbf7abf30a1a083a/element/0.9095600784572686-4/click {"id": "0.9095600784572686-4", "sessionId": "fdc7ac4f50d7101fbbf7abf30a1a083a"}
+2017-12-18 17:16:40,710 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-12-18 17:16:40,710 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-12-18 17:16:40,710 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-12-18 17:16:42,710 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:28612/session/fdc7ac4f50d7101fbbf7abf30a1a083a/element {"using": "name", "value": "paymentMethod", "sessionId": "fdc7ac4f50d7101fbbf7abf30a1a083a"}
+2017-12-18 17:16:42,710 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:28612/session/fdc7ac4f50d7101fbbf7abf30a1a083a/element {"using": "name", "value": "paymentMethod", "sessionId": "fdc7ac4f50d7101fbbf7abf30a1a083a"}
+2017-12-18 17:16:42,710 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:28612/session/fdc7ac4f50d7101fbbf7abf30a1a083a/element {"using": "name", "value": "paymentMethod", "sessionId": "fdc7ac4f50d7101fbbf7abf30a1a083a"}
+2017-12-18 17:16:42,732 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-12-18 17:16:42,732 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-12-18 17:16:42,732 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-12-18 17:16:42,732 - selenium.webdriver.remote.remote_connection - DEBUG - GET http://127.0.0.1:28612/session/fdc7ac4f50d7101fbbf7abf30a1a083a/element/0.9095600784572686-20/name {"id": "0.9095600784572686-20", "sessionId": "fdc7ac4f50d7101fbbf7abf30a1a083a"}
+2017-12-18 17:16:42,732 - selenium.webdriver.remote.remote_connection - DEBUG - GET http://127.0.0.1:28612/session/fdc7ac4f50d7101fbbf7abf30a1a083a/element/0.9095600784572686-20/name {"id": "0.9095600784572686-20", "sessionId": "fdc7ac4f50d7101fbbf7abf30a1a083a"}
+2017-12-18 17:16:42,732 - selenium.webdriver.remote.remote_connection - DEBUG - GET http://127.0.0.1:28612/session/fdc7ac4f50d7101fbbf7abf30a1a083a/element/0.9095600784572686-20/name {"id": "0.9095600784572686-20", "sessionId": "fdc7ac4f50d7101fbbf7abf30a1a083a"}
+2017-12-18 17:16:42,734 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-12-18 17:16:42,734 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-12-18 17:16:42,734 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-12-18 17:16:42,736 - selenium.webdriver.remote.remote_connection - DEBUG - GET http://127.0.0.1:28612/session/fdc7ac4f50d7101fbbf7abf30a1a083a/element/0.9095600784572686-20/attribute/multiple {"id": "0.9095600784572686-20", "name": "multiple", "sessionId": "fdc7ac4f50d7101fbbf7abf30a1a083a"}
+2017-12-18 17:16:42,736 - selenium.webdriver.remote.remote_connection - DEBUG - GET http://127.0.0.1:28612/session/fdc7ac4f50d7101fbbf7abf30a1a083a/element/0.9095600784572686-20/attribute/multiple {"id": "0.9095600784572686-20", "name": "multiple", "sessionId": "fdc7ac4f50d7101fbbf7abf30a1a083a"}
+2017-12-18 17:16:42,736 - selenium.webdriver.remote.remote_connection - DEBUG - GET http://127.0.0.1:28612/session/fdc7ac4f50d7101fbbf7abf30a1a083a/element/0.9095600784572686-20/attribute/multiple {"id": "0.9095600784572686-20", "name": "multiple", "sessionId": "fdc7ac4f50d7101fbbf7abf30a1a083a"}
+2017-12-18 17:16:42,746 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-12-18 17:16:42,746 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-12-18 17:16:42,746 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-12-18 17:16:42,746 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:28612/session/fdc7ac4f50d7101fbbf7abf30a1a083a/element/0.9095600784572686-20/elements {"using": "xpath", "value": ".//option[normalize-space(.) = \"Deposit\"]", "id": "0.9095600784572686-20", "sessionId": "fdc7ac4f50d7101fbbf7abf30a1a083a"}
+2017-12-18 17:16:42,746 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:28612/session/fdc7ac4f50d7101fbbf7abf30a1a083a/element/0.9095600784572686-20/elements {"using": "xpath", "value": ".//option[normalize-space(.) = \"Deposit\"]", "id": "0.9095600784572686-20", "sessionId": "fdc7ac4f50d7101fbbf7abf30a1a083a"}
+2017-12-18 17:16:42,746 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:28612/session/fdc7ac4f50d7101fbbf7abf30a1a083a/element/0.9095600784572686-20/elements {"using": "xpath", "value": ".//option[normalize-space(.) = \"Deposit\"]", "id": "0.9095600784572686-20", "sessionId": "fdc7ac4f50d7101fbbf7abf30a1a083a"}
+2017-12-18 17:16:42,760 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-12-18 17:16:42,760 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-12-18 17:16:42,760 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-12-18 17:16:42,760 - selenium.webdriver.remote.remote_connection - DEBUG - GET http://127.0.0.1:28612/session/fdc7ac4f50d7101fbbf7abf30a1a083a/element/0.9095600784572686-21/selected {"id": "0.9095600784572686-21", "sessionId": "fdc7ac4f50d7101fbbf7abf30a1a083a"}
+2017-12-18 17:16:42,760 - selenium.webdriver.remote.remote_connection - DEBUG - GET http://127.0.0.1:28612/session/fdc7ac4f50d7101fbbf7abf30a1a083a/element/0.9095600784572686-21/selected {"id": "0.9095600784572686-21", "sessionId": "fdc7ac4f50d7101fbbf7abf30a1a083a"}
+2017-12-18 17:16:42,760 - selenium.webdriver.remote.remote_connection - DEBUG - GET http://127.0.0.1:28612/session/fdc7ac4f50d7101fbbf7abf30a1a083a/element/0.9095600784572686-21/selected {"id": "0.9095600784572686-21", "sessionId": "fdc7ac4f50d7101fbbf7abf30a1a083a"}
+2017-12-18 17:16:42,766 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-12-18 17:16:42,766 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-12-18 17:16:42,766 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-12-18 17:16:42,766 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:28612/session/fdc7ac4f50d7101fbbf7abf30a1a083a/element/0.9095600784572686-21/click {"id": "0.9095600784572686-21", "sessionId": "fdc7ac4f50d7101fbbf7abf30a1a083a"}
+2017-12-18 17:16:42,766 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:28612/session/fdc7ac4f50d7101fbbf7abf30a1a083a/element/0.9095600784572686-21/click {"id": "0.9095600784572686-21", "sessionId": "fdc7ac4f50d7101fbbf7abf30a1a083a"}
+2017-12-18 17:16:42,766 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:28612/session/fdc7ac4f50d7101fbbf7abf30a1a083a/element/0.9095600784572686-21/click {"id": "0.9095600784572686-21", "sessionId": "fdc7ac4f50d7101fbbf7abf30a1a083a"}
+2017-12-18 17:16:42,799 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-12-18 17:16:42,799 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-12-18 17:16:42,799 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-12-18 17:16:44,799 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:28612/session/fdc7ac4f50d7101fbbf7abf30a1a083a/element {"using": "name", "value": "note", "sessionId": "fdc7ac4f50d7101fbbf7abf30a1a083a"}
+2017-12-18 17:16:44,799 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:28612/session/fdc7ac4f50d7101fbbf7abf30a1a083a/element {"using": "name", "value": "note", "sessionId": "fdc7ac4f50d7101fbbf7abf30a1a083a"}
+2017-12-18 17:16:44,799 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:28612/session/fdc7ac4f50d7101fbbf7abf30a1a083a/element {"using": "name", "value": "note", "sessionId": "fdc7ac4f50d7101fbbf7abf30a1a083a"}
+2017-12-18 17:16:44,822 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-12-18 17:16:44,822 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-12-18 17:16:44,822 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-12-18 17:16:44,822 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:28612/session/fdc7ac4f50d7101fbbf7abf30a1a083a/element/0.9095600784572686-22/value {"value": ["\u6d4b", "\u8bd5", "\u7559", "\u8a00"], "text": "\u6d4b\u8bd5\u7559\u8a00", "sessionId": "fdc7ac4f50d7101fbbf7abf30a1a083a", "id": "0.9095600784572686-22"}
+2017-12-18 17:16:44,822 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:28612/session/fdc7ac4f50d7101fbbf7abf30a1a083a/element/0.9095600784572686-22/value {"value": ["\u6d4b", "\u8bd5", "\u7559", "\u8a00"], "text": "\u6d4b\u8bd5\u7559\u8a00", "sessionId": "fdc7ac4f50d7101fbbf7abf30a1a083a", "id": "0.9095600784572686-22"}
+2017-12-18 17:16:44,822 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:28612/session/fdc7ac4f50d7101fbbf7abf30a1a083a/element/0.9095600784572686-22/value {"value": ["\u6d4b", "\u8bd5", "\u7559", "\u8a00"], "text": "\u6d4b\u8bd5\u7559\u8a00", "sessionId": "fdc7ac4f50d7101fbbf7abf30a1a083a", "id": "0.9095600784572686-22"}
+2017-12-18 17:16:44,914 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-12-18 17:16:44,914 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-12-18 17:16:44,914 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-12-18 17:16:46,914 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:28612/session/fdc7ac4f50d7101fbbf7abf30a1a083a/element {"using": "xpath", "value": "html/body/div[3]/div[3]/div/table/tbody/tr/td[1]/p[1]/a", "sessionId": "fdc7ac4f50d7101fbbf7abf30a1a083a"}
+2017-12-18 17:16:46,914 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:28612/session/fdc7ac4f50d7101fbbf7abf30a1a083a/element {"using": "xpath", "value": "html/body/div[3]/div[3]/div/table/tbody/tr/td[1]/p[1]/a", "sessionId": "fdc7ac4f50d7101fbbf7abf30a1a083a"}
+2017-12-18 17:16:46,914 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:28612/session/fdc7ac4f50d7101fbbf7abf30a1a083a/element {"using": "xpath", "value": "html/body/div[3]/div[3]/div/table/tbody/tr/td[1]/p[1]/a", "sessionId": "fdc7ac4f50d7101fbbf7abf30a1a083a"}
+2017-12-18 17:16:46,937 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-12-18 17:16:46,937 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-12-18 17:16:46,937 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-12-18 17:16:46,937 - selenium.webdriver.remote.remote_connection - DEBUG - GET http://127.0.0.1:28612/session/fdc7ac4f50d7101fbbf7abf30a1a083a/element/0.9095600784572686-23/text {"id": "0.9095600784572686-23", "sessionId": "fdc7ac4f50d7101fbbf7abf30a1a083a"}
+2017-12-18 17:16:46,937 - selenium.webdriver.remote.remote_connection - DEBUG - GET http://127.0.0.1:28612/session/fdc7ac4f50d7101fbbf7abf30a1a083a/element/0.9095600784572686-23/text {"id": "0.9095600784572686-23", "sessionId": "fdc7ac4f50d7101fbbf7abf30a1a083a"}
+2017-12-18 17:16:46,937 - selenium.webdriver.remote.remote_connection - DEBUG - GET http://127.0.0.1:28612/session/fdc7ac4f50d7101fbbf7abf30a1a083a/element/0.9095600784572686-23/text {"id": "0.9095600784572686-23", "sessionId": "fdc7ac4f50d7101fbbf7abf30a1a083a"}
+2017-12-18 17:16:46,960 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-12-18 17:16:46,960 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-12-18 17:16:46,960 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-12-18 17:16:46,960 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:28612/session/fdc7ac4f50d7101fbbf7abf30a1a083a/element {"using": "id", "value": "total", "sessionId": "fdc7ac4f50d7101fbbf7abf30a1a083a"}
+2017-12-18 17:16:46,960 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:28612/session/fdc7ac4f50d7101fbbf7abf30a1a083a/element {"using": "id", "value": "total", "sessionId": "fdc7ac4f50d7101fbbf7abf30a1a083a"}
+2017-12-18 17:16:46,960 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:28612/session/fdc7ac4f50d7101fbbf7abf30a1a083a/element {"using": "id", "value": "total", "sessionId": "fdc7ac4f50d7101fbbf7abf30a1a083a"}
+2017-12-18 17:16:46,973 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-12-18 17:16:46,973 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-12-18 17:16:46,973 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-12-18 17:16:46,973 - selenium.webdriver.remote.remote_connection - DEBUG - GET http://127.0.0.1:28612/session/fdc7ac4f50d7101fbbf7abf30a1a083a/element/0.9095600784572686-24/text {"id": "0.9095600784572686-24", "sessionId": "fdc7ac4f50d7101fbbf7abf30a1a083a"}
+2017-12-18 17:16:46,973 - selenium.webdriver.remote.remote_connection - DEBUG - GET http://127.0.0.1:28612/session/fdc7ac4f50d7101fbbf7abf30a1a083a/element/0.9095600784572686-24/text {"id": "0.9095600784572686-24", "sessionId": "fdc7ac4f50d7101fbbf7abf30a1a083a"}
+2017-12-18 17:16:46,973 - selenium.webdriver.remote.remote_connection - DEBUG - GET http://127.0.0.1:28612/session/fdc7ac4f50d7101fbbf7abf30a1a083a/element/0.9095600784572686-24/text {"id": "0.9095600784572686-24", "sessionId": "fdc7ac4f50d7101fbbf7abf30a1a083a"}
+2017-12-18 17:16:46,993 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-12-18 17:16:46,993 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-12-18 17:16:46,993 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-12-18 17:16:47,012 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:28612/session/fdc7ac4f50d7101fbbf7abf30a1a083a/element {"using": "xpath", "value": "html/body/div[3]/div[3]/div/table/tbody/tr/td[4]", "sessionId": "fdc7ac4f50d7101fbbf7abf30a1a083a"}
+2017-12-18 17:16:47,012 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:28612/session/fdc7ac4f50d7101fbbf7abf30a1a083a/element {"using": "xpath", "value": "html/body/div[3]/div[3]/div/table/tbody/tr/td[4]", "sessionId": "fdc7ac4f50d7101fbbf7abf30a1a083a"}
+2017-12-18 17:16:47,012 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:28612/session/fdc7ac4f50d7101fbbf7abf30a1a083a/element {"using": "xpath", "value": "html/body/div[3]/div[3]/div/table/tbody/tr/td[4]", "sessionId": "fdc7ac4f50d7101fbbf7abf30a1a083a"}
+2017-12-18 17:16:47,026 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-12-18 17:16:47,026 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-12-18 17:16:47,026 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-12-18 17:16:47,026 - selenium.webdriver.remote.remote_connection - DEBUG - GET http://127.0.0.1:28612/session/fdc7ac4f50d7101fbbf7abf30a1a083a/element/0.9095600784572686-25/text {"id": "0.9095600784572686-25", "sessionId": "fdc7ac4f50d7101fbbf7abf30a1a083a"}
+2017-12-18 17:16:47,026 - selenium.webdriver.remote.remote_connection - DEBUG - GET http://127.0.0.1:28612/session/fdc7ac4f50d7101fbbf7abf30a1a083a/element/0.9095600784572686-25/text {"id": "0.9095600784572686-25", "sessionId": "fdc7ac4f50d7101fbbf7abf30a1a083a"}
+2017-12-18 17:16:47,026 - selenium.webdriver.remote.remote_connection - DEBUG - GET http://127.0.0.1:28612/session/fdc7ac4f50d7101fbbf7abf30a1a083a/element/0.9095600784572686-25/text {"id": "0.9095600784572686-25", "sessionId": "fdc7ac4f50d7101fbbf7abf30a1a083a"}
+2017-12-18 17:16:47,042 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-12-18 17:16:47,042 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-12-18 17:16:47,042 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-12-18 17:16:47,042 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:28612/session/fdc7ac4f50d7101fbbf7abf30a1a083a/element {"using": "id", "value": "submitOrder", "sessionId": "fdc7ac4f50d7101fbbf7abf30a1a083a"}
+2017-12-18 17:16:47,042 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:28612/session/fdc7ac4f50d7101fbbf7abf30a1a083a/element {"using": "id", "value": "submitOrder", "sessionId": "fdc7ac4f50d7101fbbf7abf30a1a083a"}
+2017-12-18 17:16:47,042 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:28612/session/fdc7ac4f50d7101fbbf7abf30a1a083a/element {"using": "id", "value": "submitOrder", "sessionId": "fdc7ac4f50d7101fbbf7abf30a1a083a"}
+2017-12-18 17:16:47,055 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-12-18 17:16:47,055 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-12-18 17:16:47,055 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-12-18 17:16:47,055 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:28612/session/fdc7ac4f50d7101fbbf7abf30a1a083a/element/0.9095600784572686-26/click {"id": "0.9095600784572686-26", "sessionId": "fdc7ac4f50d7101fbbf7abf30a1a083a"}
+2017-12-18 17:16:47,055 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:28612/session/fdc7ac4f50d7101fbbf7abf30a1a083a/element/0.9095600784572686-26/click {"id": "0.9095600784572686-26", "sessionId": "fdc7ac4f50d7101fbbf7abf30a1a083a"}
+2017-12-18 17:16:47,055 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:28612/session/fdc7ac4f50d7101fbbf7abf30a1a083a/element/0.9095600784572686-26/click {"id": "0.9095600784572686-26", "sessionId": "fdc7ac4f50d7101fbbf7abf30a1a083a"}
+2017-12-18 17:16:47,086 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-12-18 17:16:47,086 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-12-18 17:16:47,086 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-12-18 17:16:53,088 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:28612/session/fdc7ac4f50d7101fbbf7abf30a1a083a/element {"using": "id", "value": "order_id", "sessionId": "fdc7ac4f50d7101fbbf7abf30a1a083a"}
+2017-12-18 17:16:53,088 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:28612/session/fdc7ac4f50d7101fbbf7abf30a1a083a/element {"using": "id", "value": "order_id", "sessionId": "fdc7ac4f50d7101fbbf7abf30a1a083a"}
+2017-12-18 17:16:53,088 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:28612/session/fdc7ac4f50d7101fbbf7abf30a1a083a/element {"using": "id", "value": "order_id", "sessionId": "fdc7ac4f50d7101fbbf7abf30a1a083a"}
+2017-12-18 17:16:53,107 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-12-18 17:16:53,107 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-12-18 17:16:53,107 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-12-18 17:16:53,107 - selenium.webdriver.remote.remote_connection - DEBUG - GET http://127.0.0.1:28612/session/fdc7ac4f50d7101fbbf7abf30a1a083a/element/0.012608862410619759-1/text {"id": "0.012608862410619759-1", "sessionId": "fdc7ac4f50d7101fbbf7abf30a1a083a"}
+2017-12-18 17:16:53,107 - selenium.webdriver.remote.remote_connection - DEBUG - GET http://127.0.0.1:28612/session/fdc7ac4f50d7101fbbf7abf30a1a083a/element/0.012608862410619759-1/text {"id": "0.012608862410619759-1", "sessionId": "fdc7ac4f50d7101fbbf7abf30a1a083a"}
+2017-12-18 17:16:53,107 - selenium.webdriver.remote.remote_connection - DEBUG - GET http://127.0.0.1:28612/session/fdc7ac4f50d7101fbbf7abf30a1a083a/element/0.012608862410619759-1/text {"id": "0.012608862410619759-1", "sessionId": "fdc7ac4f50d7101fbbf7abf30a1a083a"}
+2017-12-18 17:16:53,130 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-12-18 17:16:53,130 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-12-18 17:16:53,130 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-12-18 17:16:53,130 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:28612/session/fdc7ac4f50d7101fbbf7abf30a1a083a/element {"using": "xpath", "value": "html/body/div[3]/div[3]/div/div[2]/h3", "sessionId": "fdc7ac4f50d7101fbbf7abf30a1a083a"}
+2017-12-18 17:16:53,130 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:28612/session/fdc7ac4f50d7101fbbf7abf30a1a083a/element {"using": "xpath", "value": "html/body/div[3]/div[3]/div/div[2]/h3", "sessionId": "fdc7ac4f50d7101fbbf7abf30a1a083a"}
+2017-12-18 17:16:53,130 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:28612/session/fdc7ac4f50d7101fbbf7abf30a1a083a/element {"using": "xpath", "value": "html/body/div[3]/div[3]/div/div[2]/h3", "sessionId": "fdc7ac4f50d7101fbbf7abf30a1a083a"}
+2017-12-18 17:16:53,145 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-12-18 17:16:53,145 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-12-18 17:16:53,145 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-12-18 17:16:53,145 - selenium.webdriver.remote.remote_connection - DEBUG - GET http://127.0.0.1:28612/session/fdc7ac4f50d7101fbbf7abf30a1a083a/element/0.012608862410619759-2/text {"id": "0.012608862410619759-2", "sessionId": "fdc7ac4f50d7101fbbf7abf30a1a083a"}
+2017-12-18 17:16:53,145 - selenium.webdriver.remote.remote_connection - DEBUG - GET http://127.0.0.1:28612/session/fdc7ac4f50d7101fbbf7abf30a1a083a/element/0.012608862410619759-2/text {"id": "0.012608862410619759-2", "sessionId": "fdc7ac4f50d7101fbbf7abf30a1a083a"}
+2017-12-18 17:16:53,145 - selenium.webdriver.remote.remote_connection - DEBUG - GET http://127.0.0.1:28612/session/fdc7ac4f50d7101fbbf7abf30a1a083a/element/0.012608862410619759-2/text {"id": "0.012608862410619759-2", "sessionId": "fdc7ac4f50d7101fbbf7abf30a1a083a"}
+2017-12-18 17:16:53,164 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-12-18 17:16:53,164 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-12-18 17:16:53,164 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-12-18 17:16:56,164 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:28612/session/fdc7ac4f50d7101fbbf7abf30a1a083a/element {"using": "xpath", "value": "html/body/div[3]/div[3]/div/div[2]/p[4]/a[2]", "sessionId": "fdc7ac4f50d7101fbbf7abf30a1a083a"}
+2017-12-18 17:16:56,164 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:28612/session/fdc7ac4f50d7101fbbf7abf30a1a083a/element {"using": "xpath", "value": "html/body/div[3]/div[3]/div/div[2]/p[4]/a[2]", "sessionId": "fdc7ac4f50d7101fbbf7abf30a1a083a"}
+2017-12-18 17:16:56,164 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:28612/session/fdc7ac4f50d7101fbbf7abf30a1a083a/element {"using": "xpath", "value": "html/body/div[3]/div[3]/div/div[2]/p[4]/a[2]", "sessionId": "fdc7ac4f50d7101fbbf7abf30a1a083a"}
+2017-12-18 17:16:56,177 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-12-18 17:16:56,177 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-12-18 17:16:56,177 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-12-18 17:16:56,177 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:28612/session/fdc7ac4f50d7101fbbf7abf30a1a083a/element/0.012608862410619759-3/click {"id": "0.012608862410619759-3", "sessionId": "fdc7ac4f50d7101fbbf7abf30a1a083a"}
+2017-12-18 17:16:56,177 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:28612/session/fdc7ac4f50d7101fbbf7abf30a1a083a/element/0.012608862410619759-3/click {"id": "0.012608862410619759-3", "sessionId": "fdc7ac4f50d7101fbbf7abf30a1a083a"}
+2017-12-18 17:16:56,177 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:28612/session/fdc7ac4f50d7101fbbf7abf30a1a083a/element/0.012608862410619759-3/click {"id": "0.012608862410619759-3", "sessionId": "fdc7ac4f50d7101fbbf7abf30a1a083a"}
+2017-12-18 17:16:56,210 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-12-18 17:16:56,210 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-12-18 17:16:56,210 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-12-18 17:17:01,210 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:28612/session/fdc7ac4f50d7101fbbf7abf30a1a083a/element {"using": "xpath", "value": "html/body/div[3]/div[2]/div[2]/div[5]/table/tbody/tr/td[1]/p[1]/a", "sessionId": "fdc7ac4f50d7101fbbf7abf30a1a083a"}
+2017-12-18 17:17:01,210 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:28612/session/fdc7ac4f50d7101fbbf7abf30a1a083a/element {"using": "xpath", "value": "html/body/div[3]/div[2]/div[2]/div[5]/table/tbody/tr/td[1]/p[1]/a", "sessionId": "fdc7ac4f50d7101fbbf7abf30a1a083a"}
+2017-12-18 17:17:01,210 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:28612/session/fdc7ac4f50d7101fbbf7abf30a1a083a/element {"using": "xpath", "value": "html/body/div[3]/div[2]/div[2]/div[5]/table/tbody/tr/td[1]/p[1]/a", "sessionId": "fdc7ac4f50d7101fbbf7abf30a1a083a"}
+2017-12-18 17:17:01,243 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-12-18 17:17:01,243 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-12-18 17:17:01,243 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-12-18 17:17:01,243 - selenium.webdriver.remote.remote_connection - DEBUG - GET http://127.0.0.1:28612/session/fdc7ac4f50d7101fbbf7abf30a1a083a/element/0.5222792083305232-1/text {"id": "0.5222792083305232-1", "sessionId": "fdc7ac4f50d7101fbbf7abf30a1a083a"}
+2017-12-18 17:17:01,243 - selenium.webdriver.remote.remote_connection - DEBUG - GET http://127.0.0.1:28612/session/fdc7ac4f50d7101fbbf7abf30a1a083a/element/0.5222792083305232-1/text {"id": "0.5222792083305232-1", "sessionId": "fdc7ac4f50d7101fbbf7abf30a1a083a"}
+2017-12-18 17:17:01,243 - selenium.webdriver.remote.remote_connection - DEBUG - GET http://127.0.0.1:28612/session/fdc7ac4f50d7101fbbf7abf30a1a083a/element/0.5222792083305232-1/text {"id": "0.5222792083305232-1", "sessionId": "fdc7ac4f50d7101fbbf7abf30a1a083a"}
+2017-12-18 17:17:01,262 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-12-18 17:17:01,262 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-12-18 17:17:01,262 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-12-18 17:17:02,262 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:28612/session/fdc7ac4f50d7101fbbf7abf30a1a083a/element {"using": "xpath", "value": "html/body/div[3]/div[2]/div[2]/div[2]/p/em[1]", "sessionId": "fdc7ac4f50d7101fbbf7abf30a1a083a"}
+2017-12-18 17:17:02,262 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:28612/session/fdc7ac4f50d7101fbbf7abf30a1a083a/element {"using": "xpath", "value": "html/body/div[3]/div[2]/div[2]/div[2]/p/em[1]", "sessionId": "fdc7ac4f50d7101fbbf7abf30a1a083a"}
+2017-12-18 17:17:02,262 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:28612/session/fdc7ac4f50d7101fbbf7abf30a1a083a/element {"using": "xpath", "value": "html/body/div[3]/div[2]/div[2]/div[2]/p/em[1]", "sessionId": "fdc7ac4f50d7101fbbf7abf30a1a083a"}
+2017-12-18 17:17:02,282 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-12-18 17:17:02,282 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-12-18 17:17:02,282 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-12-18 17:17:02,282 - selenium.webdriver.remote.remote_connection - DEBUG - GET http://127.0.0.1:28612/session/fdc7ac4f50d7101fbbf7abf30a1a083a/element/0.5222792083305232-2/text {"id": "0.5222792083305232-2", "sessionId": "fdc7ac4f50d7101fbbf7abf30a1a083a"}
+2017-12-18 17:17:02,282 - selenium.webdriver.remote.remote_connection - DEBUG - GET http://127.0.0.1:28612/session/fdc7ac4f50d7101fbbf7abf30a1a083a/element/0.5222792083305232-2/text {"id": "0.5222792083305232-2", "sessionId": "fdc7ac4f50d7101fbbf7abf30a1a083a"}
+2017-12-18 17:17:02,282 - selenium.webdriver.remote.remote_connection - DEBUG - GET http://127.0.0.1:28612/session/fdc7ac4f50d7101fbbf7abf30a1a083a/element/0.5222792083305232-2/text {"id": "0.5222792083305232-2", "sessionId": "fdc7ac4f50d7101fbbf7abf30a1a083a"}
+2017-12-18 17:17:02,306 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-12-18 17:17:02,306 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-12-18 17:17:02,306 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-12-18 17:17:03,306 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:28612/session/fdc7ac4f50d7101fbbf7abf30a1a083a/element {"using": "xpath", "value": "html/body/div[3]/div[2]/div[2]/div[5]/table/tbody/tr/td[2]", "sessionId": "fdc7ac4f50d7101fbbf7abf30a1a083a"}
+2017-12-18 17:17:03,306 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:28612/session/fdc7ac4f50d7101fbbf7abf30a1a083a/element {"using": "xpath", "value": "html/body/div[3]/div[2]/div[2]/div[5]/table/tbody/tr/td[2]", "sessionId": "fdc7ac4f50d7101fbbf7abf30a1a083a"}
+2017-12-18 17:17:03,306 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:28612/session/fdc7ac4f50d7101fbbf7abf30a1a083a/element {"using": "xpath", "value": "html/body/div[3]/div[2]/div[2]/div[5]/table/tbody/tr/td[2]", "sessionId": "fdc7ac4f50d7101fbbf7abf30a1a083a"}
+2017-12-18 17:17:03,328 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-12-18 17:17:03,328 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-12-18 17:17:03,328 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-12-18 17:17:03,329 - selenium.webdriver.remote.remote_connection - DEBUG - GET http://127.0.0.1:28612/session/fdc7ac4f50d7101fbbf7abf30a1a083a/element/0.5222792083305232-3/text {"id": "0.5222792083305232-3", "sessionId": "fdc7ac4f50d7101fbbf7abf30a1a083a"}
+2017-12-18 17:17:03,329 - selenium.webdriver.remote.remote_connection - DEBUG - GET http://127.0.0.1:28612/session/fdc7ac4f50d7101fbbf7abf30a1a083a/element/0.5222792083305232-3/text {"id": "0.5222792083305232-3", "sessionId": "fdc7ac4f50d7101fbbf7abf30a1a083a"}
+2017-12-18 17:17:03,329 - selenium.webdriver.remote.remote_connection - DEBUG - GET http://127.0.0.1:28612/session/fdc7ac4f50d7101fbbf7abf30a1a083a/element/0.5222792083305232-3/text {"id": "0.5222792083305232-3", "sessionId": "fdc7ac4f50d7101fbbf7abf30a1a083a"}
+2017-12-18 17:17:03,346 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-12-18 17:17:03,346 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-12-18 17:17:03,346 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-12-18 17:17:04,348 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:28612/session/fdc7ac4f50d7101fbbf7abf30a1a083a/element {"using": "id", "value": "order_id", "sessionId": "fdc7ac4f50d7101fbbf7abf30a1a083a"}
+2017-12-18 17:17:04,348 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:28612/session/fdc7ac4f50d7101fbbf7abf30a1a083a/element {"using": "id", "value": "order_id", "sessionId": "fdc7ac4f50d7101fbbf7abf30a1a083a"}
+2017-12-18 17:17:04,348 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:28612/session/fdc7ac4f50d7101fbbf7abf30a1a083a/element {"using": "id", "value": "order_id", "sessionId": "fdc7ac4f50d7101fbbf7abf30a1a083a"}
+2017-12-18 17:17:04,354 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-12-18 17:17:04,354 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-12-18 17:17:04,354 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-12-18 17:17:04,355 - selenium.webdriver.remote.remote_connection - DEBUG - GET http://127.0.0.1:28612/session/fdc7ac4f50d7101fbbf7abf30a1a083a/element/0.5222792083305232-4/text {"id": "0.5222792083305232-4", "sessionId": "fdc7ac4f50d7101fbbf7abf30a1a083a"}
+2017-12-18 17:17:04,355 - selenium.webdriver.remote.remote_connection - DEBUG - GET http://127.0.0.1:28612/session/fdc7ac4f50d7101fbbf7abf30a1a083a/element/0.5222792083305232-4/text {"id": "0.5222792083305232-4", "sessionId": "fdc7ac4f50d7101fbbf7abf30a1a083a"}
+2017-12-18 17:17:04,355 - selenium.webdriver.remote.remote_connection - DEBUG - GET http://127.0.0.1:28612/session/fdc7ac4f50d7101fbbf7abf30a1a083a/element/0.5222792083305232-4/text {"id": "0.5222792083305232-4", "sessionId": "fdc7ac4f50d7101fbbf7abf30a1a083a"}
+2017-12-18 17:17:04,372 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-12-18 17:17:04,372 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-12-18 17:17:04,372 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-12-18 17:17:13,372 - selenium.webdriver.remote.remote_connection - DEBUG - DELETE http://127.0.0.1:28612/session/fdc7ac4f50d7101fbbf7abf30a1a083a {"sessionId": "fdc7ac4f50d7101fbbf7abf30a1a083a"}
+2017-12-18 17:17:13,372 - selenium.webdriver.remote.remote_connection - DEBUG - DELETE http://127.0.0.1:28612/session/fdc7ac4f50d7101fbbf7abf30a1a083a {"sessionId": "fdc7ac4f50d7101fbbf7abf30a1a083a"}
+2017-12-18 17:17:13,372 - selenium.webdriver.remote.remote_connection - DEBUG - DELETE http://127.0.0.1:28612/session/fdc7ac4f50d7101fbbf7abf30a1a083a {"sessionId": "fdc7ac4f50d7101fbbf7abf30a1a083a"}
+2017-12-18 17:17:13,411 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-12-18 17:17:13,411 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2017-12-18 17:17:13,411 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
