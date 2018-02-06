@@ -32,7 +32,7 @@ class FuncRequests():
         #记录接口的请求时间
         start = time.time()
         headers = {"device": "android ", "version": self.version, "lang": "en", "timestamp": "1493780505", "token": token,
-                   "login": member_id,"serial_number":"48525687125863258471123568955554","company":"HUAWEI","phone_model":"P10","system_version":"system_version"}
+                   "login": member_id,"serial-number":"48525687125863258471123568955554","company":"HUAWEI","phone-model":"P10","system-version":"system_version"}
         r = requests.post(self.base_url1, params=payload, headers=headers)
         result = r.json()
         format_result = json.dumps(result, indent=1)
@@ -72,7 +72,7 @@ class FuncRequests():
         # 记录接口的请求时间
         start = time.time()
         headers = {"device": "android ", "version": self.version, "lang": "en", "timestamp": "1493780505", "token": token,
-                   "login": member_id,"serial_number":"48525687125863258471123568955554","company":"HUAWEI","phone_model":"P10","system_version":"system_version"}
+                   "login": member_id,"serial-number":"48525687125863258471123568955554","company":"HUAWEI","phone-model":"P10","system-version":"system_version"}
         r = requests.post(self.base_url1, params=payload, headers=headers)
         result = r.json()
         format_result = json.dumps(result, indent=1)
@@ -112,7 +112,7 @@ class FuncRequests():
         #记录接口的请求时间
         start = time.time()
         headers = {"device": "android ", "version": self.version, "lang": "en", "timestamp": "1493780505", "token": token,
-                   "login": member_id,"serial_number":"48525687125863258471123568955554","company":"HUAWEI","phone_model":"P10","system_version":"system_version"}
+                   "login": member_id,"serial-number":"48525687125863258471123568955554","company":"HUAWEI","phone-model":"P10","system-version":"system_version"}
         r = requests.post(self.base_url1, params=payload, headers=headers)
         result = r.json()
         format_result = json.dumps(result, indent=1)
