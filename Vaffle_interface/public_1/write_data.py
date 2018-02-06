@@ -23,7 +23,7 @@ class Write_ExcelData():
             open =  xlrd.open_workbook(self.path)
             Write_ExcelData.__instance = copy ( open )
         return Write_ExcelData.__instance
-    def write_excel_data(self,sheet_value,row_value,col_value,datetext,path,filename):
+    def write_excel_data(self,sheet_value,row_value,col_value,datetext,path):
         #old_excel = xlrd.open_workbook ( path )
         # 获得第一个sheet的对象
         sheet = self.__instance.get_sheet (sheet_value)

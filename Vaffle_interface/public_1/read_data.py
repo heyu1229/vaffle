@@ -23,7 +23,7 @@ class Read_ExcelData():
         return Read_ExcelData.__instance
 
     #---------------------读取str类型-------------------------------------------
-    def read_excel_data(self,sheet_value,row_value,col_value,filename):
+    def read_excel_data(self,sheet_value,row_value,col_value):
         #选择工作页
         sheet = self.__instance.sheet_by_index(sheet_value)
         #读取行列数据
@@ -35,7 +35,7 @@ class Read_ExcelData():
 
 
     #--------------------读取dict字典类型-（str改成dict类型）------------------------------------------
-    def read_excel_data_dict(self,sheet_value,row_value,col_value,filename):
+    def read_excel_data_dict(self,sheet_value,row_value,col_value):
         #选择工作页
         sheet = self.__instance.sheet_by_index(sheet_value)
         #读取行列数据
