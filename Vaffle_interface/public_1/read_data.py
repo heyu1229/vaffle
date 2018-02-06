@@ -42,6 +42,7 @@ class Read_ExcelData():
         daterow = sheet.row(row_value)[col_value].value
         #str改成dict类型
         daterow = json.loads(daterow)
+        print(daterow)
         #返回读取结果
         return daterow
 

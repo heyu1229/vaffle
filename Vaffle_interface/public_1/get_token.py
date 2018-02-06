@@ -13,7 +13,7 @@ class Token():
         #获取版本
         self.version =Version().test_version()
         self.base_url0 = Url().test_url()+'/token'
-
+    '''
     def test_token(self,payload):
 
         headers = {'device': 'android ','version': self.version,'lang': 'en','timestamp': '1493780505','login':'none'}
@@ -22,7 +22,7 @@ class Token():
         print(content)
         self.token = content['token']
         return self.token
-
+    '''
     def test_token1(self,payload,member_id):
 
 
@@ -33,12 +33,3 @@ class Token():
         self.token = content['token']
         return self.token
 
-    def test_token2(self,payload,member_id):
-
-
-        headers = {'device': 'android ','version': '1.0.0','lang': 'en','timestamp': '1493780505','login':member_id}
-        r = requests.post(self.base_url0,params=payload,headers=headers)
-        content=r.json()
-        print(content)
-        self.token = content['token']
-        return self.token
