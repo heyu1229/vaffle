@@ -7,11 +7,7 @@ import xlrd,sys
 import global_list
 sys.path.append(global_list.path+"/public_1")
 from func_requests import FuncRequests
-from get_token import Token
-from get_url import Url
-from read_data import Read_ExcelData
-from write_data import Write_ExcelData
-from get_version import Version
+
 
 #---------------发热门搜索hot searches----------------------
 class Discover(unittest.TestCase):
