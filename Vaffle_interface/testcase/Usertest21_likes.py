@@ -4,14 +4,6 @@ import requests
 import json,gc,sys
 import global_list
 sys.path.append(global_list.path+"/public_1")
-import time
-
-import xlrd
-from get_token import Token
-from get_url import Url
-from read_data import Read_ExcelData
-from write_data import Write_ExcelData
-from get_version import Version
 from func_requests import FuncRequests
 #---------------用户喜欢的post列表----------------------
 class List(unittest.TestCase):
