@@ -13,149 +13,47 @@ from get_token import Token
 from read_data import Read_ExcelData
 from write_data import Write_ExcelData
 from get_version import Version
+from func_requests import FuncRequests
+
 #---------------用户关注列表----------------------
 class Following(unittest.TestCase):
 
     def setUp(self):
-        #获取EXcel路径
-        self.path = Url().test_path()
-        # 打开excel
-        self.filename = "aa"
-        self.obi = Read_ExcelData()
-        #路径
-        url = Url().test_url()
-        self.base_url = self.obi.read_excel_data(2, 6, 4,self.filename)
-        self.base_url1 = url + self.base_url
-        # 获取版本
-        self.version = Version ().test_version ()
-        self.obj = Write_ExcelData()
+        self.r = FuncRequests()
 
     #-----------------我关注的用户列表----------------------------------
     def testcase_001(self):
         sheet_index = 2
         row = 6
         print("testcase_001我关注的用户列表：")
-        payload = self.obi.read_excel_data_dict(sheet_index, row, 5,self.filename)
-        # 获取token值
         member_id = "744"
-        token = Token().test_token1(payload, member_id)
+        result=self.r.interface_requests(member_id,sheet_index,row)
 
-        start = time.time()
-        headers = {"device": "android ", "version": self.version, "lang": "en", "timestamp": "1493780505", "token": token,
-                   "login": member_id}
-        r = requests.post(self.base_url1, params=payload, headers=headers)
-        result = r.json()
-        print(result)
-        end = time.time()
+        self.assertEqual(10000, result["code"])
+        print("code返回值：10000")
 
-        # 写入excel中
-        str_result = str(result)
-        self.obj.write_excel_data(sheet_index, row, 6, result["code"],self.path,self.filename)
-        self.obj.write_excel_data(sheet_index, row, 10, end - start,self.path,self.filename)
-        if len(str_result) > 32767:
-            self.obj.write_excel_data(sheet_index, row, 8, str_result[0:32767],self.path,self.filename)
-            self.obj.write_excel_data(sheet_index, row, 9, str_result[32767:],self.path,self.filename)
-        else:
-            self.obj.write_excel_data(sheet_index, row, 8, str_result,self.path,self.filename)
-
-        try:
-            self.assertEqual(10000, result["code"])
-            print("code返回值：10000")
-        except AssertionError as e:
-            print("code返回值：", result["code"])
-
-        try:
-            self.assertEqual("", result["msg"])
-            print("msg返回值：ok")
-            self.obj.write_excel_data(sheet_index, row, 7, "ok",self.path,self.filename)
-        except AssertionError as e:
-            print("msg返回报错：", result["msg"])
-            self.obj.write_excel_data(sheet_index, row, 7, result["msg"],self.path,self.filename)
 
     # -----------------进入其他用户主页查看该用户关注的列表----------------------------------
     def testcase_002(self):
         sheet_index = 2
         row = 7
         print("testcase_002进入其他用户主页查看该用户关注的列表:")
-        payload = self.obi.read_excel_data_dict(sheet_index, row, 5,self.filename)
-        # 获取token值
         member_id="744"
-        token = Token().test_token1(payload,member_id)
+        result=self.r.interface_requests(member_id,sheet_index,row)
 
-        start = time.time()
-        headers = {"device": "android ", "version": self.version, "lang": "en", "timestamp": "1493780505", "token": token,
-                   "login": member_id}
-        r = requests.post(self.base_url1, params=payload, headers=headers)
-        result = r.json()
-        print(result)
-        end = time.time()
-
-        # 写入excel中
-        str_result = str(result)
-        self.obj.write_excel_data(sheet_index, row, 6, result["code"],self.path,self.filename)
-        self.obj.write_excel_data(sheet_index, row, 10, end - start,self.path,self.filename)
-        if len(str_result) > 32767:
-            self.obj.write_excel_data(sheet_index, row, 8, str_result[0:32767],self.path,self.filename)
-            self.obj.write_excel_data(sheet_index, row, 9, str_result[32767:],self.path,self.filename)
-        else:
-            self.obj.write_excel_data(sheet_index, row, 8, str_result,self.path,self.filename)
-
-        try:
-            self.assertEqual(10000, result["code"])
-            print("code返回值：10000")
-        except AssertionError as e:
-            print("code返回值：", result["code"])
-
-        try:
-            self.assertEqual("", result["msg"])
-            print("msg返回值：ok")
-            self.obj.write_excel_data(sheet_index, row, 7, "ok",self.path,self.filename)
-        except AssertionError as e:
-            print("msg返回报错：", result["msg"])
-            self.obj.write_excel_data(sheet_index, row, 7,  result["msg"],self.path,self.filename)
+        self.assertEqual(10000, result["code"])
+        print("code返回值：10000")
 
     #-----------------关注列表为空或者用户不存在----------------------------------
     def testcase_003(self):
         sheet_index = 2
         row = 8
         print("testcase_003关注列表为空或者用户不存在")
-        payload = self.obi.read_excel_data_dict(sheet_index, row, 5,self.filename)
-        # 获取token值
         member_id="744"
-        token = Token().test_token1(payload,member_id)
+        result=self.r.interface_requests(member_id,sheet_index,row)
 
-        start = time.time()
-        headers = {"device": "android ", "version": self.version, "lang": "en", "timestamp": "1493780505", "token": token,
-                   "login": member_id}
-        r = requests.post(self.base_url1, params=payload, headers=headers)
-        result = r.json()
-        print(result)
-        end = time.time()
+        self.assertEqual(10000, result["code"])
+        print("code返回值：10000")
 
-        # 写入excel中
-        str_result = str(result)
-        self.obj.write_excel_data(sheet_index, row, 6, result["code"],self.path,self.filename)
-        self.obj.write_excel_data(sheet_index, row, 10, end - start,self.path,self.filename)
-        if len(str_result) > 32767:
-            self.obj.write_excel_data(sheet_index, row, 8, str_result[0:32767],self.path,self.filename)
-            self.obj.write_excel_data(sheet_index, row, 9, str_result[32767:],self.path,self.filename)
-        else:
-            self.obj.write_excel_data(sheet_index, row, 8, str_result,self.path,self.filename)
-
-        data=result["data"]
-        try:
-            self.assertEqual(10000, result["code"])
-            print("code返回值：10000")
-        except AssertionError as e:
-            print("code返回值：", result["code"])
-
-        try:
-            self.assertEqual([], data["list"])
-            print("following列表为空或者该用户不存在")
-            self.obj.write_excel_data(sheet_index, row, 7, "following列表为空或者该用户不存在",self.path,self.filename)
-        except AssertionError as e:
-            print("该用户的关注列表不为空或者该用户存在")
-            self.obj.write_excel_data(sheet_index, row, 7, "该用户的关注列表不为空或者该用户存在",self.path,self.filename)
-        gc.collect()
 if __name__=="__main__":
     unittest.main()
