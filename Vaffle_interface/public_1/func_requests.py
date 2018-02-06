@@ -92,6 +92,7 @@ class FuncRequests():
         self.obj.write_excel_data(sheet_index, row, 10, end - start,self.path)
         return result
 
+    # -----------------调用其他接口动态获得要使用的字段----------------------------------
     def interface_requests_data(self,member_id,urlpart,payload):
         # 获取EXcel路径
         self.path = Url().test_path()
