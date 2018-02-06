@@ -11,7 +11,7 @@ from read_data import Read_ExcelData
 from write_data import Write_ExcelData
 from get_version import Version
 #---------------关注----------------------
-class func_requests():
+class FuncRequests():
 
     #-----------------接口请求（payload从文件中读取）----------------------------------
     def interface_requests(self,member_id,sheet_index,row):
