@@ -25,11 +25,11 @@ class Brands(unittest.TestCase):
     def testcase_001(self):
         sheet_index = 1
         row = 1
-        member_id=744
+        member_id='744'
         print ("testcase_001品牌型号数据测试:")
-        code=self.r.interface_requests(member_id,sheet_index,row)
+        result=self.r.interface_requests(member_id,sheet_index,row)
 
-        self.assertEqual(10000, code)
+        self.assertEqual(10000, result['code'])
         print("code返回值：10000")
 
 if __name__ == "__main__":
