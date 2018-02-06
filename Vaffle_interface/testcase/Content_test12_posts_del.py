@@ -71,8 +71,6 @@ class PostsDetail(unittest.TestCase):
 
         self.assertEqual(10056, result["code"])
         print("code返回值：10056")
-        self.assertEqual("This post has been deleted.", result["msg"])
-        print("msg返回值：This post has been deleted.")
 
 if __name__=="__main__":
     unittest.main()
