@@ -4,14 +4,6 @@ import requests
 import sys,gc
 import global_list
 sys.path.append(global_list.path+"/public_1")
-import time
-
-import xlrd
-from get_token import Token
-from get_url import Url
-from read_data import Read_ExcelData
-from write_data import Write_ExcelData
-from get_version import Version
 from func_requests import FuncRequests
 #--------------为第三方账户增加邮箱----------------------
 class AddEmail(unittest.TestCase):

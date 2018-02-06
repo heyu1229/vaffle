@@ -5,12 +5,6 @@ import sys,gc
 import time
 import global_list
 sys.path.append(global_list.path+"/public_1")
-import xlrd
-from get_token import Token
-from get_url import Url
-from read_data import Read_ExcelData
-from write_data import Write_ExcelData
-from get_version import Version
 from func_requests import FuncRequests
 
 #------------------------被其他用户点赞的post列表---------------------------
