@@ -53,7 +53,7 @@ class FuncRequests():
         else:
             self.obj.write_excel_data(sheet_index, row, 8, str_result,self.path,self.filename)
         self.obj.write_excel_data(sheet_index, row, 10, end - start,self.path,self.filename)
-        return result["code"]
+        return result
 
     # -----------------接口请求（payload动态获取）----------------------------------
     def interface_requests_payload(self,member_id,sheet_index,row,payload):
@@ -94,4 +94,4 @@ class FuncRequests():
         else:
             self.obj.write_excel_data(sheet_index, row, 8, str_result,self.path,self.filename)
         self.obj.write_excel_data(sheet_index, row, 10, end - start,self.path,self.filename)
-        return result["code"]
+        return result
