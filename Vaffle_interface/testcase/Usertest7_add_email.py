@@ -4,6 +4,7 @@ import requests
 import sys,gc
 import global_list
 sys.path.append(global_list.path+"/public_1")
+from get_url import Url
 from func_requests import FuncRequests
 #--------------为第三方账户增加邮箱----------------------
 class AddEmail(unittest.TestCase):
