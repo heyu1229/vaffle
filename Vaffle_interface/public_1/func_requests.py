@@ -91,3 +91,20 @@ class FuncRequests():
             self.obj.write_excel_data(sheet_index, row, 8, str_result,self.path)
         self.obj.write_excel_data(sheet_index, row, 10, end - start,self.path)
         return result
+
+    def interface_requests_data(self,member_id,urlpart,payload):
+        # 获取EXcel路径
+        self.path = Url().test_path()
+        # 路径
+        url = Url().test_url()
+        self.base_url=url+urlpart
+        self.obi = Read_ExcelData()
+        # 获取版本
+        self.version = Version().test_version()
+        #获取token值
+        token = Token().test_token1(payload, member_id)
+        headers = {"device": "android ", "version": self.version, "lang": "en", "timestamp": "1493780505", "token": token,
+                   "login": member_id,"serial_number":"48525687125863258471123568955554","company":"HUAWEI","phone_model":"P10","system_version":"system_version"}
+        r = requests.post(self.base_url, params=payload, headers=headers)
+        result = r.json()
+        return result
