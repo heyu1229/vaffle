@@ -8,7 +8,6 @@ from email.mime.multipart import MIMEMultipart
 my_sender='lisa.he@heavengifts.com' #发件人邮箱账号
 #my_user='omv.team@heavengifts.com' #收件人邮箱账号
 my_user='1004856404@qq.com' #收件人邮箱账号
-#my_user='tasia.feng@heavengifts.com' #收件人邮箱账号
 #发送邮件
 def send_mail(file_new,excel_new):
     f = open(file_new,'rb')
@@ -19,7 +18,7 @@ def send_mail(file_new,excel_new):
         msg = MIMEMultipart('related')
         msg["From"] = my_sender
         msgText = MIMEText(mail_body,'html','utf-8')
-        msg['Subject'] = Header('vaffle 2.2 develop接口自动化测试报告','utf-8')
+        msg['Subject'] = Header('vaffle 2.2.1 develop接口自动化测试报告','utf-8')
         msg.attach(msgText)
 
         # #添加excel附件
@@ -74,6 +73,7 @@ if __name__ == '__main__':
     #用例地址
     print(os.getcwd())
     test_dir = os.getcwd()[:-9]+"/testcase"
+    print("test_dir:%s" %test_dir)
     #测试报告存放地址
     test_report = os.getcwd()[:-9]+"/test_report"
     #最新接口excel
