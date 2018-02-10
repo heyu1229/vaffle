@@ -174,22 +174,9 @@ class Publish(unittest.TestCase):
         self.assertEqual(10003, result['code'])
         print("code返回值：10003")
 
-    #-----------------发布不存在的视频动态----------------------------------
-    def testcase_012(self):
-        sheet_index = 1
-        row = 45
-        print("testcase_012发布不存在的视频动态：")
-        date = time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())
-        payload = {"content": "接口在" + date + "测试发布视频","video": "post/149484012542459_449_ios.mp4"}
-        member_id="744"
-        result=self.r.interface_requests_payload(member_id, sheet_index, row, payload)
-
-        self.assertEqual(10003, result['code'])
-        print("code返回值：10003")
-
 
   #-----------------发布错误的图片格式动态----------------------------------
-    def testcase_013(self):
+    def testcase_012(self):
         sheet_index = 1
         row = 46
         print("testcase_013发布错误的图片格式动态：")
@@ -204,7 +191,7 @@ class Publish(unittest.TestCase):
 
 
  # #-----------------发布不存在的图片动态----------------------------------
-    def testcase_014(self):
+    def testcase_013(self):
         sheet_index = 1
         row = 47
         print("testcase_014发布不存在的图片动态：")
@@ -219,7 +206,7 @@ class Publish(unittest.TestCase):
         print("code返回值：10003")
 
    #-----------------发布图片+视频动态----------------------------------
-    def testcase_015(self):
+    def testcase_014(self):
         sheet_index = 1
         row = 48
         print("testcase_015发布图片+视频动态：")
@@ -235,7 +222,7 @@ class Publish(unittest.TestCase):
 
         # -----------------发布普通图+gif图+长图+live图--------------------------------
 
-    def testcase_016(self):
+    def testcase_015(self):
         sheet_index = 1
         row = 50
         print("testcase_015发布普通图+gif图+长图+live图：")
