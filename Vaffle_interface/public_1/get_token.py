@@ -26,7 +26,7 @@ class Token():
     def test_token1(self,payload,member_id):
 
 
-        headers = {'device': 'android ','version': self.version,'lang': 'en','timestamp': '1493780505','login':member_id}
+        headers = {'device': 'android ','version': self.version,'lang': 'en','timestamp': '1493780505','login':member_id,"serial-number":"48525687125863258471123568955554","company":"HUAWEI","phone-model":"P10","system-version":"system_version"}
         r = requests.post(self.base_url0,params=payload,headers=headers)
         content=r.json()
         print(content)
