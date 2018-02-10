@@ -146,7 +146,7 @@ class FuncRequests():
         #获取token值
         token = Token().test_token1(payload, member_id)
         headers = {"device": "android ", "version": self.version, "lang": "en", "timestamp": "1493780505", "token": token,
-                   "login": member_id,"serial_number":"48525687125863258471123568955554","company":"HUAWEI","phone_model":"P10","system_version":"system_version"}
+                   "login": member_id,"serial-number":"48525687125863258471123568955554","company":"HUAWEI","phone-model":"P10","system-version":"system_version"}
         r = requests.post(self.base_url, params=payload, headers=headers)
         result = r.json()
         return result
