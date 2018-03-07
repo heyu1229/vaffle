@@ -30,6 +30,7 @@ class PostsRepeat(unittest.TestCase):
         member_id = "744"
         urlpart1 = '/posts/publish'
         result1 = self.r.interface_requests_data(member_id, urlpart1, payload1)
+        print(result1)
         global post_id
         post_id = result1["data"]["post_id"]
 

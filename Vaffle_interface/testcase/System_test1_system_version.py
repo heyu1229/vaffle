@@ -32,7 +32,7 @@ class System_version(unittest.TestCase):
         member_id = "744"
         result=self.r.interface_requests(member_id,sheet_index,row)
 
-        if self.version =="2.2.2":
+        if self.version =="2.3.0":
             self.assertEqual(10033, result["code"])
             print("code返回值：10033，No new version")
         else :

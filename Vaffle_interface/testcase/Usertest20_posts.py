@@ -27,7 +27,7 @@ class List(unittest.TestCase):
     #-----------------用户个人post列表第2页数据----------------------------------
     def testcase_002(self):
         urlpart = "/member/posts"
-        payload = {"page": "1","type":"all","member_id": "744","last_id":1}
+        payload = {"page": "1","type":"all","member_id": "744"}
         result = self.requests.interface_requests_data(self.member_id,urlpart,payload)
         #先获取第一页最后一条post的post_id
         date=result['data']['list']

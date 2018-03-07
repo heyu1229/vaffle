@@ -45,16 +45,16 @@ class List(unittest.TestCase):
         self.assertEqual ( '', result['msg'] )
         print ( "msg返回值：ok" )
 
-    # -----------------type不存在----------------------------------
+    # -----------------type为空不校验----------------------------------
     def testcase_004(self):
         sheet_index =0
         row = 78
-        print("testcase003 type不存在：")
+        print("testcase003 为空不校验：")
         result = self.requests.interface_requests(self.member_id,sheet_index,row)
-        self.assertEqual(9999, result['code'])
-        print("code返回值：9999")
-        self.assertEqual('Time out.', result['msg'])
-        print("msg返回值：Time out.")
+        self.assertEqual(10000, result['code'])
+        print("code返回值：10000")
+        self.assertEqual('', result['msg'])
+        print("msg返回值：ok")
 
 
 if __name__ == '__main__':
