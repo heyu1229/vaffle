@@ -7,7 +7,7 @@ import xlrd,sys
 import global_list
 sys.path.append(global_list.path+"/public_1")
 from func_requests import FuncRequests
-#---------------优惠券列表----type:‘notused’,’used’,’invalid’-----------------
+#---------------获取积分途径------------------
 class RewardsDescription(unittest.TestCase):
 
     def setUp(self):
