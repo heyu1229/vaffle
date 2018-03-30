@@ -15,7 +15,7 @@ sys.path.append(global_list.path+"/log")
 from interface_log import interface_log
 from func_requests import FuncRequests
 
-#---------------发布post时推荐的challenge----------------------
+#---------------用户排行榜----------------------
 class Brands(unittest.TestCase):
 
     def setUp(self):
