@@ -232,12 +232,44 @@ class Publish(unittest.TestCase):
                {"path": "posts/meinv1.gif ", "ratio": 1.23, "tag": 2},
                {"path": "posts/lang.jpg", "ratio": 1.23, "tag": 3},)
         images = json.dumps(obj)
-        payload = {"content": "接口在" + date + "测试发布图片+视频", "images": images}
+        payload = {"content": "接口在" + date + "测试发布普通图+gif图+长图+live图", "images": images}
         member_id = "744"
         result=self.r.interface_requests_payload(member_id, sheet_index, row, payload)
 
         self.assertEqual(10000, result['code'])
         print("code返回值：10000")
+
+    # -----------------发布图片挑战-------------------------------
+    def testcase_016(self):
+        sheet_index = 1
+        row = 63
+        print("testcase_016发布图片挑战活动：")
+        date = time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())
+        obj = ({"path": "posts/1512710644881_767_android.jpg", "ratio": 1.23, "tag": 1},
+               {"path": "posts/meinv1.gif ", "ratio": 1.23, "tag": 2},
+               {"path": "posts/lang.jpg", "ratio": 1.23, "tag": 3},)
+        images = json.dumps(obj)
+        payload = {"content": "接口在" + date + "测试发布图片挑战活动", "images": images,"challenge":"templarRDA vaping1","challenge_id":1}
+        member_id = "744"
+        result=self.r.interface_requests_payload(member_id, sheet_index, row, payload)
+
+        self.assertEqual(10000, result['code'])
+        print("code返回值：10000")
+
+    # -----------------发布视频挑战-------------------------------
+    def testcase_017(self):
+        sheet_index = 1
+        row = 64
+        print("testcase_016发布挑战活动：")
+        date = time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())
+        payload = {"content": "接口在" + date + "测试发布视频挑战活动", "video": "posts/1505153294565_832_android.mp4",
+                   "video_cover": 'posts/1505153294565_832_android.jpg', "video_cover_ratio": 1.00,"challenge":"templarRDA vaping1","challenge_id":1}
+        member_id = "744"
+        result=self.r.interface_requests_payload(member_id, sheet_index, row, payload)
+
+        self.assertEqual(10000, result['code'])
+        print("code返回值：10000")
+
 
 if __name__ == "__main__":
     unittest.main()
