@@ -50,6 +50,7 @@ class Publish(unittest.TestCase):
         print("testcase_003发布图片动态：")
         obj = ({"path":"posts/1512710644871_767_android.jpg","ratio":1.23,"tag":1},)
         images = json.dumps(obj)
+        print(images)
         date = time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())
         payload = {"content": "接口在"+date+"测试发布图片","images": images}
         member_id="744"
