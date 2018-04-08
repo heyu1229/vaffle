@@ -74,10 +74,10 @@ class ResetPass(unittest.TestCase):
         row = 87
         print("testcase005 验证码错误：")
         result = self.requests.interface_requests(self.member_id,sheet_index,row)
-        self.assertEqual(10008, result['code'])
-        print("code返回值：10008")
-        self.assertEqual('Invalid verification code, please resend.',result['msg'])
-        print("msg返回值：Invalid verification code, please resend.")
+        self.assertEqual(10009, result['code'])
+        print("code返回值：10009")
+        self.assertEqual('Verification Code Error',result['msg'])
+        print("msg返回值：Verification Code Error")
 
 if __name__ == '__main__':
     unittest.main()
