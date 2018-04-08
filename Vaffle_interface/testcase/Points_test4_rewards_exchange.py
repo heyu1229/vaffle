@@ -19,10 +19,10 @@ class RewardsDescription(unittest.TestCase):
         row = 6
         print("testcase001 兑换优惠积分不足：")
         result = self.requests.interface_requests(self.member_id,sheet_index,row)
-        self.assertEqual(10041, result['code'])
-        print("code返回值：10041")
-        self.assertEqual('Your points are insufficient.', result['msg'])
-        print("msg返回值：Your points are insufficient.")
+        self.assertEqual(10049, result['code'])
+        print("code返回值：10049")
+        self.assertEqual('The card expires.', result['msg'])
+        print("msg返回值：The card expires.")
 
 
 
@@ -32,11 +32,11 @@ class RewardsDescription(unittest.TestCase):
         row = 7
         print("testcase002 用户兑换等级不够：")
         result = self.requests.interface_requests(self.member_id,sheet_index,row)
-        self.assertEqual(10041, result['code'])
-        print("code返回值：10041")
+        self.assertEqual(10049, result['code'])
+        print("code返回值：10049")
 
-        self.assertEqual("Your points are insufficient.", result['msg'])
-        print("msg返回值：Your points are insufficient.")
+        self.assertEqual("The card expires.", result['msg'])
+        print("msg返回值：The card expires.")
 
 if __name__ == '__main__':
     unittest.main()

@@ -17,11 +17,11 @@ class VideoList(unittest.TestCase):
     def setUp(self):
         self.r = FuncRequests()
 
-    #-----------------播放视频列表latest----------------------------------
+    #-----------------播放视频列表post----------------------------------
     def testcase_001(self):
         sheet_index = 1
         row = 17
-        print("testcase_001播放视频列表latest：")
+        print("testcase_001播放视频列表post：")
         # 1.调用发布接口发送一条动态，获取post_id
         date = time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())
         payload1 = {"content": "接口在" + date + "测试发布视频","video": "posts/149673555108234_748_ios.mp4",
@@ -31,17 +31,17 @@ class VideoList(unittest.TestCase):
         result1 = self.r.interface_requests_data(member_id, urlpart1, payload1)
         post_id =result1["data"]["post_id"]
 
-        payload = {"post_id": post_id,"page": "1","type": "latest"}
+        payload = {"post_id": post_id,"page": "1","type": "post"}
         result=self.r.interface_requests_payload(member_id, sheet_index, row, payload)
 
         self.assertEqual(10000, result["code"])
         print("code返回值：10000")
 
-    #-----------------播放视频列表hot----------------------------------
+    #-----------------播放视频列表reveal----------------------------------
     def testcase_002(self):
         sheet_index = 1
         row = 18
-        print("testcase_002播放视频列表hot：")
+        print("testcase_002播放视频列表reveal：")
         # 1.调用发布接口发送一条动态，获取post_id
         date = time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())
         payload1 = {"content": "接口在" + date + "测试发布视频", "video": "posts/149673555108234_748_ios.mp4",
@@ -51,7 +51,7 @@ class VideoList(unittest.TestCase):
         result1 = self.r.interface_requests_data(member_id, urlpart1, payload1)
         post_id = result1["data"]["post_id"]
 
-        payload = {"post_id": post_id, "page": "1", "type": "hot"}
+        payload = {"post_id": post_id, "page": "1", "type": "reveal"}
         result = self.r.interface_requests_payload(member_id, sheet_index, row, payload)
 
         self.assertEqual(10000, result["code"])

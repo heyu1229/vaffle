@@ -40,8 +40,8 @@ class Publish(unittest.TestCase):
         payload = {"content": ""}
         member_id='744'
         result=self.r.interface_requests_payload(member_id, sheet_index, row, payload)
-        self.assertEqual(10011, result['code'])
-        print("code返回值：10011")
+        self.assertEqual(10000, result['code'])
+        print("code返回值：10000")
 
     #-----------------发布图片动态----------------------------------
     def testcase_003(self):
