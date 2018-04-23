@@ -9,7 +9,7 @@ from func_requests import FuncRequests
 class DeviceList(unittest.TestCase):
 
     def setUp(self):
-        self.member_id = '499'
+        self.member_id = '744'
         self.requests = FuncRequests()
     #-----------------用户的电子烟设备列表   pending,not_passed,verified)----------------------------------
     def testcase_001(self):

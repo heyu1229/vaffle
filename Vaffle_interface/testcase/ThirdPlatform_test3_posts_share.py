@@ -52,8 +52,8 @@ class Post_share(unittest.TestCase):
         member_id = "744"
         result=self.r.interface_requests(member_id,sheet_index,row)
 
-        self.assertEqual(9999, result["code"])
-        print("code返回值：9999")
+        self.assertEqual(10000, result["code"])
+        print("code返回值：10000")
 
     #-----------------分享app----------------------------------
     #-----------------facebook:411568645883504 twitter:861855853032357889  vk:427871220--------------------------

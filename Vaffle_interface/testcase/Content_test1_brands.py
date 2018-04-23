@@ -11,8 +11,6 @@ from get_version import Version
 from get_token import Token
 from read_data import Read_ExcelData
 from write_data import Write_ExcelData
-sys.path.append(global_list.path+"/log")
-from interface_log import interface_log
 from func_requests import FuncRequests
 
 #---------------品牌型号数据----------------------
