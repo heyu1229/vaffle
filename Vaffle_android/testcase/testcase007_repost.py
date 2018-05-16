@@ -10,7 +10,7 @@ from selenium.webdriver.support.wait import WebDriverWait
 class AndroidTest_repost(unittest.TestCase):
 
     def setUp(self):
-        os.system ( 'start startAppiumServer.bat' )
+        # os.system ( 'start startAppiumServer.bat' )
         time.sleep ( 10 )
         Android = androidtest()
         self.driver=Android.android()
@@ -26,12 +26,12 @@ class AndroidTest_repost(unittest.TestCase):
         self.public.login_vaffle(self.user, self.password)
         #点击发布按钮
         self.driver.find_element_by_id('com.heavengifts.vaffle:id/bottom_menu_publish').click()
-        # try:
-        #     if self.driver.find_element_by_id("com.android.packageinstaller:id/dialog_container").is_displayed():
-        #点允许直接进入相册页面
-        self.driver.find_element_by_id("com.android.packageinstaller:id/permission_allow_button").click()
-        # except:
-        #     print("no alter")
+        try:
+            if self.driver.find_element_by_id("com.android.packageinstaller:id/dialog_container").is_displayed():
+                #点允许直接进入相册页面
+                self.driver.find_element_by_id("com.android.packageinstaller:id/permission_allow_button").click()
+        except:
+            print("no alter")
 
         #选择第一张照片后删除,再输入纯文本
         library = self.driver.find_element_by_id("com.heavengifts.vaffle:id/library_grid")
@@ -42,6 +42,7 @@ class AndroidTest_repost(unittest.TestCase):
         date = time.strftime('%Y-%m-%d %H:%M:%S', time.localtime())
         self.driver.find_element_by_id('com.heavengifts.vaffle:id/share_to_et').send_keys(date + ' auto test post text') #输入纯文本
         self.driver.find_element_by_id('com.heavengifts.vaffle:id/iv_toolbar_right').click()
+        time.sleep(5)
         self.public.swipeDown(2000)
 
         home = self.driver.find_element_by_id("com.heavengifts.vaffle:id/home_recyclerview")
@@ -61,7 +62,7 @@ class AndroidTest_repost(unittest.TestCase):
         
 
     def tearDown(self):
-        os.system ( 'start stopAppiumServer.bat' )
+        # os.system ( 'start stopAppiumServer.bat' )
         time.sleep(20)
         # self.driver.quit()
 

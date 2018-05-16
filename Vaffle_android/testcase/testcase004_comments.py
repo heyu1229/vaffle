@@ -10,7 +10,7 @@ from selenium.webdriver.support.wait import WebDriverWait
 class AndroidTest_comments(unittest.TestCase):
 
     def setUp(self):
-        os.system ( 'start startAppiumServer.bat' )
+        # os.system ( 'start startAppiumServer.bat' )
         time.sleep ( 10 )
         Android = androidtest()
         self.driver=Android.android()
@@ -27,12 +27,12 @@ class AndroidTest_comments(unittest.TestCase):
         #-------------------------------新发一条纯文本POST------------------------------------------
         # 点击发布按钮
         self.driver.find_element_by_id('com.heavengifts.vaffle:id/bottom_menu_publish').click()
-        # try:
-        #     if self.driver.find_element_by_id("com.android.packageinstaller:id/dialog_container").is_displayed():
-        #点允许直接进入相册页面
-        self.driver.find_element_by_id("com.android.packageinstaller:id/permission_allow_button").click()
-        # except:
-        #     print("no alter")
+        try:
+            if self.driver.find_element_by_id("com.android.packageinstaller:id/dialog_container").is_displayed():
+                #点允许直接进入相册页面
+                self.driver.find_element_by_id("com.android.packageinstaller:id/permission_allow_button").click()
+        except:
+            print("no alter")
 
         #选择第一张照片后删除,再输入纯文本
         library = self.driver.find_element_by_id("com.heavengifts.vaffle:id/library_grid")
@@ -48,7 +48,7 @@ class AndroidTest_comments(unittest.TestCase):
         self.driver.find_element_by_id('com.heavengifts.vaffle:id/item_post_comment').click()
         self.driver.find_element_by_id('com.heavengifts.vaffle:id/ed_comment').send_keys("This is an auto comment.") #输入评论内容
         self.driver.find_element_by_id ( 'com.heavengifts.vaffle:id/btn_send' ).click() #提交评论成功
-        # self.public.swipeUp(1000)
+        self.public.swipeDown(1000)
         #断言是否评论成功
         comment_context = self.driver.find_element_by_id('com.heavengifts.vaffle:id/tv_main_content').text
         # self.assertEqual ( comment_context, 'This is an auto comment.')
@@ -57,7 +57,7 @@ class AndroidTest_comments(unittest.TestCase):
 
 
     def tearDown(self):
-        os.system ( 'start stopAppiumServer.bat' )
+        # os.system ( 'start stopAppiumServer.bat' )
         time.sleep(20)
         # self.driver.quit()
 

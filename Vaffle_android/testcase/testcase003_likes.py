@@ -10,7 +10,7 @@ from selenium.webdriver.support.wait import WebDriverWait
 class AndroidTest_likes(unittest.TestCase):
 
     def setUp(self):
-        os.system ( 'start startAppiumServer.bat' )
+        # os.system ( 'start startAppiumServer.bat' )
         time.sleep ( 10 )
         Android = androidtest()
         self.driver=Android.android()
@@ -27,13 +27,12 @@ class AndroidTest_likes(unittest.TestCase):
         #-------------------------------新发一条纯文本POST------------------------------------------
         # 点击发布按钮
         self.driver.find_element_by_id('com.heavengifts.vaffle:id/bottom_menu_publish').click()
-        # try:
-        #     if self.driver.find_element_by_id("com.android.packageinstaller:id/dialog_container").is_displayed():
-        #点允许直接进入相册页面
-        self.driver.find_element_by_id("com.android.packageinstaller:id/permission_allow_button").click()
-
-        # except:
-        #     print("no alter")
+        try:
+            if self.driver.find_element_by_id("com.android.packageinstaller:id/dialog_container").is_displayed():
+                #点允许直接进入相册页面
+                self.driver.find_element_by_id("com.android.packageinstaller:id/permission_allow_button").click()
+        except:
+            print("no alter")
 
         #选择第一张照片后删除,再输入纯文本
         library = self.driver.find_element_by_id("com.heavengifts.vaffle:id/library_grid")
@@ -47,18 +46,18 @@ class AndroidTest_likes(unittest.TestCase):
         self.public.swipeDown(2000)
         #给第一个POST点赞
         self.driver.find_element_by_id('com.heavengifts.vaffle:id/item_post_like').click()
+        time.sleep(2)
         self.driver.find_element_by_id('com.heavengifts.vaffle:id/tv_like_num').click() #点Likes进入Likes　List
         #断言是否点赞成功
-        usernames = self.driver.find_element_by_id('com.heavengifts.vaffle:id/tv_username')
-        nickname = usernames.find_element_by_id('com.heavengifts.vaffle:id/tv_nickname').text
+        nickname = self.driver.find_element_by_id('com.heavengifts.vaffle:id/tv_username').text
         # self.assertEqual ( nickname, '@'+self.user )
-        self.assertEqual ( nickname, '@'+self.user, self.write.Write_data ( 1, 12, 4, '点赞失败' ) )
+        self.assertEqual ( nickname, self.user, self.write.Write_data ( 1, 12, 4, '点赞失败' ) )
         self.write.Write_data ( 1, 12, 4, '点赞成功' )
 
 
     def tearDown(self):
-        os.system ( 'start stopAppiumServer.bat' )
-        time.sleep(20)
+        # os.system ( 'start stopAppiumServer.bat' )
+        time.sleep(200)
         # self.driver.quit()
 
 

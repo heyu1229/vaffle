@@ -6,9 +6,9 @@ class androidtest(unittest.TestCase):
 
     def android(self):
         platformName = 'Android'
-        platformVersion = '7.1'
+        platformVersion = '7.0'
         deviceName = '00a82383e298c621'
-        app = '..//apps/vaffle-v2.2.0-test.apk'
+        app = '..//apps/vaffle-v2.4.3.apk'
         PATH = lambda p: os.path.abspath(os.path.join(os.path.dirname(__file__), p))
         desired_caps = {}
         desired_caps['unicodeKeyboard']='true' #安装appium的虚拟键盘

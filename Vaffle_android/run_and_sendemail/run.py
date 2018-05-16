@@ -17,7 +17,7 @@ def send_email(report,excel):
     msg=MIMEMultipart('related')
     msg['From']=mail_uesr
     msg['To']=';'.join(mail_tolist)
-    msg['Subject']=Header('vaffle2.2.0 android自动化测试报告','utf-8')
+    msg['Subject']=Header('vaffle2.4.3 android自动化测试报告','utf-8')
     msg.attach(msgText)
     #添加excel附件
     excelatt=MIMEApplication(open('%s'%excel,'rb').read())
@@ -62,7 +62,7 @@ if __name__ == '__main__':
     test_excel = "..//testdata"
 
     # 查看用例地址中用例
-    discover = unittest.defaultTestLoader.discover(test_dir, pattern='*.py', top_level_dir=None)
+    discover = unittest.defaultTestLoader.discover(test_dir, pattern='testcase002_*.py', top_level_dir=None)
     # 获取现在的时间
     now = time.strftime("%Y-%m-%d %H_%M_%S")
     # 定义文件名

@@ -12,7 +12,7 @@ from public.findtoast import Findtoast
 class AndroidTest_avatar(unittest.TestCase):
 
     def setUp(self):
-        os.system ( 'start startAppiumServer.bat' )
+        # os.system ( 'start startAppiumServer.bat' )
         time.sleep ( 10 )
         Android = androidtest()
         self.driver=Android.android()
@@ -56,19 +56,23 @@ class AndroidTest_avatar(unittest.TestCase):
 
         self.driver.find_element_by_id ( "com.heavengifts.vaffle:id/btn_sign_before" ).click ()
         # 进入注册2页面点Sign Up按钮  注册成功后进入首页
+        self.driver.find_element_by_id("com.heavengifts.vaffle:id/ct_certification").click()         #勾选我已满18周岁
         self.driver.find_element_by_id ( "com.heavengifts.vaffle:id/btn_register" ).click ()
         # 进入Me页面
         self.driver.find_element_by_id ( 'com.heavengifts.vaffle:id/bottom_menu_me' ).click ()  # 点击我的
         self.driver.find_element_by_id ( 'com.heavengifts.vaffle:id/avatar' ).click ()  # 点击头像
-        #点允许直接进入相册页面
-        self.driver.find_element_by_id("com.android.packageinstaller:id/permission_allow_button").click()
+        try:
+            if self.driver.find_element_by_id("com.android.packageinstaller:id/dialog_container").is_displayed():
+                #点允许直接进入相册页面
+                self.driver.find_element_by_id("com.android.packageinstaller:id/permission_allow_button").click()
+        except:
+            print("no alter")
         # 拍照发POST
         library = self.driver.find_element_by_id ( "com.heavengifts.vaffle:id/library_grid" )
         photoes = library.find_elements_by_class_name ( 'android.widget.FrameLayout' )
         photoes[0].click ()  # 拍照
-        self.driver.find_element_by_id (
-            'com.android.packageinstaller:id/permission_allow_button' ).click ()  # 允许访问相机或录制视频
-        self.driver.find_element_by_id ( 'com.android.packageinstaller:id/permission_allow_button' ).click ()  # 允许访问麦克风
+        self.driver.find_element_by_id ('com.android.packageinstaller:id/permission_allow_button').click ()  # 允许访问相机或录制视频
+        # self.driver.find_element_by_id ( 'com.android.packageinstaller:id/permission_allow_button' ).click ()  # 允许访问麦克风
         # except:
         #     print("no alter")
         self.driver.find_element_by_id ( 'com.heavengifts.vaffle:id/view_photo_video_select' ).click ()  # 点击拍照
@@ -83,8 +87,12 @@ class AndroidTest_avatar(unittest.TestCase):
         self.public.login_vaffle(self.user, self.password)
         self.driver.find_element_by_id('com.heavengifts.vaffle:id/bottom_menu_me').click() # 点击我的
         self.driver.find_element_by_id('com.heavengifts.vaffle:id/avatar').click() # 点击头像
-        #点允许直接进入相册页面
-        self.driver.find_element_by_id("com.android.packageinstaller:id/permission_allow_button").click()
+        try:
+            if self.driver.find_element_by_id("com.android.packageinstaller:id/dialog_container").is_displayed():
+                #点允许直接进入相册页面
+                self.driver.find_element_by_id("com.android.packageinstaller:id/permission_allow_button").click()
+        except:
+            print("no alter")
         time.sleep(5)
         # self.driver.execute_script ( "mobile: tap", {"touchCount": "1", "x": 977, "y": 131} )
         self.driver.find_element_by_id('com.heavengifts.vaffle:id/tv_edit').click()   #点击Edit
@@ -112,7 +120,7 @@ class AndroidTest_avatar(unittest.TestCase):
 
 
     def tearDown(self):
-        os.system ( 'start stopAppiumServer.bat' )
+        # os.system ( 'start stopAppiumServer.bat' )
         time.sleep(20)
         # self.driver.quit()
 

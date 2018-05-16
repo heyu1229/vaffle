@@ -51,13 +51,17 @@ class AndroidTest_register(unittest.TestCase):
         self.driver.find_element_by_id("com.heavengifts.vaffle:id/btn_sign_before").click()
 
         #进入注册2页面点Sign Up按钮  注册成功后进入首页
+        self.driver.find_element_by_id("com.heavengifts.vaffle:id/ct_certification").click()         #勾选我已满18周岁
         self.driver.find_element_by_id("com.heavengifts.vaffle:id/btn_register").click()
         #断言进入Me页面
         self.driver.find_element_by_id("com.heavengifts.vaffle:id/bottom_menu_me").click()
-        titles = self.driver.find_element_by_id("com.heavengifts.vaffle:id/toolbar")
-        title = titles.find_element_by_class_name("android.widget.TextView").text
-        assert "Me"==title
-        assert self.displayname == self.driver.find_element_by_id("com.heavengifts.vaffle:id/tv_displayname").text
+
+        #标题显示用户nickanme
+        # titles = self.driver.find_element_by_id("com.heavengifts.vaffle:id/toolbar")
+        # title = titles.find_element_by_class_name("android.widget.TextView").text
+        # assert "Me"==title
+        #头像旁边显示的是displayname
+        assert self.displayname == self.driver.find_element_by_id("com.heavengifts.vaffle:id/nickname").text
         print("用户注册成功")
     def tearDown(self):
         os.system ( 'start stopAppiumServer.bat' )

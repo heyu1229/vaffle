@@ -30,12 +30,12 @@ class AndroidTest_publish(unittest.TestCase):
         self.public.login_vaffle(self.user, self.password)
         #点击发布按钮
         self.driver.find_element_by_id('com.heavengifts.vaffle:id/bottom_menu_publish').click()
-        # try:
-        #     if self.driver.find_element_by_id("com.android.packageinstaller:id/dialog_container").is_displayed():
-        #点允许直接进入相册页面
-        self.driver.find_element_by_id("com.android.packageinstaller:id/permission_allow_button").click()
-        # except:
-        #     print("no alter")
+        try:
+            if self.driver.find_element_by_id("com.android.packageinstaller:id/dialog_container").is_displayed():
+                #点允许直接进入相册页面
+                self.driver.find_element_by_id("com.android.packageinstaller:id/permission_allow_button").click()
+        except:
+            print("no alter")
 
         #选择第一张照片后删除,再输入纯文本
         library = self.driver.find_element_by_id("com.heavengifts.vaffle:id/library_grid")
@@ -49,7 +49,6 @@ class AndroidTest_publish(unittest.TestCase):
 
         # self.public.swipeDown(5)
         self.driver.find_element_by_id('com.heavengifts.vaffle:id/bottom_menu_me').click()  #进入Me页面
-
         self.driver.find_element_by_id('com.heavengifts.vaffle:id/cnt_posts').click() #进入POSTS页面
 
         # post = self.driver.find_element_by_id('com.heavengifts.vaffle:id/home_recyclerview')
@@ -62,17 +61,18 @@ class AndroidTest_publish(unittest.TestCase):
 
 
     #-----------------------发拍照片的POST---------------------------------------------
+    '''
     def testcase002_post_takeonephoto(self):
         print(self.user, self.password)
         self.public.login_vaffle(self.user, self.password)
         #点击发布按钮
         self.driver.find_element_by_id('com.heavengifts.vaffle:id/bottom_menu_publish').click()
-        # try:
-        #     if self.driver.find_element_by_id("com.android.packageinstaller:id/dialog_container").is_displayed():
-        #点允许直接进入相册页面
-        self.driver.find_element_by_id("com.android.packageinstaller:id/permission_allow_button").click()
-        # except:
-        #     print("no alter")
+        try:
+            if self.driver.find_element_by_id("com.android.packageinstaller:id/dialog_container").is_displayed():
+                #点允许直接进入相册页面
+                self.driver.find_element_by_id("com.android.packageinstaller:id/permission_allow_button").click()
+        except:
+             print("no alter")
         # self.driver.execute_script ( "mobile: tap", {"touchCount": "1", "x": 177, "y": 390} )
         #拍照发POST
         library = self.driver.find_element_by_id("com.heavengifts.vaffle:id/library_grid")
@@ -86,8 +86,8 @@ class AndroidTest_publish(unittest.TestCase):
         #     print("no alter")
         self.driver.find_element_by_id('com.heavengifts.vaffle:id/view_photo_video_select').click()#点击拍照
         self.driver.find_element_by_id('com.heavengifts.vaffle:id/view_operate_done').click() #点击提交照片
+        self.driver.find_element_by_id("com.heavengifts.vaffle:id/publish_photo_media").click()
         date = time.strftime('%Y-%m-%d %H:%M:%S', time.localtime())
-        # self.driver.execute_script("mobile: tap", {"touchCount":"1", "x":1002, "y":131})  #确定发布
         self.driver.find_element_by_id('com.heavengifts.vaffle:id/share_to_et').send_keys(date + ' auto test post take one photo') #输入文本
         self.driver.find_element_by_id('com.heavengifts.vaffle:id/iv_toolbar_right').click() #确定发布
         #显示等待your post is being sent now消失
@@ -109,7 +109,7 @@ class AndroidTest_publish(unittest.TestCase):
         else:
             print('发布拍摄一张图片失败')
         time.sleep(2)
-
+    '''
 
     #-----------------------发布编辑后的图片的POST---------------------------------------------
     def testcase003_post_edit_photo(self):
@@ -159,7 +159,7 @@ class AndroidTest_publish(unittest.TestCase):
         print(text)
         self.assertEqual(text, date + ' auto test post take an edited photo')
         if self.driver.find_element_by_id('com.heavengifts.vaffle:id/item_post_image').is_displayed():
-            viewgroup = self.driver.find_element_by_id('com.heavengifts.vaffle:id/rel_image1')
+            viewgroup = self.driver.find_element_by_id('com.heavengifts.vaffle:id/ll_multiple_image')
             images = viewgroup.find_elements_by_class_name('android.widget.ImageView')
             self.assertEqual(1, len(images), self.write.Write_data(1, 3, 4, '发布编辑后的图片失败'))
             self.write.Write_data(1, 3, 4, '发布成功')
@@ -167,6 +167,7 @@ class AndroidTest_publish(unittest.TestCase):
             print('发布编辑后的图片失败')
         time.sleep(2)
 
+    '''
       #拍9张图片发POST
     def testcase004_post_takeninephotos(self):
         self.driver.implicitly_wait(20)
@@ -190,6 +191,7 @@ class AndroidTest_publish(unittest.TestCase):
         self.driver.find_element_by_id('com.android.packageinstaller:id/permission_allow_button').click()#允许访问麦克风
         self.driver.find_element_by_id('com.heavengifts.vaffle:id/view_photo_video_select').click()#点击拍照
         self.driver.find_element_by_id('com.heavengifts.vaffle:id/view_operate_done').click() #点击提交照片
+        time.sleep(5)
         #循环点击8次拍摄照片
         for n in range(1,9):
             self.driver.find_element_by_id('com.heavengifts.vaffle:id/publish_photo_media').click()
@@ -220,6 +222,7 @@ class AndroidTest_publish(unittest.TestCase):
         else:
             print ( '发布拍摄九张图片失败' )
         time.sleep ( 2 )
+    '''
 
        # 选择9张图片发POST
     def testcase005_post_select_ninephotos(self):
@@ -273,13 +276,13 @@ class AndroidTest_publish(unittest.TestCase):
         print(self.user, self.password)
         self.public.login_vaffle(self.user, self.password)
         self.driver.find_element_by_id('com.heavengifts.vaffle:id/bottom_menu_publish').click()  #点击发布
-        # try:
-        #     if self.driver.find_element_by_id("com.android.packageinstaller:id/dialog_container").is_displayed():
-        #点允许直接进入相册页面
-        self.driver.find_element_by_id("com.android.packageinstaller:id/permission_allow_button").click()
+        try:
 
-        # except:
-        #     print("no alter")
+            if self.driver.find_element_by_id("com.android.packageinstaller:id/dialog_container").is_displayed():
+                #点允许直接进入相册页面
+                self.driver.find_element_by_id("com.android.packageinstaller:id/permission_allow_button").click()
+        except:
+            print("no alter")
         #拍照发POST
         library = self.driver.find_element_by_id("com.heavengifts.vaffle:id/library_grid")
         photoes = library.find_elements_by_class_name('android.widget.FrameLayout')
@@ -318,14 +321,14 @@ class AndroidTest_publish(unittest.TestCase):
         self.public.login_vaffle(self.user, self.password)
         #点击发布按钮
         self.driver.find_element_by_id('com.heavengifts.vaffle:id/bottom_menu_publish').click()
-        # try:
-        #     if self.driver.find_element_by_id("com.android.packageinstaller:id/dialog_container").is_displayed():
-        #点允许直接进入相册页面
-        self.driver.find_element_by_id("com.android.packageinstaller:id/permission_allow_button").click()
-        # except:
-        #     print("no alter")
+        try:
+            if self.driver.find_element_by_id("com.android.packageinstaller:id/dialog_container").is_displayed():
+            #点允许直接进入相册页面
+                self.driver.find_element_by_id("com.android.packageinstaller:id/permission_allow_button").click()
+        except:
+            print("no alter")
 
-        #选择第一张照片编辑后发POST
+        #选择第一个视频后发POST
         library = self.driver.find_element_by_id("com.heavengifts.vaffle:id/library_grid")
         photoes = library.find_elements_by_class_name('android.widget.FrameLayout')
         photoes[1].find_element_by_id('com.heavengifts.vaffle:id/frameLayout').click()#选择video
