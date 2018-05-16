@@ -14,7 +14,7 @@ import selenium.webdriver.support.expected_conditions as EC
 class AndroidTest_challenge_publish(unittest.TestCase):
 
     def setUp(self):
-        # os.system ( 'start startAppiumServer.bat' )
+        os.system ( 'start startAppiumServer.bat' )
         time.sleep ( 10 )
         Android = androidtest()
         self.driver=Android.android()
@@ -64,7 +64,7 @@ class AndroidTest_challenge_publish(unittest.TestCase):
         self.write.Write_data(1,8,4,'发布成功')
 
     def tearDown(self):
-        # os.system ( 'start stopAppiumServer.bat' )
+        os.system ( 'start stopAppiumServer.bat' )
         time.sleep(20)
         # self.driver.quit()
 

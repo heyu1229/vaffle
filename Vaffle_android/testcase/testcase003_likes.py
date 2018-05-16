@@ -10,7 +10,7 @@ from selenium.webdriver.support.wait import WebDriverWait
 class AndroidTest_likes(unittest.TestCase):
 
     def setUp(self):
-        # os.system ( 'start startAppiumServer.bat' )
+        os.system ( 'start startAppiumServer.bat' )
         time.sleep ( 10 )
         Android = androidtest()
         self.driver=Android.android()
@@ -56,7 +56,7 @@ class AndroidTest_likes(unittest.TestCase):
 
 
     def tearDown(self):
-        # os.system ( 'start stopAppiumServer.bat' )
+        os.system ( 'start stopAppiumServer.bat' )
         time.sleep(200)
         # self.driver.quit()
 

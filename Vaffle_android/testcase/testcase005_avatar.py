@@ -12,7 +12,7 @@ from public.findtoast import Findtoast
 class AndroidTest_avatar(unittest.TestCase):
 
     def setUp(self):
-        # os.system ( 'start startAppiumServer.bat' )
+        os.system ( 'start startAppiumServer.bat' )
         time.sleep ( 10 )
         Android = androidtest()
         self.driver=Android.android()
@@ -120,7 +120,7 @@ class AndroidTest_avatar(unittest.TestCase):
 
 
     def tearDown(self):
-        # os.system ( 'start stopAppiumServer.bat' )
+        os.system ( 'start stopAppiumServer.bat' )
         time.sleep(20)
         # self.driver.quit()
 
