@@ -1,11 +1,12 @@
-import os
+import os,sys
 import unittest,time
 from appium import webdriver
-from public.installapp import iostest
-from public.publicway import Publicway
-from public.readdata import Readdata
-from public.writedata import Writedata
-from selenium.webdriver.support.wait import WebDriverWait
+sys.path.append('..//public')
+from installapp import iostest
+from publicway import Publicway
+from readdata import Readdata
+from writedata import Writedata
+
 
 class IOSTest_register(unittest.TestCase):
 
@@ -13,7 +14,7 @@ class IOSTest_register(unittest.TestCase):
         platformName1 = 'ios'
         platformVersion1 = '11.2.1'
         deviceName1 = 'iPhone'
-        udid1= 'b004f864a71e100079c0f4a347008b147ebe9a39'
+        udid1= 'ce1a52cb2619a04c55ed2d15da938650abbe8c8c'
         #iphone6 61bb2263cfd0c8847559aa0da3cb6c7e8366f0ce  se b267314a3c9520839dedbc8bfcdd05d4bdca95ea
         #iphone7 b004f864a71e100079c0f4a347008b147ebe9a39
         app1 = '..//app/Vape.ipa'
@@ -39,14 +40,17 @@ class IOSTest_register(unittest.TestCase):
         self.driver.find_element_by_accessibility_id(" Sign Up").click()
         #输入name/e-mail/password
         self.driver.find_element_by_xpath(
-            "//XCUIElementTypeApplication[@name=\"Vaffle\"]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[2]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeScrollView/XCUIElementTypeOther[1]/XCUIElementTypeTextField").send_keys(self.displayname)
+            '//XCUIElementTypeApplication[@name="Vaffle"]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[2]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeTextField[1]').send_keys(self.displayname)
         self.driver.find_element_by_xpath(
-            "//XCUIElementTypeApplication[@name=\"Vaffle\"]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[2]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeScrollView/XCUIElementTypeOther[2]/XCUIElementTypeTextField").send_keys(self.email)
+           '//XCUIElementTypeApplication[@name="Vaffle"]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[2]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeTextField[2]').send_keys(self.email)
         self.driver.find_element_by_xpath(
-            "//XCUIElementTypeApplication[@name=\"Vaffle\"]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[2]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeScrollView/XCUIElementTypeOther[3]/XCUIElementTypeSecureTextField").send_keys(self.password)
+            '//XCUIElementTypeApplication[@name="Vaffle"]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[2]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeSecureTextField').send_keys(self.password)
         #　收起键盘
         self.driver.find_element_by_accessibility_id(" Sign Up").click()
         self.driver.find_element_by_accessibility_id("Next").click()
+        #选择已经18岁
+        self.driver.find_element_by_xpath('//XCUIElementTypeButton[@name="agreement"]').click()
+        # self.driver.find_element_by_accessibility_id("agreement").click()
         #进入注册2页面点Sign Up按钮  注册成功后进入首页
         self.driver.find_element_by_xpath("//XCUIElementTypeButton[@name=' Sign Up']").click()
         #打开me页面

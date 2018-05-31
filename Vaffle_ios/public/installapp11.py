@@ -15,7 +15,8 @@ class iostest(unittest.TestCase):
         desired_caps['platformVersion'] = '11.2.1'
         desired_caps['deviceName'] = 'iPhone'
         # desired_caps['bundleId'] = 'com.heavengifts.vaffle'
-        desired_caps['udid'] = 'b004f864a71e100079c0f4a347008b147ebe9a39'
+        desired_caps['udid'] = '61bb2263cfd0c8847559aa0da3cb6c7e8366f0ce'
+        #6p ce1a52cb2619a04c55ed2d15da938650abbe8c8c
         #ios10 61bb2263cfd0c8847559aa0da3cb6c7e8366f0ce
         #'04e0a15aecc6a9aed13733f5ec0e19775d71eb0c'#SE手机   b267314a3c9520839dedbc8bfcdd05d4bdca95ea  iOS11 b004f864a71e100079c0f4a347008b147ebe9a39
         desired_caps['app'] = PATH('..//app/Vape.ipa')#必须先将项目打包ipa，此处传入ipa路径

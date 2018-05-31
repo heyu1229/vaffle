@@ -1,10 +1,11 @@
-import os
+import os,sys
 import unittest,time
 from appium import webdriver
-from public.installapp import iostest
-from public.publicway import Publicway
-from public.readdata import Readdata
-from public.writedata import Writedata
+sys.path.append('..//public')
+from installapp import iostest
+from publicway import Publicway
+from readdata import Readdata
+from writedata import Writedata
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.common.by import By
 import selenium.webdriver.support.expected_conditions as EC
@@ -16,7 +17,7 @@ class IOSTest_publish(unittest.TestCase):
         platformName = 'ios'
         platformVersion = '11.2.1'
         deviceName = 'iPhone'
-        udid = 'b004f864a71e100079c0f4a347008b147ebe9a39'
+        udid = 'ce1a52cb2619a04c55ed2d15da938650abbe8c8c'
         app = '..//app/Vape.ipa'
         ios = iostest()
         self.driver = ios.testios(platformName, platformVersion, deviceName, udid, app)
@@ -42,9 +43,12 @@ class IOSTest_publish(unittest.TestCase):
         #断言是否评论成功
         time.sleep(3)
         self.driver.find_element_by_accessibility_id('back black').click() #点击返回首页
-        self.driver.find_element_by_xpath('(//XCUIElementTypeButton[@name="1 Comment"])[1]').click()  # 点击进入comments列表
-        comment_context = self.driver.find_elements_by_class_name('XCUIElementTypeStaticText')
-        self.assertEqual(comment_context[6].text, date+" auto comment.",self.write.Write_data(1,13,4,'评论失败'))
+        try:
+            self.driver.find_element_by_xpath('(//XCUIElementTypeButton[@name="1 Comment"])[1]').click()  # 点击进入comments列表
+            flag=1
+        except:
+            flag=2
+        self.assertEqual(1,flag,self.write.Write_data(1,13,4,'评论失败'))
         self.write.Write_data(1, 13, 4, '评论成功')
 
 

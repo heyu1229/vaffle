@@ -1,21 +1,22 @@
-import os
+import os,sys
 import unittest,time
 from appium import webdriver
-from public.installapp import iostest
-from public.publicway import Publicway
-from public.readdata import Readdata
-from public.writedata import Writedata
-from selenium.webdriver.support.wait import WebDriverWait
+sys.path.append('..//public')
+from installapp import iostest
+from publicway import Publicway
+from readdata import Readdata
+from writedata import Writedata
 
-class IOSTest_register(unittest.TestCase):
+
+class IOSTest_login(unittest.TestCase):
 
     def setUp(self):
         # os.system ( 'start startAppiumServer.bat' )
         time.sleep(10)
         platformName = 'ios'
-        platformVersion = '11.2.1'
+        platformVersion = '11.2.2'
         deviceName = 'iPhone'
-        udid = 'b004f864a71e100079c0f4a347008b147ebe9a39'
+        udid = 'ce1a52cb2619a04c55ed2d15da938650abbe8c8c'#白色7p'ce1a52cb2619a04c55ed2d15da938650abbe8c8c'#iphone7黑色'b004f864a71e100079c0f4a347008b147ebe9a39'
         app = '..//app/Vape.ipa'
         ios = iostest()
         self.driver=ios.testios(platformName,platformVersion,deviceName,udid,app)
@@ -32,18 +33,19 @@ class IOSTest_register(unittest.TestCase):
         self.driver.find_element_by_xpath(
             '//XCUIElementTypeApplication[@name="Vaffle"]/XCUIElementTypeWindow[1]/XCUIElementTypeOther/XCUIElementTypeTabBar/XCUIElementTypeOther[5]').click()
         #输入用户名和密码
-        self.driver.find_element_by_xpath("//XCUIElementTypeApplication[@name='Vaffle']/XCUIElementTypeWindow[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[1]/XCUIElementTypeTextField").send_keys(self.user)
-        self.driver.find_element_by_xpath("//XCUIElementTypeApplication[@name=\"Vaffle\"]/XCUIElementTypeWindow[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[2]/XCUIElementTypeSecureTextField").send_keys(self.password)
-        self.driver.find_element_by_xpath("//XCUIElementTypeStaticText[@name=\"Log In\"]").click()
-        #点击登陆按钮
+        self.driver.find_element_by_xpath('//XCUIElementTypeApplication[@name="Vaffle"]/XCUIElementTypeWindow[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeTextField').send_keys(self.user)
+        self.driver.find_element_by_xpath('//XCUIElementTypeApplication[@name="Vaffle"]/XCUIElementTypeWindow[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeSecureTextField').send_keys(self.password)
+
+        # 点击登陆按钮
         self.driver.find_element_by_xpath("//XCUIElementTypeButton[@name=\"Log In\"]").click()
+
         #进入个人中心
         self.driver.find_element_by_xpath(
             '//XCUIElementTypeApplication[@name="Vaffle"]/XCUIElementTypeWindow[1]/XCUIElementTypeOther/XCUIElementTypeTabBar/XCUIElementTypeOther[5]').click()
 
         #添加断言
-        texts = self.driver.find_elements_by_class_name("XCUIElementTypeStaticText")
-        username = texts[0].text
+        text=self.driver.find_element_by_xpath('//XCUIElementTypeOther[@name="queen"]')
+        username = text.text
         print(username)
         self.assertEqual(self.user,username, self.write.Write_data(1, 2, 4, '登录失败'))
         self.write.Write_data(1, 2, 4, '登录成功')

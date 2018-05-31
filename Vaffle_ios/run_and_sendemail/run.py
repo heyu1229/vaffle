@@ -6,7 +6,7 @@ from email.header import Header
 from HTMLTestRunner import HTMLTestRunner
 
 mail_uesr='lisa.he@heavengifts.com'
-mail_tolist=['beth.yu@heavengifts.com','lisa.he@heavengifts.com']
+mail_tolist=['beth.yu@heavengifts.com']
 mail_password='aCuHUJ7gXM'#'7RH8TiwmK6'
 
 def send_email(report,excel):
@@ -17,7 +17,7 @@ def send_email(report,excel):
     msg=MIMEMultipart('related')
     msg['From']=mail_uesr
     msg['To']=';'.join(mail_tolist)
-    msg['Subject']=Header('IOS vaffle2.2.0 手机自动化测试报告','utf-8')
+    msg['Subject']=Header('IOS vaffle2.4.3 ios手机自动化测试报告','utf-8')
     msg.attach(msgText)
     #添加excel附件
     excelatt=MIMEApplication(open('%s'%excel,'rb').read())

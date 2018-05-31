@@ -15,12 +15,12 @@ class Publicway(unittest.TestCase):
             '//XCUIElementTypeApplication[@name="Vaffle"]/XCUIElementTypeWindow[1]/XCUIElementTypeOther/XCUIElementTypeTabBar/XCUIElementTypeOther[5]').click()
         # 输入用户名和密码
         self.driver.find_element_by_xpath(
-            "//XCUIElementTypeApplication[@name='Vaffle']/XCUIElementTypeWindow[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[1]/XCUIElementTypeTextField").send_keys(
+            '//XCUIElementTypeApplication[@name="Vaffle"]/XCUIElementTypeWindow[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeTextField').send_keys(
             user)
         self.driver.find_element_by_xpath(
-            "//XCUIElementTypeApplication[@name=\"Vaffle\"]/XCUIElementTypeWindow[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[2]/XCUIElementTypeSecureTextField").send_keys(
+            '//XCUIElementTypeApplication[@name="Vaffle"]/XCUIElementTypeWindow[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeSecureTextField').send_keys(
             password)
-        self.driver.find_element_by_xpath("//XCUIElementTypeStaticText[@name=\"Log In\"]").click()
+
         # 点击登陆按钮
         self.driver.find_element_by_xpath("//XCUIElementTypeButton[@name=\"Log In\"]").click()
 
@@ -71,18 +71,23 @@ class Publicway(unittest.TestCase):
         # 点右上角Sign Up按钮进入注册页面
         self.driver.find_element_by_accessibility_id(" Sign Up").click()
         # 输入name/e-mail/password
+        # 输入name/e-mail/password
         self.driver.find_element_by_xpath(
-            "//XCUIElementTypeApplication[@name=\"Vaffle\"]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[2]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeScrollView/XCUIElementTypeOther[1]/XCUIElementTypeTextField").send_keys(
+            '//XCUIElementTypeApplication[@name="Vaffle"]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[2]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeTextField[1]').send_keys(
             displayname)
         self.driver.find_element_by_xpath(
-            "//XCUIElementTypeApplication[@name=\"Vaffle\"]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[2]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeScrollView/XCUIElementTypeOther[2]/XCUIElementTypeTextField").send_keys(
+            '//XCUIElementTypeApplication[@name="Vaffle"]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[2]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeTextField[2]').send_keys(
             email)
         self.driver.find_element_by_xpath(
-            "//XCUIElementTypeApplication[@name=\"Vaffle\"]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[2]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeScrollView/XCUIElementTypeOther[3]/XCUIElementTypeSecureTextField").send_keys(
+            '//XCUIElementTypeApplication[@name="Vaffle"]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[2]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeSecureTextField').send_keys(
             password)
         # 　收起键盘
         self.driver.find_element_by_accessibility_id(" Sign Up").click()
         self.driver.find_element_by_accessibility_id("Next").click()
+
+        # 选择已经18岁
+        self.driver.find_element_by_xpath('//XCUIElementTypeButton[@name="agreement"]').click()
+        # self.driver.find_element_by_accessibility_id("agreement").click()
         # 进入注册2页面点Sign Up按钮  注册成功后进入首页
         self.driver.find_element_by_xpath("//XCUIElementTypeButton[@name=' Sign Up']").click()
         # 打开me页面
