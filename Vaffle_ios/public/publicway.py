@@ -57,7 +57,7 @@ class Publicway(unittest.TestCase):
         return date
 
     def sign_up(self):
-        date = time.strftime('%H%M%S', time.localtime())
+        date = int(time.time())
         print("当前时间：%s" % date)
         displayname = "test" + date
         email = "test" + date + "@163.com"
