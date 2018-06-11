@@ -21,7 +21,7 @@ class IOSTest_register(unittest.TestCase):
         ios = iostest()
         self.driver=ios.testios(platformName1,platformVersion1,deviceName1,udid1,app1)
         self.public=Publicway(self.driver)
-        date = time.strftime('%H%M%S', time.localtime())
+        date = int(time.time())
         print("当前时间：%s" %date)
         self.displayname = "test"+date
         self.email = "test"+date+"@163.com"
