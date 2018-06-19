@@ -30,7 +30,7 @@ class Brands(unittest.TestCase):
         print("code返回值：10000")
 
     #-----------------获取收货地址（所有）----------------------------------
-    def testcase_001(self):
+    def testcase_002(self):
         sheet_index = 0
         row = 106
         print("testcase_001获取收货地址（所有）：")
