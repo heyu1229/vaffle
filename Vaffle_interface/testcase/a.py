@@ -4,4 +4,4 @@ import requests
 import sys,time
 import json,xlrd
 
-print("goujian chenggong")
+print('goujian chenggou')
