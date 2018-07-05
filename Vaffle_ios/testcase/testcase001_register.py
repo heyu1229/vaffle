@@ -14,7 +14,7 @@ class IOSTest_register(unittest.TestCase):
         platformName1 = 'ios'
         platformVersion1 = '11.2.1'
         deviceName1 = 'iPhone'
-        udid1= 'ce1a52cb2619a04c55ed2d15da938650abbe8c8c'
+        udid1= 'd28b3e823bacb8aba5edc95a4f0ab727fc348c79'
         #iphone6 61bb2263cfd0c8847559aa0da3cb6c7e8366f0ce  se b267314a3c9520839dedbc8bfcdd05d4bdca95ea
         #iphone7 b004f864a71e100079c0f4a347008b147ebe9a39
         app1 = '..//app/Vape.ipa'
