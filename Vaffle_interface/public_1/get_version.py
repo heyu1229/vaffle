@@ -5,6 +5,6 @@ class Version():
 
     def test_version(self):
 
-        self.version ="2.5.0"
+        self.version ="2.6.0"
 
         return self.version
