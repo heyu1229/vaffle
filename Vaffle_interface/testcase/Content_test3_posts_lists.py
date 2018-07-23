@@ -32,7 +32,7 @@ class List(unittest.TestCase):
 
         post_list = result['data']['list']
         global last_id
-        last_id = post_list[0]['post_id']
+        last_id = post_list[9]['post_id']
 
     #-----------------首页动态列表reveal 第1页---------------------------------
     def testcase_002(self):
