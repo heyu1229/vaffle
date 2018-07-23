@@ -25,6 +25,7 @@ class Brands(unittest.TestCase):
         row = 1
         member_id='744'
         print ("testcase_001品牌型号数据测试:")
+
         result=self.r.interface_requests(member_id,sheet_index,row)
 
         self.assertEqual(10000, result['code'])
