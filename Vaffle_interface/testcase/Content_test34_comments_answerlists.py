@@ -66,8 +66,9 @@ class CommentsPublish(unittest.TestCase):
 
         print(result3["data"]["comment_id"],result4["data"]["comment_id"],result5["data"]["comment_id"],result6["data"]["comment_id"],result7["data"]["comment_id"],result8["data"]["comment_id"],result9["data"]["comment_id"],result10["data"]["comment_id"],result11["data"]["comment_id"],result12["data"]["comment_id"],result13["data"]["comment_id"])
         obj=(result3["data"]["comment_id"],result4["data"]["comment_id"],result5["data"]["comment_id"],result6["data"]["comment_id"],result7["data"]["comment_id"],result8["data"]["comment_id"],result9["data"]["comment_id"],result10["data"]["comment_id"],result11["data"]["comment_id"],result12["data"]["comment_id"])
-        global comment_id_past
+        global comment_id_past,comment_id
         comment_id_past=json.dumps(obj)
+        comment_id=result3["data"]["comment_id"]
         payload = {"answer_id": answer_id,"page": 1}
         member_id="744"
         result=self.r.interface_requests_payload(member_id, sheet_index, row, payload)
@@ -82,6 +83,18 @@ class CommentsPublish(unittest.TestCase):
         print("testcase_002 用户对于Q／A的回答列表二页数据：")
         member_id = "744"
         payload = {"answer_id": answer_id, "page": 2, "comment_id_past": comment_id_past}
+        result = self.r.interface_requests_payload(member_id, sheet_index, row, payload)
+
+        self.assertEqual(10000, result["code"])
+        print("code返回值：10000")
+
+    # -----------------评论置顶-----------------------------------
+    def testcase_003(self):
+        sheet_index = 1
+        row = 101
+        print("testcase_003 评论置顶：")
+        member_id = "744"
+        payload = {"answer_id": answer_id, "page": 1, "comment_id": comment_id}
         result = self.r.interface_requests_payload(member_id, sheet_index, row, payload)
 
         self.assertEqual(10000, result["code"])
