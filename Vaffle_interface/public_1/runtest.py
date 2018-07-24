@@ -6,8 +6,8 @@ from HTMLTestRunner import HTMLTestRunner
 from email.mime.multipart import MIMEMultipart
 
 my_sender='lisa.he@heavengifts.com' #发件人邮箱账号
-#my_user='omv.team@heavengifts.com' #收件人邮箱账号
-my_user='1004856404@qq.com' #收件人邮箱账号
+my_user='vaffle.dep@heavengifts.com' #收件人邮箱账号
+#my_user='1004856404@qq.com' #收件人邮箱账号
 #发送邮件
 def send_mail(file_new,excel_new):
     f = open(file_new,'rb')
