@@ -139,6 +139,7 @@ class FuncRequests():
         self.path = Url().test_path()
         # 路径
         url = Url().test_url()
+        print()
         self.base_url=url+urlpart
         self.obi = Read_ExcelData()
         # 获取版本
