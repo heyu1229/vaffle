@@ -51,8 +51,8 @@ class ResetSendmail(unittest.TestCase):
         self.assertEqual(10004, result['code'])
         print("code返回值：10004")
 
-        self.assertEqual("The mailbox or nickname has not been registered, so please sign up.", result['msg'])
-        print("msg返回值：The mailbox or nickname has not been registered, so please sign up.")
+        self.assertEqual("The mailbox or username has not been registered, so please sign up.", result['msg'])
+        print("msg返回值：The mailbox or username has not been registered, so please sign up.")
 
     #-----------------非法账户----------------------------------
     def testcase_003(self):

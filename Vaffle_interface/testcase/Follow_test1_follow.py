@@ -39,8 +39,8 @@ class Follow(unittest.TestCase):
         member_id="744"
         result=self.r.interface_requests(member_id,sheet_index,row)
 
-        self.assertEqual(10006, result["code"])
-        print("code返回值：10006")
+        self.assertEqual(10040, result["code"])
+        print("code返回值：10040")
 
 if __name__=="__main__":
     unittest.main()

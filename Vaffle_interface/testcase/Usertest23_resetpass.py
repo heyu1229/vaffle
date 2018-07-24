@@ -66,8 +66,8 @@ class ResetPass(unittest.TestCase):
         result = self.requests.interface_requests(self.member_id,sheet_index,row)
         self.assertEqual(10004, result['code'])
         print("code返回值：10004")
-        self.assertEqual("The mailbox or nickname has not been registered, so please sign up.", result['msg'])
-        print("msg返回值：The mailbox or nickname has not been registered, so please sign up.")
+        self.assertEqual("The mailbox or username has not been registered, so please sign up.", result['msg'])
+        print("msg返回值：The mailbox or username has not been registered, so please sign up.")
     # -----------------验证码错误----------------------------------
     def testcase_005(self):
         sheet_index =0

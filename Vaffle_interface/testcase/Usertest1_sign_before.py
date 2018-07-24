@@ -41,9 +41,9 @@ class SignBefore(unittest.TestCase):
         row = 3
         print("testcase003 邮箱账号格式错误：")
         result = self.requests.interface_requests(self.member_id,sheet_index,row)
-        self.assertEqual(9999, result["code"])
-        print("code返回值：9999")
-        print("msg返回值：Time out.")
+        self.assertEqual(10058, result["code"])
+        print("code返回值：10058")
+        print("msg返回值：Mailbox Error")
 
     #-----------------密码不足6位----------------------------------
     def testcase_004(self):
