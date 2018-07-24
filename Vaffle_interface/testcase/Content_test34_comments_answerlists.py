@@ -91,8 +91,8 @@ class CommentsPublish(unittest.TestCase):
     # -----------------评论置顶-----------------------------------
     def testcase_003(self):
         sheet_index = 1
-        row = 86
-        print("testcase_002 用户对于Q／A的回答列表二页数据：")
+        row = 101
+        print("testcase_003 评论置顶：")
         member_id = "744"
         payload = {"answer_id": answer_id, "page": 1, "comment_id": comment_id}
         result = self.r.interface_requests_payload(member_id, sheet_index, row, payload)
