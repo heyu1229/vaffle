@@ -13,18 +13,18 @@ from read_data import Read_ExcelData
 from write_data import Write_ExcelData
 from func_requests import FuncRequests
 
-#---------------品牌主页－about----------------------
+#---------------品牌基本信息－修改页面----------------------
 class Brands(unittest.TestCase):
 
     def setUp(self):
        self.r=FuncRequests()
 
-    #-----------------品牌主页－about----------------------------------
+    #-----------------品牌基本信息－修改页面----------------------------------
     def testcase_001(self):
         sheet_index = 11
-        row = 3
+        row = 4
         member_id='744'
-        print ("testcase_001品牌主页－about:")
+        print ("testcase_001品牌基本信息－修改页面:")
 
         result = self.r.interface_requests(member_id, sheet_index, row)
 
