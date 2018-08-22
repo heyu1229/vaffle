@@ -53,7 +53,7 @@ class CommentsPublish(unittest.TestCase):
         row = 97
         print("testcase_002 对回答的取消点赞：")
 
-        payload = {"category": "news", "post_id": 15897}
+        payload = {"category": "news", "post_id": post_id}
         member_id = "744"
         result = self.r.interface_requests_payload(member_id, sheet_index, row, payload)
 

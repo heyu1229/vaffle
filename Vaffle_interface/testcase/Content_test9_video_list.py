@@ -30,6 +30,7 @@ class VideoList(unittest.TestCase):
         urlpart1 = '/posts/publish'
         result1 = self.r.interface_requests_data(member_id, urlpart1, payload1)
         post_id =result1["data"]["post_id"]
+        print("post_id=",post_id)
 
         payload = {"post_id": post_id,"page": "1","type": "post"}
         result=self.r.interface_requests_payload(member_id, sheet_index, row, payload)
