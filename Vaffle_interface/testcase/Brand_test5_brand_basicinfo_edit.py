@@ -30,7 +30,7 @@ class Brands(unittest.TestCase):
         payload = {"brand_id": 1, "brand_name": "brand_name" + date , "brand_intro": "brand_intro"+date, "brand_desc": "brand_desc" + date,
                    "ins_url": "ins_url" + date,"twitter_url": "twitter_url" + date,"youtube_url": "youtube_url" + date,
                    "email": "email" + date,"number": "number" + date,"address": "address" + date,"website": "website" + date,
-                   "lon": "10" ,"lat": "20" }
+                   "lon": "121" ,"lat": "31.5" }
         result = self.r.interface_requests_payload(member_id, sheet_index, row, payload)
 
         self.assertEqual(10000, result['code'])

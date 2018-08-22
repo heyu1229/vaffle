@@ -28,7 +28,7 @@ class Brands(unittest.TestCase):
 
         # 调用话题发布，获取topic_id
         date = time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())
-        payload1 = {"brand_id": 1,"title":"接口发布的话题","topic_content":"用来被删除"}
+        payload1 = {"brand_id": 1,"title":"接口发布的话题"+date,"topic_content":"用来被删除"}
         member_id1 = "744"
         urlpart1 = '/brandtopic/public'
         result1 = self.r.interface_requests_data(member_id1, urlpart1, payload1)
