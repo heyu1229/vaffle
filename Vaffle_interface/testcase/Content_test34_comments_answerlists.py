@@ -46,7 +46,7 @@ class CommentsPublish(unittest.TestCase):
         result2 = self.r.interface_requests_data(member_id2, urlpart2, payload2)
         global answer_id
         answer_id = result2["data"]["answer_id"]
-        print(answer_id)
+        print("answer_id=",answer_id)
 
         # 调用评论QA回答接口发送一条评论
         payload3 = {"reply_id": answer_id, "content": "接口在" + date + "测试评论Q/A的回答","question_id":question_id}
@@ -69,6 +69,7 @@ class CommentsPublish(unittest.TestCase):
         global comment_id_past,comment_id
         comment_id_past=json.dumps(obj)
         comment_id=result3["data"]["comment_id"]
+        print("comment_id=",comment_id)
         payload = {"answer_id": answer_id,"page": 1}
         member_id="744"
         result=self.r.interface_requests_payload(member_id, sheet_index, row, payload)
