@@ -1,4 +1,4 @@
-﻿﻿import unittest,time,os,smtplib,sys
+﻿import unittest,time,os,smtplib,sys
 from email.mime.text import MIMEText
 from email.header import Header
 from email.mime.application import MIMEApplication
