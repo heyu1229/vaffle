@@ -69,8 +69,8 @@ class PostsDetail(unittest.TestCase):
         member_id = "744"
         result=self.r.interface_requests(member_id,sheet_index,row)
 
-        self.assertEqual(10056, result["code"])
-        print("code返回值：10056")
+        self.assertEqual(9999, result["code"])
+        print("code返回值：9999")
 
 if __name__=="__main__":
     unittest.main()
