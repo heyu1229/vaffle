@@ -72,29 +72,6 @@ class List(unittest.TestCase):
         self.assertEqual(9999, result["code"])
         print("code返回值：9999")
 
-        # -----------------discover video列表 第一页---------------------------------
-
-    def testcase_005(self):
-        sheet_index = 1
-        row = 51
-        print("testcase_005discover video列表 第一页:")
-        member_id = "744"
-        result=self.r.interface_requests(member_id,sheet_index,row)
-
-        self.assertEqual(10000, result["code"])
-        print("code返回值：10000")
-
-        # -----------------discover video列表 第2页----------------------------------
-
-    def testcase_006(self):
-        sheet_index = 1
-        row = 52
-        print("testcase_006discover video列表 第2页:")
-        member_id = "744"
-        result=self.r.interface_requests(member_id,sheet_index,row)
-
-        self.assertEqual(10000, result["code"])
-        print("code返回值：10000")
 
 if __name__ == "__main__":
     unittest.main()
