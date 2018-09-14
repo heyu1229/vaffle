@@ -283,5 +283,19 @@ class Publish(unittest.TestCase):
         self.assertEqual(10000, result['code'])
         print("code返回值：10000")
 
+    # -----------------发布店铺评论------------------------------
+    def testcase_019(self):
+        sheet_index = 1
+        row = 103
+        print("testcase_019发布店铺评论：")
+        obj = ({"path":"posts/1512710644881_767_android.jpg","ratio":1.23,"tag":1},)
+        images = json.dumps(obj)
+        date = time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())
+        payload = { "images": images, "content":"接口测试发布店铺评论"+date,"category":"post","shop_id":1315}
+        member_id = "744"
+        result=self.r.interface_requests_payload(member_id, sheet_index, row, payload)
+        self.assertEqual(10000, result['code'])
+        print("code返回值：10000")
+
 if __name__ == "__main__":
     unittest.main()
