@@ -23,7 +23,7 @@ class Shop(unittest.TestCase):
     def testcase_001(self):
         sheet_index = 12
         row = 7
-        self.member_id='744'
+        self.member_id='745'
         print ("testcase_001提交店铺纠错信息:")
         obj = ({"week":[1,2],"start":"01:00","close":"03:00"},{"week":[4,5],"start":"05:00","close":"06:00"})
         business_hours = json.dumps(obj)

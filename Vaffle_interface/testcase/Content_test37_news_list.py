@@ -30,9 +30,9 @@ class CommentsPublish(unittest.TestCase):
 
         member_id = "744"
         result = self.r.interface_requests(member_id, sheet_index, row)
-        post_list = result['data']['list']
+        list = result['data']['list']
         global last_id
-        last_id = post_list[9]['post_id']
+        last_id = list[9]['post_id']
         print(last_id)
 
         self.assertEqual(10000, result["code"])

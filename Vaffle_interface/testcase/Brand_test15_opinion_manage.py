@@ -26,7 +26,7 @@ class Brands(unittest.TestCase):
         row = 20
         print ("testcase_001想法管理列表第一页数据:")
 
-        member_id = '980'
+        member_id = '744'
         payload = {"page": 1}
         result = self.r.interface_requests_payload(member_id, sheet_index, row, payload)
         list=result["data"]["list"]
@@ -44,7 +44,7 @@ class Brands(unittest.TestCase):
         row = 21
         print ("testcase_002想法管理列表第2页数据:")
 
-        member_id = '980'
+        member_id = '744'
         payload = {"page": 2,"last_id":last_id}
         result = self.r.interface_requests_payload(member_id, sheet_index, row, payload)
 

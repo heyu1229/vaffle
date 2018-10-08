@@ -29,7 +29,7 @@ class Brands(unittest.TestCase):
         # 调用想法管理列表，获取post_id
         date = time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())
         payload1 = {"page": 1}
-        member_id1 = "980"
+        member_id1 = "744"
         urlpart1 = '/opinion/manage'
         result1 = self.r.interface_requests_data(member_id1, urlpart1, payload1)
         print(result1)
@@ -37,7 +37,7 @@ class Brands(unittest.TestCase):
         post_id=list[0]["post_id"]
         print("post_id=",post_id)
 
-        member_id = '980'
+        member_id = '744'
         payload = {"post_id": post_id, "state": 1}
         result = self.r.interface_requests_payload(member_id, sheet_index, row, payload)
 
@@ -53,7 +53,7 @@ class Brands(unittest.TestCase):
         # 调用想法管理列表，获取post_id
         date = time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())
         payload1 = {"page": 1}
-        member_id1 = "980"
+        member_id1 = "744"
         urlpart1 = '/opinion/manage'
         result1 = self.r.interface_requests_data(member_id1, urlpart1, payload1)
         print(result1)
@@ -61,7 +61,7 @@ class Brands(unittest.TestCase):
         post_id=list[0]["post_id"]
         print("post_id=",post_id)
 
-        member_id = '980'
+        member_id = '744'
         payload = {"post_id": post_id, "state": 0}
         result = self.r.interface_requests_payload(member_id, sheet_index, row, payload)
 
