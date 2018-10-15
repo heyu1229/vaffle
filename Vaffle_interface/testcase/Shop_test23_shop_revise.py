@@ -30,7 +30,7 @@ class Shop(unittest.TestCase):
         obj=[{"week":["1","2","3","4","5","6","7"],"start":"09:00","close":"18:00"},]
         business_hours=json.dumps(obj)
         payload = {"name": "接口测试店铺"+date, "info": "info","cover":"posts/1512710644871_767_android.jpg","business_hours":business_hours,
-                   "tel":"15800328065","nation":"china","city":"shanghai","address":"qilianshanlu","payment":"zhifubao",
+                   "tel":"15800328065","nation":"China","city":"shanghai","address":"qilianshanlu","payment":"zhifubao",
                    "ins":"www.ins.com","youtube":"www.youtube.com","twitter":"www.twitter.com","website":"www.baidu.com",
                    "facebook":"www.fb.com","shop_id":"28175","timezone":8}
         result = self.r.interface_requests_payload(member_id, sheet_index, row, payload)
