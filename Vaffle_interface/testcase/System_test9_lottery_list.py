@@ -24,7 +24,7 @@ class System_nation(unittest.TestCase):
  # -----------------抽奖活动 - 奖项列表----------------------------------
     def testcase_001(self):
         sheet_index = 3
-        row = 15
+        row = 16
         print("testcase_001抽奖活动 - 奖项列表：")
         member_id = "744"
         result=self.r.interface_requests(member_id,sheet_index,row)
