@@ -73,18 +73,18 @@ class System_nation(unittest.TestCase):
     def testcase_004(self):
         sheet_index = 3
         row = 15
-        print("testcase_002抽奖活动 - 邀请码不存在：")
+        print("testcase_004抽奖活动 - 邀请码不存在：")
         member_id = "714"
         result=self.r.interface_requests(member_id,sheet_index,row)
 
-        self.assertEqual(10097, result["code"])
-        print("code返回值：10097")
+        self.assertEqual(10103, result["code"])
+        print("code返回值：100103")
 
  # -----------------抽奖活动 - 已抽奖用户不能参与抽奖----------------------------------
     def testcase_005(self):
         sheet_index = 3
         row = 16
-        print("testcase_002抽奖活动 - 已抽奖用户不能参与抽奖：")
+        print("testcase_005抽奖活动 - 已抽奖用户不能参与抽奖：")
         member_id = "4361"
         result=self.r.interface_requests(member_id,sheet_index,row)
 
