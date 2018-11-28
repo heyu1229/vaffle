@@ -26,7 +26,7 @@ class Shop(unittest.TestCase):
         member_id='745'
         print ("testcase_001管理我的店铺 - 图片/视频:")
 
-        payload = {"shop_id": "28175", "page":1}
+        payload = {"shop_id": "53952", "page":1}
         result = self.r.interface_requests_payload(member_id, sheet_index, row, payload)
         self.assertEqual(10000, result['code'])
         print("code返回值：10000")

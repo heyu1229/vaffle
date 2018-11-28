@@ -29,7 +29,7 @@ class Shop(unittest.TestCase):
         #调用图片/视频上传接口获得id
         obj1 = ({"path": "posts/1512710644871_767_android.jpg", "ratio": 1.23, "tag": 1},)
         images1 = json.dumps(obj1)
-        payload1 = {"shop_id": "28175", "images":images1}
+        payload1 = {"shop_id": "53952", "images":images1}
         urlpart1 = '/shop/picture/save'
         result1 = self.r.interface_requests_data(member_id, urlpart1, payload1)
         id=result1["data"]["id"]
@@ -38,7 +38,7 @@ class Shop(unittest.TestCase):
 
         obj = ({"path": "posts/1512710644871_767_android.jpg", "ratio": 1, "tag": 1})
         image = json.dumps(obj)
-        payload = {"shop_id": "28175", "pid": id,"image":image}
+        payload = {"shop_id": "53952", "pid": id,"image":image}
         result = self.r.interface_requests_payload(member_id, sheet_index, row, payload)
         self.assertEqual(10000, result['code'])
         print("code返回值：10000")

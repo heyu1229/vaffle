@@ -28,7 +28,7 @@ class Shop(unittest.TestCase):
 
         obj = ({"path": "posts/1512710644871_767_android.jpg", "ratio": 1.23, "tag": 1},)
         images = json.dumps(obj)
-        payload = {"shop_id": "28175", "images":images}
+        payload = {"shop_id": "53952", "images":images}
         result = self.r.interface_requests_payload(member_id, sheet_index, row, payload)
         self.assertEqual(10000, result['code'])
         print("code返回值：10000")
@@ -40,7 +40,7 @@ class Shop(unittest.TestCase):
         member_id='745'
         print ("testcase_002管理我的店铺 - 视频上传:")
 
-        payload = {"shop_id": "28175", "video": "posts/1505153294565_832_android.mp4",
+        payload = {"shop_id": "53952", "video": "posts/1505153294565_832_android.mp4",
                    "video_cover":'posts/1505153294565_832_android.jpg',"video_cover_ratio":1.00}
         result = self.r.interface_requests_payload(member_id, sheet_index, row, payload)
         self.assertEqual(10000, result['code'])

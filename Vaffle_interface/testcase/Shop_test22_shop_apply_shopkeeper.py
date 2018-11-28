@@ -28,7 +28,8 @@ class Shop(unittest.TestCase):
 
         payload = {"name": "接口测试店铺", "nation": "china","city": "shangai","address": "qilianshanlu",
                    "first_name": "first_name","last_name": "last_name","img_card_front":"posts/1512710644871_767_android.jpg",
-                   "img_card_back":"posts/1512710644871_767_android.jpg","img_license":"posts/1512710644871_767_android.jpg"}
+                   "img_card_back":"posts/1512710644871_767_android.jpg","img_license":"posts/1512710644871_767_android.jpg",
+                   "is_boss":1}
         result = self.r.interface_requests_payload(member_id, sheet_index, row, payload)
         try:
             self.assertEqual(10000, result['code'])

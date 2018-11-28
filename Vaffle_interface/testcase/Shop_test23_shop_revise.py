@@ -32,7 +32,7 @@ class Shop(unittest.TestCase):
         payload = {"name": "接口测试店铺"+date, "info": "info","cover":"posts/1512710644871_767_android.jpg","business_hours":business_hours,
                    "tel":"15800328065","nation":"China","city":"shanghai","address":"qilianshanlu","payment":"zhifubao",
                    "ins":"www.ins.com","youtube":"www.youtube.com","twitter":"www.twitter.com","website":"www.baidu.com",
-                   "facebook":"www.fb.com","shop_id":"28175","timezone":8}
+                   "facebook":"www.fb.com","shop_id":"53952","timezone":8}
         result = self.r.interface_requests_payload(member_id, sheet_index, row, payload)
         self.assertEqual(10000, result['code'])
         print("code返回值：10000")
