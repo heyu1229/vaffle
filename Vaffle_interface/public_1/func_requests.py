@@ -35,7 +35,7 @@ class FuncRequests():
                    "login": member_id,"serial-number":"48525687125863258471123568955554","company":"HUAWEI","phone-model":"P10","system-version":"system_version"}
         r = requests.post(self.base_url1, params=payload, headers=headers)
         result = r.json()
-        format_result = json.dumps(result, indent=1)
+        format_result = json.dumps(result, ensure_ascii=False, indent=1)
         print(format_result)
         end = time.time()
 
@@ -75,7 +75,7 @@ class FuncRequests():
                    "login": member_id,"serial-number":"48525687125863258471123568955554","company":"HUAWEI","phone-model":"P10","system-version":"system_version"}
         r = requests.post(self.base_url1, params=payload, headers=headers)
         result = r.json()
-        format_result = json.dumps(result, indent=1)
+        format_result = json.dumps(result, ensure_ascii=False, indent=1)
         print(format_result)
         end = time.time()
 
@@ -115,7 +115,7 @@ class FuncRequests():
                    "login": member_id,"serial-number":"48525687125863258471123568955554","company":"HUAWEI","phone-model":"P10","system-version":"system_version"}
         r = requests.post(self.base_url1, params=payload, headers=headers)
         result = r.json()
-        format_result = json.dumps(result, indent=1)
+        format_result = json.dumps(result, ensure_ascii=False,indent=1)
         print(format_result)
         end = time.time()
 
