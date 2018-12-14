@@ -41,7 +41,7 @@ class Brands(unittest.TestCase):
         print ("testcase_002话题列表 - 用户角度:")
 
         member_id = '744'
-        payload = {"brand_id": 1,"page":1,"page_size":4}
+        payload = {"brand_id": 1,"page":1,"page_size":20}
         result = self.r.interface_requests_payload(member_id, sheet_index, row, payload)
 
         self.assertEqual(10000, result['code'])
@@ -55,8 +55,8 @@ class Brands(unittest.TestCase):
         row = 17
         print ("testcase_003话题列表 - 管理员角度:")
 
-        member_id = '980'
-        payload = {"brand_id": 1,"page":1}
+        member_id = '34791'
+        payload = {"brand_id": 1,"page":1,"admin_view":1}
         result = self.r.interface_requests_payload(member_id, sheet_index, row, payload)
 
         self.assertEqual(10000, result['code'])

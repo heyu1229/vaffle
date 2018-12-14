@@ -13,21 +13,20 @@ from read_data import Read_ExcelData
 from write_data import Write_ExcelData
 from func_requests import FuncRequests
 
-#---------------管理我的店铺 - 店铺详情内容----------------------
-class Shop(unittest.TestCase):
+#---------------商业级用户中心----------------------
+class Brands(unittest.TestCase):
 
     def setUp(self):
        self.r=FuncRequests()
+       self.member_id = '745'
 
-    #-----------------管理我的店铺 - 店铺详情内容----------------------------------
+    #-----------------商业级用户中心----------------------------------
     def testcase_001(self):
-        sheet_index = 12
-        row = 29
-        member_id='10394'
-        print ("testcase_001管理我的店铺 - 店铺详情内容:")
-
-        payload = {"shop_id":"29388"}
-        result = self.r.interface_requests_payload(member_id, sheet_index, row, payload)
+        sheet_index = 0
+        row = 108
+        print("testcase_001商业级用户中心：")
+        payload = {"normal_member_id":745,"target_role":10394}
+        result = self.r.interface_requests_payload(self.member_id, sheet_index, row,payload)
         self.assertEqual(10000, result['code'])
         print("code返回值：10000")
 

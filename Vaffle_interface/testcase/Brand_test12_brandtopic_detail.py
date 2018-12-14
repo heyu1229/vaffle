@@ -36,7 +36,7 @@ class Brands(unittest.TestCase):
         topic_id = result1["data"]["brand_topic_id"]
         print("topic_id=",topic_id)
 
-        member_id = '744'
+        member_id = '777'
         payload = {"topic_id": topic_id}
         result = self.r.interface_requests_payload(member_id, sheet_index, row, payload)
 

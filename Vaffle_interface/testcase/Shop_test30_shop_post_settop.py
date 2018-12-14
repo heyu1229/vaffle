@@ -13,32 +13,43 @@ from read_data import Read_ExcelData
 from write_data import Write_ExcelData
 from func_requests import FuncRequests
 
-#---------------管理我的店铺 - 图片/视频----------------------
+#---------------设置店铺置顶post数据----------------------
 class Shop(unittest.TestCase):
 
     def setUp(self):
        self.r=FuncRequests()
 
-    #-----------------管理我的店铺 - 图片/视频----------------------------------
+    #-----------------设置置顶----------------------------------
     def testcase_001(self):
         sheet_index = 12
-        row = 22
+        row = 37
         member_id='10394'
-        print ("testcase_001管理我的店铺 - 图片/视频:")
+        print ("testcase_001设置置顶:")
 
-        payload = {"shop_id": "29388", "page":1,"normal_member_id":745}
+        # 调用发布接口发送一条动态，获取post_id
+        date = time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())
+        payload1 = { "content": "接口在" + date + "测试发布纯文字","normal_member_id":745}
+        # 获取发布接口token值
+        urlpart1 = '/posts/publish'
+        result1 = self.r.interface_requests_data(member_id, urlpart1, payload1)
+        print(result1)
+        global post_id
+        post_id = result1["data"]["post_id"]
+        print("post_id=",post_id)
+
+        payload={ "shop_id": 29388, "post_id":post_id, "state":1,"normal_member_id":745}
         result = self.r.interface_requests_payload(member_id, sheet_index, row, payload)
         self.assertEqual(10000, result['code'])
         print("code返回值：10000")
 
-    #-----------------管理我的店铺 - 其他管理员查看图片/视频----------------------------------
+    #-----------------取消置顶----------------------------------
     def testcase_002(self):
         sheet_index = 12
-        row = 48
-        member_id='34791'
-        print ("testcase_002管理我的店铺 - 其他管理员查看图片/视频:")
+        row = 38
+        member_id='10394'
+        print ("testcase_001取消置顶:")
 
-        payload = {"shop_id": "29388", "page":1,"normal_member_id":745}
+        payload={ "shop_id": 29388, "post_id":post_id, "state":0, "normal_member_id":745}
         result = self.r.interface_requests_payload(member_id, sheet_index, row, payload)
         self.assertEqual(10000, result['code'])
         print("code返回值：10000")

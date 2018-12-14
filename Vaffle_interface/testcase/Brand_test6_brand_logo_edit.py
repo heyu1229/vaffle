@@ -25,7 +25,7 @@ class Brands(unittest.TestCase):
     def testcase_001(self):
         sheet_index = 11
         row = 6
-        member_id='744'
+        member_id='34791'
         print ("testcase_001修改品牌logo:")
 
         payload = {"brand_id": 1, "logo_url": "avatar/1534491048212_1645_android.jpg"}

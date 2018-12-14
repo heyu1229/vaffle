@@ -15,18 +15,18 @@ from write_data import Write_ExcelData
 from get_version import Version
 from func_requests import FuncRequests
 
-#---------------管理我的店铺 - 功能项----------------------
+#---------------在线时长统计----------------------
 class System_nation(unittest.TestCase):
 
     def setUp(self):
         self.r = FuncRequests()
 
-    #-----------------管理我的店铺 - 功能项----------------------------------
+ # -----------------在线时长统计----------------------------------
     def testcase_001(self):
         sheet_index = 3
-        row = 7
-        print("testcase_001管理我的店铺 - 功能项：")
-        member_id = "10394"
+        row = 18
+        print("testcase_001在线时长统计：")
+        member_id = "745"
         result=self.r.interface_requests(member_id,sheet_index,row)
 
         self.assertEqual(10000, result["code"])

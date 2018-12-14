@@ -23,10 +23,11 @@ class Shop(unittest.TestCase):
     def testcase_001(self):
         sheet_index = 12
         row = 12
-        member_id='744'
+        member_id='10394'
         print ("testcase_001店铺详情:")
 
-        result = self.r.interface_requests(member_id, sheet_index, row)
+        payload = {"shop_id":"52862","normal_member_id":"745"}
+        result = self.r.interface_requests_payload(member_id, sheet_index, row,payload)
         self.assertEqual(10000, result['code'])
         print("code返回值：10000")
 

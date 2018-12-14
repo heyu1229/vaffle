@@ -88,8 +88,8 @@ class System_nation(unittest.TestCase):
         member_id = "4361"
         result=self.r.interface_requests(member_id,sheet_index,row)
 
-        self.assertEqual(10099, result["code"])
-        print("code返回值：10099")
+        self.assertEqual(10100, result["code"])
+        print("code返回值：10100")
 
 if __name__=="__main__":
     unittest.main()
