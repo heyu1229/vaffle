@@ -65,7 +65,7 @@ class PostsDetail(unittest.TestCase):
         images = json.dumps(obj)
         # 1.调用发布接口发送一条动态，获取post_id
         date = time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())
-        payload1 = {"uid": "744","content":"接口发布review content","category":"review","review_title":"接口在"+date+"发布review","review_product":"测评产品","review_type":"测评产品型号","publish_addr":"111"}
+        payload1 = {"content":"接口发布review content","category":"review","review_title":"接口在"+date+"发布review","review_product":"测评产品","review_type":"测评产品型号","publish_addr":"111"}
         member_id = "744"
         urlpart1 = '/posts/publish'
         result1 = self.r.interface_requests_data(member_id, urlpart1, payload1)
