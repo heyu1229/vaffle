@@ -47,7 +47,7 @@ class Brands(unittest.TestCase):
         row = 14
         print("testcase_002提现金额不能小于50：")
 
-        payload={"account":"2018-12-06 13:11:11","money":"10"}
+        payload={"account":"2018-12-06 13:11:11","money":"0.01"}
         result = self.r.interface_requests_payload(self.member_id, sheet_index, row,payload)
         self.assertEqual(10110, result['code'])
         print("code返回值：10110")
