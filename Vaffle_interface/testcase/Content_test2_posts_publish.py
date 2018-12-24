@@ -249,7 +249,7 @@ class Publish(unittest.TestCase):
         obj = ({"path":"https://s3-us-west-2.amazonaws.com/images-omv/posts/1532313355871_767_android.jpg","ratio":1.23,"tag":1},)
         images = json.dumps(obj)
         date = time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())
-        payload = {"uid": "744","content":"\u97ed\u83dc\u9e21\u86cb\u5c31<b>\u56de\u5230\u5bb6</b>\u000a\u000a<cite><strong>\u597d\u7684</strong></cite>\u000a\u000a<hr>\u000a\u000a<cite><strong></strong></cite><cite><strong></strong></cite>\u000a\u000a<img src='https://s3-us-west-2.amazonaws.com/images-omv/posts/1532312552416_980_android.jpg' androidid='1532339624238' width='984' height='984'>\u000a\u000a<!--more&lt;cite&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/cite&gt;-->","category":"review","review_title":"接口在"+date+"发布review","review_product":"测评产品","review_type":"测评产品型号","publish_addr":"111"}
+        payload = {"content":"评测内容","category":"review","review_title":"接口在"+date+"发布review","review_product":"测评产品","review_type":"测评产品型号","publish_addr":"111"}
         member_id = "744"
         result=self.r.interface_requests_payload(member_id, sheet_index, row, payload)
         self.assertEqual(10000, result['code'])
