@@ -24,9 +24,10 @@ class Brands(unittest.TestCase):
     def testcase_001(self):
         sheet_index = 0
         row = 116
+
         print("testcase_001店铺管理员审核操作：")
         self.member_id = '10394'
-        payload = {"normal_member_id":745,"type":"shop","apply_id":147,"action":"pass","is_boss":"2"}
+        payload = {"normal_member_id":745,"type":"shop","apply_id":10,"action":"pass","is_boss":"2"}
         result = self.r.interface_requests_payload(self.member_id, sheet_index, row,payload)
         self.assertEqual(10000, result['code'])
         print("code返回值：10000")
@@ -37,7 +38,7 @@ class Brands(unittest.TestCase):
         row = 117
         self.member_id = '34791'
         print("testcase_002品牌管理员审核操作：")
-        payload = {"normal_member_id": 745, "type": "brand", "apply_id": 7, "action": "pass", "is_boss": "2"}
+        payload = {"normal_member_id": 745, "type": "brand", "apply_id": 4, "action": "pass", "is_boss": "2"}
         result = self.r.interface_requests_payload(self.member_id, sheet_index, row,payload)
         self.assertEqual(10000, result['code'])
         print("code返回值：10000")
