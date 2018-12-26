@@ -13,18 +13,18 @@ from read_data import Read_ExcelData
 from write_data import Write_ExcelData
 from func_requests import FuncRequests
 
-#---------------签到 - 用户签到----------------------
+#---------------签到 - 用户签到列表----------------------
 class Sign(unittest.TestCase):
 
     def setUp(self):
         self.requests = FuncRequests ()
         self.member_id = '959'
 
-    #-----------------签到 - 用户签到 ----------------------------------
+    #-----------------签到 - 用户签到列表 ----------------------------------
     def testcase_001(self):
         sheet_index = 0
-        row = 136
-        print("testcase_001签到 用户签到：")
+        row = 137
+        print("testcase_001签到 用户签到列表：")
         result = self.requests.interface_requests(self.member_id,sheet_index,row)
         self.assertEqual(10000, result['code'])
         print("code返回值：10000")

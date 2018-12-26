@@ -13,23 +13,31 @@ from read_data import Read_ExcelData
 from write_data import Write_ExcelData
 from func_requests import FuncRequests
 
-#---------------查看申请记录的详情信息----------------------
-class Brands(unittest.TestCase):
+#---------------签到 - 添加用户时区【POST】----------------------
+class Sign(unittest.TestCase):
 
     def setUp(self):
-       self.r=FuncRequests()
-       self.member_id = '10394'
+        self.requests = FuncRequests ()
+        self.member_id = '959'
 
-    #-----------------查看申请记录的详情信息----------------------------------
+    #-----------------签到 - 添加用户时区【POST】----------------------------------
     def testcase_001(self):
         sheet_index = 0
-        row = 129
+        row = 130
         
-        print("testcase_001查看申请记录的详情信息：")
-        payload = {"category":1,"id":56}
-        result = self.r.interface_requests_payload(self.member_id, sheet_index, row,payload)
+        print("testcase_001签到 用户时区-14到+14：")
+        result = self.requests.interface_requests(self.member_id,sheet_index,row)
         self.assertEqual(10000, result['code'])
         print("code返回值：10000")
+
+    def testcase_002(self):
+        sheet_index = 0
+        row = 131
+
+        print ( "testcase_001签到 用户时区外：" )
+        result = self.requests.interface_requests ( self.member_id, sheet_index, row )
+        self.assertEqual ( 10003, result['code'] )
+        print ( "code返回值：10003" )
 
 if __name__ == "__main__":
     unittest.main()
