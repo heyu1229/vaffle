@@ -5,7 +5,8 @@ from email.mime.application import MIMEApplication
 from HTMLTestRunner import HTMLTestRunner
 from email.mime.multipart import MIMEMultipart
 
-my_sender='lisa.he@heavengifts.com' #发件人邮箱账号
+# my_sender='lisa.he@heavengifts.com' #发件人邮箱账号 密码aCuHUJ7gXM
+my_sender='beth.yu@heavengifts.com' #发件人邮箱账号 7RH8TiwmK6
 my_user='omv.team@heavengifts.com' #收件人邮箱账号
 # my_user='beth.yu@heavengifts.com' #收件人邮箱账号
 #发送邮件
@@ -18,7 +19,7 @@ def send_mail(file_new,excel_new):
         msg = MIMEMultipart('related')
         msg["From"] = my_sender
         msgText = MIMEText(mail_body,'html','utf-8')
-        msg['Subject'] = Header('vaffle 3.0 develop接口自动化测试报告','utf-8')
+        msg['Subject'] = Header('vaffle 3.2.0 develop接口自动化测试报告','utf-8')
         msg.attach(msgText)
 
         # #添加excel附件
@@ -42,7 +43,7 @@ def send_mail(file_new,excel_new):
 
 
         server = smtplib.SMTP("mail.heavengifts.com",25)
-        server.login(my_sender,"aCuHUJ7gXM")
+        server.login(my_sender,"7RH8TiwmK6")
         server.sendmail(my_sender,[my_user,],msg.as_string())
         server.close()
     except Exception as e:#如果try中的语句没有执行，则会执行下面的ret=False

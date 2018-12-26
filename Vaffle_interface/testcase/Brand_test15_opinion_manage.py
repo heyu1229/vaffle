@@ -26,9 +26,10 @@ class Brands(unittest.TestCase):
         row = 20
         print ("testcase_001想法管理列表第一页数据:")
 
-        member_id = '980'
-        payload = {"page": 1}
+        member_id = '34791'
+        payload = {"page": 1,"normal_member_id":745}
         result = self.r.interface_requests_payload(member_id, sheet_index, row, payload)
+        print(result)
         list=result["data"]["list"]
         global last_id
         last_id = list[9]["post_id"]
@@ -44,8 +45,8 @@ class Brands(unittest.TestCase):
         row = 21
         print ("testcase_002想法管理列表第2页数据:")
 
-        member_id = '980'
-        payload = {"page": 2,"last_id":last_id}
+        member_id = '34791'
+        payload = {"page": 2,"last_id":last_id,"normal_member_id":745}
         result = self.r.interface_requests_payload(member_id, sheet_index, row, payload)
 
         self.assertEqual(10000, result['code'])

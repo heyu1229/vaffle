@@ -40,8 +40,8 @@ class Publish(unittest.TestCase):
         payload = {"content": ""}
         member_id='744'
         result=self.r.interface_requests_payload(member_id, sheet_index, row, payload)
-        self.assertEqual(10000, result['code'])
-        print("code返回值：10000")
+        self.assertEqual(10011, result['code'])
+        print("code返回值：10011")
 
     #-----------------发布图片动态----------------------------------
     def testcase_003(self):
@@ -249,7 +249,7 @@ class Publish(unittest.TestCase):
         obj = ({"path":"https://s3-us-west-2.amazonaws.com/images-omv/posts/1532313355871_767_android.jpg","ratio":1.23,"tag":1},)
         images = json.dumps(obj)
         date = time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())
-        payload = {"uid": "744","content":"\u97ed\u83dc\u9e21\u86cb\u5c31<b>\u56de\u5230\u5bb6</b>\u000a\u000a<cite><strong>\u597d\u7684</strong></cite>\u000a\u000a<hr>\u000a\u000a<cite><strong></strong></cite><cite><strong></strong></cite>\u000a\u000a<img src='https://s3-us-west-2.amazonaws.com/images-omv/posts/1532312552416_980_android.jpg' androidid='1532339624238' width='984' height='984'>\u000a\u000a<!--more&lt;cite&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/cite&gt;-->","category":"review","review_title":"接口在"+date+"发布review","review_product":"测评产品","review_type":"测评产品型号","publish_addr":"111"}
+        payload = {"content":"评测内容","category":"review","review_title":"接口在"+date+"发布review","review_product":"测评产品","review_type":"测评产品型号","publish_addr":"111"}
         member_id = "744"
         result=self.r.interface_requests_payload(member_id, sheet_index, row, payload)
         self.assertEqual(10000, result['code'])
@@ -263,7 +263,7 @@ class Publish(unittest.TestCase):
         obj = ({"path":"posts/1512710644881_767_android.jpg","ratio":1.23,"tag":1},)
         images = json.dumps(obj)
         date = time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())
-        payload = {"uid": "744", "images": images, "content":"QA内容1","category":"qa"}
+        payload = {"uid": "744", "images": images, "content":"QA内容1"+date,"category":"qa"}
         member_id = "744"
         result=self.r.interface_requests_payload(member_id, sheet_index, row, payload)
         self.assertEqual(10000, result['code'])
@@ -279,6 +279,90 @@ class Publish(unittest.TestCase):
         date = time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())
         payload = { "images": images, "content":"接口测试发布想法"+date,"category":"post","topic_id":40}
         member_id = "744"
+        result=self.r.interface_requests_payload(member_id, sheet_index, row, payload)
+        self.assertEqual(10000, result['code'])
+        print("code返回值：10000")
+
+    # -----------------发布店铺评论------------------------------
+    def testcase_019(self):
+        sheet_index = 1
+        row = 103
+        print("testcase_019发布店铺评论：")
+        obj = ({"path":"posts/1512710644881_767_android.jpg","ratio":1.23,"tag":1},)
+        images = json.dumps(obj)
+        date = time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())
+        payload = { "images": images, "content":"接口测试发布店铺评论"+date,"category":"post","shop_id":1315}
+        member_id = "744"
+        result=self.r.interface_requests_payload(member_id, sheet_index, row, payload)
+        self.assertEqual(10000, result['code'])
+        print("code返回值：10000")
+
+    # -----------------管理员身份发布post并推送给粉丝------------------------------
+    def testcase_020(self):
+        sheet_index = 1
+        row = 104
+        print("testcase_020管理员身份发布post并推送给粉丝：")
+        obj = ({"path":"posts/1512710644881_767_android.jpg","ratio":1.23,"tag":1},)
+        images = json.dumps(obj)
+        date = time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())
+        payload = { "images": images, "content":"管理员身份发布post并推送给粉丝"+date,"normal_member_id":745,"push":"ON"}
+        member_id = "10394"
+        result=self.r.interface_requests_payload(member_id, sheet_index, row, payload)
+        self.assertEqual(10000, result['code'])
+        print("code返回值：10000")
+
+    # -----------------切换管理员身份发布post------------------------------34791
+    def testcase_021(self):
+        sheet_index = 1
+        row = 105
+        print("testcase_021切换管理员身份发布post：")
+        obj = ({"path":"posts/1512710644881_767_android.jpg","ratio":1.23,"tag":1},)
+        images = json.dumps(obj)
+        date = time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())
+        payload = { "images": images, "content":"切换管理员身份发布post"+date,"target_role":10394,"normal_member_id":745}
+        member_id = "745"
+        result=self.r.interface_requests_payload(member_id, sheet_index, row, payload)
+        self.assertEqual(10000, result['code'])
+        print("code返回值：10000")
+
+    # -----------------切换普通身份发布post------------------------------34791
+    def testcase_022(self):
+        sheet_index = 1
+        row = 106
+        print("testcase_022切换普通身份发布post：")
+        obj = ({"path":"posts/1512710644881_767_android.jpg","ratio":1.23,"tag":1},)
+        images = json.dumps(obj)
+        date = time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())
+        payload = { "images": images, "content":"切换普通身份发布post"+date,"target_role":745,"normal_member_id":745}
+        member_id = "10394"
+        result=self.r.interface_requests_payload(member_id, sheet_index, row, payload)
+        self.assertEqual(10000, result['code'])
+        print("code返回值：10000")
+
+    # -----------------切换其他管理员身份发布post------------------------------34791
+    def testcase_023(self):
+        sheet_index = 1
+        row = 107
+        print("testcase_023切换其他管理员身份发布post：")
+        obj = ({"path":"posts/1512710644881_767_android.jpg","ratio":1.23,"tag":1},)
+        images = json.dumps(obj)
+        date = time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())
+        payload = { "images": images, "content":"切换其他管理员身份发布post"+date,"target_role":34791,"normal_member_id":745}
+        member_id = "10394"
+        result=self.r.interface_requests_payload(member_id, sheet_index, row, payload)
+        self.assertEqual(10000, result['code'])
+        print("code返回值：10000")
+
+    # -----------------管理员发布QA------------------------------
+    def testcase_024(self):
+        sheet_index = 1
+        row = 108
+        print("testcase_024管理员发布QA：")
+        obj = ({"path":"posts/1512710644881_767_android.jpg","ratio":1.23,"tag":1},)
+        images = json.dumps(obj)
+        date = time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())
+        payload = { "images": images, "content":"管理员发布QA"+date,"category":"qa","target_role":10394,"normal_member_id":745}
+        member_id = "745"
         result=self.r.interface_requests_payload(member_id, sheet_index, row, payload)
         self.assertEqual(10000, result['code'])
         print("code返回值：10000")

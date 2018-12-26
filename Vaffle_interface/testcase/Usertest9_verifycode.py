@@ -32,10 +32,10 @@ class VerifyCode(unittest.TestCase):
         row = 44
         print("testcase002邮箱格式不正确：")
         result = self.requests.interface_requests(self.member_id,sheet_index,row)
-        self.assertEqual ( 9999, result['code'] )
-        print ( "code返回值：9999" )
-        self.assertEqual ( 'Time out.', result['msg'] )
-        print ( "msg返回值：Time out." )
+        self.assertEqual ( 10003, result['code'] )
+        print ( "code返回值：10003" )
+        self.assertEqual ( 'Parameter Error', result['msg'] )
+        print ( "msg返回值：Parameter Error." )
 
 
 if __name__ == '__main__':

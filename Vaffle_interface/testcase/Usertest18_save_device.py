@@ -3,6 +3,7 @@ import unittest
 import requests
 import sys,gc
 import global_list
+import applehttp2push
 sys.path.append(global_list.path+"/public_1")
 from func_requests import FuncRequests
 #------------------------保存用户的电子烟设备---------------------------

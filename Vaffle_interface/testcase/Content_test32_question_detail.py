@@ -30,14 +30,15 @@ class CommentsPublish(unittest.TestCase):
 
         # 调用发布接口发送一条动态，获取question_id
         date = time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())
-        payload1 = { "content": "接口在" + date + "测试发布Q/A","category":"qa"}
-        member_id1 = "748"
-        urlpart1 = '/posts/publish'
-        result1 = self.r.interface_requests_data(member_id1, urlpart1, payload1)
-        global question_id
-        question_id = result1["data"]["question_id"]
-        print(question_id)
+        # payload1 = { "content": "接口在" + date + "测试发布Q/A","category":"qa"}
+        # member_id1 = "748"
+        # urlpart1 = '/posts/publish'
+        # result1 = self.r.interface_requests_data(member_id1, urlpart1, payload1)
+        # global question_id
+        # question_id = result1["data"]["question_id"]
+        # print(question_id)
 
+        question_id="19183"
         payload = {"question_id": question_id}
         member_id = "744"
         result = self.r.interface_requests_payload(member_id, sheet_index, row, payload)
