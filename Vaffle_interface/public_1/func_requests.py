@@ -5,6 +5,7 @@ import requests
 import sys,time,gc
 import json
 import xlrd
+import pymysql.cursors
 from get_url import Url
 from get_token import Token
 from read_data import Read_ExcelData
@@ -151,3 +152,19 @@ class FuncRequests():
         r = requests.post(self.base_url, params=payload, headers=headers)
         result = r.json()
         return result
+
+    def sql(self,s):
+        # 连接MySQL数据库
+        connection = pymysql.connect(host='172.100.200.61', port=3306, user='vaffle', password='Vaffle.123',
+                                     db='vaffle',
+                                     charset='utf8mb4', cursorclass=pymysql.cursors.DictCursor)
+
+        # 通过cursor创建游标
+        cursor = connection.cursor()
+
+        # 创建sql 语句，并执行
+        sql = s
+        cursor.execute(sql)
+
+        # 提交SQL
+        connection.commit()
