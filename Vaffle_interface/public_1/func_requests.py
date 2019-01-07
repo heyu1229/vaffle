@@ -183,7 +183,12 @@ class FuncRequests():
         # 创建sql 语句，并执行
         sql = s
         execute=cursor.execute(sql)
-
+        results=cursor.fetchall()
+        for result in results:
+            if result == None:
+                return None
+            else:
+                return result
         # 提交SQL
         connection.commit()
-        return execute
+
