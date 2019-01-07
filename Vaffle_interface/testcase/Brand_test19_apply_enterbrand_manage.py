@@ -60,8 +60,8 @@ class Brands(unittest.TestCase):
             self.assertEqual(10000, result['code'])
             print("code返回值：10000")
         except:
-            self.assertEqual(10120, result['code'])
-            print("code返回值：10120")
+            self.assertEqual(10116, result['code'])
+            print("code返回值：10116")
 
     #-----------------不能认领已经是管理者的品牌----------------------------------
     def testcase_003(self):
