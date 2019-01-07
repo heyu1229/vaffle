@@ -15,32 +15,25 @@ sys.path.append(global_list.path+"/log")
 from interface_log import interface_log
 from func_requests import FuncRequests
 
-#---------------广告----------------------
+#---------------广告数据统计----------------------
 class Ads(unittest.TestCase):
 
     def setUp(self):
        self.r=FuncRequests()
 
-    #-----------------post广告----------参数值：0.5625或0.625------------------------
+    #-----------------广告数据统计----------------------------------
     def testcase_001(self):
         sheet_index = 10
-        row = 1
+        row = 5
         member_id='none'
-        print ("testcase_001 post广告:")
-        result=self.r.interface_requests(member_id,sheet_index,row)
+        print ("testcase_001 广告数据统计:")
+        obj = ({"ad_id": 123, "view_num": 2, "click_num": 3},)
+        data = json.dumps(obj)
+        payload={"data":data}
+        result=self.r.interface_requests_payload(member_id,sheet_index,row,payload)
 
         self.assertEqual(10000, result['code'])
         print("code返回值：10000")
 
-    #-----------------discover广告----------参数值：0.5625或0.625------------------------
-    def testcase_002(self):
-        sheet_index = 10
-        row = 4
-        member_id='none'
-        print ("testcase_002 discover广告:")
-        result=self.r.interface_requests(member_id,sheet_index,row)
-
-        self.assertEqual(10000, result['code'])
-        print("code返回值：10000")
 if __name__ == "__main__":
     unittest.main()
