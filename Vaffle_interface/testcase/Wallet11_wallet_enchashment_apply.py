@@ -56,7 +56,7 @@ class Brands(unittest.TestCase):
     def testcase_003(self):
         #因为提现最小金额是50，所以要先去数据库将可提现金额手动改成大于50才能执行该用例
         s="delete from vape_reflect_record where member_id='10394'"
-        execute_sql = self.r.sql(s)
+        execute_sql = self.r.sql_vaffle(s)
         sheet_index = 13
         row = 15
         print("testcase_003提现金额不能大于实际可提现金额：")
