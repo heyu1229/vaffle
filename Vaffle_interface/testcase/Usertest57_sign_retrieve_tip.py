@@ -24,20 +24,6 @@ class Sign(unittest.TestCase):
     #1 已经签到 2 ，漏签， 3，当天未签到 4 未来未签到
     def testcase_001(self):
         #-----用户注册-----
-        self.member_id = 'none'
-        self.requests = FuncRequests ()
-        sheet_index = 0
-        row = 12
-        print ( "testcase001 用户注册成功:" )
-        nowTime = time.strftime ( "%Y%m%d_%H_%M_%S" )
-        nickname = 'heyu' + nowTime
-        email = 'heyu' + nowTime + '@qq.com'
-        print ( email )
-        payload = {'email': email, 'password': 'aaa111', 'displayname': 'heyu', 'nickname': nickname,
-                   'equipment_number': 'PE-TL10', }
-        result = self.requests.interface_requests_payload ( self.member_id, sheet_index, row, payload )
-        print(result)
-        #self.member_id = str(result['data']['member_id'])
         self.member_id ='959'
         sheet_index = 0
         row = 138
