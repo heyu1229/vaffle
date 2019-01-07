@@ -153,11 +153,12 @@ class FuncRequests():
         result = r.json()
         return result
 
-    def sql(self,s):
+    def sql_vaffle(self,s):
         # 连接MySQL数据库
         connection = pymysql.connect(host='172.100.200.61', port=3306, user='vaffle', password='Vaffle.123',
                                      db='vaffle',
                                      charset='utf8mb4', cursorclass=pymysql.cursors.DictCursor)
+
 
         # 通过cursor创建游标
         cursor = connection.cursor()
@@ -168,3 +169,21 @@ class FuncRequests():
 
         # 提交SQL
         connection.commit()
+
+    def sql_vaffle_post(self,s):
+        # 连接MySQL数据库
+        connection = pymysql.connect(host='172.100.200.61', port=3306, user='vaffle', password='Vaffle.123',
+                                     db='vaffle_post',
+                                     charset='utf8mb4', cursorclass=pymysql.cursors.DictCursor)
+
+
+        # 通过cursor创建游标
+        cursor = connection.cursor()
+
+        # 创建sql 语句，并执行
+        sql = s
+        execute=cursor.execute(sql)
+
+        # 提交SQL
+        connection.commit()
+        return execute
