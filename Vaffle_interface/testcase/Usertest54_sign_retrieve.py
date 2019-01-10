@@ -40,7 +40,7 @@ class Sign(unittest.TestCase):
         sheet_index = 0
         row = 133
         print("testcase_001签到 用户补签：")
-        payload = {'date':'2018-12-24'}
+        payload = {'date':'2019-01-06'}
         result = self.requests.interface_requests_payload(self.member_id,sheet_index,row,payload)
         self.assertEqual(10000, result['code'])
         print("code返回值：10000")
@@ -50,7 +50,7 @@ class Sign(unittest.TestCase):
         sheet_index = 0
         row = 134
         print("testcase_002签到 用户补签：")
-        payload = {'date':'2018-12-24'}
+        payload = {'date':'2019-01-06'}
         result = self.requests.interface_requests_payload(self.member_id,sheet_index,row,payload)
         self.assertEqual(10123, result['code'])
         print("code返回值：10123")
