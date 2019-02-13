@@ -25,31 +25,22 @@ class Praise(unittest.TestCase):
     #-----------------动态点赞/取消点赞----------------------------------
     def testcase_001(self):
         sheet_index = 1
-        row = 8
+        row = 5
         print("testcase_001动态点赞/取消点赞：")
 
-        # 调用发布接口发送一条动态，获取post_id
+        # 调用posts/lists接口获取post_id
         date = time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())
-        payload1 = {"uid": "744", "content": "接口在" + date + "测试发布纯文字"}
-        member_id1 = "748"
-        urlpart='/posts/publish'
+        payload1 = {"type": "post", "page": 1}
+        member_id1 = "960"
+        urlpart='/posts/lists'
         result1 = self.r.interface_requests_data(member_id1, urlpart, payload1)
-        post_id = result1["data"]["post_id"]
+        list = result1["data"]["list"]
+        post_id = list[0]["post_id"]
+        print("post_id:",post_id)
 
         payload ={"post_id": post_id,"praise_state":1}
-        member_id = "744"
+        member_id = "960"
         result=self.r.interface_requests_payload(member_id, sheet_index, row, payload)
-
-        self.assertEqual(10000, result["code"])
-        print("code返回值：10000")
-
-    #-----------------点赞/取消点赞不存在的post id----------------------------------
-    def testcase_002(self):
-        sheet_index = 1
-        row = 10
-        print("testcase_002点赞/取消点赞不存在的post id：")
-        member_id = "744"
-        result=self.r.interface_requests(member_id,sheet_index,row)
 
         self.assertEqual(10000, result["code"])
         print("code返回值：10000")
