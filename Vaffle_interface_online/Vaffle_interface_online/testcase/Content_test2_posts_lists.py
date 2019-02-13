@@ -22,56 +22,37 @@ class List(unittest.TestCase):
     #-----------------首页动态列表post 第1页----------------------------------
     def testcase_001(self):
         sheet_index = 1
-        row = 3
+        row = 2
         print("testcase_001首页动态列表post 第1页:")
-        member_id="744"
+        member_id="960"
         result=self.r.interface_requests(member_id,sheet_index,row)
 
         self.assertEqual(10000, result['code'])
         print("code返回值：10000")
 
-        post_list = result['data']['list']
-        global last_id
-        last_id = post_list[9]['post_id']
-
-    #-----------------首页动态列表reveal 第1页---------------------------------
+   #-----------------首页动态列表location 第1页----------------------------------
     def testcase_002(self):
-        sheet_index = 1
-        row = 4
-        print("testcase_002首页动态列表reveal 第1页:")
-        member_id="744"
-        result=self.r.interface_requests(member_id,sheet_index,row)
-
-        self.assertEqual(10000, result['code'])
-        print("code返回值：10000")
-
-
-   #-----------------首页动态列表post 第2页----------------------------------
-    def testcase_003(self):
 
         sheet_index = 1
-        row = 5
-        print("testcase_003页动态列表post 第2页:")
-        member_id="744"
-        print('last_id: ',last_id)
-        #再根据last_id获得第二页数据
-        payload = {'type':'post','page':2,'last_id':last_id}
-        result=self.r.interface_requests_payload(member_id, sheet_index, row, payload)
+        row = 3
+        print("testcase_002首页动态列表location 第1页-:")
+        member_id="960"
+        result = self.r.interface_requests(member_id, sheet_index, row)
 
         self.assertEqual(10000, result["code"])
         print("code返回值：10000")
 
-    # -----------------首页动态列表type不存在----------------------------------
-    def testcase_004(self):
+   #-----------------首页动态列表me 第1页----------------------------------
+    def testcase_003(self):
+
         sheet_index = 1
-        row = 7
-        print("testcase_004首页动态列表type不存在:")
-        member_id="744"
-        result=self.r.interface_requests(member_id,sheet_index,row)
+        row = 4
+        print("testcase_003首页动态列表me 第1页:")
+        member_id="960"
+        result = self.r.interface_requests(member_id, sheet_index, row)
 
-        self.assertEqual(9999, result["code"])
-        print("code返回值：9999")
-
+        self.assertEqual(10000, result["code"])
+        print("code返回值：10000")
 
 if __name__ == "__main__":
     unittest.main()
