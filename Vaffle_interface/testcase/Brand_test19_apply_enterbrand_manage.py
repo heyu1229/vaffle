@@ -47,7 +47,7 @@ class Brands(unittest.TestCase):
         row = 30
         print ("testcase_002认领品牌管理者:")
 
-        member_id = '747'
+        member_id = '748'
         payload = {"name": "接口测试品牌", "nation": "china", "city": "shangai", "address": "qilianshanlu",
                    "first_name": "first_name", "last_name": "last_name",
                    "img_card_front": "posts/1512710644871_767_android.jpg",
@@ -76,7 +76,7 @@ class Brands(unittest.TestCase):
                    "img_card_back": "posts/1512710644871_767_android.jpg",
                    "img_license": "posts/1512710644871_767_android.jpg",
                    "is_boss": 1,"phone":"18812341234","email":"email@qq.com","normal_member_id":member_id,
-                   "apply_brand_id":3}
+                   "apply_brand_id":1}
         result = self.r.interface_requests_payload(member_id, sheet_index, row, payload)
         try:
             self.assertEqual(10000, result['code'])
