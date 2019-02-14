@@ -25,23 +25,11 @@ class CommentsPublish(unittest.TestCase):
     #-----------------Q/A的关注----------------------------------
     def testcase_001(self):
         sheet_index = 1
-        row = 69
+        row = 26
         print("testcase_001 Q/A的关注：")
 
-        # 调用发布接口发送一条动态，获取post_id
-        date = time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())
-        payload1 = { "content": "接口在" + date + "测试发布Q/A","category":"qa"}
-        member_id1 = "748"
-        urlpart = '/posts/publish'
-        result1 = self.r.interface_requests_data(member_id1, urlpart, payload1)
-        print(result1)
-        global question_id
-        question_id = result1["data"]["question_id"]
-        print(question_id)
-
-
-        payload = {"question_id": question_id,"follow_state": 1}
-        member_id="744"
+        payload = {"question_id": 174470,"follow_state": 1}
+        member_id="960"
         result=self.r.interface_requests_payload(member_id, sheet_index, row, payload)
 
         self.assertEqual(10000, result["code"])
@@ -50,11 +38,11 @@ class CommentsPublish(unittest.TestCase):
         # -----------------Q/A的取消关注----------------------------------
     def testcase_002(self):
         sheet_index = 1
-        row = 70
+        row = 27
         print("testcase_002 Q/A的取消关注：")
-        payload = {"question_id": question_id, "follow_state":0}
-        # 获取token值
-        member_id="744"
+
+        payload = {"question_id": 174470, "follow_state":0}
+        member_id="960"
         result=self.r.interface_requests_payload(member_id, sheet_index, row, payload)
 
         self.assertEqual(10000, result["code"])

@@ -27,7 +27,6 @@ class CommentsDel(unittest.TestCase):
 
         # 1.调用评论接口，获得comment_id
         member_id = "960"
-        date = time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())
         payload2 = {"post_id": 6523, "content": "haha", "is_post": "N"}
         urlpart2 = '/comments/publish'
         result2 = self.r.interface_requests_data(member_id, urlpart2, payload2)

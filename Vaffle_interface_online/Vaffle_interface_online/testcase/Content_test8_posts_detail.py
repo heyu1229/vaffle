@@ -25,7 +25,6 @@ class PostsDetail(unittest.TestCase):
         print("testcase_001动态详情：")
 
         # 调用posts/lists接口获取post_id
-        date = time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())
         payload1 = {"type": "post", "page": 1}
         member_id1 = "960"
         urlpart = '/posts/lists'

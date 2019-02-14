@@ -15,18 +15,18 @@ sys.path.append(global_list.path+"/log")
 from interface_log import interface_log
 from func_requests import FuncRequests
 
-#---------------挑战详情----------------------
+#---------------挑战活动参与情况----------------------
 class Brands(unittest.TestCase):
 
     def setUp(self):
        self.r=FuncRequests()
 
-    #-----------------挑战详情---------------------------------
+    #-----------------挑战活动参与情况----------------------------------
     def testcase_001(self):
         sheet_index = 1
-        row = 68
-        member_id='744'
-        print ("testcase_001挑战详情:")
+        row = 24
+        member_id='960'
+        print ("testcase_001挑战活动参与情况:")
         result=self.r.interface_requests(member_id,sheet_index,row)
 
         self.assertEqual(10000, result['code'])
