@@ -18,27 +18,18 @@ class Brands(unittest.TestCase):
 
     def setUp(self):
        self.r=FuncRequests()
-       self.member_id = '745'
+       self.member_id = '959'
 
     #-----------------可以切换至指定身份----------------------------------
     def testcase_001(self):
         sheet_index = 0
-        row = 123
+        row = 34
 
         print("testcase_001可以切换至指定身份：")
-        payload = {"normal_member_id":745,"target_role":34791}
+        payload = {"normal_member_id":959,"target_role":68006}
         result = self.r.interface_requests_payload(self.member_id, sheet_index, row,payload)
         self.assertEqual(10000, result['code'])
         print("code返回值：10000")
 
-    #-----------------不可以切换至指定身份----------------------------------
-    def testcase_002(self):
-        sheet_index = 0
-        row = 124
-        print("testcase_002不可以切换至指定身份：")
-        payload = {"normal_member_id":745,"target_role":1111}
-        result = self.r.interface_requests_payload(self.member_id, sheet_index, row,payload)
-        self.assertEqual(10107, result['code'])
-        print("code返回值：10107")
 if __name__ == "__main__":
     unittest.main()

@@ -23,7 +23,7 @@ class Sign(unittest.TestCase):
     #-----------------签到 - 用户签到列表 ----------------------------------
     def testcase_001(self):
         sheet_index = 0
-        row = 137
+        row = 37
         print("testcase_001签到 用户签到列表：")
         result = self.requests.interface_requests(self.member_id,sheet_index,row)
         self.assertEqual(10000, result['code'])
