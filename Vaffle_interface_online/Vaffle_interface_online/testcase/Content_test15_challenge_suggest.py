@@ -24,8 +24,8 @@ class Brands(unittest.TestCase):
     #-----------------发布post时推荐的challenge----------------------------------
     def testcase_001(self):
         sheet_index = 1
-        row = 65
-        member_id='744'
+        row = 22
+        member_id='960'
         print ("testcase_001发布post时推荐的challenge:")
         result=self.r.interface_requests(member_id,sheet_index,row)
 
