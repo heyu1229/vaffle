@@ -6,6 +6,8 @@ import sys,time,gc
 import json
 import xlrd
 import pymysql.cursors
+
+import urllib3
 from get_url import Url
 from get_token import Token
 from read_data import Read_ExcelData
@@ -18,7 +20,7 @@ class FuncRequests():
     def interface_requests(self,member_id,sheet_index,row):
         # 获取EXcel路径
         self.path = Url().test_path()
-
+        urllib3.disable_warnings ()
         # 路径
         url = Url().test_url()
         self.obi = Read_ExcelData()
@@ -34,7 +36,7 @@ class FuncRequests():
         start = time.time()
         headers = {"device": "android ", "version": self.version, "lang": "en", "timestamp": "1493780505", "token": token,
                    "login": member_id,"serial-number":"48525687125863258471123568955554","company":"HUAWEI","phone-model":"P10","system-version":"system_version"}
-        r = requests.post(self.base_url1, params=payload, headers=headers)
+        r = requests.post(self.base_url1, params=payload, headers=headers, verify=False)
         result = r.json()
         format_result = json.dumps(result, ensure_ascii=False, indent=1)
         print(format_result)
@@ -59,7 +61,7 @@ class FuncRequests():
 
         # 获取EXcel路径
         self.path = Url().test_path()
-
+        urllib3.disable_warnings ()
         # 路径
         url = Url().test_url()
         self.obi = Read_ExcelData()
@@ -75,7 +77,7 @@ class FuncRequests():
         start = time.time()
         headers = {"device": "android ", "version": self.version, "lang": "en", "timestamp": "1493780505", "token": token,
                    "login": member_id,"serial-number":"48525687125863258471123568955554","company":"HUAWEI","phone-model":"P10","system-version":"system_version"}
-        r = requests.post(self.base_url1, params=payload, headers=headers)
+        r = requests.post(self.base_url1, params=payload, headers=headers, verify=False)
         result = r.json()
         format_result = json.dumps(result, ensure_ascii=False, indent=1)
         print(format_result)
@@ -99,7 +101,7 @@ class FuncRequests():
     def interface_requests2(self,member_id,sheet_index,row):
         # 获取EXcel路径
         self.path = Url().test_path()
-
+        urllib3.disable_warnings ()
         # 路径
         url = Url().test_url()
         self.obi = Read_ExcelData()
@@ -115,7 +117,7 @@ class FuncRequests():
         start = time.time()
         headers = {"device": "android ", "version": self.version, "lang": "en", "timestamp": "1493780505", "token": token,
                    "login": member_id,"serial-number":"48525687125863258471123568955554","company":"HUAWEI","phone-model":"P10","system-version":"system_version"}
-        r = requests.post(self.base_url1, params=payload, headers=headers)
+        r = requests.post(self.base_url1, params=payload, headers=headers, verify=False)
         result = r.json()
         format_result = json.dumps(result, ensure_ascii=False,indent=1)
         print(format_result)
@@ -137,6 +139,7 @@ class FuncRequests():
 
     # -----------------调用其他接口动态获得要使用的字段----------------------------------
     def interface_requests_data(self,member_id,urlpart,payload):
+        urllib3.disable_warnings ()
         # 获取EXcel路径
         self.path = Url().test_path()
         # 路径
@@ -150,7 +153,7 @@ class FuncRequests():
         token = Token().test_token1(payload, member_id)
         headers = {"device": "android ", "version": self.version, "lang": "en", "timestamp": "1493780505", "token": token,
                    "login": member_id,"serial-number":"48525687125863258471123568955554","company":"HUAWEI","phone-model":"P10","system-version":"system_version"}
-        r = requests.post(self.base_url, params=payload, headers=headers)
+        r = requests.post(self.base_url, params=payload, headers=headers, verify=False)
         result = r.json()
         return result
 
