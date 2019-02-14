@@ -18,14 +18,14 @@ class Brands(unittest.TestCase):
 
     def setUp(self):
        self.r=FuncRequests()
-       self.member_id = '10394'
+       self.member_id = '68006'
 
     #-----------------可切换角色身份列表----------------------------------
     def testcase_001(self):
         sheet_index = 0
-        row = 120
+        row = 33
         print("testcase_001申请店长管理记录：")
-        payload = {"normal_member_id":745}
+        payload = {"normal_member_id":959}
         result = self.r.interface_requests_payload(self.member_id, sheet_index, row,payload)
         self.assertEqual(10000, result['code'])
         print("code返回值：10000")

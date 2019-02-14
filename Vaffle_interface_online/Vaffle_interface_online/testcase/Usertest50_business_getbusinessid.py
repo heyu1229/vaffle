@@ -18,15 +18,15 @@ class Brands(unittest.TestCase):
 
     def setUp(self):
        self.r=FuncRequests()
-       self.member_id = '745'
+       self.member_id = '959'
 
     #-----------------商业用户对应的商业信息----------------------------------
     def testcase_001(self):
         sheet_index = 0
-        row = 128
+        row = 35
         
         print("testcase_001商业用户对应的商业信息：")
-        payload = {"business_account_id":34790}
+        payload = {"business_account_id":68006}
         result = self.r.interface_requests_payload(self.member_id, sheet_index, row,payload)
         self.assertEqual(10000, result['code'])
         print("code返回值：10000")

@@ -18,29 +18,19 @@ class Brands(unittest.TestCase):
 
     def setUp(self):
        self.r=FuncRequests()
-
+       self.member_id = '68006'
 
     #-----------------店铺管理员查看记录----------------------------------
     def testcase_001(self):
         sheet_index = 0
-        row = 118
+        row = 32
         self.member_id = '10394'
         print("testcase_001店铺管理员查看记录：")
-        payload = {"normal_member_id":745,"page":1}
+        payload = {"normal_member_id":959,"page":1}
         result = self.r.interface_requests_payload(self.member_id, sheet_index, row,payload)
         self.assertEqual(10000, result['code'])
         print("code返回值：10000")
 
-    #-----------------品牌管理员查看记录----------------------------------
-    def testcase_002(self):
-        sheet_index = 0
-        row = 119
-        self.member_id = '34791'
-        print("testcase_002品牌管理员查看记录：")
-        payload = {"normal_member_id":745,"page":1}
-        result = self.r.interface_requests_payload(self.member_id, sheet_index, row,payload)
-        self.assertEqual(10000, result['code'])
-        print("code返回值：10000")
 
 
 if __name__ == "__main__":
