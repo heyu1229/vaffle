@@ -84,7 +84,7 @@ class Passport_Login(unittest.TestCase):
         sheet_index = 6
         row = 12
         print ( "testcase_006 第三方带密码登录：" )
-        member_id = "4729"
+        member_id = "35710"
         payload={"platform": "vk", "open_id": "431978087", "nickname": "Qin_Yu503", "gender": "F",
                  "equipment_number": "PE-TL10", "fcm_token": "dn612TZsnqM:APA91bGYxz6qppK5mQexGBUMcFzg3D8Qd7OKOL-zBHwIj5wel3rbfFNvg-cZsyCsJKBvQbejMvWxxK7iIjm24ujBYn_zhnPVbNaisaVvAvC4w_0",
                  "password":111111}
