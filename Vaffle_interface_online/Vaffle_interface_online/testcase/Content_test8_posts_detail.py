@@ -21,19 +21,22 @@ class PostsDetail(unittest.TestCase):
     #-----------------动态详情----------------------------------
     def testcase_001(self):
         sheet_index = 1
-        row = 20
+        row = 12
         print("testcase_001动态详情：")
 
-        # 调用发布接口发送一条动态，获取post_id
+        # 调用posts/lists接口获取post_id
         date = time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())
-        payload1 = {"uid": "744", "content": "接口在" + date + "测试发布纯文字"}
-        member_id1 = "748"
-        urlpart1 = '/posts/publish'
-        result1 = self.r.interface_requests_data(member_id1, urlpart1, payload1)
-        post_id = result1["data"]["post_id"]
+        payload1 = {"type": "post", "page": 1}
+        member_id1 = "960"
+        urlpart = '/posts/lists'
+        result1 = self.r.interface_requests_data(member_id1, urlpart, payload1)
+        list = result1["data"]["list"]
+        post_id = list[0]["post_id"]
+        print("post_id:",post_id)
 
         payload ={'post_id':post_id}
-        member_id = "744"
+
+        member_id = "960"
         result=self.r.interface_requests_payload(member_id, sheet_index, row, payload)
 
         self.assertEqual(10000, result["code"])

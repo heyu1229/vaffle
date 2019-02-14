@@ -22,29 +22,12 @@ class Praise(unittest.TestCase):
     #-----------------评论点赞----------------------------------
     def testcase_001(self):
         sheet_index = 1
-        row = 53
+        row = 14
         print("testcase_001评论点赞：")
 
-        # 1.调用发布接口发送一条动态，获取post_id
-        date = time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())
-        payload1 = { "content": "接口在" + date + "测试发布纯文字"}
-        member_id1 = "748"
-        urlpart1 = '/posts/publish'
-        result1 = self.r.interface_requests_data(member_id1, urlpart1, payload1)
-        post_id = result1["data"]["post_id"]
-
-        # 2.调用评论接口，获得comment_id
-        date = time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())
-        payload2 = {"post_id": post_id, "content": "接口在" + date + "测试发布评论", "is_post": "N"}
-        urlpart2 = '/comments/publish'
-        result2 = self.r.interface_requests_data(member_id1, urlpart2, payload2)
-        global comment_id
-        comment_id = result2["data"]["comment_id"]
-        print(comment_id)
-
         #3.调用评论点赞接口
-        payload ={"comment_id": comment_id,'praise_state':1}
-        member_id = "744"
+        payload ={"comment_id": 566894,'praise_state':1}
+        member_id = "960"
         result=self.r.interface_requests_payload(member_id, sheet_index, row, payload)
 
         self.assertEqual(10000, result["code"])
@@ -52,11 +35,11 @@ class Praise(unittest.TestCase):
     #-----------------取消点赞----------------------------------
     def testcase_002(self):
         sheet_index = 1
-        row = 54
+        row = 15
         print("testcase_002取消点赞：")
         # 调用评论点赞接口
-        payload = {"comment_id": comment_id,'praise_state':0}
-        member_id = "744"
+        payload = {"comment_id": 566894,'praise_state':0}
+        member_id = "960"
         result=self.r.interface_requests_payload(member_id, sheet_index, row, payload)
 
         self.assertEqual(10000, result["code"])
