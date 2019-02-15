@@ -21,8 +21,8 @@ class Brands(unittest.TestCase):
 
     #-----------------修改品牌基本信息----------------------------------
     def testcase_001(self):
-        sheet_index = 11
-        row = 5
+        sheet_index = 10
+        row = 4
         member_id='34791'
         print ("testcase_001修改品牌基本信息:")
 
