@@ -18,11 +18,11 @@ class Brands(unittest.TestCase):
 
     def setUp(self):
        self.r=FuncRequests()
-       self.member_id = '10394'
+       self.member_id = '68006'
 
     #-----------------钱包 - 账户余额\冻结余额\可用额度----------------------------------
     def testcase_001(self):
-        sheet_index = 13
+        sheet_index = 12
         row = 2
         print("testcase_001钱包 - 账户余额\冻结余额\可用额度：")
         result = self.r.interface_requests(self.member_id, sheet_index, row)

@@ -13,18 +13,18 @@ from read_data import Read_ExcelData
 from write_data import Write_ExcelData
 from func_requests import FuncRequests
 
-#---------------钱包 - 默认可提现账户----------------------
+#---------------钱包 - 删除可提现账户----------------------
 class Brands(unittest.TestCase):
 
     def setUp(self):
        self.r=FuncRequests()
-       self.member_id = '10394'
+       self.member_id = '68006'
 
-    #-----------------钱包 - 默认可提现账户----------------------------------
+    #-----------------钱包 - 提现规则同意写入----------------------------------
     def testcase_001(self):
-        sheet_index = 13
-        row = 11
-        print("testcase_001钱包 - 默认可提现账户：")
+        sheet_index = 12
+        row = 6
+        print("testcase_001钱包 - 提现规则同意写入：")
 
         result = self.r.interface_requests(self.member_id, sheet_index, row)
         self.assertEqual(10000, result['code'])

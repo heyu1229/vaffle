@@ -18,25 +18,16 @@ class Brands(unittest.TestCase):
 
     def setUp(self):
        self.r=FuncRequests()
-       self.member_id = '10394'
+       self.member_id = '68006'
 
     #-----------------钱包 - 已获得奖励第一页数据----------------------------------269006409
     def testcase_001(self):
-        sheet_index = 13
+        sheet_index = 12
         row = 3
         print("testcase_001钱包 - 已获得奖励第一页数据：")
         result = self.r.interface_requests(self.member_id, sheet_index, row)
         self.assertEqual(10000, result['code'])
         print("code返回值：10000")
-
-    # # -----------------钱包 - 已获得奖励第二页数据----------------------------------
-    # def testcase_002(self):
-    #     sheet_index = 13
-    #     row = 4
-    #     print("testcase_002钱包 - 已获得奖励第二页数据：")
-    #     result = self.r.interface_requests(self.member_id, sheet_index, row)
-    #     self.assertEqual(10000, result['code'])
-    #     print("code返回值：10000")
 
 if __name__ == "__main__":
     unittest.main()
