@@ -13,7 +13,7 @@ from func_requests import FuncRequests
 class Discover(unittest.TestCase):
 
     def setUp(self):
-        self.member_id = '744'
+        self.member_id = '960'
         self.requests = FuncRequests()
     #-----------------发现首页部分同设备用户----------------------------------
     def testcase_001(self):

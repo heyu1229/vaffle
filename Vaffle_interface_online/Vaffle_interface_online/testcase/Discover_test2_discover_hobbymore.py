@@ -13,7 +13,7 @@ from func_requests import FuncRequests
 class Discover_hobbymore(unittest.TestCase):
 
     def setUp(self):
-        self.member_id = '744'
+        self.member_id = '960'
         self.requests = FuncRequests()
 
 

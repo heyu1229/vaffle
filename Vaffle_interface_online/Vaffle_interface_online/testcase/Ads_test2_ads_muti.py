@@ -23,9 +23,9 @@ class Ads(unittest.TestCase):
 
     #-----------------启动广告----------参数值：0.5625或0.625------------------------
     def testcase_001(self):
-        sheet_index = 10
-        row = 2
-        member_id='744'
+        sheet_index = 9
+        row = 3
+        member_id='960'
         print ("testcase_001广告:")
         result=self.r.interface_requests(member_id,sheet_index,row)
 
@@ -34,8 +34,8 @@ class Ads(unittest.TestCase):
 
     #-----------------轮播图----------参数值：0.5625或0.625------------------------
     def testcase_002(self):
-        sheet_index = 10
-        row = 3
+        sheet_index = 9
+        row = 4
         member_id='744'
         print ("testcase_002轮播图:")
         result=self.r.interface_requests(member_id,sheet_index,row)

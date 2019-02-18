@@ -24,9 +24,9 @@ class Following(unittest.TestCase):
     #-----------------我关注的用户列表----------------------------------
     def testcase_001(self):
         sheet_index = 2
-        row = 6
+        row = 4
         print("testcase_001我关注的用户列表：")
-        member_id = "744"
+        member_id = "960"
         result=self.r.interface_requests(member_id,sheet_index,row)
 
         self.assertEqual(10000, result["code"])
@@ -36,20 +36,9 @@ class Following(unittest.TestCase):
     # -----------------进入其他用户主页查看该用户关注的列表----------------------------------
     def testcase_002(self):
         sheet_index = 2
-        row = 7
+        row = 5
         print("testcase_002进入其他用户主页查看该用户关注的列表:")
-        member_id="744"
-        result=self.r.interface_requests(member_id,sheet_index,row)
-
-        self.assertEqual(10000, result["code"])
-        print("code返回值：10000")
-
-    #-----------------关注列表为空或者用户不存在----------------------------------
-    def testcase_003(self):
-        sheet_index = 2
-        row = 8
-        print("testcase_003关注列表为空或者用户不存在")
-        member_id="744"
+        member_id="960"
         result=self.r.interface_requests(member_id,sheet_index,row)
 
         self.assertEqual(10000, result["code"])

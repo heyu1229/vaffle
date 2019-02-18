@@ -24,9 +24,9 @@ class System_nation(unittest.TestCase):
     #-----------------所有国家列表----------------------------------
     def testcase_001(self):
         sheet_index = 3
-        row = 4
+        row = 3
         print("testcase_001所有国家列表：")
-        member_id = "744"
+        member_id = "960"
         result=self.r.interface_requests(member_id,sheet_index,row)
 
         self.assertEqual(10000, result["code"])

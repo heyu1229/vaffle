@@ -25,22 +25,11 @@ class Follow(unittest.TestCase):
         sheet_index = 2
         row = 1
         print("testcase_001关注、取消关注:")
-        member_id = "744"
+        member_id = "960"
         result=self.r.interface_requests(member_id,sheet_index,row)
 
         self.assertEqual(10000, result["code"])
         print("code返回值：10000")
-
-    #-----------------用户不存在----------------------------------
-    def testcase_002(self):
-        sheet_index = 2
-        row = 2
-        print("testcase_002用户不存在:")
-        member_id="744"
-        result=self.r.interface_requests(member_id,sheet_index,row)
-
-        self.assertEqual(10040, result["code"])
-        print("code返回值：10040")
 
 if __name__=="__main__":
     unittest.main()

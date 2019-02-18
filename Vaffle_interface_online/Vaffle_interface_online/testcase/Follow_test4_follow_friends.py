@@ -24,9 +24,9 @@ class Follow_Followers(unittest.TestCase):
     #-----------------查看我的朋友----------------------------------
     def testcase_001(self):
         sheet_index = 2
-        row = 9
+        row = 6
         print("testcase_001查看我的朋友：")
-        member_id = "744"
+        member_id = "960"
         result=self.r.interface_requests(member_id,sheet_index,row)
 
         self.assertEqual(10000, result["code"])

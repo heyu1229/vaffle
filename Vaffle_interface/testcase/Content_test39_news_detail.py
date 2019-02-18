@@ -46,12 +46,12 @@ class CommentsPublish(unittest.TestCase):
         self.assertEqual(10000, result["code"])
         print("code返回值：10000")
 
-        # -----------------对回答的取消点赞----------------------------------
+        # -----------------news详情（news类型)----------------------------------
 
     def testcase_002(self):
         sheet_index = 1
         row = 97
-        print("testcase_002 对回答的取消点赞：")
+        print("testcase_002 news详情（news类型)：")
 
         payload = {"category": "news", "post_id": post_id}
         member_id = "744"

@@ -23,7 +23,7 @@ class Ads(unittest.TestCase):
 
     #-----------------post广告----------参数值：0.5625或0.625------------------------
     def testcase_001(self):
-        sheet_index = 10
+        sheet_index = 9
         row = 1
         member_id='none'
         print ("testcase_001 post广告:")
@@ -34,8 +34,8 @@ class Ads(unittest.TestCase):
 
     #-----------------discover广告----------参数值：0.5625或0.625------------------------
     def testcase_002(self):
-        sheet_index = 10
-        row = 4
+        sheet_index = 9
+        row = 2
         member_id='none'
         print ("testcase_002 discover广告:")
         result=self.r.interface_requests(member_id,sheet_index,row)

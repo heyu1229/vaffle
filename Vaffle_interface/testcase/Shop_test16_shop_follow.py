@@ -31,11 +31,11 @@ class Shop(unittest.TestCase):
         print("code返回值：10000")
 
     #-----------------取消关注店铺----------------------------------
-    def testcase_001(self):
+    def testcase_002(self):
         sheet_index = 12
         row = 20
         member_id='744'
-        print ("testcase_001取消关注店铺:")
+        print ("testcase_002取消关注店铺:")
 
         result = self.r.interface_requests(member_id, sheet_index, row)
         self.assertEqual(10000, result['code'])

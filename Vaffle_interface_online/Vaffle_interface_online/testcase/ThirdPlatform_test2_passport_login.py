@@ -57,22 +57,11 @@ class Passport_Login(unittest.TestCase):
         self.assertEqual(10000, result["code"])
         print("code返回值：10000")
 
-        # -----------------不支持的第三方--------------------------
+    # -----------------第三方INS登录成功----------------------------------
     def testcase_004(self):
         sheet_index = 6
         row = 6
-        print("testcase_004 不支持的第三方：")
-        member_id = "none"
-        result = self.r.interface_requests(member_id, sheet_index, row)
-
-        self.assertEqual(9999, result["code"])
-        print("code返回值：9999")
-
-    # -----------------第三方INS登录成功----------------------------------
-    def testcase_005(self):
-        sheet_index = 6
-        row = 10
-        print ( "testcase_005 第三方ins登录成功：" )
+        print ( "testcase_004 第三方ins登录成功：" )
         member_id = "none"
         result = self.r.interface_requests(member_id, sheet_index, row)
 
@@ -80,12 +69,12 @@ class Passport_Login(unittest.TestCase):
         print ( "code返回值：10000" )
 
     # -----------------第三方带密码登录----------------------------------
-    def testcase_006(self):
+    def testcase_005(self):
         sheet_index = 6
-        row = 12
-        print ( "testcase_006 第三方带密码登录：" )
-        member_id = "4729"
-        payload={"platform": "vk", "open_id": "431978087", "nickname": "Qin_Yu503", "gender": "F",
+        row = 7
+        print ( "testcase_005 第三方带密码登录：" )
+        member_id = "99489"
+        payload={"platform": "vk", "open_id": "431978087", "nickname": "Qin_Yu", "gender": "F",
                  "equipment_number": "PE-TL10", "fcm_token": "dn612TZsnqM:APA91bGYxz6qppK5mQexGBUMcFzg3D8Qd7OKOL-zBHwIj5wel3rbfFNvg-cZsyCsJKBvQbejMvWxxK7iIjm24ujBYn_zhnPVbNaisaVvAvC4w_0",
                  "password":111111}
         result = self.r.interface_requests_payload(member_id, sheet_index, row,payload)

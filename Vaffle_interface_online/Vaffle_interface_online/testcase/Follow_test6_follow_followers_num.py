@@ -23,10 +23,10 @@ class Follow_tips(unittest.TestCase):
     #-----------------获取粉丝人数----------------------------------
     def testcase_001(self):
         sheet_index = 2
-        row = 12
+        row = 8
         print("testcase_001获取粉丝人数：")
-        member_id = "745"
-        payload = {"target_role":10394}
+        member_id = "959"
+        payload = {"target_role":68006}
         result = self.r.interface_requests_payload(member_id, sheet_index, row, payload)
 
         self.assertEqual(10000, result["code"])

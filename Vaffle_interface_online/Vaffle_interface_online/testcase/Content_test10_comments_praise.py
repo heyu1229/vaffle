@@ -25,7 +25,6 @@ class Praise(unittest.TestCase):
         row = 14
         print("testcase_001评论点赞：")
 
-        #3.调用评论点赞接口
         payload ={"comment_id": 566894,'praise_state':1}
         member_id = "960"
         result=self.r.interface_requests_payload(member_id, sheet_index, row, payload)

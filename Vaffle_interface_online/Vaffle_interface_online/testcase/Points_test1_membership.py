@@ -11,11 +11,11 @@ from func_requests import FuncRequests
 class Membership(unittest.TestCase):
 
     def setUp(self):
-        self.member_id = '744'
+        self.member_id = '960'
         self.requests = FuncRequests()
     #-----------------积分等级首页----------------------------------
     def testcase_001(self):
-        sheet_index =8
+        sheet_index =7
         row = 1
         print("testcase001 积分等级首页：")
         result = self.requests.interface_requests(self.member_id,sheet_index,row)
