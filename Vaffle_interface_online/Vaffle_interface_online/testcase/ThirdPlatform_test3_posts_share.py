@@ -24,44 +24,23 @@ class Post_share(unittest.TestCase):
     #-----------------facebook:411568645883504 twitter:861855853032357889  vk:427871220--------------------------
     def testcase_001(self):
         sheet_index = 6
-        row = 7
+        row = 8
         print("testcase_001第三方分享回调")
 
-        # 调用发布接口发送一条动态，获取post_id
-        date = time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())
-        payload1 = {"content": "接口在" + date + "测试发布纯文字"}
-        member_id = "744"
-        urlpart1 = '/posts/publish'
-        result1 = self.r.interface_requests_data(member_id, urlpart1, payload1)
-        post_id = result1["data"]["post_id"]
-        print(post_id)
-
-        #调用第三方分享回调接口
-        payload = {'platform':'facebook','post_id':post_id}
+        member_id = "960"
+        payload = {'platform':'facebook','post_id':6523}
         result=self.r.interface_requests_payload(member_id, sheet_index, row, payload)
-
-        self.assertEqual(10000, result["code"])
-        print("code返回值：10000")
-
-    #-----------------不支持的第三方----------------------------------
-    #-----------------facebook:411568645883504 twitter:861855853032357889  vk:427871220--------------------------
-    def testcase_002(self):
-        sheet_index = 6
-        row = 8
-        print("testcase_002不支持的第三方")
-        member_id = "744"
-        result=self.r.interface_requests(member_id,sheet_index,row)
 
         self.assertEqual(10000, result["code"])
         print("code返回值：10000")
 
     #-----------------分享app----------------------------------
     #-----------------facebook:411568645883504 twitter:861855853032357889  vk:427871220--------------------------
-    def testcase_003(self):
+    def testcase_002(self):
         sheet_index = 6
         row = 9
-        print("testcase_003分享app：")
-        member_id = "744"
+        print("testcase_002分享app：")
+        member_id = "960"
         result=self.r.interface_requests(member_id,sheet_index,row)
 
         self.assertEqual(10000, result["code"])

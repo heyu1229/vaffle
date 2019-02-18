@@ -11,11 +11,11 @@ from func_requests import FuncRequests
 class RewardsDescription(unittest.TestCase):
 
     def setUp(self):
-        self.member_id = '744'
+        self.member_id = '960'
         self.requests = FuncRequests()
     #-----------------积分等级描述----------------------------------
     def testcase_001(self):
-        sheet_index =8
+        sheet_index =7
         row = 2
         print("testcase001 积分等级描述：")
         result = self.requests.interface_requests(self.member_id,sheet_index,row)

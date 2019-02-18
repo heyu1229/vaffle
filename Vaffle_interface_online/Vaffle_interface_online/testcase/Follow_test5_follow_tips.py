@@ -23,9 +23,9 @@ class Follow_tips(unittest.TestCase):
     #-----------------粉丝关注提醒列表----------------------------------
     def testcase_001(self):
         sheet_index = 2
-        row = 11
+        row = 7
         print("testcase_001粉丝关注提醒列表：")
-        member_id = "744"
+        member_id = "960"
         result=self.r.interface_requests(member_id,sheet_index,row)
 
         self.assertEqual(10000, result["code"])

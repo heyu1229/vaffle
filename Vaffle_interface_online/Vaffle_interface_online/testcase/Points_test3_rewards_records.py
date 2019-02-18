@@ -11,11 +11,11 @@ from func_requests import FuncRequests
 class RewardsDescription(unittest.TestCase):
 
     def setUp(self):
-        self.member_id = '744'
+        self.member_id = '960'
         self.requests = FuncRequests()
     #-----------------积分流水记录-all---------------------------------
     def testcase_001(self):
-        sheet_index =8
+        sheet_index =7
         row = 3
         print("testcase001 积分流水记录-all：")
         result = self.requests.interface_requests(self.member_id,sheet_index,row)
@@ -27,7 +27,7 @@ class RewardsDescription(unittest.TestCase):
 
     #-----------------积分流水记录-add---------------------------------
     def testcase_002(self):
-        sheet_index =8
+        sheet_index =7
         row = 4
         print("testcase002 积分流水记录-add：")
         result = self.requests.interface_requests(self.member_id,sheet_index,row)
@@ -39,7 +39,7 @@ class RewardsDescription(unittest.TestCase):
 
     #-----------------积分流水记录-reduce---------------------------------
     def testcase_003(self):
-        sheet_index =8
+        sheet_index =7
         row = 5
         print("testcase003 积分流水记录-reduce：")
         result = self.requests.interface_requests(self.member_id,sheet_index,row)

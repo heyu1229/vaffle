@@ -23,7 +23,7 @@ class Sync_iconshow(unittest.TestCase):
 
     def testcase_001(self):
         sheet_index = 6
-        row = 11
+        row = 10
         print("testcase_001发布时第三方平台图标显示")
 
         payload = {}

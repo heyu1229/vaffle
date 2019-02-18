@@ -25,7 +25,7 @@ class CommentsPublish(unittest.TestCase):
     #-----------------QA回答的评论列表第一页数据----------------------------------
     def testcase_001(self):
         sheet_index = 1
-        row = 85
+        row = 39
         print("testcase_001 QA回答的评论列表第一页数据：")
 
         payload = {"answer_id": 101368,"page": 1}
@@ -38,10 +38,10 @@ class CommentsPublish(unittest.TestCase):
     # -----------------用户对于Q／A的回答列表第二页数据-----------------------------------
     def testcase_002(self):
         sheet_index = 1
-        row = 86
+        row = 40
         print("testcase_002 用户对于Q／A的回答列表二页数据：")
-        member_id = "744"
-        payload = {"answer_id": answer_id, "page": 2, "comment_id_past": comment_id_past}
+        member_id = "960"
+        payload = {"answer_id": 173553, "page": 2, "comment_id_past": 101368}
         result = self.r.interface_requests_payload(member_id, sheet_index, row, payload)
 
         self.assertEqual(10000, result["code"])
@@ -50,20 +50,14 @@ class CommentsPublish(unittest.TestCase):
     # -----------------评论置顶-----------------------------------
     def testcase_003(self):
         sheet_index = 1
-        row = 101
+        row = 41
         print("testcase_003 评论置顶：")
-        member_id = "744"
-        payload = {"answer_id": answer_id, "page": 1, "comment_id": comment_id}
+        member_id = "960"
+        payload = {"answer_id": 173553, "page": 1, "comment_id": 101368}
         result = self.r.interface_requests_payload(member_id, sheet_index, row, payload)
 
         self.assertEqual(10000, result["code"])
         print("code返回值：10000")
-
-        # 回答成功后，删除回答，不然后面的接口不能再回答这个问题
-        payload1 = {"answer_id": answer_id}
-        member_id1 = "744"
-        urlpart = '/answer/delete'
-        result1 = self.r.interface_requests_data(member_id1, urlpart, payload1)
 
 if __name__ == "__main__":
     unittest.main()

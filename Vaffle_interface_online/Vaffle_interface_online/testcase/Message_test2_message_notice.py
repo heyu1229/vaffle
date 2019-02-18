@@ -24,7 +24,7 @@ class MessageceNotice(unittest.TestCase):
         sheet_index = 5
         row = 2
         print("testcase_001通知消息列表：")
-        member_id = "744"
+        member_id = "960"
         result=self.r.interface_requests(member_id,sheet_index,row)
 
         self.assertEqual(10000, result["code"])

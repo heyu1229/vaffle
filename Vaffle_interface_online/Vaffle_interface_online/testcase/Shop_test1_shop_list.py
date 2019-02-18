@@ -21,9 +21,9 @@ class Shop(unittest.TestCase):
 
     #-----------------店铺列表----------------------------------
     def testcase_001(self):
-        sheet_index = 12
+        sheet_index = 11
         row = 1
-        member_id='744'
+        member_id='960'
         print ("testcase_001店铺列表:")
 
         result = self.r.interface_requests(member_id, sheet_index, row)

@@ -22,10 +22,10 @@ class Passport_Login(unittest.TestCase):
 
     #-----------------获取默认推荐@用户----------------------------------
     def testcase_001(self):
-        sheet_index = 9
-        row = 4
+        sheet_index = 8
+        row = 3
         print("testcase_001获取默认推荐@用户：")
-        member_id = "744"
+        member_id = "960"
         result=self.r.interface_requests(member_id,sheet_index,row)
 
         self.assertEqual(10000, result["code"])
@@ -33,25 +33,14 @@ class Passport_Login(unittest.TestCase):
 
      # -----------------获取根据关键字搜索得到的用户----------------------------------
     def testcase_002(self):
-        sheet_index = 9
-        row = 5
+        sheet_index = 8
+        row = 4
         print("testcase_002获取根据关键字搜索得到的用户：")
-        member_id = "744"
+        member_id = "960"
         result=self.r.interface_requests(member_id,sheet_index,row)
 
         self.assertEqual(10000, result["code"])
         print("code返回值：10000")
-
-     # -----------------关键字为空---------------------------------
-    def testcase_003(self):
-        sheet_index = 9
-        row = 6
-        print("testcase_003关键字为空：")
-        member_id = "744"
-        result=self.r.interface_requests(member_id,sheet_index,row)
-
-        self.assertEqual(9999, result["code"])
-        print("code返回值：9999")
 
 if __name__=="__main__":
     unittest.main()
