@@ -49,7 +49,7 @@ class FuncRequests():
         self.obj.write_excel_data(sheet_index, row, 7, result["msg"],self.path)
         if len(str_result) > 32767:
             self.obj.write_excel_data(sheet_index, row, 8, str_result[0:32767],self.path)
-            self.obj.write_excel_data(sheet_index, row, 9, str_result[32767:],self.path)
+            self.obj.write_excel_data(sheet_index, row, 9, str_result[32767:65534],self.path)
         else:
             self.obj.write_excel_data(sheet_index, row, 8, str_result,self.path)
         #self.obj.write_excel_data(sheet_index, row, 10, end - start,self.path)
