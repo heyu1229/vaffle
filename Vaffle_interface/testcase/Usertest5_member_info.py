@@ -16,7 +16,7 @@ class MemberInfo(unittest.TestCase):
         sheet_index =0
         row = 34
         print("testcase001查看当前用户信息：")
-        payload={"member_id":745}
+        payload={"member_id":744}
         result = self.requests.interface_requests_payload(self.member_id,sheet_index,row,payload)
         self.assertEqual(10000, result['code'])
         print("code返回值：10000")
