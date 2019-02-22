@@ -25,7 +25,7 @@ class Sign(unittest.TestCase):
         sheet_index = 0
         row = 145
         print("testcase_001 更新 （第三方）用户 登录密码：")
-        payload={"normal_member_id":4729,"password":"111111","platform":"vk"}
+        payload={"normal_member_id":1295,"password":"111111","platform":"twitter"}
         result = self.requests.interface_requests_payload(self.member_id,sheet_index,row,payload)
         self.assertEqual(10000, result['code'])
         print("code返回值：10000")
