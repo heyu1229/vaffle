@@ -20,7 +20,7 @@ def send_mail(file_new,excel_new):
         msg = MIMEMultipart('related')
         msg["From"] = my_sender
         msgText = MIMEText(mail_body,'html','utf-8')
-        msg['Subject'] = Header('vaffle 3.3.3 develop接口自动化测试报告','utf-8')
+        msg['Subject'] = Header('vaffle 3.3.3 api接口自动化测试报告','utf-8')
         msg.attach(msgText)
 
         # #添加excel附件
