@@ -15,17 +15,17 @@ from write_data import Write_ExcelData
 from get_version import Version
 from func_requests import FuncRequests
 
-#---------------app首页快捷方式----------------------
+#---------------举报用户原因列表----------------------
 class System_nation(unittest.TestCase):
 
     def setUp(self):
         self.r = FuncRequests()
 
- # -----------------app首页快捷方式----------------------------------
+ # -----------------举报用户原因列表----------------------------------
     def testcase_001(self):
         sheet_index = 3
-        row = 22
-        print("testcase_001app首页快捷方式：")
+        row = 23
+        print("testcase_001举报用户原因列表：")
         member_id = "745"
         result=self.r.interface_requests(member_id,sheet_index,row)
 
