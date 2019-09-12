@@ -14,6 +14,13 @@ class Url():
 
         return self.base_url
 
+    def test_url1(self):
+
+        self.base_url = 'https://apitest2.vaffle.com'
+        #self.base_url = 'http://my.vaffle.com'
+
+        return self.base_url
+
     #xls路径
     def test_path(self):
 
