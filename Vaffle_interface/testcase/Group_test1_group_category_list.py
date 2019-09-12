@@ -15,32 +15,23 @@ sys.path.append(global_list.path+"/log")
 from interface_log import interface_log
 from func_requests import FuncRequests
 
-#---------------广告----------------------
-class Ads(unittest.TestCase):
+#---------------群组分类（一级、二级）----------------------
+class Group(unittest.TestCase):
 
     def setUp(self):
        self.r=FuncRequests()
 
-    #-----------------post广告----------参数值：0.5625或0.625------------------------
+    #-----------------群组分类（一级、二级）---------------------------
     def testcase_001(self):
-        sheet_index = 10
+        sheet_index = 14
         row = 1
-        member_id='none'
-        print ("testcase_001 post广告:")
+
+        member_id = 'b9f73f23-7bc6-4de6-9f9b-df2c98076221'
+        print ("testcase_001 群组分类（一级、二级）:")
         result=self.r.interface_requests(member_id,sheet_index,row)
 
         self.assertEqual(10000, result['code'])
         print("code返回值：10000")
 
-    #-----------------discover广告----------参数值：0.5625或0.625------------------------
-    def testcase_002(self):
-        sheet_index = 10
-        row = 4
-        member_id='none'
-        print ("testcase_002 discover广告:")
-        result=self.r.interface_requests(member_id,sheet_index,row)
-
-        self.assertEqual(10000, result['code'])
-        print("code返回值：10000")
 if __name__ == "__main__":
     unittest.main()
