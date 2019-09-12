@@ -250,8 +250,8 @@ class Publish(unittest.TestCase):
         images = json.dumps(obj)
         date = time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())
         payload = {"content":"评测内容","category":"review","review_title":"接口在"+date+"发布review","review_product":"测评产品","review_type":"测评产品型号","publish_addr":"111"}
-        member_id = "744"
-        result=self.r.interface_requests_payload(member_id, sheet_index, row, payload)
+        member_id = "155b24c4-00f9-4d8d-87ff-8fe1edb54908"
+        result=self.r.interface_requests_payload_apitest2(member_id, sheet_index, row, payload)
         self.assertEqual(10000, result['code'])
         print("code返回值：10000")
 

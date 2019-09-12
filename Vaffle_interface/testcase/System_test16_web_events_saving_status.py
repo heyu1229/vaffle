@@ -27,7 +27,7 @@ class System_nation(unittest.TestCase):
         row = 26
         print("testcase_001 活动状态：")
 
-        member_id = '07ce98c4-b156-4719-b30d-9d0acdab868c'
+        member_id = '6f64a13d-3fd0-48e2-ad5b-5eb61638cca2'
         result=self.r.interface_requests_apitest2(member_id,sheet_index,row)
 
         self.assertEqual(10000, result["code"])
