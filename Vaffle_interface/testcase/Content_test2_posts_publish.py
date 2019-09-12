@@ -9,7 +9,7 @@ import global_list
 sys.path.append(global_list.path+"/public_1")
 from get_url import Url
 from get_version import Version
-from get_token import Token
+#from get_token import Token
 from read_data import Read_ExcelData
 from write_data import Write_ExcelData
 from func_requests import FuncRequests
@@ -52,8 +52,8 @@ class Publish(unittest.TestCase):
         images = json.dumps(obj)
         date = time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())
         payload = {"content": "接口在"+date+"测试发布图片","images": images}
-        member_id="744"
-        result=self.r.interface_requests_payload(member_id, sheet_index, row, payload)
+        member_id="07ce98c4-b156-4719-b30d-9d0acdab868c"
+        result=self.r.interface_requests_payload_apitest2(member_id, sheet_index, row, payload)
         self.assertEqual(10000, result['code'])
         print("code返回值：10000")
 

@@ -8,7 +8,7 @@ import xlrd
 import global_list
 sys.path.append(global_list.path+"/public_1")
 from get_url import Url
-from get_token import Token
+#from get_token import Token
 from read_data import Read_ExcelData
 from write_data import Write_ExcelData
 from get_version import Version
@@ -25,8 +25,8 @@ class Follow(unittest.TestCase):
         sheet_index = 2
         row = 1
         print("testcase_001关注、取消关注:")
-        member_id = "744"
-        result=self.r.interface_requests(member_id,sheet_index,row)
+        member_id = "07ce98c4-b156-4719-b30d-9d0acdab868c"
+        result=self.r.interface_requests_apitest2(member_id,sheet_index,row)
 
         self.assertEqual(10000, result["code"])
         print("code返回值：10000")
