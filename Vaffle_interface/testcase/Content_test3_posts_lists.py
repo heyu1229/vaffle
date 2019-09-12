@@ -72,6 +72,17 @@ class List(unittest.TestCase):
         self.assertEqual(9999, result["code"])
         print("code返回值：9999")
 
+    #-----------------首页动态列表hotnews 第1页---------------------------------
+    def testcase_005(self):
+        sheet_index = 1
+        row = 109
+        print("testcase_005首页动态列表hotnews 第1页:")
+        member_id="744"
+        result=self.r.interface_requests(member_id,sheet_index,row)
+
+        self.assertEqual(10000, result['code'])
+        print("code返回值：10000")
+
 
 if __name__ == "__main__":
     unittest.main()

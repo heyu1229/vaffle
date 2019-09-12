@@ -26,8 +26,10 @@ class Brands(unittest.TestCase):
         row = 15
         print ("testcase_001话题列表 - 用户个人中心:")
 
-        member_id = '744'
+        member_id = '959'
         payload = {"member_id":member_id,"page":1}
+        payload1 = {"member_uuid": "a5f10151-5685-4432-8c35-7198bc6511c1", "page": 1}
+
         result = self.r.interface_requests_payload(member_id, sheet_index, row, payload)
 
         self.assertEqual(10000, result['code'])

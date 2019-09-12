@@ -23,7 +23,7 @@ class Brands(unittest.TestCase):
     def testcase_001(self):
         sheet_index = 11
         row = 4
-        member_id='744'
+        member_id='959'
         print ("testcase_001品牌基本信息－修改页面:")
 
         result = self.r.interface_requests(member_id, sheet_index, row)

@@ -27,7 +27,7 @@ class Brands(unittest.TestCase):
         print ("testcase_001想法管理列表第一页数据:")
 
         member_id = '34791'
-        payload = {"page": 1,"normal_member_id":745}
+        payload = {"page": 1,"normal_member_uuid":'6436e375-312c-4cc2-b2dd-831a4f0c7111'}
         result = self.r.interface_requests_payload(member_id, sheet_index, row, payload)
         print(result)
         list=result["data"]["list"]

@@ -53,16 +53,16 @@ class Passport_Login(unittest.TestCase):
         self.assertEqual(10000, result["code"])
         print("code返回值：10000")
 
-     # -----------------keywords为空---------------------------------
+     # -----------------hotnews---------------------------------
     def testcase_006(self):
         sheet_index = 9
         row = 10
-        print("testcase_006keywords为空：")
+        print("testcase_006搜索hotnews数据：")
         member_id = "744"
         result=self.r.interface_requests(member_id,sheet_index,row)
 
-        self.assertEqual(9999, result["code"])
-        print("code返回值：9999")
+        self.assertEqual(10000, result["code"])
+        print("code返回值：10000")
 
 if __name__=="__main__":
     unittest.main()

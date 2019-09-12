@@ -28,6 +28,7 @@ class Praise(unittest.TestCase):
         row = 8
         print("testcase_001动态点赞/取消点赞：")
 
+
         # 调用发布接口发送一条动态，获取post_id
         date = time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())
         payload1 = {"uid": "744", "content": "接口在" + date + "测试发布纯文字"}

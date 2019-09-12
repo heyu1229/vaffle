@@ -53,13 +53,25 @@ class CommentsPublish(unittest.TestCase):
         row = 97
         print("testcase_002 news详情（news类型)：")
 
-        payload = {"category": "news", "post_id": post_id}
+        payload = {"category": "news", "post_id": "41931"}
         member_id = "744"
         result = self.r.interface_requests_payload(member_id, sheet_index, row, payload)
 
         self.assertEqual(10000, result["code"])
         print("code返回值：10000")
 
+        # -----------------hotnews详情（news类型)----------------------------------
 
+    def testcase_003(self):
+        sheet_index = 1
+        row = 110
+        print("testcase_003news详情（hotnews类型)：")
+
+        payload = {"category": "news", "post_id": "41931"}
+        member_id = "744"
+        result = self.r.interface_requests_payload(member_id, sheet_index, row, payload)
+
+        self.assertEqual(10000, result["code"])
+        print("code返回值：10000")
 if __name__ == "__main__":
     unittest.main()
