@@ -7,7 +7,7 @@ import json
 import xlrd
 import pymysql.cursors
 from get_url import Url
-from get_token import Token
+#from get_token import Token
 from read_data import Read_ExcelData
 from write_data import Write_ExcelData
 from get_version import Version
