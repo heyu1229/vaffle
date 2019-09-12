@@ -8,23 +8,23 @@ import global_list
 sys.path.append(global_list.path+"/public_1")
 from get_url import Url
 from get_version import Version
-from get_token import Token
+#from get_token import Token
 from read_data import Read_ExcelData
 from write_data import Write_ExcelData
 from func_requests import FuncRequests
 
-#---------------钱包 - 提现规则和已读状态----------------------
+#---------------群组分类（一级、二级）----------------------
 class Brands(unittest.TestCase):
 
     def setUp(self):
        self.r=FuncRequests()
-       self.member_id = '68006'
+       self.member_id = '960'
 
-    #-----------------钱包 - 提现规则和已读状态----------------------------------
+    #-----------------群组分类（一级、二级）----------------------------------
     def testcase_001(self):
-        sheet_index = 12
+        sheet_index = 10
         row = 1
-        print("testcase_001钱包 - 提现规则和已读状态：")
+        print("testcase_001群组分类（一级、二级）：")
         result = self.r.interface_requests(self.member_id, sheet_index, row)
         self.assertEqual(10000, result['code'])
         print("code返回值：10000")
