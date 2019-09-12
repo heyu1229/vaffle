@@ -28,7 +28,8 @@ class FuncRequests():
         self.version = Version().test_version()
         payload = self.obi.read_excel_data_dict(sheet_index, row, 5)
         #获取token值
-        token = Token().test_token1(payload, member_id)
+        #token = Token().test_token1(payload, member_id)
+        token = 'FkUw1pOFkUw1pOBHh7xSI8jWf0X6JuryjWHjhuMapX69FKZSVgBHh7xSI8jWf0X6JuryjWHjhuMapX69FKZSVg'
 
         #记录接口的请求时间
         start = time.time()
@@ -68,7 +69,8 @@ class FuncRequests():
         self.version = Version().test_version()
         payload = payload
         #获取token值
-        token = Token().test_token1(payload, member_id)
+        #token = Token().test_token1(payload, member_id)
+        token = 'FkUw1pOFkUw1pOBHh7xSI8jWf0X6JuryjWHjhuMapX69FKZSVgBHh7xSI8jWf0X6JuryjWHjhuMapX69FKZSVg'
 
         # 记录接口的请求时间
         start = time.time()
@@ -108,7 +110,8 @@ class FuncRequests():
         self.version = Version().test_version()
         payload = self.obi.read_excel_data(sheet_index, row, 5)
         #获取token值
-        token = Token().test_token1(payload, member_id)
+        #token = Token().test_token1(payload, member_id)
+        token = 'FkUw1pOFkUw1pOBHh7xSI8jWf0X6JuryjWHjhuMapX69FKZSVgBHh7xSI8jWf0X6JuryjWHjhuMapX69FKZSVg'
 
         #记录接口的请求时间
         start = time.time()
@@ -146,7 +149,9 @@ class FuncRequests():
         # 获取版本
         self.version = Version().test_version()
         #获取token值
-        token = Token().test_token1(payload, member_id)
+        #token = Token().test_token1(payload, member_id)
+        token = 'FkUw1pOFkUw1pOBHh7xSI8jWf0X6JuryjWHjhuMapX69FKZSVgBHh7xSI8jWf0X6JuryjWHjhuMapX69FKZSVg'
+
         headers = {"device": "android ", "version": self.version, "lang": "en", "timestamp": "1493780505", "token": token,
                    "login": member_id,"serial-number":"48525687125863258471123568955554","company":"HUAWEI","phone-model":"P10","system-version":"system_version"}
         r = requests.post(self.base_url, params=payload, headers=headers)

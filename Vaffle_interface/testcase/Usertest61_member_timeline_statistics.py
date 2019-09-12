@@ -18,7 +18,7 @@ class Sign(unittest.TestCase):
 
     def setUp(self):
         self.requests = FuncRequests ()
-        self.member_id = '35708'
+        self.member_id = '960'#35708
 
     #-------------------用户 - 个人年度贡献--------------------------------
     def testcase_001(self):
