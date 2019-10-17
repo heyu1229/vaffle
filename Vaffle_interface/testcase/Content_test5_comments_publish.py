@@ -11,7 +11,7 @@ import global_list
 sys.path.append(global_list.path+"/public_1")
 from get_url import Url
 from get_version import Version
-from get_token import Token
+#from get_token import Token
 from read_data import Read_ExcelData
 from write_data import Write_ExcelData
 from func_requests import FuncRequests
@@ -111,6 +111,19 @@ class CommentsPublish(unittest.TestCase):
         payload = {"post_id": post_id,"content": "接口在"+date+"测试发布#topic 评论","is_post":"N"}
         member_id="744"
         result=self.r.interface_requests_payload(member_id, sheet_index, row, payload)
+
+        self.assertEqual(10000, result["code"])
+        print("code返回值：10000")
+
+        # -----------------发布群组评论----------------------------------
+    def testcase_007(self):
+        sheet_index = 1
+        row = 112
+        print("testcase_007发布群组评论：")
+        payload = {"post_id": 46025, "content": "test", "is_post": "N"}
+        # 获取token值
+        member_uuid = "acaf5442-c321-46ee-b3d8-29f563c405c2"
+        result=self.r.interface_requests_payload(member_uuid, sheet_index, row, payload)
 
         self.assertEqual(10000, result["code"])
         print("code返回值：10000")
