@@ -6,12 +6,11 @@ import time
 import global_list
 sys.path.append(global_list.path+"/public_1")
 from get_url import Url
-from get_token import Token
+from get_version import Version
+#from get_token import Token
 from read_data import Read_ExcelData
 from write_data import Write_ExcelData
-from get_version import Version
 from func_requests import FuncRequests
-
 #---------------转发----------------------
 class PostsRepeat(unittest.TestCase):
 
@@ -80,6 +79,19 @@ class PostsRepeat(unittest.TestCase):
 
         self.assertEqual(10040, result["code"])
         print("code返回值：10040")
+
+    # -----------------转发到群组----------------------------------
+    def testcase_005(self):
+        sheet_index = 1
+        row = 113
+        print("testcase_005转发到群组：")
+        payload = { "post_id": 46022,"content":"test","guid":"300d579c-1c82-4519-bff7-f2900dc95a10"}
+        # 获取token值
+        member_uuid = "acaf5442-c321-46ee-b3d8-29f563c405c2"
+        result=self.r.interface_requests_payload(member_uuid, sheet_index, row, payload)
+
+        self.assertEqual(10000, result["code"])
+        print("code返回值：10000")
 
 if __name__=="__main__":
     unittest.main()
