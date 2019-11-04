@@ -54,5 +54,20 @@ class Ads(unittest.TestCase):
 
         self.assertEqual(10000, result['code'])
         print("code返回值：10000")
+
+    #-----------------relationposts广告----------参数值：0.5625或0.625------------------------
+    def testcase_004(self):
+        sheet_index = 10
+        row = 6
+        member_uuid = "acaf5442-c321-46ee-b3d8-29f563c405c2"
+        print ("testcase_004 relationposts广告:")
+        payload={"ratio":"0.625","advert":"relationposts"}
+        result=self.r.interface_requests_payload(member_uuid,sheet_index,row,payload)
+
+        self.assertEqual(10000, result['code'])
+        print("code返回值：10000")
+
+
+
 if __name__ == "__main__":
     unittest.main()

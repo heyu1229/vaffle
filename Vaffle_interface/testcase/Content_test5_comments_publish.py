@@ -120,7 +120,7 @@ class CommentsPublish(unittest.TestCase):
         sheet_index = 1
         row = 112
         print("testcase_007发布群组评论：")
-        payload = {"post_id": 46025, "content": "test", "is_post": "N"}
+        payload = {"post_id": 46026, "content": "test", "is_post": "N"}
         # 获取token值
         member_uuid = "acaf5442-c321-46ee-b3d8-29f563c405c2"
         result=self.r.interface_requests_payload(member_uuid, sheet_index, row, payload)
