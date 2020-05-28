@@ -42,6 +42,7 @@ class IOSTest_deletecomment(unittest.TestCase):
         # self.driver.save_screenshot('..//testreport/screenshot/test011_deletecomment.jpg')
         self.driver.find_element_by_accessibility_id('Delete').click()
         # self.driver.find_element_by_accessibility_id('Sure').click()
+        self.driver.save_screenshot('..//testreport/screenshot/test011_deletecomment.jpg')
 
         try:
             self.driver.find_element_by_accessibility_id('1 Comment').is_displayed()  # 点击进入comments列表
