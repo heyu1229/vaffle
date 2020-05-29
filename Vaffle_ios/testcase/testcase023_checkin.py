@@ -11,15 +11,9 @@ import random
 class IOSTest_checkin(unittest.TestCase):
 
     def setUp(self):
-        # os.system ( 'start startAppiumServer.bat' )
-        time.sleep(10)
-        platformName = 'ios'
-        platformVersion = '11.2.1'
-        deviceName = 'iPhone'
-        udid = 'b004f864a71e100079c0f4a347008b147ebe9a39'#'61bb2263cfd0c8847559aa0da3cb6c7e8366f0ce'
-        app = '..//app/Vape.ipa'
+
         ios = iostest()
-        self.driver=ios.testios(platformName,platformVersion,deviceName,udid,app)
+        self.driver=ios.testios()
 
         self.read = Readdata()
         self.write = Writedata()
@@ -31,6 +25,9 @@ class IOSTest_checkin(unittest.TestCase):
 
     # ------------------签到-------------------------------------------------------
     def testcase001(self):
+        # s = "select * from vape_members where id='960'"
+        # execute_sql = self.public.sql_vaffle(s)
+        # print(execute_sql)
 
         self.driver.find_element_by_ios_predicate("name == ' - tab - 5 of 5'").click()
         self.driver.find_element_by_ios_predicate("name=='Notification'").click()
