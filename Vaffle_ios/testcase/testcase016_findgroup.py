@@ -21,14 +21,13 @@ class IOSTest_findgroup(unittest.TestCase):
         self.password = int(self.read.Read_data(0, 2, 1))
         self.password = int(self.read.Read_data(0, 2, 1))
         self.public = Publicway(self.driver)
-        self.driver.implicitly_wait(5)
 
     # ------------------发现群组-------------------------------------------------------
     def testcase001(self):
 
-        self.driver.find_element_by_ios_predicate("name == ' - tab - 2 of 5'").click()
-        self.driver.find_element_by_ios_predicate("name=='group'").click()
-        self.driver.find_element_by_ios_predicate("name=='ic discover small group'").click()#点击发现群组按钮
+        self.driver.find_element_by_ios_predicate("name == 'Hot'").click()
+        self.driver.find_element_by_ios_predicate("name =='VGroup'").click()
+        self.driver.find_element_by_ios_predicate("name =='ic discover small group'").click()#点击发现群组按钮
 
         try:
             self.driver.find_element_by_accessibility_id('Group category').is_displayed()
