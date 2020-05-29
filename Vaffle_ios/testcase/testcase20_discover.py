@@ -8,7 +8,7 @@ from readdata import Readdata
 from writedata import Writedata
 import random
 
-class IOSTest_nearby(unittest.TestCase):
+class IOSTest_discover(unittest.TestCase):
 
     def setUp(self):
 
@@ -22,20 +22,20 @@ class IOSTest_nearby(unittest.TestCase):
         self.password = int(self.read.Read_data(0, 2, 1))
         self.public = Publicway(self.driver)
 
-    # ------------------查看首页hot页面-------------------------------------------------------
-    def testcase001_nearby(self):
+    # ------------------查看首页发现页面-------------------------------------------------------
+    def testcase001_discover(self):
 
-        self.driver.find_element_by_ios_predicate("name == ' - tab - 2 of 5'").click()
+        self.driver.find_element_by_ios_predicate("name == ' - tab - 3 of 5'").click()
         try:
-            t=self.driver.find_element_by_ios_predicate('name =="ic like"').is_displayed()
+            t=self.driver.find_element_by_ios_predicate('name =="ic_video"').is_displayed()
             flag = 1
         except:
             flag = 2
 
         # 断言
-        self.driver.save_screenshot('..//testreport/screenshot/test019_nearby.jpg')
-        self.assertEqual(1, flag, self.write.Write_data(1, 32, 4, 'nearby页面不正常'))
-        self.write.Write_data(1, 32, 4, 'nearby页面正常')
+        self.driver.save_screenshot('..//testreport/screenshot/test020_discover.jpg')
+        self.assertEqual(1, flag, self.write.Write_data(1, 33, 4, 'discover页面不正常'))
+        self.write.Write_data(1, 33, 4, 'discover页面正常')
 
     def tearDown(self):
         self.driver.quit()
