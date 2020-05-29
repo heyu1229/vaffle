@@ -1,4 +1,5 @@
 import unittest,time
+import pymysql.cursors
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.common.by import By
 import selenium.webdriver.support.expected_conditions as EC
@@ -120,6 +121,45 @@ class Publicway(unittest.TestCase):
         y1 = int(l[1] * 0.25)
         y2 = int(l[1] * 0.7)
         self.driver.swipe(x1, y1, x1, y2, t)
+
+    def sql_vaffle(self,s):
+        # 连接MySQL数据库
+        connection = pymysql.connect(host='172.100.200.62', port=3306, user='vaffle', password='Vaffle.123',
+                                     db='vaffle',
+                                     charset='utf8mb4', cursorclass=pymysql.cursors.DictCursor)
+
+
+        # 通过cursor创建游标
+        cursor = connection.cursor()
+
+        # 创建sql 语句，并执行
+        sql = s
+        cursor.execute(sql)
+
+        # 提交SQL
+        connection.commit()
+
+    def sql_vaffle_post(self,s):
+        # 连接MySQL数据库
+        connection = pymysql.connect(host='172.100.200.62', port=3306, user='vaffle', password='Vaffle.123',
+                                     db='vaffle_post',
+                                     charset='utf8mb4', cursorclass=pymysql.cursors.DictCursor)
+
+
+        # 通过cursor创建游标
+        cursor = connection.cursor()
+
+        # 创建sql 语句，并执行
+        sql = s
+        execute=cursor.execute(sql)
+        results=cursor.fetchall()
+        for result in results:
+            if result == None:
+                return None
+            else:
+                return result
+        # 提交SQL
+        connection.commit()
 
 
 if __name__ == '__main__':
