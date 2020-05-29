@@ -22,7 +22,7 @@ class IOSTest_hot(unittest.TestCase):
         self.password = int(self.read.Read_data(0, 2, 1))
         self.public = Publicway(self.driver)
 
-    # ------------------查看首页hot页面-------------------------------------------------------
+    # ------------------查看首页-------------------------------------------------------
     def testcase001_hot(self):
     #查看hot页面
         try:

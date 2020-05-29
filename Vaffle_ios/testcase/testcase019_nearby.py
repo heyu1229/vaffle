@@ -22,7 +22,7 @@ class IOSTest_nearby(unittest.TestCase):
         self.password = int(self.read.Read_data(0, 2, 1))
         self.public = Publicway(self.driver)
 
-    # ------------------查看首页nearby页面-------------------------------------------------------
+    # ------------------查看nearby页面-------------------------------------------------------
     def testcase001_nearby(self):
 
         self.driver.find_element_by_ios_predicate("name == ' - tab - 2 of 5'").click()
