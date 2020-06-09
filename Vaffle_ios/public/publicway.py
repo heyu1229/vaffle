@@ -161,6 +161,27 @@ class Publicway(unittest.TestCase):
         # 提交SQL
         connection.commit()
 
+    def sql_hg_deploy(self,s):
+        # 连接MySQL数据库
+        connection = pymysql.connect(host='172.100.10.10', port=3306, user='vf_auto', password='heavengifts.com',
+                                     db='hg_deploy',
+                                     charset='utf8mb4', cursorclass=pymysql.cursors.DictCursor)
+
+        # 通过cursor创建游标
+        cursor = connection.cursor()
+
+        # 创建sql 语句，并执行
+        sql = s
+        execute=cursor.execute(sql)
+        results=cursor.fetchall()
+        for result in results:
+            if result == None:
+                return None
+            else:
+                return result
+        # 提交SQL
+        connection.commit()
+
 
 if __name__ == '__main__':
     unittest.main()
