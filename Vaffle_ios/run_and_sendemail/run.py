@@ -63,7 +63,7 @@ if __name__ == '__main__':
     test_excel = "..//testdata"
 
     # 查看用例地址中用例
-    discover = unittest.defaultTestLoader.discover(test_dir, pattern='testcase003*.py', top_level_dir=None)
+    discover = unittest.defaultTestLoader.discover(test_dir, pattern='testcase*.py', top_level_dir=None)
     # 获取现在的时间
     now = time.strftime("%Y-%m-%d %H_%M_%S")
     # 定义文件名
