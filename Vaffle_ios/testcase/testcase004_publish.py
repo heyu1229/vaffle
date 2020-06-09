@@ -126,7 +126,7 @@ class IOSTest_publish(unittest.TestCase):
         self.write.Write_data(1, 6, 4, '发布review成功')
 
     #-----------------------发布投票---------------------------------------------
-    def testcase004_post_review(self):
+    def testcase004_post_vote(self):
         # 点击发布按钮
         self.driver.find_element_by_xpath(
             '//XCUIElementTypeApplication[@name="VFamily"]/XCUIElementTypeWindow[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeButton'
