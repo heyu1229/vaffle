@@ -29,8 +29,10 @@ class IOSTest_follow(unittest.TestCase):
         button[1].click()
         self.driver.find_element_by_ios_predicate("type=='XCUIElementTypeTextField'").send_keys('queen001')
         self.driver.swipe(330, 640, 330, 640, 500)  # 搜索按钮
-        self.driver.find_element_by_accessibility_id('People').click()
-        self.driver.find_element_by_accessibility_id('ic post follow').click() #点击关注按钮
+        self.driver.find_element_by_accessibility_id('All').click()
+        time.sleep(5)
+        self.driver.find_element_by_xpath('//XCUIElementTypeButton[@name="ic post follow"]').click()
+        # self.driver.find_element_by_ios_predicate('name=="ic post follow"').click() #点击关注按钮
         # self.driver.find_element_by_xpath('//XCUIElementTypeApplication[@name="VFamily"]/XCUIElementTypeWindow[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[2]/XCUIElementTypeCollectionView/XCUIElementTypeCell/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeTable/XCUIElementTypeCell/XCUIElementTypeOther[1]/XCUIElementTypeImage'
         #                                   ).click()
         self.driver.execute_script('mobile:swipe', {'direction': 'down'})

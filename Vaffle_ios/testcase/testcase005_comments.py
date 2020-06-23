@@ -31,7 +31,7 @@ class IOSTest_publish(unittest.TestCase):
         self.driver.find_element_by_xpath(
             '(//XCUIElementTypeButton[@name="ic comment"])[1]').click()
         date = time.strftime('%Y-%m-%d %H:%M:%S', time.localtime())
-        self.driver.find_element_by_class_name('XCUIElementTypeTextView').send_keys(date+" auto comment.") #输入评论内容
+        self.driver.find_element_by_ios_predicate('type=="XCUIElementTypeTextView"').send_keys(date+" auto comment.") #输入评论内容
         self.driver.find_element_by_accessibility_id('comment send select').click() #点击评论按钮
         #断言是否评论成功
         time.sleep(3)
