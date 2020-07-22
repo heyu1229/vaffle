@@ -65,6 +65,7 @@ class FuncRequests():
         self.obi = Read_ExcelData()
         self.base_url = self.obi.read_excel_data(sheet_index, row, 4)
         self.base_url1 = url + self.base_url
+        print("url:", self.base_url1)
         # 获取版本
         self.version = Version().test_version()
         payload = payload
@@ -248,6 +249,7 @@ class FuncRequests():
         self.obi = Read_ExcelData()
         self.base_url = self.obi.read_excel_data(sheet_index, row, 4)
         self.base_url1 = url + self.base_url
+        print(self.base_url1)
         # 获取版本
         self.version = Version().test_version()
         payload = payload
@@ -258,7 +260,7 @@ class FuncRequests():
         # 记录接口的请求时间
         start = time.time()
         headers = {"device": "android ", "version": self.version, "lang": "en", "timestamp": "1493780505", "token": token,
-                   "uuid": member_id,"serial-number":"48525687125863258471123568955554","company":"HUAWEI","phone-model":"P10","system-version":"system_version"}
+                   "uuid": member_id,"serial-number":"485256871258632584711235689555542","company":"HUAWEI","phone-model":"P10","system-version":"system_version"}
         r = requests.post(self.base_url1, params=payload, headers=headers)
         result = r.json()
         format_result = json.dumps(result, ensure_ascii=False, indent=1)
@@ -278,3 +280,45 @@ class FuncRequests():
         self.obj.write_excel_data(sheet_index, row, 10, end - start,self.path)
         return result
 
+
+    # -----------------接口请求（header中要传tik）----------------------------------
+    def interface_requests_payload_tik(self,member_id,sheet_index,row,payload,tik):
+
+        # 获取EXcel路径
+        self.path = Url().test_path()
+
+        # 路径
+        url = Url().test_url()
+        self.obi = Read_ExcelData()
+        self.base_url = self.obi.read_excel_data(sheet_index, row, 4)
+        self.base_url1 = url + self.base_url
+        print("url:", self.base_url1)
+        # 获取版本
+        self.version = Version().test_version()
+        payload = payload
+        #获取token值
+        #token = Token().test_token1(payload, member_id)
+        token = 'FkUw1pOFkUw1pOBHh7xSI8jWf0X6JuryjWHjhuMapX69FKZSVgBHh7xSI8jWf0X6JuryjWHjhuMapX69FKZSVg'
+
+        # 记录接口的请求时间
+        start = time.time()
+        headers = {"tik":tik,"device": "android ", "version": self.version, "lang": "en", "timestamp": "1493780505", "token": token,
+                   "uuid": member_id,"serial-number":"48525687125863258471123568955554","company":"HUAWEI","phone-model":"P10","system-version":"system_version"}
+        r = requests.post(self.base_url1, params=payload, headers=headers)
+        result = r.json()
+        format_result = json.dumps(result, ensure_ascii=False, indent=1)
+        print(format_result)
+        end = time.time()
+
+        # 写入excel中
+        str_result = str(result)
+        self.obj = Write_ExcelData()
+        self.obj.write_excel_data(sheet_index, row, 6, result["code"],self.path)
+        self.obj.write_excel_data(sheet_index, row, 7, result["msg"],self.path)
+        if len(str_result) > 32767:
+            self.obj.write_excel_data(sheet_index, row, 8, str_result[0:32767],self.path)
+            self.obj.write_excel_data(sheet_index, row, 9, str_result[32767:],self.path)
+        else:
+            self.obj.write_excel_data(sheet_index, row, 8, str_result,self.path)
+        self.obj.write_excel_data(sheet_index, row, 10, end - start,self.path)
+        return result
