@@ -69,36 +69,23 @@ def new_excel(testreport):
     excel_new = os.path.join(testreport,lists[-1])
     return excel_new
 
-def all_case():
-    # 待执行用例的目录
-    case_dir = os.getcwd()[:-9]+"/testcase/content"
-    testcase = unittest.TestSuite()
-    discover = unittest.defaultTestLoader.discover(case_dir,
-                                                   pattern="test*.py",
-                                                   top_level_dir=None)
-    testcase.addTests(discover)  # 直接加载 discover    可以兼容python2和3
-    print(testcase)
-    return testcase
-
-if __name__ == "__main__":
-    # 返回实例
-    runner = unittest.TextTestRunner()
-    # run 所有用例
-    runner.run(all_case())
-
-# if __name__ == '__main__':
+# def all_case():
+#     # 待执行用例的目录
+#     case_dir = os.getcwd()[:-9]+"/testcase/content"
+#     testcase = unittest.TestSuite()
+#     discover = unittest.defaultTestLoader.discover(case_dir,
+#                                                    pattern="*.py",
+#                                                    top_level_dir=None)
+#     testcase.addTests(discover)  # 直接加载 discover    可以兼容python2和3
+#     print('testcase=',testcase)
+#     return testcase
 #
-#     #用例地址
-#     print(os.getcwd())
-#     test_dir = os.getcwd()[:-9]+"/testcase/content"
-#     print("test_dir:%s" %test_dir)
+# if __name__ == "__main__":
 #     #测试报告存放地址
 #     test_report = os.getcwd()[:-9]+"/test_report"
 #     #最新接口excel
 #     test_excel = os.getcwd()[:-9]+"/test_date"
 #
-#     #查看用例地址中用例
-#     discover = unittest.defaultTestLoader.discover(test_dir,pattern='*.py', top_level_dir=None)
 #     #获取现在的时间
 #     now = time.strftime("%Y-%m-%d %H_%M_%S")
 #     #定义文件名
@@ -108,19 +95,59 @@ if __name__ == "__main__":
 #     fp = open(filename,'wb')
 #
 #     #定义网页测试报告的标题和副标题
-#     runner = HTMLTestRunner(stream=fp,
-#                             title='测试报告',
-#                             description='用例执行情况：')
+#     # 返回实例
+#     runner = unittest.TextTestRunner()
+#     # run 所有用例
+#     runner.run(all_case())
 #
 #     #在网页中显示运行所有测试用例的结果
-#     runner.run(discover)
+#
 #     fp.close()
+#
+#     #创建要一个新报告继承测试报告
+#     new_report = new_report(test_report)
+#
+#     new_excel = new_excel(test_excel)
+#
+#     #发送测试报告
+#     send_mail(new_report,new_excel)
 
-    # #创建要一个新报告继承测试报告
-    # new_report = new_report(test_report)
-    #
-    # new_excel = new_excel(test_excel)
-    #
-    # #发送测试报告
-    # send_mail(new_report,new_excel)
+
+if __name__ == '__main__':
+
+    #用例地址
+    print(os.getcwd())
+    test_dir = os.getcwd()[:-9]+"/testcase/contect"
+    print("test_dir:%s" %test_dir)
+    #测试报告存放地址
+    test_report = os.getcwd()[:-9]+"/test_report"
+    #最新接口excel
+    test_excel = os.getcwd()[:-9]+"/test_date"
+
+    #查看用例地址中用例
+    discover = unittest.defaultTestLoader.discover(test_dir,pattern='*.py', top_level_dir=None)
+    #获取现在的时间
+    now = time.strftime("%Y-%m-%d %H_%M_%S")
+    #定义文件名
+    filename = test_report + "/" + now + "result.html"
+    print("filename %s" %filename)
+    #用web形式打开文件
+    fp = open(filename,'wb')
+
+    #定义网页测试报告的标题和副标题
+    runner = HTMLTestRunner(stream=fp,
+                            title='测试报告',
+                            description='用例执行情况：')
+
+    #在网页中显示运行所有测试用例的结果
+    runner.run(discover)
+    fp.close()
+
+    #创建要一个新报告继承测试报告
+    new_report = new_report(test_report)
+
+    new_excel = new_excel(test_excel)
+
+    #发送测试报告
+    send_mail(new_report,new_excel)
 
