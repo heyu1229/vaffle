@@ -9,7 +9,7 @@ class iostest():
         platformName = 'ios'
         platformVersion = '11.2.1'
         deviceName = 'iPhone'
-        udid = 'b004f864a71e100079c0f4a347008b147ebe9a39'#'61bb2263cfd0c8847559aa0da3cb6c7e8366f0ce'
+        udid = 'b004f864a71e100079c0f4a347008b147ebe9a39'#'04e0a15aecc6a9aed13733f5ec0e19775d71eb0c'#'61bb2263cfd0c8847559aa0da3cb6c7e8366f0ce'
         app = '..//app/Vape.ipa'
         PATH=lambda p: os.path.abspath(os.path.join(os.path.dirname(__file__),p))
         desired_caps = {}
@@ -28,7 +28,7 @@ class iostest():
         os.system('..//public/startAppiumServer.bat')
         time.sleep(5)
         driver = webdriver.Remote('http://localhost:4723/wd/hub', desired_caps)
-        driver.implicitly_wait(5)
+        driver.implicitly_wait(20)
 
         # # 点击允许推送通知
         # try:

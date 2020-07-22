@@ -8,7 +8,7 @@ from readdata import Readdata
 from writedata import Writedata
 import random
 
-class IOSTest_findgroup(unittest.TestCase):
+class IOSTest_nearby(unittest.TestCase):
 
     def setUp(self):
 
@@ -22,23 +22,20 @@ class IOSTest_findgroup(unittest.TestCase):
         self.password = int(self.read.Read_data(0, 2, 1))
         self.public = Publicway(self.driver)
 
-    # ------------------发现群组-------------------------------------------------------
-    def testcase001(self):
+    # ------------------查看nearby页面-------------------------------------------------------
+    def testcase001_nearby(self):
 
-        self.driver.find_element_by_ios_predicate("name == 'Hot'").click()
-        self.driver.find_element_by_ios_predicate("name =='VGroup'").click()
-        self.driver.find_element_by_ios_predicate("name =='ic discover small group'").click()#点击发现群组按钮
-
+        self.driver.find_element_by_ios_predicate("name == ' - tab - 2 of 5'").click()
         try:
-            self.driver.find_element_by_accessibility_id('Group category').is_displayed()
+            t=self.driver.find_element_by_ios_predicate('name =="ic like"').is_displayed()
             flag = 1
         except:
             flag = 2
 
-        # 断言是否收藏成功
-        self.driver.save_screenshot('..//testreport/screenshot/test016_findgroup.jpg')
-        self.assertEqual(1, flag, self.write.Write_data(1, 25, 4, '进入发现页面失败'))
-        self.write.Write_data(1, 25, 4, '进入发现页面成功')
+        # 断言
+        self.driver.save_screenshot('..//testreport/screenshot/test019_nearby.jpg')
+        self.assertEqual(1, flag, self.write.Write_data(1, 32, 4, 'nearby页面不正常'))
+        self.write.Write_data(1, 32, 4, 'nearby页面正常')
 
     def tearDown(self):
         self.driver.quit()

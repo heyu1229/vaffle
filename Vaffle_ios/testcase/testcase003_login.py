@@ -36,8 +36,12 @@ class IOSTest_login(unittest.TestCase):
         self.driver.find_element_by_ios_predicate("name == ' - tab - 5 of 5'").click()
 
         #输入用户名和密码
-        self.driver.find_element_by_ios_predicate("type=='XCUIElementTypeTextField'").clear().send_keys(self.user)
-        self.driver.find_element_by_ios_predicate("type=='XCUIElementTypeSecureTextField'").send_keys(self.password)
+        # usertext=self.driver.find_element_by_ios_predicate("type=='XCUIElementTypeTextField'")
+        usertext=self.driver.find_element_by_xpath('//XCUIElementTypeApplication[@name="VFamily"]/XCUIElementTypeWindow[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeTextField')
+        usertext.clear()
+        usertext.send_keys(self.user)
+        passtext=self.driver.find_element_by_ios_predicate("type=='XCUIElementTypeSecureTextField'")
+        passtext.send_keys(self.password)
 
         # 点击登陆按钮
         self.driver.find_element_by_xpath("//XCUIElementTypeButton[@name=\"Log In\"]").click()

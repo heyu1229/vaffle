@@ -11,15 +11,9 @@ from selenium.webdriver.support.wait import WebDriverWait
 class IOSTest_search(unittest.TestCase):
 
     def setUp(self):
-        # os.system ( 'start startAppiumServer.bat' )
-        time.sleep(10)
-        platformName = 'ios'
-        platformVersion = '11.2.1'
-        deviceName = 'iPhone'
-        udid = '61bb2263cfd0c8847559aa0da3cb6c7e8366f0ce'
-        app = '..//app/Vape.ipa'
+
         ios = iostest()
-        self.driver=ios.testios(platformName,platformVersion,deviceName,udid,app)
+        self.driver=ios.testios()
 
         self.read = Readdata()
         self.write = Writedata()
@@ -46,8 +40,8 @@ class IOSTest_search(unittest.TestCase):
 
         # 断言是否收藏成功
         self.driver.save_screenshot('..//testreport/screenshot/test013_searchpeople.jpg')
-        self.assertEqual(1, flag, self.write.Write_data(1, 28, 4, '搜索失败'))
-        self.write.Write_data(1, 28, 4, '搜索成功')
+        self.assertEqual(1, flag, self.write.Write_data(1, 16, 4, '搜索失败'))
+        self.write.Write_data(1, 16, 4, '搜索成功')
 
     # ------------------搜索post-------------------------------------------------------
     def testcase002_searchpost(self):
@@ -64,8 +58,8 @@ class IOSTest_search(unittest.TestCase):
             flag = 2
         self.driver.save_screenshot('..//testreport/screenshot/test013_searchpost.jpg')
         # 断言是否收藏成功
-        self.assertEqual(1, flag, self.write.Write_data(1, 29, 4, '搜索失败'))
-        self.write.Write_data(1, 29, 4, '搜索成功')
+        self.assertEqual(1, flag, self.write.Write_data(1, 17, 4, '搜索失败'))
+        self.write.Write_data(1, 17, 4, '搜索成功')
 
     # ------------------搜索群组-------------------------------------------------------
     def testcase003_searchvgroup(self):
@@ -83,8 +77,8 @@ class IOSTest_search(unittest.TestCase):
             flag = 2
         self.driver.save_screenshot('..//testreport/screenshot/test013_searchvgroup.jpg')
         # 断言是否收藏成功
-        self.assertEqual(1, flag, self.write.Write_data(1, 30, 4, '搜索失败'))
-        self.write.Write_data(1, 30, 4, '搜索成功')
+        self.assertEqual(1, flag, self.write.Write_data(1, 18, 4, '搜索失败'))
+        self.write.Write_data(1, 18, 4, '搜索成功')
 
     # ------------------搜索店铺-------------------------------------------------------
     def testcase004_searchstore(self):
@@ -93,6 +87,7 @@ class IOSTest_search(unittest.TestCase):
         button[1].click()
         self.driver.find_element_by_ios_predicate("type=='XCUIElementTypeTextField'").send_keys('queen')
         self.driver.swipe(330, 640, 330, 640, 500)  # 搜索按钮
+        self.driver.find_element_by_accessibility_id('VGroup').click()
         self.driver.find_element_by_accessibility_id('Store').click()
 
         try:
@@ -102,8 +97,8 @@ class IOSTest_search(unittest.TestCase):
             flag = 2
         self.driver.save_screenshot('..//testreport/screenshot/test013_searchstore.jpg')
         # 断言是否收藏成功
-        self.assertEqual(1, flag, self.write.Write_data(1, 31, 4, '搜索失败'))
-        self.write.Write_data(1, 31, 4, '搜索成功')
+        self.assertEqual(1, flag, self.write.Write_data(1, 19, 4, '搜索失败'))
+        self.write.Write_data(1, 19, 4, '搜索成功')
 
     # ------------------搜索topic-------------------------------------------------------
     def testcase005_searchtopic(self):
@@ -112,6 +107,7 @@ class IOSTest_search(unittest.TestCase):
         button[1].click()
         self.driver.find_element_by_ios_predicate("type=='XCUIElementTypeTextField'").send_keys('on')
         self.driver.swipe(330, 640, 330, 640, 500)  # 搜索按钮
+        self.driver.find_element_by_accessibility_id('VGroup').click()
         self.driver.find_element_by_accessibility_id('Topic').click()
 
         try:
@@ -121,8 +117,8 @@ class IOSTest_search(unittest.TestCase):
             flag = 2
         self.driver.save_screenshot('..//testreport/screenshot/test013_searchtopic.jpg')
         # 断言是否收藏成功
-        self.assertEqual(1, flag, self.write.Write_data(1, 32, 4, '搜索失败'))
-        self.write.Write_data(1, 32, 4, '搜索成功')
+        self.assertEqual(1, flag, self.write.Write_data(1, 20, 4, '搜索失败'))
+        self.write.Write_data(1, 20, 4, '搜索成功')
 
     # ------------------搜索qa-------------------------------------------------------
     def testcase006_searchQA(self):
@@ -131,6 +127,7 @@ class IOSTest_search(unittest.TestCase):
         button[1].click()
         self.driver.find_element_by_ios_predicate("type=='XCUIElementTypeTextField'").send_keys('on')
         self.driver.swipe(330, 640, 330, 640, 500)  # 搜索按钮
+        self.driver.find_element_by_accessibility_id('VGroup').click()
         self.driver.find_element_by_accessibility_id('Topic').click()
         self.driver.find_element_by_accessibility_id('Q/A').click()
 
@@ -141,8 +138,27 @@ class IOSTest_search(unittest.TestCase):
             flag = 2
         self.driver.save_screenshot('..//testreport/screenshot/test013_searchQA.jpg')
         # 断言是否收藏成功
-        self.assertEqual(1, flag, self.write.Write_data(1, 33, 4, '搜索失败'))
-        self.write.Write_data(1, 33, 4, '搜索成功')
+        self.assertEqual(1, flag, self.write.Write_data(1, 21, 4, '搜索失败'))
+        self.write.Write_data(1, 21, 4, '搜索成功')
+
+    # ------------------搜索qa-------------------------------------------------------
+    def testcase007_searchAll(self):
+        t=self.driver.find_element_by_ios_predicate("name=='Soul.WOLHomeView'")
+        button=t.find_elements_by_ios_predicate("type=='XCUIElementTypeButton'")
+        button[1].click()
+        self.driver.find_element_by_ios_predicate("type=='XCUIElementTypeTextField'").send_keys('on')
+        self.driver.swipe(330, 640, 330, 640, 500)  # 搜索按钮
+        self.driver.find_element_by_accessibility_id('All').click()
+
+        try:
+            self.driver.find_element_by_ios_predicate("name LIKE '*on*'").is_displayed()
+            flag = 1
+        except:
+            flag = 2
+        self.driver.save_screenshot('..//testreport/screenshot/test013_searchAll.jpg')
+        # 断言是否收藏成功
+        self.assertEqual(1, flag, self.write.Write_data(1, 22, 4, '搜索失败'))
+        self.write.Write_data(1, 22, 4, '搜索成功')
 
     def tearDown(self):
         self.driver.quit()

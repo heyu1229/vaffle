@@ -126,7 +126,7 @@ class IOSTest_publish(unittest.TestCase):
         self.write.Write_data(1, 6, 4, '发布review成功')
 
     #-----------------------发布投票---------------------------------------------
-    def testcase004_post_review(self):
+    def testcase004_post_vote(self):
         # 点击发布按钮
         self.driver.find_element_by_xpath(
             '//XCUIElementTypeApplication[@name="VFamily"]/XCUIElementTypeWindow[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeButton'
@@ -135,9 +135,10 @@ class IOSTest_publish(unittest.TestCase):
         self.driver.find_element_by_ios_predicate('name=="2"').click()
 
         date = time.strftime('%Y-%m-%d %H:%M:%S', time.localtime())
-        self.driver.find_element_by_ios_predicate('value=="Option2"').send_keys(date + 'option2')  # 输入选项2
+        tests=self.driver.find_elements_by_ios_predicate('type=="XCUIElementTypeTextField"')
+        tests[1].send_keys(date + 'option2')  # 输入选项2
         self.driver.find_element_by_ios_predicate("type=='XCUIElementTypeTextView'").send_keys(date+'vote')
-        self.driver.find_element_by_ios_predicate('value=="Option1"').send_keys(date+'option1') #输入选项1
+        tests[0].send_keys(date+'option1') #输入选项1
 
 
         self.driver.find_element_by_accessibility_id('ok(black)').click()  # 打勾

@@ -82,18 +82,14 @@ class IOSTest_register(unittest.TestCase):
         #进入注册2页面点Sign Up按钮  注册成功后进入首页
         time.sleep(2)
         self.driver.find_element_by_xpath('//XCUIElementTypeButton[@name=" Sign Up"]').click()
-        self.driver.find_element_by_xpath('//XCUIElementTypeButton[@name="Skip"]').click()
-        self.driver.find_element_by_xpath('//XCUIElementTypeButton[@name=" Skip and enter directly"]').click()
-
-        #打开me页面
-        self.driver.find_element_by_ios_predicate("name == ' - tab - 5 of 5'").click()
-        self.driver.save_screenshot('..//testreport/screenshot/test001_register.jpg')
-        texts = self.driver.find_elements_by_class_name("XCUIElementTypeStaticText")
-        text=texts[0].text
-        print(text)
+        time.sleep(5)
+        try:
+            self.driver.find_element_by_xpath('//XCUIElementTypeButton[@name="Skip"]').is_displayed()
+            flag=1
+        except:
+            flag=2
         # assert self.displayname == username
-        self.assertEqual(text,'If you complete your homepage info, your account will be more attractive. More vapers will follow you. And you’ll get rewarding points.',
-                         self.write.Write_data(1, 1, 4, '注册失败'))
+        self.assertEqual(1,flag,self.write.Write_data(1, 1, 4, '注册失败'))
         self.write.Write_data(1, 1, 4, '注册成功')
 
     def tearDown(self):

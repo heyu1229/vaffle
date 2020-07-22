@@ -3,7 +3,8 @@ from email.mime.application import MIMEApplication
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 from email.header import Header
-from HTMLTestRunner import HTMLTestRunner
+from HTMLTestRunner.HTMLTestRunner import HTMLTestRunner
+
 
 mail_uesr='lisa.he@heavengifts.com'
 mail_tolist=['beth.yu@heavengifts.com']
@@ -62,7 +63,7 @@ if __name__ == '__main__':
     test_excel = "..//testdata"
 
     # 查看用例地址中用例
-    discover = unittest.defaultTestLoader.discover(test_dir, pattern='*.py', top_level_dir=None)
+    discover = unittest.defaultTestLoader.discover(test_dir, pattern='testcase*.py', top_level_dir=None)
     # 获取现在的时间
     now = time.strftime("%Y-%m-%d %H_%M_%S")
     # 定义文件名
@@ -73,9 +74,8 @@ if __name__ == '__main__':
     fp = open(filename, 'wb')
 
     # 定义网页测试报告的标题和副标题
-    runner = HTMLTestRunner(stream=fp,
-                            title='测试报告',
-                            description='用例执行情况：')
+    runner = HTMLTestRunner(stream=fp,title='测试报告',description='用例执行情况：')
+    # runner = HTMLTestRunner
     # 在网页中显示运行所有测试用例的结果
     runner.run(discover)
     fp.close()

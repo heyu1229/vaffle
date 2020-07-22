@@ -56,8 +56,9 @@ class IOSTest_avatar(unittest.TestCase):
         self.driver.find_element_by_xpath('//XCUIElementTypeButton[@name="Done"]').click()  # 点击done提交头像的修改
         time.sleep(30)
         self.driver.save_screenshot('..//testreport/screenshot/test002_avatar.jpg')
+
         try:
-            self.driver.find_element_by_xpath('//XCUIElementTypeImage[@name="vertify_email_icon"]').is_displayed() #点击进入like页面
+            self.driver.find_element_by_ios_predicate("name=='Done'").is_displayed() #点击进入like页面
             flag=1
         except:
             flag=2
