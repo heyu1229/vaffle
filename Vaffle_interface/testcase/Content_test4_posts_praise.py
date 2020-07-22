@@ -5,6 +5,9 @@ import requests
 import sys,time
 import json,gc,xlrd
 import global_list
+from public_1.sql_search import SQL_SEARCH_1
+from public_1.sql_vaffle import SQL_vaffle
+
 sys.path.append(global_list.path+"/public_1")
 from get_url import Url
 from get_version import Version
@@ -18,42 +21,34 @@ class Praise(unittest.TestCase):
 
     def setUp(self):
         self.r = FuncRequests()
-        # 获取版本
-        self.version = Version().test_version()
-        self.url = Url().test_url()
 
-    #-----------------动态点赞/取消点赞----------------------------------
+    #-----------------批量给post发布点赞----------------------------------
     def testcase_001(self):
         sheet_index = 1
-        row = 8
-        print("testcase_001动态点赞/取消点赞：")
+        row = 11
+        i = 38067
+        print("testcase_001发布评论：")
 
 
         # 调用发布接口发送一条动态，获取post_id
         date = time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())
-        payload1 = {"uid": "744", "content": "接口在" + date + "测试发布纯文字"}
-        member_id1 = "748"
-        urlpart='/posts/publish'
-        result1 = self.r.interface_requests_data(member_id1, urlpart, payload1)
-        post_id = result1["data"]["post_id"]
+        self.path = Url().test_path()
+        self.version = Version().test_version()
+        # 路径
+        url = Url().test_url()
+        self.base_url1 =url + '/posts/praise'
+        while i <= 38068:
+            #从数据库取UUID
+            i = i+1
+            sql = SQL_vaffle ().select_uuid (i)
+            uuid = '%s' % SQL_SEARCH_1 ().search ( sql )
+            payload = {"post_id": "44261", "praise_state": 1}
+            headers = {"device": "android ", "version": "3.7.2", "lang": "en", "timestamp": "1564033489234", "token": "FkUw1pOFkUw1pOBHh7xSI8jWf0X6JuryjWHjhuMapX69FKZSVgBHh7xSI8jWf0X6JuryjWHjhuMapX69FKZSVg",
+                       "uuid": uuid,"serial-number":"48525687125863258471123568955554","company":"HUAWEI","phone-model":"P10","system-version":"8.0.0"}
+            result = requests.post(self.base_url1, params=payload, headers=headers)
+            result = result.json()
+            print(result)
 
-        payload ={"post_id": post_id,"praise_state":1}
-        member_id = "744"
-        result=self.r.interface_requests_payload(member_id, sheet_index, row, payload)
-
-        self.assertEqual(10000, result["code"])
-        print("code返回值：10000")
-
-    #-----------------点赞/取消点赞不存在的post id----------------------------------
-    def testcase_002(self):
-        sheet_index = 1
-        row = 10
-        print("testcase_002点赞/取消点赞不存在的post id：")
-        member_id = "744"
-        result=self.r.interface_requests(member_id,sheet_index,row)
-
-        self.assertEqual(10000, result["code"])
-        print("code返回值：10000")
 
 if __name__=="__main__":
     unittest.main()

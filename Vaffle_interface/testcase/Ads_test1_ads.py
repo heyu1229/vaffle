@@ -8,7 +8,6 @@ import global_list
 sys.path.append(global_list.path+"/public_1")
 from get_url import Url
 from get_version import Version
-#from get_token import Token
 from read_data import Read_ExcelData
 from write_data import Write_ExcelData
 sys.path.append(global_list.path+"/log")
