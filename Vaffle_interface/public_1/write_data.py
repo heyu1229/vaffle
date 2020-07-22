@@ -4,7 +4,7 @@ import unittest,threading
 import xlrd
 #---------------------------编写excel数据写入函数，可以把测试结果写入excel表格中---------------------------------------------------
 
-from get_url import Url
+from Vaffle_interface.public_1.get_url import Url
 from xlutils.copy import copy #http://pypi.python.org/pypi/xlutils
 
 

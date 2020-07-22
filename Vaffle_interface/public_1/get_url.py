@@ -24,8 +24,8 @@ class Url():
     #xls路径
     def test_path(self):
 
-        # self.path = '/usr/lib/python3/heaven_interface_vaffle2.0_auto2/test_date/interface.xls'
-        self.path = os.getcwd()[:-9]+'/test_date/interface.xls'
+        self.path = 'C:/Users/Administrator/PycharmProjects/vaffle_interface/test_code/Vaffle_interface/test_date/interface.xls'
+        # self.path = os.getcwd()[:-17]+'/test_date/interface.xls'
         # self.path = "/usr/lib/python3/heaven_interface_vaffle2.2/test_date/interface.xls"
         # self.path = 'E:/python35/HG/heaven_interface_vaffle2.0_auto2/test_date/interface.xls'
         return self.path

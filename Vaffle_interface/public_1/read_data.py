@@ -5,7 +5,7 @@ import time
 import xlrd
 #---------------------------编写读取excel数据函数，用于读取测试数据，测试用例调用excel数据做准备---------------------------------------------------
 import json
-from get_url import Url
+from Vaffle_interface.public_1.get_url import Url
 
 class Read_ExcelData():
     # ------------------单例模式，第一次执行init，后面不再执行--------------------------

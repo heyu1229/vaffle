@@ -5,10 +5,10 @@ from email.mime.application import MIMEApplication
 from HTMLTestRunner import HTMLTestRunner
 from email.mime.multipart import MIMEMultipart
 
-# my_sender='lisa.he@heavengifts.com' #发件人邮箱账号 密码aCuHUJ7gXM
-my_sender='beth.yu@heavengifts.com' #发件人邮箱账号 7RH8TiwmK6
-my_user='omv.team@heavengifts.com' #收件人邮箱账号
-# my_user='beth.yu@heavengifts.com' #收件人邮箱账号
+my_sender='lisa.he@heavengifts.com' #发件人邮箱账号 密码aCuHUJ7gXM
+# my_sender='beth.yu@heavengifts.com' #发件人邮箱账号 7RH8TiwmK6
+# my_user='omv.team@heavengifts.com' #收件人邮箱账号
+my_user='beth.yu@heavengifts.com' #收件人邮箱账号
 #发送邮件
 def send_mail(file_new,excel_new):
     f = open(file_new,'rb')
@@ -43,7 +43,7 @@ def send_mail(file_new,excel_new):
 
 
         server = smtplib.SMTP("mail.heavengifts.com",25)
-        server.login(my_sender,"7RH8TiwmK6")
+        server.login(my_sender,"aCuHUJ7gXM")
         server.sendmail(my_sender,[my_user,],msg.as_string())
         server.close()
     except Exception as e:#如果try中的语句没有执行，则会执行下面的ret=False
@@ -69,41 +69,58 @@ def new_excel(testreport):
     excel_new = os.path.join(testreport,lists[-1])
     return excel_new
 
-if __name__ == '__main__':
+def all_case():
+    # 待执行用例的目录
+    case_dir = os.getcwd()[:-9]+"/testcase/content"
+    testcase = unittest.TestSuite()
+    discover = unittest.defaultTestLoader.discover(case_dir,
+                                                   pattern="test*.py",
+                                                   top_level_dir=None)
+    testcase.addTests(discover)  # 直接加载 discover    可以兼容python2和3
+    print(testcase)
+    return testcase
 
-    #用例地址
-    print(os.getcwd())
-    test_dir = os.getcwd()[:-9]+"/testcase"
-    print("test_dir:%s" %test_dir)
-    #测试报告存放地址
-    test_report = os.getcwd()[:-9]+"/test_report"
-    #最新接口excel
-    test_excel = os.getcwd()[:-9]+"/test_date"
+if __name__ == "__main__":
+    # 返回实例
+    runner = unittest.TextTestRunner()
+    # run 所有用例
+    runner.run(all_case())
 
-    #查看用例地址中用例
-    discover = unittest.defaultTestLoader.discover(test_dir,pattern='*.py', top_level_dir=None)
-    #获取现在的时间
-    now = time.strftime("%Y-%m-%d %H_%M_%S")
-    #定义文件名
-    filename = test_report + "/" + now + "result.html"
-    print("filename %s" %filename)
-    #用web形式打开文件
-    fp = open(filename,'wb')
-    
-    #定义网页测试报告的标题和副标题
-    runner = HTMLTestRunner(stream=fp,
-                            title='测试报告',
-                            description='用例执行情况：')
-    
-    #在网页中显示运行所有测试用例的结果
-    runner.run(discover)
-    fp.close()
+# if __name__ == '__main__':
+#
+#     #用例地址
+#     print(os.getcwd())
+#     test_dir = os.getcwd()[:-9]+"/testcase/content"
+#     print("test_dir:%s" %test_dir)
+#     #测试报告存放地址
+#     test_report = os.getcwd()[:-9]+"/test_report"
+#     #最新接口excel
+#     test_excel = os.getcwd()[:-9]+"/test_date"
+#
+#     #查看用例地址中用例
+#     discover = unittest.defaultTestLoader.discover(test_dir,pattern='*.py', top_level_dir=None)
+#     #获取现在的时间
+#     now = time.strftime("%Y-%m-%d %H_%M_%S")
+#     #定义文件名
+#     filename = test_report + "/" + now + "result.html"
+#     print("filename %s" %filename)
+#     #用web形式打开文件
+#     fp = open(filename,'wb')
+#
+#     #定义网页测试报告的标题和副标题
+#     runner = HTMLTestRunner(stream=fp,
+#                             title='测试报告',
+#                             description='用例执行情况：')
+#
+#     #在网页中显示运行所有测试用例的结果
+#     runner.run(discover)
+#     fp.close()
 
-    #创建要一个新报告继承测试报告
-    new_report = new_report(test_report)
-
-    new_excel = new_excel(test_excel)
-
-    #发送测试报告
-    send_mail(new_report,new_excel)
+    # #创建要一个新报告继承测试报告
+    # new_report = new_report(test_report)
+    #
+    # new_excel = new_excel(test_excel)
+    #
+    # #发送测试报告
+    # send_mail(new_report,new_excel)
 

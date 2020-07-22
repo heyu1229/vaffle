@@ -6,12 +6,15 @@ import sys,time,gc
 import json
 import xlrd
 import pymysql.cursors
-from get_url import Url
 #from get_token import Token
-from read_data import Read_ExcelData
-from write_data import Write_ExcelData
-from get_version import Version
+from Vaffle_interface.public_1.get_url import Url
+from Vaffle_interface.public_1.read_data import Read_ExcelData
+from Vaffle_interface.public_1.write_data import Write_ExcelData
+from Vaffle_interface.public_1.get_version import Version
 #---------------关注----------------------
+
+
+
 class FuncRequests():
 
     #-----------------接口请求（payload从文件中读取,且调用read_excel_data_dict方法）----------------------------------
