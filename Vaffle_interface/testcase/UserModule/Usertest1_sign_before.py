@@ -2,17 +2,17 @@
 import json
 import unittest
 import sys
-import global_list
-sys.path.append(global_list.path+"/public_1")
 
-from func_requests import FuncRequests
+from Vaffle_interface.public_1.func_requests import FuncRequests
+
+
 #---------------用户注册第一阶段返回nickname----------------------
 
 class SignBefore(unittest.TestCase):
 
 
     def setUp(self):
-        self.member_id = 'none'
+        self.member_uuid = 'none'
         self.requests = FuncRequests()
 
     #-----------------用户注册成功，list返回5个nickname----------------------------------
@@ -20,10 +20,10 @@ class SignBefore(unittest.TestCase):
         sheet_index =0
         row = 1
         print("testcase001 用户注册成功，list返回5个nickname：")
-        result = self.requests.interface_requests(self.member_id,sheet_index,row)
+        result = self.requests.interface_requests(self.member_uuid,sheet_index,row)
         self.assertEqual(10000, result["code"])
         print("code返回值：10000")
-
+'''
     #-----------------邮箱账号已被注册----------------------------------
     def testcase_002(self):
         sheet_index =0
@@ -120,6 +120,6 @@ class SignBefore(unittest.TestCase):
         print("testcase011 displayname含特殊字符校验通过：")
         result = self.requests.interface_requests(self.member_id,sheet_index,row)
         self.assertEqual(10000, result["code"])
-
+'''
 if __name__ == '__main__':
     unittest.main ()

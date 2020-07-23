@@ -3,12 +3,12 @@ import json
 import unittest
 import requests,gc
 import sys
-
 import time
-import global_list
-sys.path.append(global_list.path+"/public_1")
-from func_requests import FuncRequests
+
 #-----------------------用户注册最后阶段接口---------------------------
+from Vaffle_interface.public_1.func_requests import FuncRequests
+
+
 class SignUp(unittest.TestCase):
 
     def setUp(self):
@@ -18,7 +18,7 @@ class SignUp(unittest.TestCase):
     #-----------------注册成功----------------------------------
     def testcase_001(self):
         sheet_index =0
-        row = 12
+        row = 2
         print("testcase001 用户注册成功:")
         nowTime = time.strftime ( "%Y%m%d_%H_%M_%S" )
         nickname = 'heyu'+nowTime
@@ -29,7 +29,7 @@ class SignUp(unittest.TestCase):
         self.assertEqual(10000, result["code"])
         print("code返回值：10000")
 
-
+'''
     #-----------------nickname已存在----------------------------------
     def testcase_002(self):
         sheet_index =0
@@ -172,7 +172,7 @@ class SignUp(unittest.TestCase):
         self.assertEqual(10000, result["code"])
         print("code返回值：10000")
 
-
+'''
 if __name__ == '__main__':
     unittest.main ()
 
