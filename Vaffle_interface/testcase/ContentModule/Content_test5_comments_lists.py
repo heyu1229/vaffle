@@ -12,7 +12,7 @@ class Brands(unittest.TestCase):
     def testcase_001(self):
         sheet_index = 1
         row = 11
-        # 调用发布接口发送一条动态，获取post_id
+        # 1.调用发布接口发送一条动态，获取post_id
         member_id = "b9f73f23-7bc6-4de6-9f9b-df2c98076221"
         obj = ({"path": "posts/1512710644871_767_android.jpg", "ratio": 1.23, "tag": 1},)
         images = json.dumps(obj)
@@ -23,7 +23,7 @@ class Brands(unittest.TestCase):
         result1 = self.r.interface_requests_data(member_id, urlpart1, payload1)
         post_id = result1["data"]["post_id"]
 
-        #发布评论
+        #2.发布评论
         urlpart2 = '/comments/publish'
         payload2 = {'post_id':post_id,"content":"接口测试发布评论内容"+date}
         result2=self.r.interface_requests_data(member_id, urlpart2, payload2)
