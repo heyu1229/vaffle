@@ -2,10 +2,8 @@
 import unittest
 import requests
 import json,gc,sys
-import global_list
-sys.path.append(global_list.path+"/public_1")
-from get_url import Url
-from func_requests import FuncRequests
+from Vaffle_interface.public_1.func_requests import FuncRequests
+from Vaffle_interface.public_1.get_url import Url
 
 #------------------------电子烟设备删除---------------------------
 class Delvape(unittest.TestCase):
@@ -13,12 +11,12 @@ class Delvape(unittest.TestCase):
     def setUp(self):
         #路径
         self.url = Url().test_url()
-        self.member_id = '744'
+        self.member_id = Url().test_user()
         self.requests = FuncRequests()
     #-----------------电子烟设备批量删除--vape_member_vape_device表--------------------------------
     def testcase_001(self):
         sheet_index =0
-        row = 70
+        row = 19
         print("testcase001 电子烟设备批量删除：")
         obj = ('960','961')
         top_ids = json.dumps(obj)
