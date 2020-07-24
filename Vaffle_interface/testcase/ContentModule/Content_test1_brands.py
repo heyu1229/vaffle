@@ -1,8 +1,5 @@
 # -*- coding:UTF-8 -*-
 import unittest
-import requests
-import sys,time
-import json,xlrd
 from Vaffle_interface.public_1.func_requests import FuncRequests
 
 #---------------品牌型号数据----------------------

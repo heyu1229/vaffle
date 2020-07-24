@@ -1,54 +1,48 @@
-#!/usr/bin/python
 # -*- coding:UTF-8 -*-
-import unittest
-import requests
-import sys,time
-import json,gc,xlrd
-import global_list
-from public_1.sql_search import SQL_SEARCH_1
-from public_1.sql_vaffle import SQL_vaffle
-
-sys.path.append(global_list.path+"/public_1")
-from get_url import Url
-from get_version import Version
-from get_token import Token
-from read_data import Read_ExcelData
-from write_data import Write_ExcelData
-from func_requests import FuncRequests
+import unittest,time,json
+from Vaffle_interface.public_1.func_requests import FuncRequests
 
 #---------------动态点赞/取消点赞----------------------
-class Praise(unittest.TestCase):
+class Brands(unittest.TestCase):
 
     def setUp(self):
-        self.r = FuncRequests()
+       self.r=FuncRequests()
 
-    #-----------------批量给post发布点赞----------------------------------
+    #-----------------动态点赞----------------------------------
     def testcase_001(self):
         sheet_index = 1
-        row = 11
-        i = 38067
-        print("testcase_001发布评论：")
-
-
+        row = 8
         # 调用发布接口发送一条动态，获取post_id
+        member_id = "b9f73f23-7bc6-4de6-9f9b-df2c98076221"
+        obj = ({"path": "posts/1512710644871_767_android.jpg", "ratio": 1.23, "tag": 1},)
+        images = json.dumps(obj)
         date = time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())
-        self.path = Url().test_path()
-        self.version = Version().test_version()
-        # 路径
-        url = Url().test_url()
-        self.base_url1 =url + '/posts/praise'
-        while i <= 38068:
-            #从数据库取UUID
-            i = i+1
-            sql = SQL_vaffle ().select_uuid (i)
-            uuid = '%s' % SQL_SEARCH_1 ().search ( sql )
-            payload = {"post_id": "44261", "praise_state": 1}
-            headers = {"device": "android ", "version": "3.7.2", "lang": "en", "timestamp": "1564033489234", "token": "FkUw1pOFkUw1pOBHh7xSI8jWf0X6JuryjWHjhuMapX69FKZSVgBHh7xSI8jWf0X6JuryjWHjhuMapX69FKZSVg",
-                       "uuid": uuid,"serial-number":"48525687125863258471123568955554","company":"HUAWEI","phone-model":"P10","system-version":"8.0.0"}
-            result = requests.post(self.base_url1, params=payload, headers=headers)
-            result = result.json()
-            print(result)
+        payload1 = {"content": "接口在" + date + "测试发布post用于点赞和取消点赞", "images": images, "category": "post"}
+        # 获取发布接口token值
+        urlpart1 = '/posts/publish'
+        result1 = self.r.interface_requests_data(member_id, urlpart1, payload1)
+        global post_id
+        post_id = result1["data"]["post_id"]
 
 
-if __name__=="__main__":
+        print ("testcase_001动态点赞:")
+        payload = {'post_id':post_id,"praise_state":1}
+        result=self.r.interface_requests_payload(member_id, sheet_index, row, payload)
+
+        self.assertEqual(10000, result['code'])
+        print("code返回值：10000")
+
+    #-----------------动态取消点赞----------------------------------
+    def testcase_002(self):
+        sheet_index = 1
+        row = 9
+        print ("testcase_002 动态取消点赞:")
+        payload = {'post_id':post_id,"praise_state":0}
+        member_id = "b9f73f23-7bc6-4de6-9f9b-df2c98076221"
+        result=self.r.interface_requests_payload(member_id, sheet_index, row, payload)
+
+        self.assertEqual(10000, result['code'])
+        print("code返回值：10000")
+
+if __name__ == "__main__":
     unittest.main()
