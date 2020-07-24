@@ -8,7 +8,7 @@ from Vaffle_interface.public_1.get_url import Url
 class List(unittest.TestCase):
 
     def setUp(self):
-        self.member_id = Url().test_user()
+        self.member_uuid = Url().test_user()
         self.requests = FuncRequests()
 
     #-----------------用户个人post列表 all----------------------------------
@@ -16,7 +16,7 @@ class List(unittest.TestCase):
         sheet_index =0
         row = 20
         print("testcase001 用户个人post列表 all：")
-        result = self.requests.interface_requests(self.member_id,sheet_index,row)
+        result = self.requests.interface_requests(self.member_uuid,sheet_index,row)
         self.assertEqual(10000, result['code'])
         print("code返回值：10000")
         self.assertEqual('', result['msg'])

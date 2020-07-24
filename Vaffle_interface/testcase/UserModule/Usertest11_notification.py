@@ -8,7 +8,7 @@ from Vaffle_interface.public_1.get_url import Url
 class Notification(unittest.TestCase):
 
     def setUp(self):
-        self.member_id = Url().test_user()
+        self.member_uuid = Url().test_user()
         self.requests = FuncRequests()
     #-----------------消息通知接收全开启----------------------------------
     #-------------vape_member_switch表  1:followers 2:attention 3:like 4:comment 5:sound-  setting 1开启 0关闭-------------
@@ -16,7 +16,7 @@ class Notification(unittest.TestCase):
         sheet_index =0
         row = 11
         print("testcase001消息通知接收全开启：")
-        result = self.requests.interface_requests(self.member_id,sheet_index,row)
+        result = self.requests.interface_requests(self.member_uuid,sheet_index,row)
         self.assertEqual ( 10000, result['code'] )
         print ( "code返回值：10000" )
         self.assertEqual ( '', result['msg'] )

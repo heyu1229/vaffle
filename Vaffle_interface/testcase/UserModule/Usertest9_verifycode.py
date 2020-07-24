@@ -10,7 +10,7 @@ from Vaffle_interface.public_1.get_url import Url
 class VerifyCode(unittest.TestCase):
 
     def setUp(self):
-        self.member_id = Url().test_user()
+        self.member_uuid = Url().test_user()
         self.requests = FuncRequests()
     #-----------------发送验证link至邮箱----------------------------------
 
@@ -18,7 +18,7 @@ class VerifyCode(unittest.TestCase):
         sheet_index =0
         row = 9
         print("testcase001发送验证link至邮箱：")
-        result = self.requests.interface_requests(self.member_id,sheet_index,row)
+        result = self.requests.interface_requests(self.member_uuid,sheet_index,row)
         self.assertEqual ( 10000, result['code'] )
         print ( "code返回值：10000" )
         self.assertEqual ( '', result['msg'] )

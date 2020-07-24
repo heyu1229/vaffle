@@ -11,7 +11,7 @@ class Delvape(unittest.TestCase):
     def setUp(self):
         #路径
         self.url = Url().test_url()
-        self.member_id = Url().test_user()
+        self.member_uuid = Url().test_user()
         self.requests = FuncRequests()
     #-----------------电子烟设备批量删除--vape_member_vape_device表--------------------------------
     def testcase_001(self):
@@ -21,7 +21,7 @@ class Delvape(unittest.TestCase):
         obj = ('960','961')
         top_ids = json.dumps(obj)
         payload = {'ids': top_ids}
-        result = self.requests.interface_requests_payload(self.member_id,sheet_index,row,payload)
+        result = self.requests.interface_requests_payload(self.member_uuid,sheet_index,row,payload)
         self.assertEqual ( 10000, result['code'] )
         print ( "code返回值：10000" )
         self.assertEqual ( '', result['msg'] )

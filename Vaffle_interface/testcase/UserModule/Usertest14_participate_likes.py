@@ -10,14 +10,14 @@ from Vaffle_interface.public_1.get_url import Url
 class ParticipateLikes(unittest.TestCase):
 
     def setUp(self):
-        self.member_id = Url().test_user()
+        self.member_uuid = Url().test_user()
         self.requests = FuncRequests()
     #-----------------被其他用户点赞的post列表----------------------------------
     def testcase_001(self):
         sheet_index =0
         row = 14
         print("testcase001 被其他用户点赞的post列表：")
-        result = self.requests.interface_requests(self.member_id,sheet_index,row)
+        result = self.requests.interface_requests(self.member_uuid,sheet_index,row)
         self.assertEqual ( 10000, result['code'] )
         print ( "code返回值：10000" )
         self.assertEqual ( '', result['msg'] )
