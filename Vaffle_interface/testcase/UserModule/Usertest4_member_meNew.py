@@ -5,12 +5,13 @@ import time,gc,sys
 
 #------------------------用户个人中心---------------------------
 from Vaffle_interface.public_1.func_requests import FuncRequests
+from Vaffle_interface.public_1.get_url import Url
 
 
 class MemberCenter(unittest.TestCase):
 
     def setUp(self):
-        self.member_uuid = 'a5f10151-5685-4432-8c35-7198bc6511c9'
+        self.member_uuid = Url().test_user()
         self.requests = FuncRequests()
 
     #-----------------查看当前用户信息----------------------------------
