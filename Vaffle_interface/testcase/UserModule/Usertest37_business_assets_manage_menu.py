@@ -7,7 +7,7 @@ from Vaffle_interface.public_1.func_requests import FuncRequests
 from Vaffle_interface.public_1.get_url import Url
 
 #---------------获取管理店铺 管理品牌的菜单项----------------------
-class Brands(unittest.TestCase):
+class Business_assets_manage_menu(unittest.TestCase):
 
     def setUp(self):
         self.member_uuid = "9ccc4119-f04d-43b5-9c0f-c3cf679fe4c9"

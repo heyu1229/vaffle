@@ -9,7 +9,7 @@ from Vaffle_interface.public_1.get_url import Url
 
 
 #---------------判断用户是否可以发布评测post----------------------
-class Brands(unittest.TestCase):
+class Review_permission(unittest.TestCase):
 
     def setUp(self):
         self.member_uuid = Url ().test_user ()

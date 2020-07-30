@@ -7,7 +7,7 @@ from Vaffle_interface.public_1.func_requests import FuncRequests
 from Vaffle_interface.public_1.get_url import Url
 
 #---------------店铺管理员 品牌管理员申请列表----------------------
-class Brands(unittest.TestCase):
+class Business_assets_manager_list(unittest.TestCase):
 
     def setUp(self):
         self.member_uuid = Url ().test_user ()
