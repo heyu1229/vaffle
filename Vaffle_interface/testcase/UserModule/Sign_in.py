@@ -8,8 +8,8 @@ class SignIn(unittest.TestCase):
 
     def testcase_001(self):
         payload = {"account":"lisa","password":"111111"}
-        self.base_url = 'https://apibeta.vaffle.com/sign/in'
-        headers = {"device": "android ", "version": "3.8.6", "lang": "en", "timestamp": "1493780505", "token": "FkUw1pOFkUw1pOBHh7xSI8jWf0X6JuryjWHjhuMapX69FKZSVgBHh7xSI8jWf0X6JuryjWHjhuMapX69FKZSVg",
+        self.base_url = 'https://apitest.vaffle.com/sign/in'
+        headers = {"device": "android ", "version": "4.0.5", "lang": "en", "timestamp": "1493780505", "token": "FkUw1pOFkUw1pOBHh7xSI8jWf0X6JuryjWHjhuMapX69FKZSVgBHh7xSI8jWf0X6JuryjWHjhuMapX69FKZSVg",
                    "login": "959","serial-number":"48525687125863258471123568955554","company":"HUAWEI","phone-model":"P10","system-version":"system_version"}
         r = requests.post(self.base_url, params=payload, headers=headers)
         result = r.json()
