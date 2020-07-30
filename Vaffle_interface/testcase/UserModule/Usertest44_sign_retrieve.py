@@ -45,8 +45,10 @@ class Sign_retrieve(unittest.TestCase):
         payload = {"dates":"[\"2020-07-29\"]"}
         print(payload)
         result = self.requests.interface_requests_payload ( self.member_uuid, sheet_index, row,payload )
-        self.assertEqual ( 10000, result['code'] )
-        print ( "code返回值：10000" )
+        try:
+            self.assertEqual ( 10000, result['code'] )
+        except:
+            self.assertEqual(10125,result['code'])
     # #-----------------签到 - 用户补签小于当天日期 ，该日期已签到过---------------------------------
     # def testcase_002(self):
     #     sheet_index = 0
