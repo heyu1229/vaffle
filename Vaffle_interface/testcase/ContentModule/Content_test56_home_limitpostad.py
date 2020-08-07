@@ -4,21 +4,21 @@ from Vaffle_interface.public_1.func_requests import FuncRequests
 
 
 
-#--------------【HashTag】 - 详情---------------------
+#--------------忽略首页嵌入式广告---------------------
 class posts_vote(unittest.TestCase):
 
     def setUp(self):
         self.r = FuncRequests()
 
-    #-----------------【HashTag】 - 详情----------------------------------
+    #-----------------忽略首页嵌入式广告----------------------------------
     def testcase_001(self):
         sheet_index = 1
-        row = 68
-        print("testcase_001 【HashTag】详情：")
+        row = 76
+        print("testcase_001 忽略首页嵌入式广告：")
 
         member_id = "b9f73f23-7bc6-4de6-9f9b-df2c98076221"
 
-        payload = {"tag_name":"zzzzz"}
+        payload = {"id":767}
         result = self.r.interface_requests_payload(member_id, sheet_index, row, payload)
 
         self.assertEqual(10000, result["code"])
