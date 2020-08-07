@@ -3,7 +3,7 @@ import unittest,time,json
 from Vaffle_interface.public_1.func_requests import FuncRequests
 
 #---------------翻译帖子(hotnews、review)并更新----------------------
-class CommentsPublish(unittest.TestCase):
+class posta_translate(unittest.TestCase):
 
     def setUp(self):
         self.r = FuncRequests()

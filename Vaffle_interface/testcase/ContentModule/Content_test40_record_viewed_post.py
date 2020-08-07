@@ -3,7 +3,7 @@ import unittest,time,json
 from Vaffle_interface.public_1.func_requests import FuncRequests
 
 #---------------记录被浏览的帖子----------------------
-class CommentsPublish(unittest.TestCase):
+class record_viewed_post(unittest.TestCase):
 
     def setUp(self):
         self.r = FuncRequests()

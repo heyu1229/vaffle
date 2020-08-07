@@ -3,7 +3,7 @@ import unittest,time,json
 from Vaffle_interface.public_1.func_requests import FuncRequests
 
 #---------------阅读完毕后加积分----------------------
-class CommentsPublish(unittest.TestCase):
+class hotnews_read_score(unittest.TestCase):
 
     def setUp(self):
         self.r = FuncRequests()

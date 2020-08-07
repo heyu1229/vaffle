@@ -5,7 +5,7 @@ from Vaffle_interface.public_1.func_requests import FuncRequests
 
 
 #--------------【HashTag】 - 详情---------------------
-class posts_vote(unittest.TestCase):
+class hashtag_detail(unittest.TestCase):
 
     def setUp(self):
         self.r = FuncRequests()

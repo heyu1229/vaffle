@@ -3,7 +3,7 @@ import unittest,time,json
 from Vaffle_interface.public_1.func_requests import FuncRequests
 
 #---------------[webapi]评论列表----------------------
-class CommentsPublish(unittest.TestCase):
+class web_comments_lists(unittest.TestCase):
 
     def setUp(self):
         self.r = FuncRequests()

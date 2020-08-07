@@ -5,7 +5,7 @@ from Vaffle_interface.public_1.func_requests import FuncRequests
 
 
 #--------------忽略首页嵌入式广告---------------------
-class posts_vote(unittest.TestCase):
+class home_limitpostad(unittest.TestCase):
 
     def setUp(self):
         self.r = FuncRequests()

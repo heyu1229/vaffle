@@ -3,7 +3,7 @@ import unittest,time,json
 from Vaffle_interface.public_1.func_requests import FuncRequests
 
 #---------------记录视频播放时间----------------------
-class CommentsPublish(unittest.TestCase):
+class post_video_playtime(unittest.TestCase):
 
     def setUp(self):
         self.r = FuncRequests()

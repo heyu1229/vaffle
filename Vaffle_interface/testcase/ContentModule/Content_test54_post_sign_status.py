@@ -5,7 +5,7 @@ from Vaffle_interface.public_1.func_requests import FuncRequests
 
 
 #--------------签到通知栏---------------------
-class posts_vote(unittest.TestCase):
+class post_sign_status(unittest.TestCase):
 
     def setUp(self):
         self.r = FuncRequests()
