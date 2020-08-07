@@ -3,7 +3,7 @@ import unittest,time,json
 from Vaffle_interface.public_1.func_requests import FuncRequests
 
     #---------------众裁-参加考试获取考试id---------------------
-class posts_violation_abitrate_detail(unittest.TestCase):
+class arbitrate_get_examId(unittest.TestCase):
     def setUp(self):
         self.r = FuncRequests()
 
