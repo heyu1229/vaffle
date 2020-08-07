@@ -1,20 +1,6 @@
 # -*- coding:UTF-8 -*-
-import unittest
-import requests
-import sys
-import json
-import time
-
-import xlrd
-
-import global_list
-sys.path.append(global_list.path+"/public_1")
-from get_url import Url
-from get_version import Version
-from get_token import Token
-from read_data import Read_ExcelData
-from write_data import Write_ExcelData
-from func_requests import FuncRequests
+import unittest,time
+from Vaffle_interface.public_1.func_requests import FuncRequests
 
 #---------------用户关注的 Q／A 列表----------------------
 class CommentsPublish(unittest.TestCase):
@@ -25,10 +11,10 @@ class CommentsPublish(unittest.TestCase):
     #-----------------用户关注的 Q／A 列表----------------------------------
     def testcase_001(self):
         sheet_index = 1
-        row = 89
+        row = 40
         print("testcase_001 用户关注的 Q／A 列表：")
 
-        member_id = "744"
+        member_id = "b9f73f23-7bc6-4de6-9f9b-df2c98076221"
         payload = {"page": 1,"type": "qa","member_id":member_id}
         result=self.r.interface_requests_payload(member_id, sheet_index, row, payload)
 
