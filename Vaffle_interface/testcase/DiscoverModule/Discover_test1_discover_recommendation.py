@@ -1,25 +1,19 @@
 # -*- coding:UTF-8 -*-
-import json
-import unittest
-import requests
-import time,gc
-import xlrd,sys
-import global_list
-sys.path.append(global_list.path+"/public_1")
-from func_requests import FuncRequests
+import unittest,time,json
+from Vaffle_interface.public_1.func_requests import FuncRequests
 
 
 #---------------发热门搜索hot searches----------------------
-class Discover(unittest.TestCase):
+class Discover_recommendation(unittest.TestCase):
 
     def setUp(self):
-        self.member_id = '745'
+        self.member_id = "b9f73f23-7bc6-4de6-9f9b-df2c98076221"
         self.requests = FuncRequests()
 
     #-----------------discover页推荐数据（用户、店铺）----------------------------------
     def testcase_001(self):
         sheet_index =4
-        row = 5
+        row = 1
         print("testcase001 discover页推荐数据（用户、店铺）：")
         payload = {"lat":"31","lon":"121"}
         result = self.requests.interface_requests_payload(self.member_id,sheet_index,row,payload)
