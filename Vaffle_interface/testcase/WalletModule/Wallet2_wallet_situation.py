@@ -3,12 +3,12 @@ import unittest
 import requests
 import time,gc,sys
 
-#------------------------钱包 - 已获得奖励---------------------------
+#------------------------钱包 - 账户余额\冻结余额\可用额度---------------------------
 from Vaffle_interface.public_1.func_requests import FuncRequests
 from Vaffle_interface.public_1.get_url import Url
 
 
-class wallet_income(unittest.TestCase):
+class wallet_situation(unittest.TestCase):
 
     def setUp(self):
         self.member_uuid = Url().test_user()
@@ -16,7 +16,7 @@ class wallet_income(unittest.TestCase):
 
     def testcase_001(self):
         sheet_index =1
-        row = 3
+        row = 2
         result = self.requests.interface_requests(self.member_uuid,sheet_index,row)
         self.assertEqual(10000, result["code"])
         print("code返回值：10000")
