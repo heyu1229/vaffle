@@ -1,19 +1,6 @@
 # -*- coding:UTF-8 -*-
-import unittest
-import requests
-import sys,time
-import json,xlrd
-# sys.path.append("/usr/lib/python3/heaven_interface_vaffle2.0_auto2/public")
-import global_list
-sys.path.append(global_list.path+"/public_1")
-from get_url import Url
-from get_version import Version
-from get_token import Token
-from read_data import Read_ExcelData
-from write_data import Write_ExcelData
-sys.path.append(global_list.path+"/log")
-from interface_log import interface_log
-from func_requests import FuncRequests
+import unittest,time,json
+from Vaffle_interface.public_1.func_requests import FuncRequests
 
 #---------------广告数据统计----------------------
 class Ads(unittest.TestCase):
@@ -24,7 +11,7 @@ class Ads(unittest.TestCase):
     #-----------------广告数据统计----------------------------------
     def testcase_001(self):
         sheet_index = 10
-        row = 5
+        row = 4
         member_id='none'
         print ("testcase_001 广告数据统计:")
         obj = ({"ad_id": 123, "view_num": 2, "click_num": 3},)

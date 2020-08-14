@@ -170,7 +170,7 @@ class FuncRequests():
 
     def sql_vaffle(self,s):
         # 连接MySQL数据库
-        connection = pymysql.connect(host='172.100.200.61', port=3306, user='vaffle', password='Vaffle.123',
+        connection = pymysql.connect(host='172.100.200.62', port=3306, user='root', password='heavengifts',
                                      db='vaffle',
                                      charset='utf8mb4', cursorclass=pymysql.cursors.DictCursor)
 
@@ -187,7 +187,7 @@ class FuncRequests():
 
     def sql_vaffle_post(self,s):
         # 连接MySQL数据库
-        connection = pymysql.connect(host='172.100.200.61', port=3306, user='vaffle', password='Vaffle.123',
+        connection = pymysql.connect(host='172.100.200.62', port=3306, user='root', password='heavengifts',
                                      db='vaffle_post',
                                      charset='utf8mb4', cursorclass=pymysql.cursors.DictCursor)
 
