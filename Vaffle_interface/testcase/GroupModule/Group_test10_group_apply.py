@@ -11,8 +11,7 @@ class Group(unittest.TestCase):
     def testcase_001(self):
         sheet_index = 14
         row = 11
-        member_id = 'b9f73f23-7bc6-4de6-9f9b-df2c98076221'
-        #获取token
+        member_id = 'e51ae55c-6131-4d20-a31e-6595a932c84b'
         payload = {"page":"1"}
         result = self.r.interface_requests_payload(member_id,sheet_index,row,payload)
 

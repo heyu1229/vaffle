@@ -3,20 +3,21 @@ import unittest,time,json
 from Vaffle_interface.public_1.func_requests import FuncRequests
 
 
-#---------------群组相册内的图片列表----------------------
+#---------------【发现群组】聚合页----------------------
 class Group_noticedel(unittest.TestCase):
 
     def setUp(self):
        self.r=FuncRequests()
 
-    #-----------------群组相册内的图片列表--------------------------
+    #-----------------【发现群组】聚合页--------------------------
     def testcase_001(self):
         sheet_index = 14
-        row = 49
-        member_id='b9f73f23-7bc6-4de6-9f9b-df2c98076221'
-        print ("testcase_001 群组相册内的图片列表:")
+        row = 61
+        print("testcase_001 聚合页:")
 
-        payload = {'album_id': 201,'page':1}
+
+        member_id = 'b9f73f23-7bc6-4de6-9f9b-df2c98076221'
+        payload = {'lat':'23.1123123','lon':'120.1123123'}
         result=self.r.interface_requests_payload(member_id,sheet_index,row,payload)
 
         self.assertEqual(10000, result['code'])

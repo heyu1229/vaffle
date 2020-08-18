@@ -3,20 +3,21 @@ import unittest,time,json
 from Vaffle_interface.public_1.func_requests import FuncRequests
 
 
-#---------------群组相册内的图片列表----------------------
+#---------------【群组数据分析-成员】 判断是否可以开启成员分析自定义查询----------------------
 class Group_noticedel(unittest.TestCase):
 
     def setUp(self):
        self.r=FuncRequests()
 
-    #-----------------群组相册内的图片列表--------------------------
+    #-----------------【群组数据分析-成员】 判断是否可以开启成员分析自定义查询--------------------------
     def testcase_001(self):
         sheet_index = 14
-        row = 49
-        member_id='b9f73f23-7bc6-4de6-9f9b-df2c98076221'
-        print ("testcase_001 群组相册内的图片列表:")
+        row = 62
+        print("testcase_001 判断是否可以开启成员分析自定义查询:")
 
-        payload = {'album_id': 201,'page':1}
+
+        member_id = 'b9f73f23-7bc6-4de6-9f9b-df2c98076221'
+        payload = {'guid':'48afaa46-0d80-4518-a880-3577530440d0'}
         result=self.r.interface_requests_payload(member_id,sheet_index,row,payload)
 
         self.assertEqual(10000, result['code'])
