@@ -1,25 +1,21 @@
 # -*- coding:UTF-8 -*-
-import json
-import unittest
-import requests
-import time,gc
-import xlrd,sys
-import global_list
-sys.path.append(global_list.path+"/public_1")
-from func_requests import FuncRequests
+import unittest,time,json
+from Vaffle_interface.public_1.func_requests import FuncRequests
+
 #---------------兑换订单列表------------------
 class RewardsDescription(unittest.TestCase):
 
     def setUp(self):
-        self.member_id = '744'
-        self.requests = FuncRequests()
+        self.member_id = 'b9f73f23-7bc6-4de6-9f9b-df2c98076221'
+        self.r = FuncRequests()
     #-----------------兑换订单列表----------------------------
     def testcase_001(self):
         sheet_index =8
-        row = 12
+        row = 9
 
         print("testcase001 兑换订单列表：")
-        result = self.requests.interface_requests(self.member_id, sheet_index, row)
+        payload = {'page': 1}
+        result = self.r.interface_requests_payload(self.member_id, sheet_index, row, payload)
         self.assertEqual(10000, result['code'])
         print("code返回值：10000")
 

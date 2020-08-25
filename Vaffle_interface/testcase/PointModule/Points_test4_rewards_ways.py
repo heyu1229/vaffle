@@ -2,16 +2,16 @@
 import unittest,time,json
 from Vaffle_interface.public_1.func_requests import FuncRequests
 
-#---------------积分等级描述----------------------
+#---------------获取积分途径------------------
 class RewardsDescription(unittest.TestCase):
 
     def setUp(self):
         self.r = FuncRequests()
-    #-----------------积分等级描述----------------------------------
+    #-----------------获取积分途径----------------------------
     def testcase_001(self):
         sheet_index =8
-        row = 2
-        print("testcase001 积分等级描述：")
+        row = 6
+        print("testcase001 获取积分途径：")
 
         member_id = 'b9f73f23-7bc6-4de6-9f9b-df2c98076221'
         payload = {}
