@@ -2,7 +2,7 @@
 import unittest,time,json
 from Vaffle_interface.public_1.func_requests import FuncRequests
 
-#---------------首页动态列表3.9.0----------------------
+#---------------首页动态列表4.0.7-----------------
 class home_recommend(unittest.TestCase):
 
     def setUp(self):
