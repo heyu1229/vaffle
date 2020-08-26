@@ -15,7 +15,7 @@ class content(unittest.TestCase):
         print("testcase_001 用户个人qa-answer列表：")
 
         member_id = "b9f73f23-7bc6-4de6-9f9b-df2c98076221"
-        payload = {'type':'all','page':1,'member_uuid':member_id}
+        payload = {'type':'all','page':1,'member_uuid':'348a307e-a57d-4813-ade9-bff94aa10601'}
 
 
         result = self.r.interface_requests_payload(member_id, sheet_index, row, payload)
