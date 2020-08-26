@@ -1,19 +1,7 @@
 #!/usr/bin/python
 # -*- coding:UTF-8 -*-
-import unittest
-import requests
-import sys,time
-import json,gc
-import xlrd
-
-import global_list
-sys.path.append(global_list.path+"/public_1")
-from get_url import Url
-from get_token import Token
-from read_data import Read_ExcelData
-from write_data import Write_ExcelData
-from get_version import Version
-from func_requests import FuncRequests
+import unittest,time,json
+from Vaffle_interface.public_1.func_requests import FuncRequests
 
 #---------------关注用户列表----------------------
 class Follow_Followers(unittest.TestCase):
@@ -26,7 +14,7 @@ class Follow_Followers(unittest.TestCase):
         sheet_index = 2
         row = 3
         print("testcase_001关注我的用户列表：")
-        member_id = "744"
+        member_id = "b9f73f23-7bc6-4de6-9f9b-df2c98076221"
         result=self.r.interface_requests(member_id,sheet_index,row)
 
         self.assertEqual(10000, result["code"])
