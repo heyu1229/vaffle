@@ -11,7 +11,8 @@ from Vaffle_interface.public_1.get_url import Url
 class Sign_center_tabs(unittest.TestCase):
 
     def setUp(self):
-        self.member_uuid = Url ().test_user ()
+        # self.member_uuid = Url ().test_user ()
+        self.member_uuid ="96005c43-98e5-4e8b-a808-224c8fd87dc7"
         self.requests = FuncRequests ()
 
 
