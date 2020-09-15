@@ -2,19 +2,19 @@
 import unittest,time,json
 from Vaffle_interface.public_1.func_requests import FuncRequests
 
-#---------------用户反馈----------------------
+#---------------仲裁申诉问题页面列表----------------------
 class System_feedback(unittest.TestCase):
 
     def setUp(self):
         self.r = FuncRequests()
 
-    #-----------------用户反馈----------------------------------
+    #-----------------反馈----------------------------------
     def testcase_001(self):
         sheet_index = 3
-        row = 2
-        print("testcase_001用户反馈：")
+        row = 34
+        print("testcase_001 反馈：")
         date=time.strftime("%Y-%m-%d %H:%M:%S",time.localtime())
-        payload = {"issue": "接口在"+date+"测试用户反馈","topic": 4,'type':'feedback'}
+        payload = {'type':'feedback'}
         member_id = "b9f73f23-7bc6-4de6-9f9b-df2c98076221"
         result=self.r.interface_requests_payload(member_id, sheet_index, row, payload)
 
@@ -23,15 +23,13 @@ class System_feedback(unittest.TestCase):
 
     #-----------------用户申诉----------------------------------
     def testcase_002(self):
-        s = 'update vape_post_report set status=6,is_appeal=0 where id =2111'
-        self.r.sql_vaffle_post(s)
         sheet_index = 3
-        row = 3
+        row = 35
         print("testcase_002 用户申诉：")
         date=time.strftime("%Y-%m-%d %H:%M:%S",time.localtime())
-        payload = {"issue": "接口在"+date+"测试用户反馈","topic": 11,'type':'arbitrate','report_id':'2111'}
-        member_id = "92fe76f8-6b8d-4c5b-9fb1-99f4407afe96"
-        result = self.r.interface_requests_payload(member_id, sheet_index, row, payload)
+        payload = {'type':'arbitrate'}
+        member_id = "92fe76f8-6b8d-4c5b-9fb1-99f4407afe9"
+        result=self.r.interface_requests_payload(member_id, sheet_index, row, payload)
 
         self.assertEqual(10000, result["code"])
         print("code返回值：10000")
