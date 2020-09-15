@@ -15,7 +15,7 @@ class content(unittest.TestCase):
         print("testcase_001 邀请回答：")
 
         member_id = "b9f73f23-7bc6-4de6-9f9b-df2c98076221"
-        payload = {'member_uuid':'6dcd1821-1009-4c7d-a718-261ea5f1230c','question_id':98796}
+        payload = {'member_uuid':'e1399798-f1df-4f22-aea0-da0036ee03f1','question_id':98796}
 
         result = self.r.interface_requests_payload(member_id, sheet_index, row, payload)
         self.assertEqual(10000, result["code"])
