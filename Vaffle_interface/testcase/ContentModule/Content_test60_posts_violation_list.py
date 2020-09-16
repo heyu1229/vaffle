@@ -12,7 +12,7 @@ class posts_violation_list(unittest.TestCase):
         row = 80
         print("testcase_001 违规记录：")
         payload = {"page": 1}
-        member_id = "b9f73f23-7bc6-4de6-9f9b-df2c98076221"
+        member_id = "92fe76f8-6b8d-4c5b-9fb1-99f4407afe96"
 
         result = self.r.interface_requests_payload(member_id, sheet_index, row, payload)
 
