@@ -1,33 +1,26 @@
 # -*- coding:UTF-8 -*-
 import unittest
 import requests
-import sys,time,gc
-import json
+import time,gc,sys
 
-import xlrd
 
-import global_list
-sys.path.append(global_list.path+"/public_1")
-from get_url import Url
-from get_token import Token
-from read_data import Read_ExcelData
-from write_data import Write_ExcelData
-from get_version import Version
-from func_requests import FuncRequests
+from Vaffle_interface.public_1.func_requests import FuncRequests
+from Vaffle_interface.public_1.get_url import Url
 
 #---------------工具配置----------------------
 class System_nation(unittest.TestCase):
 
     def setUp(self):
-        self.r = FuncRequests()
+        self.member_uuid = Url().test_user()
+        self.requests = FuncRequests()
+
 
     #-----------------工具配置----------------------------------
     def testcase_001(self):
         sheet_index = 3
         row = 5
         print("testcase_001工具配置：")
-        member_id = "744"
-        result=self.r.interface_requests(member_id,sheet_index,row)
+        result=self.requests.interface_requests(self.member_uuid,sheet_index,row)
 
         self.assertEqual(10000, result["code"])
         print("code返回值：10000")
