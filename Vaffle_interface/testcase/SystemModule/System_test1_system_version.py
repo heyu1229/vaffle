@@ -1,26 +1,23 @@
-744# -*- coding:UTF-8 -*-
+# -*- coding:UTF-8 -*-
 import unittest
 import requests
-import sys,time,gc
-import json
+import time,gc,sys
 
-import xlrd
+#------------------------用户个人中心---------------------------
 
-import global_list
-sys.path.append(global_list.path+"/public_1")
-from get_url import Url
-from get_token import Token
-from read_data import Read_ExcelData
-from write_data import Write_ExcelData
-from get_version import Version
-from func_requests import FuncRequests
+from Vaffle_interface.public_1.func_requests import FuncRequests
+from Vaffle_interface.public_1.get_url import Url
 
 #---------------新版本检测----------------------
+from Vaffle_interface.public_1.get_version import Version
+
+
 class System_version(unittest.TestCase):
 
     def setUp(self):
-        self.r = FuncRequests()
-        self.version = Version().test_version()
+        self.member_uuid = Url().test_user()
+        self.requests = FuncRequests()
+        self.version = Version.test_version(self)
 
     #-----------------新版本检测----------------------------------
     def testcase_001(self):
@@ -29,10 +26,9 @@ class System_version(unittest.TestCase):
         sheet_index = 3
         row = 1
         print("testcase_001新版本检测：")
-        member_id = "744"
-        result=self.r.interface_requests(member_id,sheet_index,row)
+        result=self.requests.interface_requests(self.member_uuid,sheet_index,row)
 
-        if self.version =="2.6.0":
+        if self.version =="4.0.8":
             self.assertEqual(10033, result["code"])
             print("code返回值：10033，No new version")
         else :
