@@ -24,12 +24,20 @@ class System_feedback(unittest.TestCase):
     #-----------------用户申诉----------------------------------
     def testcase_002(self):
         s = 'update vape_post_report set status=6,is_appeal=0 where id =2111'
+        s1 = 'delete from vape_arbitrate_appeal where report_id=2111'
         self.r.sql_vaffle_post(s)
+        self.r.sql_vaffle_post(s1)
         sheet_index = 3
         row = 3
         print("testcase_002 用户申诉：")
         date=time.strftime("%Y-%m-%d %H:%M:%S",time.localtime())
-        payload = {"issue": "接口在"+date+"测试用户反馈","topic": 11,'type':'arbitrate','report_id':'2111'}
+        obj = ({"path": "posts/1512710644871_767_android.jpg", "ratio": 1.23, "tag": 1},
+               {"path": "posts/1512710644871_767_android.jpg", "ratio": 1.23, "tag": 1},
+               {"path": "posts/1512710644871_767_android.jpg", "ratio": 1.23, "tag": 1},
+               {"path": "posts/1512710644871_767_android.jpg", "ratio": 1.23, "tag": 1},)
+        images = json.dumps(obj)
+        payload = {"issue": "接口在"+date+"测试用户反馈","topic": 11,'type':'arbitrate','report_id':'2111',
+                   'aztec_images':images}
         member_id = "92fe76f8-6b8d-4c5b-9fb1-99f4407afe96"
         result = self.r.interface_requests_payload(member_id, sheet_index, row, payload)
 
