@@ -17,18 +17,18 @@ CHAR_SET = '65001 (UTF-8)'
 #数据库名称
 DATABASE_NAME = 'vaffle'
 #host = 'localhost' or '172.0.0.1'
-HOST = '34.213.99.41'
+HOST = '172.100.200.62'
 #端口号
 PORT = '3306'
 #用户名称
 USER_NAME = 'root'
 #数据库密码
-PASSWORD = 'root521'
+PASSWORD = 'heavengifts'
 #数据库编码
 CHAR_SET = '65001 (UTF-8)'
 class SQL_SEARCH_1():
 
-    def search(self,sql):
+    def search(sql):
         # 查询
         con = mdb.connect(HOST, USER_NAME, PASSWORD, DATABASE_NAME);
         with con:
@@ -38,7 +38,7 @@ class SQL_SEARCH_1():
             cur.execute(sql)
             # 使用 fetchone() 方法获取一条数据
             data = cur.fetchone ()
-            return (data)
+            return (data[0])
 
 """
             # 使用fetchall函数，将结果集（多维元组）存入rows里面
