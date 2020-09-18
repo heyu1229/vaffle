@@ -17,7 +17,7 @@ class wallet_income(unittest.TestCase):
 
     #-----------------钱包 - 提现账户添加----------------------------------
     def testcase_001(self):
-        sheet_index = 1
+        sheet_index = 13
         row = 5
         print("testcase_001钱包 - 提现账户添加：")
         date = time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())

@@ -15,7 +15,7 @@ class wallet_income(unittest.TestCase):
 
     #-----------------钱包 - 默认可提现账户----------------------------------
     def testcase_001(self):
-        sheet_index = 1
+        sheet_index = 13
         row = 9
         print("testcase_001钱包 - 默认可提现账户：")
 

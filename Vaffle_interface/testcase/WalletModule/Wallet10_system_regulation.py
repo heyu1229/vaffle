@@ -15,7 +15,7 @@ class wallet_income(unittest.TestCase):
 
     #-----------------店铺、品牌的规则提示----------------------------------
     def testcase_001(self):
-        sheet_index = 1
+        sheet_index = 13
         row = 10
         print("testcase_001店铺、品牌的规则提示：")
 

@@ -14,7 +14,7 @@ class Brands(unittest.TestCase):
 
     #-----------------钱包 - 删除可提现账户----------------------------------
     def testcase_001(self):
-        sheet_index = 1
+        sheet_index = 13
         row = 7
         print("testcase_001钱包 - 删除可提现账户：")
 

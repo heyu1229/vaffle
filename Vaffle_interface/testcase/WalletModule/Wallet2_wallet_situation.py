@@ -15,7 +15,7 @@ class wallet_situation(unittest.TestCase):
         self.requests = FuncRequests()
 
     def testcase_001(self):
-        sheet_index =1
+        sheet_index =13
         row = 2
         result = self.requests.interface_requests(self.member_uuid,sheet_index,row)
         self.assertEqual(10000, result["code"])
