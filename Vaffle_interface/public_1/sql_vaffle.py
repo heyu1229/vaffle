@@ -15,3 +15,8 @@ class SQL_vaffle():
         sql = "SELECT uuid from vaffle.vape_members where id ="+i+""
         print(sql)
         return sql
+
+    def select_post_id(self):
+        sql = "SELECT id from vaffle_post.vape_posts where status=1 order by id desc limit 1"
+        print(sql)
+        return sql
