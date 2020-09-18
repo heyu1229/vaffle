@@ -11,7 +11,7 @@ class System_feedback(unittest.TestCase):
     #-----------------反馈----------------------------------
     def testcase_001(self):
         sheet_index = 3
-        row = 34
+        row = 30
         print("testcase_001 反馈：")
         date=time.strftime("%Y-%m-%d %H:%M:%S",time.localtime())
         payload = {'type':'feedback'}
@@ -24,7 +24,7 @@ class System_feedback(unittest.TestCase):
     #-----------------用户申诉----------------------------------
     def testcase_002(self):
         sheet_index = 3
-        row = 35
+        row = 31
         print("testcase_002 用户申诉：")
         date=time.strftime("%Y-%m-%d %H:%M:%S",time.localtime())
         payload = {'type':'arbitrate'}
