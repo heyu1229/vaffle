@@ -22,9 +22,10 @@ class Publish(unittest.TestCase):
         images = json.dumps(obj)
         print(images)
         date = time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())
-        payload = {"content": "接口在"+date+"测试发布图片","images": images,"category":"post"}
+        payload = {"content": "接口在"+date+"#SantaSide 测试发布图片","images": images,"category":"post"}
         member_id = "b9f73f23-7bc6-4de6-9f9b-df2c98076221"
-        result=self.r.interface_requests_payload_apitest2(member_id, sheet_index, row, payload)
+        result=self.r.interface_requests_payload(member_id, sheet_index, row, payload)
+        print(result)
         self.assertEqual(10000, result['code'])
         print("code返回值：10000")
 

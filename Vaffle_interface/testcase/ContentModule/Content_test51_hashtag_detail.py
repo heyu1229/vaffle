@@ -18,7 +18,7 @@ class hashtag_detail(unittest.TestCase):
 
         member_id = "b9f73f23-7bc6-4de6-9f9b-df2c98076221"
 
-        payload = {"tag_name":"zzzzz"}
+        payload = {"tag_name":"#zzzzz"}
         result = self.r.interface_requests_payload(member_id, sheet_index, row, payload)
 
         self.assertEqual(10000, result["code"])
