@@ -19,7 +19,7 @@ def send_mail(file_new,excel_new):
         msg = MIMEMultipart('related')
         msg["From"] = my_sender
         msgText = MIMEText(mail_body,'html','utf-8')
-        msg['Subject'] = Header('vaffle 3.2.0 develop接口自动化测试报告','utf-8')
+        msg['Subject'] = Header('vaffle 4.1.2 接口自动化测试报告','utf-8')
         msg.attach(msgText)
 
         # #添加excel附件
@@ -117,7 +117,7 @@ if __name__ == '__main__':
 
     #用例地址
     print(os.getcwd())
-    test_dir = os.getcwd()[:-9]+"/testcase/contect"
+    test_dir = os.getcwd()[:-9]+"/testcase"
     print("test_dir:%s" %test_dir)
     #测试报告存放地址
     test_report = os.getcwd()[:-9]+"/test_report"
