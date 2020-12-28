@@ -25,6 +25,7 @@ class PostsReport(unittest.TestCase):
         # 获取发布接口token值
         urlpart1 = '/posts/publish'
         result1 = self.r.interface_requests_data(member_id, urlpart1, payload1)
+        print(result1)
         post_id = result1["data"]["post_id"]
 
         payload ={"post_id": post_id,"reason_id":"21","type":1}
