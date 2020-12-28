@@ -103,7 +103,7 @@ class Publish(unittest.TestCase):
         obj = ({"path": "posts/1512710644881_767_android.jpg", "ratio": 1.23, "tag": 1},)
         images = json.dumps(obj)
         date = time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())
-        payload = { "images": images, "content":"发布群组post"+date,"category":"post","guid":"48afaa46-0d80-4518-a880-3577530440d0"}
+        payload = { "images": images, "content":"发布群组post"+date,"category":"post","guid":"c3172313-243f-4752-8ee9-10a1faa2ef6e"}
         member_id = 'b9f73f23-7bc6-4de6-9f9b-df2c98076221'
         result=self.r.interface_requests_payload(member_id, sheet_index, row, payload)
         self.assertEqual(10000, result['code'])
