@@ -25,7 +25,7 @@ class Brands(unittest.TestCase):
 
 
         print ("testcase_001发布评论:")
-        payload = {'post_id':post_id,"content":"接口测试发布评论内容"+date}
+        payload = {'post_id':post_id,"content":"接口测试发布评论内容"+date,'attach':'https://duly5zwcucles.cloudfront.net/posts/goods/1609403712_5fed8d40ead3e.png'}
         result=self.r.interface_requests_payload(member_id, sheet_index, row, payload)
 
         self.assertEqual(10000, result['code'])

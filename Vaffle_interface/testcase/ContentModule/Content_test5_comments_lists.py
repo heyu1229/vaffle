@@ -25,7 +25,7 @@ class Brands(unittest.TestCase):
 
         #2.发布评论
         urlpart2 = '/comments/publish'
-        payload2 = {'post_id':post_id,"content":"接口测试发布评论内容"+date}
+        payload2 = {'post_id':post_id,"content":"接口测试发布评论内容"+date,'attach':'https://duly5zwcucles.cloudfront.net/posts/goods/1609403712_5fed8d40ead3e.png'}
         result2=self.r.interface_requests_data(member_id, urlpart2, payload2)
 
         print("testcase_001 评论列表:")
