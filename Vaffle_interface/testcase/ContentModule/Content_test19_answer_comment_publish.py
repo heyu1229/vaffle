@@ -30,7 +30,8 @@ class Brands(unittest.TestCase):
         answer_id = result1["data"]["answer_id"]
         print("answer_id=", answer_id)
 
-        payload = {"reply_id": answer_id, "content": "接口在" + date + "测试评论回答Q/A","question_id":question_id}
+        payload = {"reply_id": answer_id, "content": "接口在" + date + "测试评论回答Q/A","question_id":question_id,
+                   'attach':'https://duly5zwcucles.cloudfront.net/posts/goods/1609403712_5fed8d40ead3e.png'}
         result = self.r.interface_requests_payload(member_id, sheet_index, row, payload)
         self.assertEqual(10000, result['code'])
         print("code返回值：10000")

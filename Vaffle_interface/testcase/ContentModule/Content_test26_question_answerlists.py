@@ -13,8 +13,8 @@ class newnoticelist(unittest.TestCase):
         row = 37
         print("testcase_001 Q／A列表第一页数据：")
         member_id = "b9f73f23-7bc6-4de6-9f9b-df2c98076221"
-        question_id = "19183"
-        payload = {"question_id": question_id, "page": 1}
+        question_id = "100581"
+        payload = {"question_id": question_id, "page": 1,'type':'base','answer_id':0}
         result = self.r.interface_requests_payload(member_id, sheet_index, row, payload)
 
         self.assertEqual(10000, result["code"])
