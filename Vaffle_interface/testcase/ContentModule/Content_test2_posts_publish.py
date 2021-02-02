@@ -24,6 +24,7 @@ class Publish(unittest.TestCase):
         date = time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())
         payload = {"content": "接口在"+date+"#SantaSide 测试发布图片","images": images,"category":"post"}
         member_id = "b9f73f23-7bc6-4de6-9f9b-df2c98076221"
+        # member_id = "176cfef2-007f-4b3b-8089-1d438ec3d06a"
         result=self.r.interface_requests_payload(member_id, sheet_index, row, payload)
         print(result)
         self.assertEqual(10000, result['code'])
