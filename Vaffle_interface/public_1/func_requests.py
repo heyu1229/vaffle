@@ -27,6 +27,7 @@ class FuncRequests():
         self.obi = Read_ExcelData()
         self.base_url = self.obi.read_excel_data(sheet_index, row, 4)
         self.base_url1 = url + self.base_url
+        print("url:", self.base_url1)
         # 获取版本
         self.version = Version().test_version()
         payload = self.obi.read_excel_data_dict(sheet_index, row, 5)
@@ -37,7 +38,8 @@ class FuncRequests():
         #记录接口的请求时间
         start = time.time()
         headers = {"device": "android ", "version": self.version, "lang": "en", "timestamp": "1493780505", "token": token,
-                   "uuid": member_id,"serial-number":"48525687125863258471123568955554","company":"HUAWEI","phone-model":"P10","system-version":"system_version"}
+                   "uuid": member_id,"serial-number":"48525687125863258471123568955554","company":"HUAWEI",
+                   "phone-model":"P10","system-version":"system_version",'Content-Type':'application/x-www-form-urlencoded'}
         r = requests.post(self.base_url1, params=payload, headers=headers)
         result = r.json()
         format_result = json.dumps(result, ensure_ascii=False, indent=1)
@@ -80,8 +82,9 @@ class FuncRequests():
 
         # 记录接口的请求时间
         start = time.time()
-        headers = {"device": "android ", "version": self.version, "lang": "en", "timestamp": "1493780505", "token": token,
-                   "uuid": member_id,"serial-number":"48525687125863258471123568955554","company":"HUAWEI","phone-model":"P10","system-version":"system_version"}
+        headers = {"device": "android", "version": self.version, "lang": "en", "timestamp": "1493780505", "token": token,
+                   "uuid": member_id,"serial-number":"48525687125863258471123568955554","company":"HUAWEI",
+                   "phone-model":"P10","system-version":"system_version",'Content-Type':'application/x-www-form-urlencoded'}
         r = requests.post(self.base_url1, params=payload, headers=headers)
         result = r.json()
         format_result = json.dumps(result, ensure_ascii=False, indent=1)
@@ -124,7 +127,8 @@ class FuncRequests():
         #记录接口的请求时间
         start = time.time()
         headers = {"device": "android ", "version": self.version, "lang": "en", "timestamp": "1493780505", "token": token,
-                   "uuid": member_id,"serial-number":"48525687125863258471123568955554","company":"HUAWEI","phone-model":"P10","system-version":"system_version"}
+                   "uuid": member_id,"serial-number":"48525687125863258471123568955554","company":"HUAWEI",
+                   "phone-model":"P10","system-version":"system_version",'Content-Type':'application/x-www-form-urlencoded'}
         r = requests.post(self.base_url1, params=payload, headers=headers)
         result = r.json()
         format_result = json.dumps(result, ensure_ascii=False,indent=1)
@@ -163,7 +167,8 @@ class FuncRequests():
         token = 'FkUw1pOFkUw1pOBHh7xSI8jWf0X6JuryjWHjhuMapX69FKZSVgBHh7xSI8jWf0X6JuryjWHjhuMapX69FKZSVg'
 
         headers = {"device": "android ", "version": self.version, "lang": "en", "timestamp": "1493780505", "token": token,
-                   "uuid": member_id,"serial-number":"48525687125863258471123568955554","company":"HUAWEI","phone-model":"P10","system-version":"system_version"}
+                   "uuid": member_id,"serial-number":"48525687125863258471123568955554","company":"HUAWEI",
+                   "phone-model":"P10","system-version":"system_version",'Content-Type':'application/x-www-form-urlencoded'}
         r = requests.post(self.base_url, params=payload, headers=headers)
         result = r.json()
         return result
@@ -227,7 +232,8 @@ class FuncRequests():
         #记录接口的请求时间
         start = time.time()
         headers = {"device": "android ", "version": self.version, "lang": "en", "timestamp": "1493780505", "token": token,
-                   "uuid": member_id,"serial-number":"48525687125863258471123568955554","company":"HUAWEI","phone-model":"P10","system-version":"system_version"}
+                   "uuid": member_id,"serial-number":"48525687125863258471123568955554","company":"HUAWEI",
+                   "phone-model":"P10","system-version":"system_version",'Content-Type':'application/x-www-form-urlencoded'}
         r = requests.post(self.base_url1, params=payload, headers=headers)
         result = r.json()
         format_result = json.dumps(result, ensure_ascii=False, indent=1)
@@ -271,7 +277,8 @@ class FuncRequests():
         # 记录接口的请求时间
         start = time.time()
         headers = {"device": "android ", "version": self.version, "lang": "en", "timestamp": "1493780505", "token": token,
-                   "uuid": member_id,"serial-number":"485256871258632584711235689555542","company":"HUAWEI","phone-model":"P10","system-version":"system_version"}
+                   "uuid": member_id,"serial-number":"485256871258632584711235689555542","company":"HUAWEI",
+                   "phone-model":"P10","system-version":"system_version",'Content-Type':'application/x-www-form-urlencoded'}
         r = requests.post(self.base_url1, params=payload, headers=headers)
         result = r.json()
         format_result = json.dumps(result, ensure_ascii=False, indent=1)
@@ -316,7 +323,8 @@ class FuncRequests():
         # 记录接口的请求时间
         start = time.time()
         headers = {"tik":tik,"device": "android ", "version": self.version, "lang": "en", "timestamp": "1493780505", "token": token,
-                   "uuid": member_id,"serial-number":"48525687125863258471123568955554","company":"HUAWEI","phone-model":"P10","system-version":"system_version"}
+                   "uuid": member_id,"serial-number":"48525687125863258471123568955554","company":"HUAWEI",
+                   "phone-model":"P10","system-version":"system_version",'Content-Type':'application/x-www-form-urlencoded'}
         r = requests.post(self.base_url1, params=payload, headers=headers)
         result = r.json()
         format_result = json.dumps(result, ensure_ascii=False, indent=1)
