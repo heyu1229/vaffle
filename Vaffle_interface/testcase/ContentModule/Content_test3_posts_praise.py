@@ -14,6 +14,7 @@ class Brands(unittest.TestCase):
         row = 8
         # 调用发布接口发送一条动态，获取post_id
         member_id = "b9f73f23-7bc6-4de6-9f9b-df2c98076221"
+        # member_id = "a5f10151-5685-4432-8c35-7198bc6511c9"
         obj = ({"path": "posts/1512710644871_767_android.jpg", "ratio": 1.23, "tag": 1},)
         images = json.dumps(obj)
         date = time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())
