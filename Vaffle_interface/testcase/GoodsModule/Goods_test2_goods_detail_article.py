@@ -8,12 +8,12 @@ class GoodsDetail(unittest.TestCase):
     def setUp(self):
        self.r=FuncRequests()
 
-    #-----------------产品详情----------------------------------
+    #-----------------产品详情- 文章列表----------------------------------
     def testcase_001(self):
         sheet_index = 15
-        row = 1
+        row = 2
         member_uuid='b9f73f23-7bc6-4de6-9f9b-df2c98076221'
-        print ("testcase_001品牌型号数据测试:")
+        print ("testcase_001 产品详情页-文章列表:")
 
         payload = {'goods_id':11}
         result=self.r.interface_requests_payload(member_uuid,sheet_index,row,payload)
