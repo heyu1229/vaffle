@@ -3,7 +3,7 @@ import unittest
 from Vaffle_interface.public_1.func_requests import FuncRequests
 
 #---------------产品详情----------------------
-class Brands(unittest.TestCase):
+class GoodsDetail(unittest.TestCase):
 
     def setUp(self):
        self.r=FuncRequests()
