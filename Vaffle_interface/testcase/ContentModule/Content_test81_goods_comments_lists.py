@@ -17,7 +17,7 @@ class Question_edit(unittest.TestCase):
         sheet_index = 1
         row = 101
 
-        payload = {"page": 1,"qaLabelTitle":"Mod"}
+        payload = {"page": 1,"goods_id":1}
         result = self.r.interface_requests_payload(self.member_uuid, sheet_index, row, payload)
         self.assertEqual(10000, result["code"])
         print("code返回值：10000")

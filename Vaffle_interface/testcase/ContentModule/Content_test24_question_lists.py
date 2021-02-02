@@ -14,7 +14,7 @@ class CommentsPublish(unittest.TestCase):
         row = 35
         print("testcase_001 Q／A列表第一页数据：")
         member_id = "b9f73f23-7bc6-4de6-9f9b-df2c98076221"
-        payload = {"page":1,"type":"qa"}
+        payload = {"page":1,"type":"qa",'goods_id':3}
         result = self.r.interface_requests_payload(member_id, sheet_index, row, payload)
 
         self.assertEqual(10000, result["code"])
