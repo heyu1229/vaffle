@@ -1,20 +1,7 @@
 import pymysql as mdb
 import time
-'''
-#数据库名称
-DATABASE_NAME = 'vaffle'
-#host = 'localhost' or '172.0.0.1'
-HOST = '172.100.200.61'
-#端口号
-PORT = '3306'
-#用户名称
-USER_NAME = 'vaffle'
-#数据库密码
-PASSWORD = 'Vaffle.123'
-#数据库编码
-CHAR_SET = '65001 (UTF-8)'
-'''
-#数据库名称
+
+#测试环境数据库名称
 DATABASE_NAME = 'vaffle'
 #host = 'localhost' or '172.0.0.1'
 HOST = '172.100.200.62'
@@ -26,6 +13,20 @@ USER_NAME = 'root'
 PASSWORD = 'heavengifts'
 #数据库编码
 CHAR_SET = '65001 (UTF-8)'
+
+# #测试环境数据库名称
+# DATABASE_NAME = 'vaffle'
+# #host = 'localhost' or '172.0.0.1'
+# HOST = '34.213.99.41'
+# #端口号
+# PORT = '3306'
+# #用户名称
+# USER_NAME = 'root'
+# #数据库密码
+# PASSWORD = 'heavengifts'
+# #数据库编码
+# CHAR_SET = '65001 (UTF-8)'
+
 class SQL_SEARCH_1():
 
     def search(sql):

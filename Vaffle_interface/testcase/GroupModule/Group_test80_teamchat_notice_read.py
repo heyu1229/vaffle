@@ -16,7 +16,7 @@ class Group(unittest.TestCase):
         print("testcase_001 群公告阅读状态查询/更新:")
 
         member_id = 'b9f73f23-7bc6-4de6-9f9b-df2c98076221'
-        payload = {'tid':2876181636}
+        payload = {'tid':2890501066,'status':1}
         result=self.r.interface_requests_payload(member_id,sheet_index,row,payload)
 
         self.assertEqual(10000, result['code'])

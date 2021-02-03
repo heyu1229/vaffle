@@ -17,7 +17,7 @@ class search(unittest.TestCase):
         print("testcase001 热门搜索hot searche：")
 
         member_id = 'b9f73f23-7bc6-4de6-9f9b-df2c98076221'
-        payload = {}
+        payload = {"type":"goods"}
         result = self.r.interface_requests_payload(member_id, sheet_index, row, payload)
 
         self.assertEqual(10000, result['code'])
