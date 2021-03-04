@@ -90,7 +90,7 @@ class Publish(unittest.TestCase):
         obj = ({"path":"posts/1512710644881_767_android.jpg","ratio":1.23,"tag":1},)
         images = json.dumps(obj)
         date = time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())
-        payload = { "images": images, "content":"QA内容1"+date,"category":"qa"}
+        payload = { "images": images, "content":"QA内容1"+date,"category":"qa","goods_id":2675}
         member_id = 'b9f73f23-7bc6-4de6-9f9b-df2c98076221'
         result=self.r.interface_requests_payload(member_id, sheet_index, row, payload)
         self.assertEqual(10000, result['code'])
@@ -105,6 +105,26 @@ class Publish(unittest.TestCase):
         images = json.dumps(obj)
         date = time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())
         payload = { "images": images, "content":"发布群组post"+date,"category":"post","guid":"c3172313-243f-4752-8ee9-10a1faa2ef6e"}
+        member_id = 'b9f73f23-7bc6-4de6-9f9b-df2c98076221'
+        result=self.r.interface_requests_payload(member_id, sheet_index, row, payload)
+        self.assertEqual(10000, result['code'])
+        print("code返回值：10000")
+
+    # -----------------发布标签------------------------------
+    def testcase_007(self):
+        sheet_index = 1
+        row = 103#"category":1,"params":"b9f73f23-7bc6-4de6-9f9b-df2c98076221"
+        print("testcase_007 发布标签：")
+        obj = ({"path": "posts/1512710644881_767_android.jpg", "ratio": 1.23, "tag": 1,
+                "imageTags":[{"proportionX":0.5,"proportionY":0.1,"direction":1,"title":"texttag003","tagType":3,"category":0,"params":"text:texttag003"},
+                             {"proportionX":0.5,"proportionY":0.3,"direction":1,"title":"usertag003","tagType":3,"category":1,"params":"member:b9f73f23-7bc6-4de6-9f9b-df2c98076221"},
+                             {"proportionX":0.5,"proportionY":0.5,"direction":1,"title":"goodstag003","tagType":3,"category":2,"params":"goods:2675"},
+                             {"proportionX":0.5,"proportionY":0.7,"direction":1,"title":"testbrand003","tagType":3,"category":3,"params":"brand:179"}]
+                },)
+        images = json.dumps(obj)
+        print(images)
+        date = time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())
+        payload = { "images": images, "content":"发布标签"+date,"category":"post"}
         member_id = 'b9f73f23-7bc6-4de6-9f9b-df2c98076221'
         result=self.r.interface_requests_payload(member_id, sheet_index, row, payload)
         self.assertEqual(10000, result['code'])
