@@ -2,17 +2,32 @@ import pymysql as mdb
 import time
 
 #测试环境数据库名称
+# DATABASE_NAME = 'vaffle'
+# #host = 'localhost' or '172.0.0.1'
+# HOST = '172.100.200.62'
+# #端口号
+# PORT = '3306'
+# #用户名称
+# USER_NAME = 'root'
+# #数据库密码
+# PASSWORD = 'heavengifts'
+# #数据库编码
+# CHAR_SET = '65001 (UTF-8)'
+
+#正式环境数据库名称
 DATABASE_NAME = 'vaffle'
 #host = 'localhost' or '172.0.0.1'
-HOST = '172.100.200.62'
+HOST = 'vaffle-57.cozauysxrdb8.us-west-2.rds.amazonaws.com'
 #端口号
 PORT = '3306'
 #用户名称
-USER_NAME = 'root'
+USER_NAME = 'vf_dev'
 #数据库密码
-PASSWORD = 'heavengifts'
+PASSWORD = 'vfdev123'
 #数据库编码
 CHAR_SET = '65001 (UTF-8)'
+
+
 
 # #测试环境数据库名称
 # DATABASE_NAME = 'vaffle'
@@ -29,7 +44,7 @@ CHAR_SET = '65001 (UTF-8)'
 
 class SQL_SEARCH_1():
 
-    def search(sql):
+    def search(self,sql):
         # 查询
         con = mdb.connect(HOST, USER_NAME, PASSWORD, DATABASE_NAME);
         with con:
