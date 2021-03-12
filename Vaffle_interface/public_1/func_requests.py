@@ -43,6 +43,7 @@ class FuncRequests():
         r = requests.post(self.base_url1, params=payload, headers=headers)
         result = r.json()
         format_result = json.dumps(result, ensure_ascii=False, indent=1)
+        print(headers)
         print(format_result)
         end = time.time()
 
